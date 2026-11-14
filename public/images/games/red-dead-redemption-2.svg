@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d0a09"/>
+      <stop offset="0.42" stop-color="#25100d"/>
+      <stop offset="0.72" stop-color="#5b2218"/>
+      <stop offset="1" stop-color="#120b09"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd7a1"/>
+      <stop offset="0.55" stop-color="#e06c4f"/>
+      <stop offset="1" stop-color="#e06c4f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4b942" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f4b942" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <pattern id="dust" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.5" fill="#f4f6fa" opacity="0.06"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#120b09" stop-opacity="0"/>
+      <stop offset="1" stop-color="#090605" stop-opacity="0.96"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="800" fill="url(#sky)"/>
+  <circle cx="300" cy="356" r="196" fill="url(#sun)" opacity="0.9"/>
+  <circle cx="300" cy="356" r="132" fill="#e06c4f" opacity="0.8"/>
+  <g fill="#2a110d">
+    <rect x="160" y="356" width="280" height="5" opacity="0.55"/>
+    <rect x="146" y="380" width="308" height="7" opacity="0.6"/>
+    <rect x="172" y="406" width="256" height="9" opacity="0.65"/>
+    <rect x="196" y="436" width="208" height="8" opacity="0.7"/>
+    <rect x="222" y="464" width="156" height="6" opacity="0.7"/>
+  </g>
+
+  <path d="M0 500c90-24 150-8 220-16s130-34 200-20 130 46 180 34v302H0Z" fill="#160d0a"/>
+  <path d="M0 560 70 486l34 30 34-24 38 52 30-18 40 62 32-26 46 70 42-38 48 64 46-22 62 60 60-56 48 42v152H0Z" fill="#0e0908"/>
+  <g fill="#0a0605">
+    <path d="M0 636c60-18 110 4 160 0s70-22 120-18 76 28 126 22 90-26 138-14 56 24 56 24v150H0Z"/>
+  </g>
+
+  <g filter="url(#soft)" opacity="0.35">
+    <ellipse cx="300" cy="640" rx="280" ry="40" fill="#e06c4f" opacity="0.18"/>
+  </g>
+
+  <g transform="translate(300 594)" fill="#080504">
+    <path d="M-54 36c-4-18 2-34 14-44 10-8 22-10 32-8l18-4c4-1 6 3 4 6l-8 8c8 8 12 18 14 30l10 12c2 3 0 6-3 6h-16l-6 30c-1 5-8 5-9 0l-3-24-20 2-2 24c-1 5-8 5-9 0l-4-28-12-2c-4-1-5-5-4-8Z"/>
+    <path d="M-20-12c-2-10 4-20 16-22l28-2c8 0 12 4 12 10 0 8-8 12-18 12h-12l-6 10-20-8Z"/>
+    <path d="M-6-54c0-8 8-14 18-14s18 6 18 14l-2 10H-4Z"/>
+    <rect x="-8" y="-70" width="40" height="7" rx="3"/>
+    <path d="M-14-64h52l-6-7h-40Z"/>
+    <path d="M-30 6c-12 0-22 6-26 16 10-4 20-4 30 0Z" opacity="0.7"/>
+  </g>
+
+  <g stroke="#e06c4f" stroke-width="0.9" opacity="0.28">
+    <path d="M0 704c110-24 190 14 300 2s190-26 300-6"/>
+    <path d="M0 736c120-18 200 10 310 0s180-20 290-4"/>
+  </g>
+
+  <g fill="#f4b942" opacity="0.65">
+    <circle cx="120" cy="246" r="1.4"/>
+    <circle cx="482" cy="286" r="1.1"/>
+    <circle cx="180" cy="332" r="1"/>
+    <circle cx="430" cy="186" r="1.5"/>
+    <circle cx="530" cy="404" r="1"/>
+    <circle cx="86" cy="420" r="1.2"/>
+  </g>
+
+  <path d="M0 660h600v140H0Z" fill="url(#fade)"/>
+  <rect width="600" height="800" fill="url(#dust)"/>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#f4f6fa">
+    <text x="40" y="66" font-size="12" letter-spacing="6" opacity="0.75">THE LAST RIDE</text>
+    <text x="560" y="66" font-size="12" letter-spacing="3" text-anchor="end" fill="#e06c4f" opacity="0.9">FRONTIER</text>
+    <text x="40" y="744" font-size="11" letter-spacing="3" fill="#a3adbc" opacity="0.7">ORIGINAL PLACEHOLDER ART</text>
+    <text x="560" y="744" font-size="11" letter-spacing="2" text-anchor="end" fill="#e06c4f" opacity="0.75">CONCEPT 06</text>
+  </g>
+
+  <rect x="1" y="1" width="598" height="798" fill="none" stroke="#293445" stroke-width="2"/>
+</svg>

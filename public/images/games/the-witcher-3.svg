@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0d12"/>
+      <stop offset="0.5" stop-color="#141a20"/>
+      <stop offset="1" stop-color="#080b0c"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f4f6fa" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#a3adbc" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#a3adbc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4f6fa"/>
+      <stop offset="0.35" stop-color="#a3adbc"/>
+      <stop offset="0.55" stop-color="#6f7b8c"/>
+      <stop offset="1" stop-color="#293445"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a3adbc" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a3adbc" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#0b0d12" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080b0c" stop-opacity="0"/>
+      <stop offset="1" stop-color="#080b0c" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="800" fill="url(#sky)"/>
+  <circle cx="300" cy="266" r="180" fill="url(#moon)"/>
+  <circle cx="300" cy="266" r="86" fill="#cdd6df" opacity="0.14"/>
+  <circle cx="300" cy="266" r="60" fill="#e9eef4" opacity="0.1" filter="url(#glow)"/>
+
+  <g opacity="0.85">
+    <path d="M0 560 60 430l38 42 46-92 52 74 46-56 60 100 52-60 46 28 50-70 60 80 46-40 44 84v160H0Z" fill="#070a0a"/>
+    <path d="M0 620c80-20 130-4 200 4s120-18 200-4 140 20 200 2v178H0Z" fill="#050707" opacity="0.9"/>
+  </g>
+  <g filter="url(#blur)" opacity="0.5">
+    <ellipse cx="300" cy="610" rx="300" ry="56" fill="#a3adbc" opacity="0.18"/>
+  </g>
+
+  <g transform="translate(300 310)">
+    <circle r="150" fill="#0b0d12" opacity="0.55" stroke="#293445" stroke-width="2"/>
+    <circle r="126" fill="none" stroke="#a3adbc" stroke-width="1" opacity="0.35" stroke-dasharray="4 10"/>
+    <g fill="none" stroke="url(#steel)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-74-52 44-38 18-12 74 18 30 36 10 84-18 44-58 66-46 22-86 6Z" stroke-width="4"/>
+      <path d="M-56-34 24-24 8-6 48 14 20 26 4 60-14 30-38 44-30 14-58 2Z" stroke-width="1.4" opacity="0.7"/>
+      <path d="M-38 74 0 96l34-24" stroke-width="2.5" opacity="0.8"/>
+      <path d="M-42-76-22-96M18-82l18-22M70-6l24 6M-88 30l-22 10" stroke-width="1.2" opacity="0.5"/>
+    </g>
+    <g fill="#43d17d" opacity="0.85">
+      <circle cx="-14" cy="-16" r="3.2"/>
+      <circle cx="16" cy="-12" r="3.2"/>
+    </g>
+    <path d="M-14-16c8 4 20 4 30 4" stroke="#43d17d" stroke-width="1.2" opacity="0.5"/>
+  </g>
+
+  <g stroke="#f4f6fa" stroke-linecap="round" opacity="0.8">
+    <path d="M76 760 206 598" stroke-width="4" stroke="url(#steel)"/>
+    <path d="M92 774 222 612" stroke-width="2.4" stroke="url(#steel)" opacity="0.8"/>
+    <path d="M108 786 238 624" stroke-width="1.4" stroke="url(#steel)" opacity="0.5"/>
+    <path d="M206 598l18-6-6 18Z" fill="#f4f6fa" stroke="none"/>
+  </g>
+
+  <path d="M0 660h600v140H0Z" fill="url(#fade)"/>
+  <g fill="#a3adbc" opacity="0.5">
+    <circle cx="120" cy="210" r="1.3"/>
+    <circle cx="482" cy="240" r="1"/>
+    <circle cx="440" cy="150" r="1.4"/>
+    <circle cx="168" cy="330" r="1"/>
+    <circle cx="516" cy="420" r="1.2"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#f4f6fa">
+    <text x="40" y="66" font-size="12" letter-spacing="6" opacity="0.75">THE PATH OF THE WITCHER</text>
+    <text x="560" y="66" font-size="12" letter-spacing="3" text-anchor="end" fill="#43d17d" opacity="0.85">SCHOOL OF THE WOLF</text>
+    <text x="40" y="744" font-size="11" letter-spacing="3" fill="#a3adbc" opacity="0.7">ORIGINAL PLACEHOLDER ART</text>
+    <text x="560" y="744" font-size="11" letter-spacing="2" text-anchor="end" fill="#43d17d" opacity="0.75">CONCEPT 03</text>
+  </g>
+
+  <rect x="1" y="1" width="598" height="798" fill="none" stroke="#293445" stroke-width="2"/>
+</svg>

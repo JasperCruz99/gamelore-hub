@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#071019"/>
+      <stop offset="0.46" stop-color="#0b1a1b"/>
+      <stop offset="1" stop-color="#060b0a"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe28a"/>
+      <stop offset="1" stop-color="#f4b942"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#78d88c"/>
+      <stop offset="1" stop-color="#3f9c5c"/>
+    </linearGradient>
+    <linearGradient id="dirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6a4a2e"/>
+      <stop offset="1" stop-color="#3b291a"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#53e0e8"/>
+      <stop offset="1" stop-color="#1d7c9b"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <pattern id="pixels" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="24" height="24" fill="none"/>
+      <rect x="0" y="0" width="2" height="2" fill="#f4f6fa" opacity="0.08"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#060b0a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#060b0a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="800" fill="url(#sky)"/>
+  <circle cx="438" cy="196" r="86" fill="url(#sun)" opacity="0.16" filter="url(#glow)"/>
+  <rect x="404" y="162" width="68" height="68" fill="url(#sun)" opacity="0.82"/>
+  <rect x="416" y="174" width="22" height="22" fill="#fff2b8" opacity="0.7"/>
+
+  <g fill="#c7e5df" opacity="0.13">
+    <rect x="72" y="170" width="90" height="14"/>
+    <rect x="96" y="152" width="48" height="18"/>
+    <rect x="330" y="106" width="68" height="10"/>
+    <rect x="352" y="92" width="34" height="14"/>
+  </g>
+
+  <g opacity="0.8">
+    <rect x="108" y="250" width="3" height="3" fill="#f4f6fa"/>
+    <rect x="188" y="204" width="2" height="2" fill="#f4f6fa"/>
+    <rect x="498" y="300" width="2.5" height="2.5" fill="#f4f6fa"/>
+    <rect x="258" y="150" width="2" height="2" fill="#f4f6fa"/>
+    <rect x="530" y="160" width="2" height="2" fill="#f4f6fa"/>
+    <rect x="140" y="360" width="2" height="2" fill="#f4f6fa"/>
+  </g>
+
+  <ellipse cx="300" cy="640" rx="240" ry="46" fill="#0a1a17" opacity="0.8" filter="url(#glow)"/>
+
+  <g>
+    <polygon points="300,300 536,420 300,552 64,420" fill="url(#grass)"/>
+    <polygon points="64,420 300,552 300,668 64,536" fill="url(#dirt)"/>
+    <polygon points="300,552 536,420 536,536 300,668" fill="#2d1f13"/>
+    <g stroke="#0b1410" stroke-opacity="0.35" stroke-width="1.4" fill="none">
+      <path d="M124 420 300 517 476 420M184 420 300 485 416 420M244 420 300 451 356 420"/>
+      <path d="M300 552v116M238 584v116M182 616v116M124 648v116M362 584v116M424 616v116M482 648v116"/>
+      <path d="M64 468 300 600M64 516 300 648M64 564 300 696M536 468 300 600M536 516 300 648M536 564 300 696" opacity="0.6"/>
+    </g>
+  </g>
+
+  <g>
+    <polygon points="126,384 214,430 126,476 38,430" fill="#4fc0c8"/>
+    <polygon points="38,430 126,476 126,494 38,448" fill="#1c6f8a"/>
+    <polygon points="126,476 214,430 214,448 126,494" fill="#155b72"/>
+    <g stroke="#bff8ff" stroke-opacity="0.35" stroke-width="1">
+      <path d="M88 414 126 434M146 414 184 434M70 430l20 10M160 448l20-10"/>
+    </g>
+  </g>
+
+  <g>
+    <polygon points="300,330 330,346 300,362 270,346" fill="#79603c"/>
+    <polygon points="270,346 300,362 300,474 270,458" fill="#4e3c26"/>
+    <polygon points="300,362 330,346 330,458 300,474" fill="#3a2c1c"/>
+    <g>
+      <polygon points="300,236 378,276 300,318 222,276" fill="#57b96d"/>
+      <polygon points="222,276 300,318 300,372 222,330" fill="#2f8048"/>
+      <polygon points="300,318 378,276 378,330 300,372" fill="#246b3c"/>
+      <polygon points="300,292 350,317 300,343 250,317" fill="#6fd08c" opacity="0.7"/>
+      <g fill="#8ae5a1" opacity="0.75">
+        <polygon points="254,260 270,268 254,276 238,268"/>
+        <polygon points="340,300 356,308 340,316 324,308"/>
+        <polygon points="286,336 300,343 286,350 272,343"/>
+      </g>
+    </g>
+  </g>
+
+  <g>
+    <polygon points="166,352 188,364 166,376 144,364" fill="#83de96"/>
+    <polygon points="144,364 166,376 166,414 144,402" fill="#3c8450"/>
+    <polygon points="166,376 188,364 188,402 166,414" fill="#2a6738"/>
+  </g>
+
+  <g>
+    <polygon points="442,228 468,242 442,256 416,242" fill="#7fd2ff"/>
+    <polygon points="416,242 442,256 442,294 416,280" fill="#3a86b0"/>
+    <polygon points="442,256 468,242 468,280 442,294" fill="#2b6a8e"/>
+  </g>
+
+  <g opacity="0.9">
+    <polygon points="474,328 512,348 474,369 436,348" fill="#a7e5b5"/>
+    <polygon points="436,348 474,369 474,412 436,390" fill="#4a9660"/>
+    <polygon points="474,369 512,348 512,390 474,412" fill="#357347"/>
+  </g>
+
+  <g>
+    <polygon points="126,532 126,642 144,652 144,542" fill="url(#water)" opacity="0.6"/>
+    <polygon points="144,542 144,652 160,642 160,532" fill="#1f8ea6" opacity="0.55"/>
+    <g fill="#bff8ff" opacity="0.45">
+      <rect x="130" y="570" width="4" height="16"/>
+      <rect x="146" y="612" width="4" height="18"/>
+      <rect x="132" y="626" width="3" height="12"/>
+    </g>
+  </g>
+
+  <g fill="#0b0d12" opacity="0.9">
+    <polygon points="300,690 372,726 300,762 228,726" fill="#101c18"/>
+    <polygon points="228,726 300,762 300,790 228,754" fill="#0a1210"/>
+    <polygon points="300,762 372,726 372,754 300,790" fill="#07100d"/>
+  </g>
+
+  <path d="M0 660h600v140H0Z" fill="url(#fade)"/>
+  <rect width="600" height="800" fill="url(#pixels)"/>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#f4f6fa">
+    <text x="40" y="66" font-size="12" letter-spacing="6" opacity="0.75">BLOCKS &amp; WONDER</text>
+    <text x="560" y="66" font-size="12" letter-spacing="3" text-anchor="end" fill="#6fd08c" opacity="0.9">SANDBOX</text>
+    <text x="40" y="744" font-size="11" letter-spacing="3" fill="#a3adbc" opacity="0.7">ORIGINAL PLACEHOLDER ART</text>
+    <text x="560" y="744" font-size="11" letter-spacing="2" text-anchor="end" fill="#6fd08c" opacity="0.75">CONCEPT 05</text>
+  </g>
+
+  <rect x="1" y="1" width="598" height="798" fill="none" stroke="#293445" stroke-width="2"/>
+</svg>
