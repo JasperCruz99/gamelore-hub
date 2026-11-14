@@ -28,7 +28,24 @@ import {
   getLoreEntry,
   getVideo,
 } from "@/lib/content";
+import { siteConfig } from "@/lib/site";
 import { pluralize } from "@/lib/utils";
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: siteConfig.name,
+  url: siteConfig.url,
+  description: siteConfig.description,
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `${siteConfig.url}/search?q={search_term_string}`,
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -80,6 +97,10 @@ export default function HomePage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
       <section className="relative overflow-hidden border-b border-line/70">
         <Image
           src="/images/hero-atmosphere.svg"

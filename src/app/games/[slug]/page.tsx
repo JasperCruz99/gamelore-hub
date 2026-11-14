@@ -31,7 +31,10 @@ import {
   getRelatedGames,
   getVideosByGame,
 } from "@/lib/content";
+import { siteConfig } from "@/lib/site";
 import { formatDate, pluralize } from "@/lib/utils";
+
+export const instant = false;
 
 type GamePageProps = {
   params: Promise<{ slug: string }>;
@@ -60,6 +63,14 @@ export async function generateMetadata({
       description: game.description,
       url: `/games/${game.slug}`,
       type: "website",
+      images: [
+        {
+          url: "/images/og-card.png",
+          width: 1200,
+          height: 630,
+          alt: `${game.title} — ${siteConfig.name}`,
+        },
+      ],
     },
   };
 }

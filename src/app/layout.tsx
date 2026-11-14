@@ -42,11 +42,20 @@ export const metadata: Metadata = {
     title: `${siteConfig.name} — ${siteConfig.tagline}`,
     description: siteConfig.description,
     url: "/",
+    images: [
+      {
+        url: "/images/og-card.png",
+        width: 1200,
+        height: 630,
+        alt: `${siteConfig.name} — an independent editorial resource for PC games`,
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: `${siteConfig.name} — ${siteConfig.tagline}`,
     description: siteConfig.description,
+    images: ["/images/og-card.png"],
   },
 };
 

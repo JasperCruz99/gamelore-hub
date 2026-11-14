@@ -16,6 +16,9 @@ import {
   getLoreByGame,
   getLoreEntry,
 } from "@/lib/content";
+import { siteConfig } from "@/lib/site";
+
+export const instant = false;
 
 type LorePageProps = {
   params: Promise<{ slug: string }>;
@@ -44,6 +47,14 @@ export async function generateMetadata({
       description: entry.excerpt,
       url: `/lore/${entry.slug}`,
       type: "article",
+      images: [
+        {
+          url: "/images/og-card.png",
+          width: 1200,
+          height: 630,
+          alt: `${entry.title} — ${siteConfig.name}`,
+        },
+      ],
     },
   };
 }
@@ -123,7 +134,7 @@ export default async function LoreEntryPage({ params }: LorePageProps) {
         </p>
         <p className="mt-4 inline-flex items-center gap-2 text-[11px] text-dim">
           <Sparkles aria-hidden="true" className="size-3.5 text-arcane" />
-          Editorial analysis · GameLore Hub Editors
+          Editorial analysis · {siteConfig.author}
         </p>
       </header>
 

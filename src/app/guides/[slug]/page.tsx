@@ -25,7 +25,10 @@ import {
   getGuidesByGame,
   getLatestGuides,
 } from "@/lib/content";
+import { siteConfig } from "@/lib/site";
 import { formatDate, getReadingTime } from "@/lib/utils";
+
+export const instant = false;
 
 type GuidePageProps = {
   params: Promise<{ slug: string }>;
@@ -55,6 +58,14 @@ export async function generateMetadata({
       url: `/guides/${guide.slug}`,
       type: "article",
       modifiedTime: guide.updatedAt,
+      images: [
+        {
+          url: "/images/og-card.png",
+          width: 1200,
+          height: 630,
+          alt: `${guide.title} — ${siteConfig.name}`,
+        },
+      ],
     },
   };
 }
@@ -182,9 +193,9 @@ export default async function GuidePage({ params }: GuidePageProps) {
             <div className="mt-10 border-t border-line/70 pt-5 text-xs leading-relaxed text-dim">
               <p>
                 <span className="font-semibold text-fog">Editorial note:</span>{" "}
-                This guide is sample editorial content written for GameLore Hub.
-                It is not an official publisher guide. Game systems, menus, and
-                balance can change with updates.
+                This guide is sample editorial content written for{" "}
+                {siteConfig.name}. It is not an official publisher guide. Game
+                systems, menus, and balance can change with updates.
               </p>
               <p className="mt-2">
                 Author: {guide.author}. Last updated{" "}
