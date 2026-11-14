@@ -32,7 +32,7 @@ export function SpoilerGate({
           <span className="mt-0.5 block text-sm text-fog">{label}</span>
         </span>
         <span className="ml-auto flex shrink-0 items-center gap-2 text-xs font-semibold text-arcane">
-          <span className="hidden sm:inline group-open:hidden">Reveal</span>
+          <span className="group-open:hidden">Reveal</span>
           <span className="hidden group-open:inline">Hide</span>
           <ChevronDown
             aria-hidden="true"

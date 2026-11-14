@@ -1,12 +1,15 @@
+const siteName = "GameLore Hub";
+const authorName = `${siteName} Editorial`;
+
 export const siteConfig = {
-  name: "GameLore Hub",
+  name: siteName,
   shortName: "GameLore",
   tagline: "Guides, lore, and secrets for the games you love.",
   description:
     "An independent editorial hub for PC games: beginner guides, walkthroughs, lore explainers, easter eggs, verified cheats, and curated video resources.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   locale: "en_US",
-  author: "GameLore Hub Editorial",
+  author: authorName,
   copyrightYear: 2026,
   nav: [
     { href: "/", label: "Home" },
@@ -27,8 +30,7 @@ export const siteConfig = {
     { label: "X / Twitter", status: "Account coming soon" },
     { label: "Discord", status: "Server coming soon" },
   ],
-  disclaimer:
-    "GameLore Hub is an independent fan resource. It is not affiliated with, endorsed by, or sponsored by any game developer or publisher. Game names, trademarks, and related assets belong to their respective owners.",
+  disclaimer: `${siteName} is an independent fan resource. It is not affiliated with, endorsed by, or sponsored by any game developer or publisher. Game names, trademarks, and related assets belong to their respective owners.`,
 } as const;
 
 export type NavItem = (typeof siteConfig.nav)[number];

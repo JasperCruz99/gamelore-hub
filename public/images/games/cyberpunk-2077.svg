@@ -77,10 +77,6 @@
   <path d="M218 620 300 250l82 370Z" fill="none" stroke="#38d9f5" stroke-width="1" opacity="0.28"/>
 
   <g font-family="Arial, Helvetica, sans-serif" fill="#f4f6fa">
-    <text x="40" y="66" font-size="13" letter-spacing="6" opacity="0.9">NIGHT CITY</text>
-    <text x="560" y="66" font-size="13" letter-spacing="4" text-anchor="end" fill="#38d9f5">2077</text>
-    <text x="40" y="744" font-size="11" letter-spacing="3" fill="#a3adbc" opacity="0.75">ORIGINAL PLACEHOLDER ART</text>
-    <text x="560" y="744" font-size="11" letter-spacing="2" text-anchor="end" fill="#9b7bff" opacity="0.8">CONCEPT 01</text>
   </g>
 
   <rect width="600" height="800" fill="url(#scan)"/>

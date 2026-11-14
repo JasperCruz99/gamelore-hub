@@ -8,8 +8,7 @@ import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About",
-  description:
-    "GameLore Hub is an independent editorial resource for PC game guides, lore, secrets, cheats, and video curation.",
+  description: `${siteConfig.name} is an independent editorial resource for PC game guides, lore, secrets, cheats, and video curation.`,
   alternates: { canonical: "/about" },
 };
 
@@ -19,7 +18,7 @@ export default function AboutPage() {
       <PageHeader
         eyebrow="About the project"
         title="An editorial library, not a launcher."
-        description="GameLore Hub exists to answer a simple question: where do I go when I want to understand a game better, without wading through a dozen tabs, autoplay videos, and contradictory patch notes?"
+        description={`${siteConfig.name} exists to answer a simple question: where do I go when I want to understand a game better, without wading through a dozen tabs, autoplay videos, and contradictory patch notes?`}
       >
         <div className="flex flex-wrap gap-2">
           <Badge variant="signal">Independent fan resource</Badge>

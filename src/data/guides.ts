@@ -1,6 +1,7 @@
 import type { Guide } from "@/types";
+import { siteConfig } from "@/lib/site";
 
-const EDITOR = "GameLore Hub Editors";
+const EDITOR = siteConfig.author;
 
 export const guides: Guide[] = [
   {

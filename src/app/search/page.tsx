@@ -4,11 +4,11 @@ import { Suspense } from "react";
 import { SearchExperience } from "@/components/search/search-experience";
 import { DirectorySkeleton } from "@/components/ui/directory-skeleton";
 import { PageHeader } from "@/components/ui/page-header";
+import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Search",
-  description:
-    "Search the GameLore Hub library for games, guides, lore entries, cheats, and video resources.",
+  description: `Search the ${siteConfig.name} library for games, guides, lore entries, cheats, and video resources.`,
   alternates: { canonical: "/search" },
   robots: { index: false, follow: true },
 };

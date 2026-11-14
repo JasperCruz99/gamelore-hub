@@ -4,6 +4,7 @@ import { ArrowRight, CalendarDays, Clock } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { getGame } from "@/lib/content";
+import { siteConfig } from "@/lib/site";
 import { cn, formatDate, getReadingTime } from "@/lib/utils";
 import type { Guide } from "@/types";
 
@@ -53,7 +54,7 @@ export function GuideCard({
             ) : null}
           </div>
           <p className="absolute inset-x-4 bottom-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-fog">
-            {game?.title ?? "GameLore Hub"}
+            {game?.title ?? siteConfig.name}
           </p>
         </div>
 

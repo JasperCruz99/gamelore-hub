@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { PageHeader } from "@/components/ui/page-header";
+import { siteConfig } from "@/lib/site";
 import { formatDate } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description:
-    "A plain-language privacy overview for the GameLore Hub demo: what is collected, what is not, and how external links are handled.",
+  description: `A plain-language privacy overview for the ${siteConfig.name} demo: what is collected, what is not, and how external links are handled.`,
   alternates: { canonical: "/privacy" },
 };
 
@@ -30,7 +30,7 @@ export default function PrivacyPage() {
         <div className="prose-gaming mx-auto max-w-3xl">
           <h2>Overview</h2>
           <p>
-            {`GameLore Hub is a content website. It does not require an account, and it does not ask for payment information. This demo does not include third-party analytics, advertising pixels, or a connected newsletter backend.`}
+            {`${siteConfig.name} is a content website. It does not require an account, and it does not ask for payment information. This demo does not include third-party analytics, advertising pixels, or a connected newsletter backend.`}
           </p>
 
           <h2>Information this demo does not collect</h2>

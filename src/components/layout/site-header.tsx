@@ -16,11 +16,11 @@ function isActivePath(href: string, pathname: string): boolean {
 
 export function SiteHeader() {
   const pathname = usePathname();
-  const [isOpen, setIsOpen] = useState(false);
+  return <HeaderContent key={pathname} pathname={pathname} />;
+}
 
-  useEffect(() => {
-    setIsOpen(false);
-  }, [pathname]);
+function HeaderContent({ pathname }: { pathname: string }) {
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     if (!isOpen) return;

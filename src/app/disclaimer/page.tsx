@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { PageHeader } from "@/components/ui/page-header";
+import { siteConfig } from "@/lib/site";
 import { formatDate } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Disclaimer",
-  description:
-    "GameLore Hub is an independent fan resource and is not affiliated with game publishers. Read the full content, trademark, cheats, and external-link disclaimer.",
+  description: `${siteConfig.name} is an independent fan resource and is not affiliated with game publishers. Read the full content, trademark, cheats, and external-link disclaimer.`,
   alternates: { canonical: "/disclaimer" },
 };
 
@@ -30,7 +30,7 @@ export default function DisclaimerPage() {
         <div className="prose-gaming mx-auto max-w-3xl">
           <h2>No affiliation</h2>
           <p>
-            GameLore Hub is an independent project. It is not affiliated with,
+            {siteConfig.name} is an independent project. It is not affiliated with,
             endorsed by, sponsored by, or approved by any game developer,
             publisher, platform holder, or creator network. References to a game
             or company are for identification and commentary only.

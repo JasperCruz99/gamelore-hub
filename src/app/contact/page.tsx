@@ -9,11 +9,11 @@ import {
 
 import { Badge } from "@/components/ui/badge";
 import { PageHeader } from "@/components/ui/page-header";
+import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description:
-    "Send corrections, coverage suggestions, and video recommendations for GameLore Hub through the project repository.",
+  description: `Send corrections, coverage suggestions, and video recommendations for ${siteConfig.name} through the project repository.`,
   alternates: { canonical: "/contact" },
 };
 

@@ -78,10 +78,6 @@
   <rect width="600" height="800" fill="url(#dust)"/>
 
   <g font-family="Arial, Helvetica, sans-serif" fill="#f4f6fa">
-    <text x="40" y="66" font-size="12" letter-spacing="6" opacity="0.75">THE LAST RIDE</text>
-    <text x="560" y="66" font-size="12" letter-spacing="3" text-anchor="end" fill="#e06c4f" opacity="0.9">FRONTIER</text>
-    <text x="40" y="744" font-size="11" letter-spacing="3" fill="#a3adbc" opacity="0.7">ORIGINAL PLACEHOLDER ART</text>
-    <text x="560" y="744" font-size="11" letter-spacing="2" text-anchor="end" fill="#e06c4f" opacity="0.75">CONCEPT 06</text>
   </g>
 
   <rect x="1" y="1" width="598" height="798" fill="none" stroke="#293445" stroke-width="2"/>

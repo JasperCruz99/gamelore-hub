@@ -132,10 +132,6 @@
   <rect width="600" height="800" fill="url(#pixels)"/>
 
   <g font-family="Arial, Helvetica, sans-serif" fill="#f4f6fa">
-    <text x="40" y="66" font-size="12" letter-spacing="6" opacity="0.75">BLOCKS &amp; WONDER</text>
-    <text x="560" y="66" font-size="12" letter-spacing="3" text-anchor="end" fill="#6fd08c" opacity="0.9">SANDBOX</text>
-    <text x="40" y="744" font-size="11" letter-spacing="3" fill="#a3adbc" opacity="0.7">ORIGINAL PLACEHOLDER ART</text>
-    <text x="560" y="744" font-size="11" letter-spacing="2" text-anchor="end" fill="#6fd08c" opacity="0.75">CONCEPT 05</text>
   </g>
 
   <rect x="1" y="1" width="598" height="798" fill="none" stroke="#293445" stroke-width="2"/>

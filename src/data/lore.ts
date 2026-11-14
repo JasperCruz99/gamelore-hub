@@ -150,7 +150,7 @@ export const loreEntries: LoreEntry[] = [
       "That folklore background gives the monsters a specific texture. They are often tied to villages, forests, and old bargains rather than to a generic evil force. A contract is rarely just a fight; it is a dispute between people and the things they have learned to live with.",
       "The games also use folklore to complicate the witcher's role. Geralt is a professional who solves problems, but the problem is often caused by human behavior as much as by the monster. That ambiguity is one of the series' defining features.",
     ],
-    tags: ["folklore", "slavic", "monsters", "andzrej sapkowski", "inspiration"],
+    tags: ["folklore", "slavic", "monsters", "andrzej sapkowski", "inspiration"],
     sourceNote:
       "A general cultural note based on the Witcher novels and widely documented folklore influences. No game spoilers.",
   },

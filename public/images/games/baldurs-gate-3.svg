@@ -96,10 +96,6 @@
 
   <path d="M0 640h600v160H0Z" fill="url(#fade)"/>
   <g font-family="Arial, Helvetica, sans-serif" fill="#f4f6fa">
-    <text x="40" y="66" font-size="12" letter-spacing="6" opacity="0.75">THE ABSOLUTE</text>
-    <text x="560" y="66" font-size="12" letter-spacing="3" text-anchor="end" fill="#9b7bff" opacity="0.9">ARCANE ODYSSEY</text>
-    <text x="40" y="744" font-size="11" letter-spacing="3" fill="#a3adbc" opacity="0.7">ORIGINAL PLACEHOLDER ART</text>
-    <text x="560" y="744" font-size="11" letter-spacing="2" text-anchor="end" fill="#9b7bff" opacity="0.75">CONCEPT 04</text>
   </g>
 
   <rect x="1" y="1" width="598" height="798" fill="none" stroke="#293445" stroke-width="2"/>
