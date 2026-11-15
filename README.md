@@ -149,7 +149,9 @@ Sources:
   Steam store artwork and screenshots. This includes Cyberpunk 2077, Elden
   Ring, The Witcher 3, Baldur's Gate 3, Red Dead Redemption 2, Starfield,
   Hogwarts Legacy, God of War, Sekiro, Skyrim, Stardew Valley, Hades, Hollow
-  Knight, Disco Elysium, Fallout: New Vegas, NieR:Automata, and Resident Evil 4.
+  Knight, Disco Elysium, Fallout: New Vegas, NieR:Automata, Resident Evil 4,
+  Grand Theft Auto IV, Grand Theft Auto V, L.A. Noire, Yakuza 0, BioShock
+  Remastered, and Portal 2.
 - Minecraft: official Minecraft key art and 1.21 screenshots from
   `minecraft.net`.
 

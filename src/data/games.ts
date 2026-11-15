@@ -402,7 +402,7 @@ export const games: Game[] = [
     ],
     featured: false,
     popularity: 94,
-    relatedGames: ["resident-evil-4", "god-of-war", "the-witcher-3"],
+    relatedGames: ["grand-theft-auto-v", "resident-evil-4", "god-of-war"],
   },
   {
     slug: "starfield",
@@ -971,7 +971,7 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 95,
-    relatedGames: ["hades", "elden-ring", "stardew-valley"],
+    relatedGames: ["portal-2", "hades", "stardew-valley"],
   },
   {
     slug: "disco-elysium",
@@ -1044,11 +1044,7 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 90,
-    relatedGames: [
-      "baldurs-gate-3",
-      "fallout-new-vegas",
-      "cyberpunk-2077",
-    ],
+    relatedGames: ["la-noire", "baldurs-gate-3", "fallout-new-vegas"],
   },
   {
     slug: "fallout-new-vegas",
@@ -1182,7 +1178,7 @@ export const games: Game[] = [
     ],
     featured: false,
     popularity: 92,
-    relatedGames: ["cyberpunk-2077", "god-of-war", "elden-ring"],
+    relatedGames: ["bioshock-remastered", "portal-2", "cyberpunk-2077"],
   },
   {
     slug: "resident-evil-4",
@@ -1259,5 +1255,431 @@ export const games: Game[] = [
       "god-of-war",
       "fallout-new-vegas",
     ],
+  },
+  {
+    slug: "grand-theft-auto-iv",
+    title: "Grand Theft Auto IV",
+    tagline:
+      "A cold welcome to Liberty City, where every favor has a price.",
+    genres: ["Open-world action-adventure", "Crime", "Third-person"],
+    developer: "Rockstar North / Rockstar Toronto",
+    publisher: "Rockstar Games",
+    releaseDate: "2008-04-29",
+    releaseYear: 2008,
+    platforms: ["PC", "PS3", "Xbox 360"],
+    modes: ["Single-player"],
+    coverImage: "/images/games/grand-theft-auto-iv/cover.jpg",
+    coverAlt:
+      "Official cover art for Grand Theft Auto IV and Episodes from Liberty City",
+    heroImage: "/images/games/grand-theft-auto-iv/hero.jpg",
+    heroAlt:
+      "A classic car is parked by the river at sunset in Liberty City in Grand Theft Auto IV",
+    screenshots: [
+      {
+        src: "/images/games/grand-theft-auto-iv/screenshot-01.jpg",
+        alt: "A car crashes through a Liberty City street as glass shatters in Grand Theft Auto IV",
+      },
+      {
+        src: "/images/games/grand-theft-auto-iv/screenshot-02.jpg",
+        alt: "A classic car is parked by the river at sunset in Liberty City in Grand Theft Auto IV",
+      },
+      {
+        src: "/images/games/grand-theft-auto-iv/screenshot-03.jpg",
+        alt: "A man in a suit holds a shotgun in a dark room in Grand Theft Auto IV",
+      },
+      {
+        src: "/images/games/grand-theft-auto-iv/screenshot-04.jpg",
+        alt: "Niko Bellic stands in front of the 69th Street Diner in Liberty City in Grand Theft Auto IV",
+      },
+      {
+        src: "/images/games/grand-theft-auto-iv/screenshot-05.jpg",
+        alt: "A police car drives past the Live Central club in Liberty City in Grand Theft Auto IV",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots for Grand Theft Auto IV: The Complete Edition © Rockstar Games. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/12210/Grand_Theft_Auto_IV/",
+    accent: "#8B9A7A",
+    description:
+      "Rockstar's Liberty City crime saga follows Niko Bellic, an immigrant chasing a better life and finding old debts, new enemies, and a city that rarely offers clean choices.",
+    overview: [
+      "Grand Theft Auto IV follows Niko Bellic, a veteran from Eastern Europe who arrives in Liberty City after his cousin Roman promises opportunity. What he finds is a dense, gray metropolis of immigrants, criminals, and people trying to survive the gap between the American dream and the rent.",
+      "The driving and shooting are heavier than in later GTA games, and the story is more intimate than the series' usual crime epic. The Complete Edition includes The Lost and Damned and The Ballad of Gay Tony, two expansions that revisit Liberty City from very different criminal circles.",
+    ],
+    funFact:
+      "Rockstar built Liberty City as a detailed parody of New York City, with its own radio stations, television, and internet. The expansions reuse the same map but change the protagonist, tone, and criminal perspective.",
+    tags: [
+      "liberty city",
+      "niko bellic",
+      "rockstar",
+      "crime",
+      "open world",
+      "episodes from liberty city",
+      "2008",
+    ],
+    featured: true,
+    popularity: 94,
+    relatedGames: [
+      "grand-theft-auto-v",
+      "la-noire",
+      "red-dead-redemption-2",
+    ],
+  },
+  {
+    slug: "grand-theft-auto-v",
+    title: "Grand Theft Auto V",
+    tagline:
+      "Three criminals, one city, and a plan that keeps getting more expensive.",
+    genres: ["Open-world action-adventure", "Crime", "Third-person"],
+    developer: "Rockstar North",
+    publisher: "Rockstar Games",
+    releaseDate: "2013-09-17",
+    releaseYear: 2013,
+    platforms: [
+      "PC",
+      "PS5",
+      "Xbox Series X|S",
+      "PS4",
+      "Xbox One",
+      "PS3",
+      "Xbox 360",
+    ],
+    modes: ["Single-player", "GTA Online"],
+    coverImage: "/images/games/grand-theft-auto-v/cover.jpg",
+    coverAlt: "Official cover art for Grand Theft Auto V",
+    heroImage: "/images/games/grand-theft-auto-v/hero.jpg",
+    heroAlt:
+      "Two women stand outside a Vinewood motel at sunset in Grand Theft Auto V",
+    screenshots: [
+      {
+        src: "/images/games/grand-theft-auto-v/screenshot-01.jpg",
+        alt: "Trevor stands outside the Sunset Horses motel as a truck burns behind him in Grand Theft Auto V",
+      },
+      {
+        src: "/images/games/grand-theft-auto-v/screenshot-02.jpg",
+        alt: "Franklin holds a rifle while standing on an industrial catwalk in Grand Theft Auto V",
+      },
+      {
+        src: "/images/games/grand-theft-auto-v/screenshot-03.jpg",
+        alt: "Michael and Trevor stand behind a wooden fence in a dim room in Grand Theft Auto V",
+      },
+      {
+        src: "/images/games/grand-theft-auto-v/screenshot-04.jpg",
+        alt: "A black muscle car waits at a neon-lit Los Santos intersection in Grand Theft Auto V",
+      },
+      {
+        src: "/images/games/grand-theft-auto-v/screenshot-05.jpg",
+        alt: "Pedestrians walk along a Hollywood-style boulevard at night in Grand Theft Auto V",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Rockstar Games. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/",
+    accent: "#6AB04C",
+    description:
+      "Rockstar's Los Santos crime epic follows Michael, Franklin, and Trevor through heists, betrayal, and a city that sells its own mythology.",
+    overview: [
+      "Grand Theft Auto V follows three criminals in and around Los Santos: Michael, a retired robber with a family he cannot control; Franklin, an ambitious driver looking for a way out; and Trevor, a violent opportunist who refuses to pretend the city is civilized. Their stories collide through a series of heists.",
+      "The game's switching system lets missions move between the three protagonists, and the open world stretches from the city's celebrity districts to the desert and small towns of Blaine County. GTA Online turns the same map into a shared criminal sandbox with its own economy and progression.",
+    ],
+    funFact:
+      "The game's three-protagonist structure is built into mission design. Switching characters mid-mission can show what the other two are doing, and some heists require the player to manage all three roles.",
+    tags: [
+      "los santos",
+      "michael",
+      "franklin",
+      "trevor",
+      "rockstar",
+      "heists",
+      "gta online",
+    ],
+    featured: true,
+    popularity: 99,
+    relatedGames: [
+      "grand-theft-auto-iv",
+      "la-noire",
+      "red-dead-redemption-2",
+    ],
+  },
+  {
+    slug: "la-noire",
+    title: "L.A. Noire",
+    tagline:
+      "A city of postwar glamour, buried secrets, and a detective who notices too much.",
+    genres: ["Detective", "Action-adventure", "Open world"],
+    developer: "Team Bondi / Rockstar Leeds",
+    publisher: "Rockstar Games",
+    releaseDate: "2011-05-17",
+    releaseYear: 2011,
+    platforms: [
+      "PC",
+      "PS4",
+      "Xbox One",
+      "Nintendo Switch",
+      "PS3",
+      "Xbox 360",
+    ],
+    modes: ["Single-player"],
+    coverImage: "/images/games/la-noire/cover.jpg",
+    coverAlt: "Official cover art for L.A. Noire",
+    heroImage: "/images/games/la-noire/hero.jpg",
+    heroAlt:
+      "A detective and a police officer stand beneath a crashed car at night in L.A. Noire",
+    screenshots: [
+      {
+        src: "/images/games/la-noire/screenshot-01.jpg",
+        alt: "Cole Phelps questions a man at a debris-filled crime scene in L.A. Noire",
+      },
+      {
+        src: "/images/games/la-noire/screenshot-02.jpg",
+        alt: "Cole Phelps sits at a desk during a police briefing in L.A. Noire",
+      },
+      {
+        src: "/images/games/la-noire/screenshot-03.jpg",
+        alt: "A man stands beside a bullet-scarred brick wall in L.A. Noire",
+      },
+      {
+        src: "/images/games/la-noire/screenshot-04.jpg",
+        alt: "Two detectives look toward an explosion in a Los Angeles neighborhood in L.A. Noire",
+      },
+      {
+        src: "/images/games/la-noire/screenshot-05.jpg",
+        alt: "Cole Phelps approaches a crashed vehicle at night in L.A. Noire",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Team Bondi / Rockstar Games. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/110800/LA_Noire/",
+    accent: "#C69B68",
+    description:
+      "A detective drama set in 1947 Los Angeles, built around crime scenes, interrogations, and the uneasy relationship between the police and the city they protect.",
+    overview: [
+      "L.A. Noire follows Cole Phelps, a war veteran and LAPD detective working his way through the department's divisions. Each case begins with a crime scene, moves through interviews and evidence, and ends with an accusation that depends on what the player noticed.",
+      "The game's signature technology captures actors' facial performances, which makes interrogation a matter of reading expressions as well as comparing testimony to evidence. Between cases, the open city offers side investigations, collectibles, and a portrait of postwar Los Angeles that is more critical than nostalgic.",
+    ],
+    funFact:
+      "L.A. Noire's facial animation was captured with actors filmed from multiple angles at once. The technology was expensive and distinctive, and it remains one of the game's defining features.",
+    tags: [
+      "los angeles",
+      "1947",
+      "cole phelps",
+      "interrogation",
+      "rockstar",
+      "detective",
+      "noir",
+    ],
+    featured: true,
+    popularity: 88,
+    relatedGames: [
+      "grand-theft-auto-iv",
+      "disco-elysium",
+      "red-dead-redemption-2",
+    ],
+  },
+  {
+    slug: "yakuza-0",
+    title: "Yakuza 0",
+    tagline:
+      "Two men, one city, and a fortune that turns every loyalty into a negotiation.",
+    genres: ["Action-adventure", "Beat 'em up", "Crime drama"],
+    developer: "Ryu Ga Gotoku Studio",
+    publisher: "SEGA",
+    releaseDate: "2015-03-12",
+    releaseYear: 2015,
+    platforms: ["PC", "PS4", "PS3", "Xbox One"],
+    modes: ["Single-player"],
+    coverImage: "/images/games/yakuza-0/cover.jpg",
+    coverAlt: "Official cover art for Yakuza 0",
+    heroImage: "/images/games/yakuza-0/hero.jpg",
+    heroAlt:
+      "Kazuma Kiryu and Goro Majima stand against a red dragon backdrop in Yakuza 0",
+    screenshots: [
+      {
+        src: "/images/games/yakuza-0/screenshot-01.jpg",
+        alt: "Two men with large back tattoos stand in a crowded Tokyo street in Yakuza 0",
+      },
+      {
+        src: "/images/games/yakuza-0/screenshot-02.jpg",
+        alt: "A man aims a pistol from a taxi in Yakuza 0",
+      },
+      {
+        src: "/images/games/yakuza-0/screenshot-03.jpg",
+        alt: "Two men fight with a staff in a dark room in Yakuza 0",
+      },
+      {
+        src: "/images/games/yakuza-0/screenshot-04.jpg",
+        alt: "A man in a white suit dances in a neon-lit club in Yakuza 0",
+      },
+      {
+        src: "/images/games/yakuza-0/screenshot-05.jpg",
+        alt: "A man throws money in a neon-lit street in Yakuza 0",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © SEGA / Ryu Ga Gotoku Studio. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/638970/Yakuza_0/",
+    accent: "#D64045",
+    description:
+      "A 1980s crime prequel about Kazuma Kiryu and Goro Majima, mixing brutal street fights with cabaret clubs, real estate, and a city that runs on money.",
+    overview: [
+      "Yakuza 0 is set in late-1980s Japan, during the bubble economy. Kazuma Kiryu is a young yakuza in Tokyo trying to clear his name, while Goro Majima runs a cabaret club in Osaka and takes on a job that pulls him back toward the underworld.",
+      "The game alternates between the two protagonists and two cities. Combat uses multiple fighting styles, while the side content ranges from real-estate management and cabaret-club hosting to arcades, karaoke, and absurd substories. The serious crime plot and the comic detours are part of the same design.",
+    ],
+    funFact:
+      "Yakuza 0's 1988 setting predates the original Yakuza game by seventeen years. That lets the series show Kiryu and Majima before their reputations were settled, while the bubble economy explains why so much of the story revolves around money.",
+    tags: [
+      "kazuma kiryu",
+      "goro majima",
+      "sega",
+      "tokyo",
+      "osaka",
+      "1988",
+      "crime drama",
+    ],
+    featured: false,
+    popularity: 91,
+    relatedGames: [
+      "grand-theft-auto-v",
+      "disco-elysium",
+      "cyberpunk-2077",
+    ],
+  },
+  {
+    slug: "bioshock-remastered",
+    title: "BioShock Remastered",
+    tagline:
+      "An underwater city built on a philosophy that could not survive its own success.",
+    genres: ["First-person shooter", "Immersive sim", "Sci-fi"],
+    developer: "Irrational Games / Blind Squirrel Games",
+    publisher: "2K",
+    releaseDate: "2016-09-15",
+    releaseYear: 2016,
+    platforms: ["PC", "macOS", "PS4", "Xbox One", "Nintendo Switch"],
+    modes: ["Single-player"],
+    coverImage: "/images/games/bioshock-remastered/cover.jpg",
+    coverAlt: "Official cover art for BioShock Remastered",
+    heroImage: "/images/games/bioshock-remastered/hero.jpg",
+    heroAlt:
+      "A Big Daddy and Little Sister stand in a flooded Art Deco corridor in BioShock Remastered",
+    screenshots: [
+      {
+        src: "/images/games/bioshock-remastered/screenshot-01.jpg",
+        alt: "A lighthouse stands in stormy seas at night in BioShock Remastered",
+      },
+      {
+        src: "/images/games/bioshock-remastered/screenshot-02.jpg",
+        alt: "A Little Sister stands beside a glowing vending machine in BioShock Remastered",
+      },
+      {
+        src: "/images/games/bioshock-remastered/screenshot-03.jpg",
+        alt: "A flooded Art Deco corridor glows green in BioShock Remastered",
+      },
+      {
+        src: "/images/games/bioshock-remastered/screenshot-04.jpg",
+        alt: "A grand Art Deco hall with murals and balconies in BioShock Remastered",
+      },
+      {
+        src: "/images/games/bioshock-remastered/screenshot-05.jpg",
+        alt: "A Big Daddy's glowing helmet appears in a dark, flooded room in BioShock Remastered",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Irrational Games / 2K. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/409710/BioShock_Remastered/",
+    accent: "#3FA6A0",
+    description:
+      "A remaster of the 2007 first-person shooter about Rapture, an underwater city built by an idealist whose experiment turns into a haunting.",
+    overview: [
+      "BioShock begins with a plane crash in the Atlantic and a lighthouse that leads down to Rapture, an underwater city built by Andrew Ryan. What was meant to be a refuge for artists, scientists, and entrepreneurs is now a flooded ruin populated by splicers and guarded by Big Daddies.",
+      "The game combines first-person shooting with plasmids, tonics, hacking, and environmental traps. Audio diaries and environmental details tell the city's history, while the remaster updates the visuals and includes a developer commentary track for players who want to understand how the game was made.",
+    ],
+    funFact:
+      "BioShock's story became famous for turning the player's relationship with instructions into part of its theme. The remaster preserves that structure while adding higher-resolution textures and a commentary mode.",
+    tags: [
+      "rapture",
+      "andrew ryan",
+      "big daddy",
+      "little sister",
+      "plasmids",
+      "immersive sim",
+      "2k",
+    ],
+    featured: true,
+    popularity: 93,
+    relatedGames: ["portal-2", "nier-automata", "cyberpunk-2077"],
+  },
+  {
+    slug: "portal-2",
+    title: "Portal 2",
+    tagline:
+      "Aperture Science has a new test subject, a new voice, and no interest in your survival.",
+    genres: ["Puzzle-platform", "First-person", "Co-op"],
+    developer: "Valve",
+    publisher: "Valve",
+    releaseDate: "2011-04-19",
+    releaseYear: 2011,
+    platforms: [
+      "PC",
+      "macOS",
+      "Linux",
+      "PS3",
+      "Xbox 360",
+      "Nintendo Switch",
+    ],
+    modes: ["Single-player", "Online co-op", "Local co-op"],
+    coverImage: "/images/games/portal-2/cover.jpg",
+    coverAlt: "Official cover art for Portal 2",
+    heroImage: "/images/games/portal-2/hero.jpg",
+    heroAlt:
+      "A figure stands beneath a massive damaged robot in an industrial cavern in Portal 2",
+    screenshots: [
+      {
+        src: "/images/games/portal-2/screenshot-01.jpg",
+        alt: "A figure stands before a massive damaged robot in an overgrown Aperture Science chamber in Portal 2",
+      },
+      {
+        src: "/images/games/portal-2/screenshot-02.jpg",
+        alt: "Orange and blue portal effects light up a test chamber in Portal 2",
+      },
+      {
+        src: "/images/games/portal-2/screenshot-03.jpg",
+        alt: "A blue-eyed core stares from a mechanical housing in Portal 2",
+      },
+      {
+        src: "/images/games/portal-2/screenshot-04.jpg",
+        alt: "A tall test chamber shaft rises between white panels in Portal 2",
+      },
+      {
+        src: "/images/games/portal-2/screenshot-05.jpg",
+        alt: "Red laser beams cut across a debris-filled chamber in Portal 2",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Valve. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/620/Portal_2/",
+    accent: "#66B7E8",
+    description:
+      "Valve's first-person puzzle sequel expands the portal gun, adds new gels and co-op tests, and wraps the whole experiment in a very funny disaster.",
+    overview: [
+      "Portal 2 returns to Aperture Science after the events of the first game. Chell wakes up in a facility that has decayed, meets a new guide named Wheatley, and is pulled back into GLaDOS's testing routine. The campaign moves through collapsed offices, industrial ruins, and freshly assembled test chambers.",
+      "The puzzle design builds on the original portal gun with light bridges, excursion funnels, and three types of gel that change surfaces and movement. A separate co-op campaign gives two players their own robots and a set of tests built around communication rather than solo problem-solving.",
+    ],
+    funFact:
+      "Portal 2's co-op campaign is not the single-player levels with a second body. It has its own story, its own test chambers, and puzzles that require two players to coordinate portals and timing.",
+    tags: [
+      "aperture science",
+      "chell",
+      "glados",
+      "wheatley",
+      "valve",
+      "puzzle",
+      "co-op",
+    ],
+    featured: true,
+    popularity: 96,
+    relatedGames: ["bioshock-remastered", "nier-automata", "hollow-knight"],
   },
 ];

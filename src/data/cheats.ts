@@ -342,4 +342,28 @@ export const cheatNotes: CheatNote[] = [
     gameSlug: "resident-evil-4",
     note: "No official cheat codes. Assisted difficulty, aim assist, and accessibility options are supported. Paid weapon upgrade tickets are optional shortcuts sold as DLC, not cheat codes.",
   },
+  {
+    gameSlug: "grand-theft-auto-iv",
+    note: "GTA IV has well-known phone-number cheats, but availability and achievement effects vary by edition. This hub does not list them; keep a separate save and use the in-game phone only if you accept the trade-offs.",
+  },
+  {
+    gameSlug: "grand-theft-auto-v",
+    note: "Story Mode has phone cheats, and they are not available in GTA Online. They can disable achievements while active and may affect how a save is judged. This hub does not list them; play clean if achievements matter.",
+  },
+  {
+    gameSlug: "la-noire",
+    note: "No official cheat codes. Intuition points, evidence, and interrogation choices are the supported systems. External save editors and trainers are outside this hub's scope.",
+  },
+  {
+    gameSlug: "yakuza-0",
+    note: "No official cheat codes. Money, equipment, and combat upgrades are earned through the game's economy and side content. Trainers and save editors are not covered here.",
+  },
+  {
+    gameSlug: "bioshock-remastered",
+    note: "No official cheat menu. The PC version has console commands, but they are developer tools rather than a curated cheat system and can affect achievements or save behavior. This hub does not list them.",
+  },
+  {
+    gameSlug: "portal-2",
+    note: "No official cheat menu. The PC developer console is intended for testing and is not part of the normal puzzle experience. This hub does not list commands; use the in-game commentary and challenge modes instead.",
+  },
 ];

@@ -76,9 +76,15 @@ export function getGuidesByGame(gameSlug: string): Guide[] {
 }
 
 export function getLatestGuides(limit?: number): Guide[] {
-  const sorted = [...guides].sort((a, b) =>
-    b.updatedAt.localeCompare(a.updatedAt),
-  );
+  const sorted = guides
+    .map((guide, index) => ({ guide, index }))
+    .sort(
+      (a, b) =>
+        b.guide.updatedAt.localeCompare(a.guide.updatedAt) ||
+        b.index - a.index,
+    )
+    .map(({ guide }) => guide);
+
   return typeof limit === "number" ? sorted.slice(0, limit) : sorted;
 }
 

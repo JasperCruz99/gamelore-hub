@@ -54,27 +54,27 @@ export const metadata: Metadata = {
 };
 
 const homeGameOrder = [
+  "grand-theft-auto-v",
   "elden-ring",
+  "grand-theft-auto-iv",
   "baldurs-gate-3",
+  "la-noire",
   "hollow-knight",
+  "bioshock-remastered",
   "cyberpunk-2077",
-  "hades",
-  "the-witcher-3",
-  "fallout-new-vegas",
-  "red-dead-redemption-2",
-  "resident-evil-4",
+  "portal-2",
 ];
 
 const spotlightLoreSlugs = [
-  "hades-house-of-hades-workplace",
-  "disco-elysium-revachol-protagonist",
-  "fallout-new-vegas-four-futures",
+  "grand-theft-auto-v-los-santos-satire",
+  "la-noire-postwar-los-angeles",
+  "bioshock-rapture-objectivism",
 ];
 
 const spotlightVideoSlugs = [
-  "hades-run-building-video",
-  "hollow-knight-first-route-video",
-  "nier-automata-routes-video",
+  "grand-theft-auto-iv-liberty-city-video",
+  "grand-theft-auto-v-heists-video",
+  "yakuza-0-combat-video",
 ];
 
 export default function HomePage() {

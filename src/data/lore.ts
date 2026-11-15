@@ -477,4 +477,106 @@ export const loreEntries: LoreEntry[] = [
     sourceNote:
       "Contains mild spoilers for the early village setting. Avoids late-game story details.",
   },
+  {
+    slug: "grand-theft-auto-iv-liberty-city-american-dream",
+    title: "Liberty City and the American Dream That Never Arrives",
+    gameSlug: "grand-theft-auto-iv",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "Niko comes to Liberty City looking for a new life and finds a city where the dream is a story sold by people who already own the block.",
+    paragraphs: [
+      "Liberty City is a fictional New York, but its social texture is specific: immigrant neighborhoods, post-industrial docks, talk radio, and a cousin whose optimism is both comic and tragic. Niko's arrival is not a blank-slate power fantasy. He comes with a history, a war behind him, and a belief that another country might offer something different.",
+      "The city's promise is always conditional. Roman talks about a mansion and a business; the reality is a cramped apartment and debts. The game's satire is colder than later GTA entries, and its humor comes from the gap between the city's self-image and the violence that keeps it running.",
+      "Niko's story is about the cost of survival. Liberty City does not offer a clean moral ladder to climb; it offers a series of transactions, favors, and compromises. The American dream is not absent. It is simply something other people are selling, and the price is higher than advertised.",
+    ],
+    tags: ["liberty city", "niko bellic", "american dream", "immigration", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of Liberty City's themes and setting. Avoids major story outcomes.",
+  },
+  {
+    slug: "grand-theft-auto-v-los-santos-satire",
+    title: "Los Santos Sells a Version of America",
+    gameSlug: "grand-theft-auto-v",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "Los Santos is a city of image-makers, self-help gurus, and people who have learned to turn their lives into content. The game's satire is broad, but the target is specific.",
+    paragraphs: [
+      "Los Santos is not just a parody of Los Angeles. It is a city built around selling images: celebrity, wellness, real estate, luxury cars, and the idea that anyone can become a brand. The game's radio stations, billboards, and stranger encounters all return to that economy of attention.",
+      "Michael, Franklin, and Trevor each perform a version of success. Michael has the house and the family and cannot enjoy either. Franklin wants the life he sees on television. Trevor rejects the performance entirely, which makes him both the most honest and the most dangerous character in the story.",
+      "The heists are the engine of the plot, but they are also the game's argument about labor and spectacle. A robbery is planned, marketed to the crew, and executed like a production. GTA Online extends that logic into a marketplace where the city becomes a place to grind, buy, and display.",
+    ],
+    tags: ["los santos", "satire", "celebrity", "heists", "gta online", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of the game's setting and satire. Avoids major story spoilers.",
+  },
+  {
+    slug: "la-noire-postwar-los-angeles",
+    title: "Postwar Los Angeles Is the Crime Scene",
+    gameSlug: "la-noire",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "The game's Los Angeles is a city selling optimism while its institutions bury the evidence. Every case is also a tour of who gets protected and who gets sacrificed.",
+    paragraphs: [
+      "L.A. Noire is set in 1947, at the edge of a postwar boom. The city is full of returning veterans, new money, Hollywood ambition, and neighborhoods whose problems are easily hidden behind a clean civic image. Cole Phelps moves through that image as a detective, which means he sees the parts the brochures leave out.",
+      "The game's cases move through different divisions of the LAPD, and each one reveals a different layer of the city: patrol, traffic, homicide, vice, arson. The crimes are personal, but the patterns are institutional. Witnesses protect themselves, newspapers shape the story, and the police department has its own reasons for deciding which cases matter.",
+      "Los Angeles is not just a backdrop for noir aesthetics. It is the mechanism that produces the cases. The city's boosters sell a future while its older power structures decide who gets to be part of it. The detective's job is to notice the contradiction, even when the department would rather he did not.",
+    ],
+    tags: ["los angeles", "1947", "postwar", "corruption", "noir", "worldbuilding"],
+    sourceNote:
+      "Contains mild thematic spoilers for the game's setting and case structure. Avoids naming culprits or major outcomes.",
+  },
+  {
+    slug: "yakuza-0-bubble-economy",
+    title: "The Bubble Economy Is the Real Antagonist",
+    gameSlug: "yakuza-0",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "Yakuza 0 is set in 1988, when money seems to be everywhere and everyone is trying to turn a favor into a fortune.",
+    paragraphs: [
+      "Yakuza 0's Japan is in the middle of the bubble economy. Real estate prices are climbing, cabaret clubs are packed, and cash moves through the city like a second language. The game's plot begins with a small piece of land that suddenly matters to powerful people, but the setting is bigger than the conspiracy.",
+      "Kiryu and Majima are both trying to survive in a world where money can buy loyalty, status, and silence. The real-estate and cabaret-club side stories are not distractions from the crime plot; they are the same argument in a different register. The bubble makes everyone an entrepreneur and everyone a mark.",
+      "The game's nostalgia is complicated. It recreates the neon energy of 1980s Tokyo and Osaka while showing who pays for that energy. The era's freedom is real, but it is also a bubble, and the people inside it can feel the pressure even before it bursts.",
+    ],
+    tags: ["1988", "bubble economy", "tokyo", "osaka", "money", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of the game's historical setting and side content. Avoids major story twists.",
+  },
+  {
+    slug: "bioshock-rapture-objectivism",
+    title: "Rapture Was Built to Prove a Point",
+    gameSlug: "bioshock-remastered",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "Andrew Ryan's underwater city is an ideological experiment with beautiful architecture, a thriving black market, and a population that has been taught to see exploitation as freedom.",
+    paragraphs: [
+      "Rapture is introduced as a refuge from the surface world: no gods, no kings, only man. Andrew Ryan's city is designed as a demonstration of objectivist ideals, a place where artists and scientists can work without regulation. The Art Deco corridors and grand halls make the argument look convincing.",
+      "The city's economy undermines the slogan. Plasmids, ADAM, Little Sisters, and Big Daddies create a market in human bodies and abilities. The same freedom that lets entrepreneurs innovate also lets them exploit the people who make the innovation possible. Rapture's inequality is not an accident; it is the logical result of its founding premise.",
+      "The player walks through a monument to an idea that could not survive its own exceptions. The audio diaries let the city's citizens explain themselves, which is more disturbing than a simple villain speech. Rapture is not haunted by monsters alone. It is haunted by the arguments that built it.",
+    ],
+    tags: ["rapture", "andrew ryan", "objectivism", "plasmids", "adam", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of Rapture's ideology and design. Avoids the game's central narrative twist.",
+  },
+  {
+    slug: "portal-2-aperture-science-after-the-fall",
+    title: "Aperture Science Is a Company With No Adults Left",
+    gameSlug: "portal-2",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "Aperture's history is a corporate comedy about testing, liability, and a building that kept running long after anyone was qualified to stop it.",
+    paragraphs: [
+      "Aperture Science is introduced as a research company, but its recorded history sounds more like a series of lawsuits with a budget. Cave Johnson's announcements turn dangerous experiments into product demonstrations, and the facility's older areas show what happened when the money and the safety standards ran out.",
+      "The building itself tells the story. Offices have been converted into test chambers, signage points to departments that no longer exist, and the architecture shifts from corporate optimism to industrial neglect. Aperture did not just test portals; it turned testing into the company's only remaining purpose.",
+      "Portal 2's humor is about abandonment. GLaDOS and Wheatley are both institutional voices, each convinced that the facility should revolve around them. The player is the only person left doing the work, which makes Aperture's cheerful corporate language feel like a threat.",
+    ],
+    tags: ["aperture science", "cave johnson", "glados", "wheatley", "corporate satire", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of Aperture Science and its setting. Contains mild spoilers for environmental storytelling and early game context.",
+  },
 ];

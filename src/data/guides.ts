@@ -1767,4 +1767,460 @@ export const guides: Guide[] = [
     tags: ["beginner", "village", "combat", "inventory", "knife", "resource management"],
     featured: true,
   },
+  {
+    slug: "gta-iv-liberty-city-start",
+    title: "GTA IV for New Players: Finding Your Feet in Liberty City",
+    gameSlug: "grand-theft-auto-iv",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "A practical start for Niko's story: learn the weight of the cars, fight from cover, and treat Liberty City's friendships as part of the job.",
+    intro:
+      "Grand Theft Auto IV is a slower, heavier game than the later entries in the series. Cars take time to stop, gunfights punish standing in the open, and the story is built around Niko's relationships rather than a single rise to power. The opening hours are easier when you stop playing it like a modern arcade sandbox.",
+    updatedAt: "2026-11-15",
+    author: EDITOR,
+    sections: [
+      {
+        id: "drive-with-weight",
+        heading: "Drive like the car has weight",
+        paragraphs: [
+          "Liberty City's vehicles have a strong sense of mass. Brake before a turn instead of during it, avoid slamming the handbrake at speed, and give yourself room to stop in traffic. The camera and handling take adjustment, especially if you are used to GTA V.",
+          "For long trips, call a taxi. It is faster than learning every shortcut, and it keeps you from arriving at a mission with a damaged car. When you do drive, use the GPS line as a guide rather than a racing line; the city's grid is not always the quickest route.",
+        ],
+        bullets: [
+          "Brake early and steer smoothly.",
+          "Use taxis for long trips across the city.",
+          "Keep a getaway car in reasonable condition before a mission.",
+          "Check the minimap for police positions after a wanted level starts.",
+        ],
+        callout: {
+          type: "tip",
+          title: "The taxi is a fast-travel button",
+          body: "Hail a taxi, choose a destination, and skip the ride if you have already seen the route. This is especially useful when a mission is on the other side of Liberty City.",
+        },
+      },
+      {
+        id: "fight-from-cover",
+        heading: "Fight from cover, not in the open",
+        paragraphs: [
+          "Gunfights are built around cover, aim, and short bursts of movement. Use hard cover, lean out to take a shot, and move when an enemy flanks or reloads. Blind firing is a last resort; it wastes ammunition and rarely hits what you need.",
+          "Keep your health and armor topped up before a mission. Body armor is not optional, and a visit to a hospital or a hot dog stand is cheaper than restarting a long shootout. The wanted system is persistent, so breaking line of sight and leaving the area is often smarter than fighting every officer.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not treat every fight as a last stand",
+          body: "If a mission goes sideways, retreat, heal, and re-engage from a better angle. The game gives you a city to use; it does not expect you to hold one piece of cover forever.",
+        },
+      },
+      {
+        id: "friends-and-favors",
+        heading: "Keep your friends close, but not on a timer",
+        paragraphs: [
+          "Roman, Little Jacob, Brucie, and other contacts can offer useful perks through friendship. Those perks are real, but the phone calls and invitations can become a second job if you accept everything. Treat social plans as optional content, not a checklist that must be cleared before the next mission.",
+          "Answer calls when you want the perk or the conversation, and let the rest wait. Relationships in GTA IV are part of the story's texture, but they are not a moral test. Your first priority is the mission rhythm that keeps the story moving.",
+        ],
+        bullets: [
+          "Friendship can unlock useful services and discounts.",
+          "Accept invitations when they fit your session, not every time the phone rings.",
+          "Check your phone for mission messages after sleeping or saving.",
+          "Do not spend all your money on clothes before buying armor.",
+        ],
+      },
+      {
+        id: "save-and-experiment",
+        heading: "Save often and try the expansions later",
+        paragraphs: [
+          "GTA IV is an older PC release with some rough edges. Save after major missions, keep a manual save before expensive decisions, and do not assume the autosave has you covered. If a mission feels unstable because of a vehicle or a scripted chase, retry from a clean save rather than fighting a broken state.",
+          "The Complete Edition includes The Lost and Damned and The Ballad of Gay Tony. Both are worth playing, but they are better as a change of perspective after the main story than as a detour in the middle of Niko's campaign. Finish one story, then let Liberty City show you another side.",
+        ],
+        callout: {
+          type: "note",
+          title: "Older game, older habits",
+          body: "Manual saves, a full armor bar, and a reliable car solve more problems than heroics. Treat the city as a system and it becomes much less punishing.",
+        },
+      },
+    ],
+    tags: ["beginner", "liberty city", "niko bellic", "driving", "cover shooting", "rockstar"],
+    featured: true,
+  },
+  {
+    slug: "gta-v-story-mode-start",
+    title: "GTA V Story Mode: A Practical Start for New Players",
+    gameSlug: "grand-theft-auto-v",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "A spoiler-light route through the opening hours: learn the three leads, plan heists instead of improvising them, and keep Story Mode separate from GTA Online.",
+    intro:
+      "Grand Theft Auto V can feel like several games at once: a character drama, a heist simulator, a driving sandbox, and a satirical tour of Los Santos. Story Mode is easiest to enjoy when you follow its structure instead of trying to complete every icon on the map before the first big job.",
+    updatedAt: "2026-11-15",
+    author: EDITOR,
+    sections: [
+      {
+        id: "learn-the-three-leads",
+        heading: "Learn the three leads before chasing 100 percent",
+        paragraphs: [
+          "Michael, Franklin, and Trevor have different skills, homes, and social circles. The story switches between them for a reason. Pay attention to their special abilities and to the way missions use all three roles; that rhythm is the heart of the campaign.",
+          "Do not try to max every character's stats in the opening hours. Let the story introduce their corners of the map, then spend money and time on the activities that fit the character you are playing. The game gives you plenty of room to come back.",
+        ],
+        bullets: [
+          "Switch characters between missions to hear different conversations and see different parts of the city.",
+          "Use each character's special ability when a chase or shootout starts to go wrong.",
+          "Keep a weapon loadout that suits your usual range.",
+          "Do not spend all your money on cosmetic upgrades before a heist.",
+        ],
+        callout: {
+          type: "tip",
+          title: "The map is not a to-do list",
+          body: "Los Santos is full of side activities, but the main story already moves you around the map. Follow the narrative first and let optional content fill the gaps later.",
+        },
+      },
+      {
+        id: "plan-the-heists",
+        heading: "Treat heists as plans, not just shootouts",
+        paragraphs: [
+          "Heists ask you to choose an approach and a crew. Cheaper crew members may take a smaller cut, but their performance can change how the job unfolds. Read the setup text before committing; the game usually tells you what each choice buys you.",
+          "During a heist, follow the prompts and use the character you are controlling rather than trying to do every job yourself. The game is designed around switching roles, and a plan that fits the crew is more reliable than one that assumes everyone is interchangeable.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not judge every crew member by price",
+          body: "A cheap specialist can be a false economy if their skill does not match the role. Balance cost against competence, especially on the jobs that matter.",
+        },
+      },
+      {
+        id: "spend-money-with-a-plan",
+        heading: "Spend money with a plan",
+        paragraphs: [
+          "Story Mode's economy is generous compared with GTA Online. Buy armor, ammunition, and a reliable vehicle before a major mission, then consider property and businesses when the story slows down. Properties generate income and side missions, but they are not required to finish the campaign.",
+          "Do not buy every weapon in the shop just because you can. Carry the tools you use, keep enough money for heist prep, and leave the exotic purchases for after the main story if you are curious. The stock market is a separate game; treat it as optional and risky.",
+        ],
+        bullets: [
+          "Keep armor and health items stocked before a mission.",
+          "Upgrade the vehicles you actually drive.",
+          "Use property income for long-term purchases, not impulse buys.",
+          "Save before a major investment or a heist commitment.",
+        ],
+      },
+      {
+        id: "story-and-online",
+        heading: "Keep Story Mode and GTA Online separate",
+        paragraphs: [
+          "GTA Online is a different economy, progression track, and social space. Your Story Mode money and properties do not carry over, and the online version expects different habits: public sessions, co-op jobs, and a much longer grind.",
+          "If you want the single-player story, start there and ignore the online prompts for now. If you want to try GTA Online later, treat it as its own game and check the current onboarding flow before spending real money. The two modes share a map, not a save file.",
+        ],
+        callout: {
+          type: "note",
+          title: "Cheats have a cost",
+          body: "Story Mode cheat codes can change the experience and may block achievements while active. This hub does not list them; keep a clean save if achievements matter to you.",
+        },
+      },
+    ],
+    tags: ["beginner", "los santos", "story mode", "heists", "gta online", "rockstar"],
+    featured: true,
+  },
+  {
+    slug: "la-noire-crime-scene-basics",
+    title: "L.A. Noire: Reading a Crime Scene Without Guessing",
+    gameSlug: "la-noire",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "How to search for evidence, handle interrogations, and use intuition without turning every case into a save-scumming exercise.",
+    intro:
+      "L.A. Noire is less about shooting than about attention. A case can turn on a discarded receipt, a bruise, or a witness's hesitation. The game gives you tools to find those details, but it rarely points at the answer directly. The first few cases are a lesson in slowing down.",
+    updatedAt: "2026-11-15",
+    author: EDITOR,
+    sections: [
+      {
+        id: "search-the-scene",
+        heading: "Search the scene, not the minimap",
+        paragraphs: [
+          "At a crime scene, walk the perimeter before touching the obvious clues. Cole will inspect objects when you approach them, and the notebook records what matters. Look for inconsistencies: a body in the wrong position, a missing item, a witness who knows too much.",
+          "The game's audio and controller cues can help, but they are not a substitute for reading the scene. If you are playing with headphones, listen for the low musical sting that often signals a clue, then confirm what it is before moving on.",
+        ],
+        bullets: [
+          "Walk the whole scene before leaving.",
+          "Inspect objects from several angles when the prompt allows it.",
+          "Read the notebook after a search; it connects evidence to questions.",
+          "Do not chase every collectible during a case.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Let the scene breathe",
+          body: "Rushing to the next objective can skip dialogue and context. L.A. Noire rewards the detective who stands still for a few extra seconds.",
+        },
+      },
+      {
+        id: "interrogations-are-tests",
+        heading: "Interrogations are evidence tests",
+        paragraphs: [
+          "Each interrogation response should follow from what you have found. If a witness says something that contradicts a piece of evidence, challenge it. If the evidence is incomplete, press for more detail instead of accusing. The game is asking whether you can connect the two.",
+          "The labels differ by version: the original uses Truth, Doubt, and Lie, while later releases use Good Cop, Bad Cop, and Accuse. The underlying logic is the same. Match the response to the evidence, not to the tone you feel like using.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not guess at a lie",
+          body: "Accusing a witness requires evidence that proves the lie. If you do not have it, press the statement or move on and come back with more information.",
+        },
+      },
+      {
+        id: "driving-and-action",
+        heading: "Driving and action are secondary",
+        paragraphs: [
+          "Chases and shootouts are part of the job, but L.A. Noire is not a cover shooter at heart. Use your partner's driving when the game offers it, keep your distance in a tail, and avoid damaging the car you may need later.",
+          "In combat, take cover and aim for controlled shots. The game's health system is forgiving compared with modern action games, but a failed chase can still cost you evidence or a clean conclusion. If an action sequence goes badly, the story usually continues; you do not need a perfect run.",
+        ],
+        bullets: [
+          "Let your partner drive when you want to review the case.",
+          "Keep a safe distance during tailing sequences.",
+          "Use cover before returning fire.",
+          "Check the case file before starting a new sequence.",
+        ],
+      },
+      {
+        id: "use-intuition-sparingly",
+        heading: "Use intuition without erasing the detective",
+        paragraphs: [
+          "Intuition points can remove a wrong response or reveal a clue. They are a safety net, not the main event. Save them for a question where you have a strong theory but cannot find the supporting evidence, rather than spending them on every uncertainty.",
+          "The game is more interesting when you get some calls wrong. A bad accusation can close a line of inquiry or change how a partner sees you. If you want a clean case, use saves and intuition deliberately; if you want the story, let the mistakes stand.",
+        ],
+        callout: {
+          type: "note",
+          title: "Version differences matter",
+          body: "L.A. Noire has been re-released with different control and interrogation labels. Check the on-screen prompts for your version rather than following a guide written for another edition.",
+        },
+      },
+    ],
+    tags: ["beginner", "detective", "interrogation", "evidence", "los angeles", "noir"],
+    featured: true,
+  },
+  {
+    slug: "yakuza-0-first-chapters",
+    title: "Yakuza 0: Starting Two Crime Sagas at Once",
+    gameSlug: "yakuza-0",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "A practical start for Kiryu and Majima: learn both combat styles, spend money on abilities, and leave room for the city's strangest side stories.",
+    intro:
+      "Yakuza 0 begins with two protagonists in two cities, each with his own fighting style, problems, and nightlife. The game is generous with distractions, but its story is structured in chapters. The easiest way to start is to follow those chapters and treat the side content as a reward rather than a second job.",
+    updatedAt: "2026-11-15",
+    author: EDITOR,
+    sections: [
+      {
+        id: "follow-the-chapters",
+        heading: "Follow the chapter structure",
+        paragraphs: [
+          "The game alternates between Kazuma Kiryu in Tokyo and Goro Majima in Osaka. Each chapter gives you a location, a problem, and a reason to explore. Finish the current thread before trying to max out both characters' side content; the story assumes you are paying attention to the city around you.",
+          "The map is dense but not huge. Use the taxi to move between districts, check the objective marker, and talk to the people the chapter points you toward. If you wander into a high-level fight, leave and come back after upgrading.",
+        ],
+        bullets: [
+          "Follow the main objective until a chapter opens up side content.",
+          "Check both protagonists' upgrade menus when control switches.",
+          "Use taxis to cross the city without wasting time.",
+          "Save at phone booths before entering a long story sequence.",
+        ],
+        callout: {
+          type: "tip",
+          title: "The city is the tutorial",
+          body: "Walking through the streets introduces restaurants, arcades, and substories. You do not have to sample everything, but the detours explain why the characters care about these places.",
+        },
+      },
+      {
+        id: "learn-both-fighting-styles",
+        heading: "Learn both fighting styles",
+        paragraphs: [
+          "Kiryu and Majima each have multiple combat styles. Kiryu's Brawler, Rush, and Beast styles trade speed, mobility, and power differently; Majima's Thug, Slugger, and Breaker styles do the same with different rhythms. Switching styles mid-fight is part of the combat, not a menu formality.",
+          "Do not ignore heat actions. They are flashy, but they also control groups and finish fights quickly. Learn the prompts for environmental heat actions and use them when a crowd starts surrounding you.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not fight every group",
+          body: "Street fights can be useful for money and practice, but they are not mandatory. If you are trying to reach a story objective, keep moving unless the encounter gives you something you need.",
+        },
+      },
+      {
+        id: "money-is-the-upgrade-system",
+        heading: "Money is the upgrade system",
+        paragraphs: [
+          "Yakuza 0's economy is deliberately exaggerated. Cash is everywhere, and the game wants you to spend it on abilities, equipment, and the real-estate or cabaret-club minigames. Hoarding money does not make the story easier; investing in your character does.",
+          "Learn which upgrades matter for your preferred style, then branch out. Health and heat generation are always useful. Damage upgrades help against bosses, but the ability to control a crowd is often more valuable in ordinary street fights.",
+        ],
+        bullets: [
+          "Upgrade health and heat capacity early.",
+          "Spend on the styles you actually use.",
+          "Try the business minigames when a chapter slows down.",
+          "Keep enough money for healing items and equipment.",
+        ],
+      },
+      {
+        id: "leave-room-for-the-weird",
+        heading: "Leave room for the weird",
+        paragraphs: [
+          "Yakuza 0's substories range from sentimental to absurd, and they are one of the reasons the game's world feels alive. Some reward useful items or abilities; others are simply funny. Doing a few in each chapter keeps the pace from becoming a straight crime drama.",
+          "Minigames such as karaoke, arcade games, and Pocket Circuit are optional, but they also teach you what the characters are like when they are not fighting for their lives. The story is serious; the city is not. Both matter.",
+        ],
+        callout: {
+          type: "note",
+          title: "Save before a long detour",
+          body: "Yakuza 0 uses phone booths for manual saves. Save before a substory chain or a minigame tournament so you can leave without losing progress.",
+        },
+      },
+    ],
+    tags: ["beginner", "kiryu", "majima", "combat styles", "money", "substories", "sega"],
+    featured: false,
+  },
+  {
+    slug: "bioshock-rapture-first-visit",
+    title: "BioShock Remastered: A First Visit to Rapture",
+    gameSlug: "bioshock-remastered",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "How to explore Rapture with purpose: listen for diaries, conserve EVE, and choose plasmids that answer the room rather than the tier list.",
+    intro:
+      "BioShock is a first-person shooter, but its best moments are quiet: a corridor lit by a failing sign, a voice on an audio diary, a vending machine that sounds almost cheerful. The combat is real, but the game is also asking you to pay attention to the city. A patient first visit is more rewarding than a sprint.",
+    updatedAt: "2026-11-15",
+    author: EDITOR,
+    sections: [
+      {
+        id: "explore-for-diaries",
+        heading: "Explore for audio diaries and supplies",
+        paragraphs: [
+          "Rapture is built from rooms that reward curiosity. Search desks, lockers, and corpses for audio diaries, ammunition, and healing items. Diaries are not just collectibles; they carry the arguments and personal histories that the main plot only hints at.",
+          "Do not ignore food, cigarettes, and alcohol just because they have drawbacks. Some restore health or EVE, and the penalties can be managed. Read the description before consuming something you do not need.",
+        ],
+        bullets: [
+          "Pick up and play every audio diary you find.",
+          "Search containers before leaving a room.",
+          "Keep a small reserve of healing items and EVE.",
+          "Read the effects of consumables before using them.",
+        ],
+        callout: {
+          type: "tip",
+          title: "The city is the story",
+          body: "A poster, a shop sign, or a recorded argument can tell you more about Rapture than a cutscene. Slow down in new areas.",
+        },
+      },
+      {
+        id: "switch-plasmids-and-weapons",
+        heading: "Switch plasmids and weapons for the room",
+        paragraphs: [
+          "Plasmids give you tools beyond a gun: electricity can stun, fire can damage over time, telekinesis can throw objects, and other powers control space. The right plasmid can turn a dangerous room into an manageable one, especially when you use the environment.",
+          "EVE is a resource. Do not spam expensive powers on a single enemy, and look for EVE hypos before a big fight. Weapons have their own ammo pools and upgrade paths, so carry a reliable fallback rather than relying on one exotic gun.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not ignore hacking",
+          body: "Hacking security cameras, turrets, and vending machines can save resources and turn a room's defenses against its occupants. It is worth the time when you are not in immediate danger.",
+        },
+      },
+      {
+        id: "spend-adam-deliberately",
+        heading: "Spend ADAM deliberately",
+        paragraphs: [
+          "ADAM is the currency for plasmids and tonics. You will find Little Sisters and Big Daddies throughout Rapture, and the choices around them affect your resources and the story's tone. Do not rush a Big Daddy fight without a plan; they are designed to be dangerous.",
+          "Tonics are passive upgrades, and some of the best ones are quiet: more health, more EVE, better hacking, or reduced damage. Read the full description before buying. A build that supports your favorite plasmid is usually stronger than a scattered collection of powers.",
+        ],
+        bullets: [
+          "Fight Big Daddies only when you are prepared.",
+          "Buy tonics that support your preferred playstyle.",
+          "Keep enough ADAM for a meaningful upgrade rather than small impulse buys.",
+          "Save before a major choice if you want to see another outcome.",
+        ],
+      },
+      {
+        id: "use-the-remaster-options",
+        heading: "Use the remaster's options",
+        paragraphs: [
+          "The remaster includes updated visuals, a developer commentary track, and the usual difficulty options. If you are here for the story, do not feel obligated to play on hard. If you want the commentary, treat it as a second playthrough feature so it does not interrupt your first visit.",
+          "Save often, especially before a new district or a Big Daddy encounter. Older PC releases can have technical quirks, and a clean manual save is a better remedy than replaying a long section.",
+        ],
+        callout: {
+          type: "note",
+          title: "The twist is part of the conversation",
+          body: "BioShock's reputation rests partly on a major story turn. This guide avoids naming it; the game is more interesting when you let the narrative unfold on its own.",
+        },
+      },
+    ],
+    tags: ["beginner", "rapture", "plasmids", "eve", "adam", "audio diaries", "bioshock"],
+    featured: true,
+  },
+  {
+    slug: "portal-2-puzzle-basics",
+    title: "Portal 2: Thinking With Portals Without Getting Stuck",
+    gameSlug: "portal-2",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "A spoiler-light primer on surfaces, momentum, gels, and co-op communication, plus a few habits that make Aperture's tests less frustrating.",
+    intro:
+      "Portal 2 rarely punishes you for experimenting. It punishes you for assuming a room works the way it looks. The solution is usually a change of perspective, a different surface, or a second portal placed somewhere you dismissed. The game is funniest when you stop treating it like a test and start treating it like a conversation with a malicious building.",
+    updatedAt: "2026-11-15",
+    author: EDITOR,
+    sections: [
+      {
+        id: "read-the-room",
+        heading: "Read the room before placing a portal",
+        paragraphs: [
+          "Look for the surfaces that accept portals, then trace where a second portal would take you. Height matters. A portal on the floor can change a fall into a launch, and a portal on a wall can turn a dead end into a shortcut.",
+          "If a chamber feels impossible, walk the whole room before trying the obvious solution. The exit may be visible from a different angle, or a button may be reachable through a portal you have not placed yet. Portal 2 hides solutions in plain sight.",
+        ],
+        bullets: [
+          "Identify portal surfaces before experimenting.",
+          "Look up; ceiling portals are often part of the answer.",
+          "Check whether a button, cube, or exit is reachable from another height.",
+          "Step back and look at the room from the entrance again.",
+        ],
+        callout: {
+          type: "tip",
+          title: "When stuck, invert the problem",
+          body: "Ask where you need to come out rather than where you need to go in. Place the exit portal first, then work backward to the entrance.",
+        },
+      },
+      {
+        id: "momentum-is-a-tool",
+        heading: "Momentum is a tool",
+        paragraphs: [
+          "Portals preserve speed. Falling through one portal and emerging from another can launch you across a gap, and later test chambers add gels, light bridges, and excursion funnels that change the route entirely. You do not need to understand the physics to use the result.",
+          "Experiment with height and timing. A long fall into a floor portal often gives you more distance than a short one. If a jump looks impossible, check whether a nearby ledge or funnel can give you the speed you need.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not fight the animation",
+          body: "If a fling or gel sequence keeps failing, reset the chamber and try a different setup. Portal 2's physics are consistent; repeated failure usually means the route is wrong, not the timing.",
+        },
+      },
+      {
+        id: "co-op-is-its-own-campaign",
+        heading: "Co-op is its own campaign",
+        paragraphs: [
+          "The co-op campaign is not a second-player add-on to the solo tests. It has separate rooms, a separate story, and puzzles that require two portal guns. Both players can place portals, which means a solution can be split between two viewpoints.",
+          "Talk to your partner, use the ping tool, and agree on who is placing which portal. If you are stuck, describe what you can see from your side of the room. Portal 2's co-op is a communication game disguised as a physics game.",
+        ],
+        bullets: [
+          "Use the ping tool to point at surfaces and objects.",
+          "Agree on portal ownership before a timed sequence.",
+          "Split up to inspect different sides of a chamber.",
+          "Do not assume your partner can see what you can see.",
+        ],
+      },
+      {
+        id: "commentary-and-challenge",
+        heading: "Commentary is for the second pass",
+        paragraphs: [
+          "Portal 2 includes developer commentary nodes in the campaign. They are fascinating, but they interrupt the pacing and sometimes discuss design solutions. Save them for a second playthrough or for rooms you have already solved.",
+          "Challenge mode and community test chambers extend the game after the credits. They are optional, but they are a good way to see how the portal mechanics can be pushed. There is no need to complete them before the story; Portal 2 is generous with credits and endings.",
+        ],
+        callout: {
+          type: "note",
+          title: "No combat, still precise",
+          body: "Portal 2 has no conventional gunfights, but its movement and timing are still exact. A calm approach and a clean save are usually better than rushing a chamber.",
+        },
+      },
+    ],
+    tags: ["beginner", "portals", "puzzles", "co-op", "aperture science", "valve"],
+    featured: true,
+  },
 ];
