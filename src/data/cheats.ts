@@ -21,6 +21,28 @@ const RDR2_SOURCES = [
   },
 ];
 
+const GTA_IV_SOURCES = [
+  {
+    label: "GTA Wiki — Cheats in GTA IV",
+    url: "https://gta.wiki/w/Cheats_in_GTA_IV",
+  },
+  {
+    label: "Gaming Route — GTA 4 cheats",
+    url: "https://gamingroute.com/gta-4-cheats/",
+  },
+];
+
+const GTA_V_SOURCES = [
+  {
+    label: "GTA BOOM — Every GTA 5 cheat",
+    url: "https://www.gtaboom.com/every-gta-5-cheat-console-code-and-phone-number-0740",
+  },
+  {
+    label: "OpenWorldDaily — GTA 5 cheat codes",
+    url: "https://openworlddaily.com/gta-v/cheat-codes/",
+  },
+];
+
 export const cheats: Cheat[] = [
   {
     slug: "minecraft-creative-mode",
@@ -275,6 +297,342 @@ export const cheats: Cheat[] = [
     },
     tags: ["horse", "whistle", "quality of life", "cheat code"],
   },
+  {
+    slug: "gta-iv-health-armor",
+    title: "Refill health and armor",
+    gameSlug: "grand-theft-auto-iv",
+    type: "Cheat Code",
+    platform: "Story Mode — PC, PlayStation 3, Xbox 360",
+    instructions:
+      "Open Niko's phone, switch to the keypad, dial the number, and press call. Dial it again whenever you need another refill.",
+    code: "362-555-0100",
+    whatItDoes:
+      "Fully restores health and armor and repairs the vehicle you are using.",
+    requirements:
+      "Story Mode only. The number is the same on PC, PlayStation 3, Xbox 360, and backward-compatible Xbox consoles. Some achievements or trophies are blocked for the current session; reload a clean save to restore them.",
+    effects: [
+      "Fully restores health and armor",
+      "Repairs the current vehicle",
+      "Does not add weapons or ammo",
+      "Can block some achievements or trophies until you reload",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The number is listed consistently by GTA Wiki and current cheat references. Keep a manual save before using it if achievements matter.",
+      sources: GTA_IV_SOURCES,
+    },
+    tags: ["health", "armor", "repair", "phone", "story mode"],
+  },
+  {
+    slug: "gta-iv-advanced-weapons",
+    title: "Get the advanced weapon set",
+    gameSlug: "grand-theft-auto-iv",
+    type: "Cheat Code",
+    platform: "Story Mode — PC, PlayStation 3, Xbox 360",
+    instructions:
+      "Open Niko's phone, dial the number, and call. The cheat replaces your current weapons and refills their ammunition.",
+    code: "486-555-0100",
+    whatItDoes:
+      "Gives the advanced weapon set with full ammunition.",
+    requirements:
+      "Story Mode only. The set includes a baseball bat, combat pistol, combat shotgun, SMG, carbine rifle, combat sniper, grenades, and RPG. It blocks the Cleaned the Mean Streets achievement until you reload a clean save.",
+    effects: [
+      "Adds the advanced weapon loadout",
+      "Refills ammunition for the included weapons",
+      "Replaces the weapons you were carrying",
+      "Blocks an achievement until you reload a clean save",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "GTA Wiki and current cheat references agree on the number and loadout. Enter it in a spare save if you care about achievements.",
+      sources: GTA_IV_SOURCES,
+    },
+    tags: ["weapons", "ammo", "loadout", "phone", "story mode"],
+  },
+  {
+    slug: "gta-iv-clear-wanted",
+    title: "Clear the wanted level",
+    gameSlug: "grand-theft-auto-iv",
+    type: "Cheat Code",
+    platform: "Story Mode — PC, PlayStation 3, Xbox 360",
+    instructions:
+      "Open the phone and dial the number while you have a wanted level. The call removes every active star.",
+    code: "267-555-0100",
+    whatItDoes:
+      "Clears the wanted level immediately, ending the current police pursuit.",
+    requirements:
+      "Story Mode only. Clearing the wanted level blocks the Walk Free and One Man Army achievements until you reload a save that has not used cheats.",
+    effects: [
+      "Removes all wanted stars",
+      "Ends the current police pursuit",
+      "Does not remove police vehicles already nearby",
+      "Blocks two achievements until you reload a clean save",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The number and achievement caveat are documented by GTA Wiki and corroborated by current cheat references.",
+      sources: GTA_IV_SOURCES,
+    },
+    tags: ["wanted level", "police", "phone", "story mode"],
+  },
+  {
+    slug: "gta-iv-annihilator",
+    title: "Spawn an Annihilator",
+    gameSlug: "grand-theft-auto-iv",
+    type: "Cheat Code",
+    platform: "Story Mode — PC, PlayStation 3, Xbox 360",
+    instructions:
+      "Dial the number while on foot and in an open area so the helicopter has room to land.",
+    code: "359-555-0100",
+    whatItDoes:
+      "Spawns an armed Annihilator police helicopter nearby.",
+    requirements:
+      "Story Mode only. Dial it while on foot with enough open space. Spawning the helicopter blocks the Walk Free and One Man Army achievements until a clean save is loaded.",
+    effects: [
+      "Spawns an armed Annihilator helicopter",
+      "Appears near Niko in an open area",
+      "Can be used for transport or combat",
+      "Blocks two achievements until you reload a clean save",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "GTA Wiki and current cheat references list the same number. The achievement warning applies to the save session.",
+      sources: GTA_IV_SOURCES,
+    },
+    tags: ["vehicle", "helicopter", "annihilator", "phone", "story mode"],
+  },
+  {
+    slug: "gta-iv-weather",
+    title: "Change the weather",
+    gameSlug: "grand-theft-auto-iv",
+    type: "Cheat Code",
+    platform: "Story Mode — PC, PlayStation 3, Xbox 360",
+    instructions:
+      "Dial the number to advance to the next weather condition. Repeat until you reach the weather you want.",
+    code: "468-555-0100",
+    whatItDoes:
+      "Cycles through the game's weather conditions.",
+    requirements:
+      "Story Mode only. The change applies to the current world state and can be repeated. Unlike the health, weapon, wanted-level, and Annihilator cheats, it does not block achievements.",
+    effects: [
+      "Cycles to the next weather type",
+      "Repeat the call to reach clear, rainy, foggy, or other conditions",
+      "Useful for screenshots and atmosphere",
+      "No achievement block reported",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The number is listed consistently by GTA Wiki and current cheat references. The weather cycles in a fixed order.",
+      sources: GTA_IV_SOURCES,
+    },
+    tags: ["weather", "atmosphere", "phone", "story mode"],
+  },
+  {
+    slug: "gta-iv-comet",
+    title: "Spawn a Comet",
+    gameSlug: "grand-theft-auto-iv",
+    type: "Cheat Code",
+    platform: "Story Mode — PC, PlayStation 3, Xbox 360",
+    instructions:
+      "Dial the number while on foot and near a road with space for a car.",
+    code: "227-555-0175",
+    whatItDoes:
+      "Spawns a Comet sports car next to Niko.",
+    requirements:
+      "Story Mode only. Only one cheat-spawned vehicle can exist at a time, so the previous one may disappear. This spawn does not block achievements.",
+    effects: [
+      "Spawns a Comet sports car",
+      "Appears near Niko on a road",
+      "Can be replaced by spawning another cheat vehicle",
+      "No achievement block reported",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The number is listed consistently by GTA Wiki and current cheat references. Vehicle spawns are safe for achievements.",
+      sources: GTA_IV_SOURCES,
+    },
+    tags: ["vehicle", "car", "comet", "phone", "story mode"],
+  },
+  {
+    slug: "gta-v-invincibility",
+    title: "Invincibility for five minutes",
+    gameSlug: "grand-theft-auto-v",
+    type: "Cheat Code",
+    platform: "Story Mode — PC, PlayStation, Xbox",
+    instructions:
+      "Open the in-game phone, choose Contacts, open the dial pad, enter the number, and call. Re-enter it when the timer expires.",
+    code: "1-999-724-654-5537",
+    whatItDoes:
+      "Makes the current character immune to damage for roughly five real-time minutes.",
+    requirements:
+      "Story Mode only; cheats do not work in GTA Online. The effect is temporary and expires after about five minutes. Achievements and trophies are temporarily disabled while cheats are active.",
+    effects: [
+      "Prevents damage for about five minutes",
+      "Expires on a real-time timer",
+      "Can be renewed by calling again",
+      "Temporarily disables achievements and trophies",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The number is corroborated by GTA BOOM and OpenWorldDaily. GTA V has no official money or permanent god-mode cheat.",
+      sources: GTA_V_SOURCES,
+    },
+    tags: ["invincibility", "god mode", "health", "phone", "story mode"],
+  },
+  {
+    slug: "gta-v-health-armor",
+    title: "Restore maximum health and armor",
+    gameSlug: "grand-theft-auto-v",
+    type: "Cheat Code",
+    platform: "Story Mode — PC, PlayStation, Xbox",
+    instructions:
+      "Open the phone, choose Contacts, open the dial pad, enter the number, and call.",
+    code: "1-999-887-853",
+    whatItDoes:
+      "Fully restores the current character's health and armor.",
+    requirements:
+      "Story Mode only. This does not make the character invincible; use the invincibility cheat for temporary damage protection. Achievements and trophies are temporarily disabled.",
+    effects: [
+      "Fills health to maximum",
+      "Fills armor to maximum",
+      "Works immediately after calling",
+      "Temporarily disables achievements and trophies",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The number is corroborated by GTA BOOM and OpenWorldDaily. Keep a manual save before using cheats.",
+      sources: GTA_V_SOURCES,
+    },
+    tags: ["health", "armor", "heal", "phone", "story mode"],
+  },
+  {
+    slug: "gta-v-weapons",
+    title: "Get weapons and ammo",
+    gameSlug: "grand-theft-auto-v",
+    type: "Cheat Code",
+    platform: "Story Mode — PC, PlayStation, Xbox",
+    instructions:
+      "Open the phone, open the dial pad, enter the number, and call. Call it again to refill ammunition.",
+    code: "1-999-866-587",
+    whatItDoes:
+      "Adds a broad weapon set with ammunition to the current character.",
+    requirements:
+      "Story Mode only. Re-entering the code refills ammo for the included weapons. Achievements and trophies are temporarily disabled.",
+    effects: [
+      "Adds a range of weapons",
+      "Includes ammunition for the new weapons",
+      "Calling again refills ammunition",
+      "Temporarily disables achievements and trophies",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The number is corroborated by GTA BOOM and OpenWorldDaily. Exact weapon pickup behavior can vary with story progress.",
+      sources: GTA_V_SOURCES,
+    },
+    tags: ["weapons", "ammo", "loadout", "phone", "story mode"],
+  },
+  {
+    slug: "gta-v-lower-wanted",
+    title: "Lower the wanted level",
+    gameSlug: "grand-theft-auto-v",
+    type: "Cheat Code",
+    platform: "Story Mode — PC, PlayStation, Xbox",
+    instructions:
+      "Open the phone and call the number while you have a wanted level. Call it again to remove another star.",
+    code: "1-999-5299-3787",
+    whatItDoes:
+      "Removes one wanted star per call.",
+    requirements:
+      "Story Mode only. Call repeatedly to remove additional stars; the cheat does not prevent police from responding again later. Achievements and trophies are temporarily disabled.",
+    effects: [
+      "Removes one wanted star per call",
+      "Can be repeated to clear a higher wanted level",
+      "Does not make the character permanently immune to police",
+      "Temporarily disables achievements and trophies",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The number is corroborated by GTA BOOM and OpenWorldDaily. Each call removes one star.",
+      sources: GTA_V_SOURCES,
+    },
+    tags: ["wanted level", "police", "phone", "story mode"],
+  },
+  {
+    slug: "gta-v-buzzard",
+    title: "Spawn a Buzzard",
+    gameSlug: "grand-theft-auto-v",
+    type: "Cheat Code",
+    platform: "Story Mode — PC, PlayStation, Xbox",
+    instructions:
+      "Open the phone, dial the number, and call. Use an open area with room for the helicopter to appear.",
+    code: "1-999-2899-633",
+    whatItDoes:
+      "Spawns an armed Buzzard attack helicopter nearby.",
+    requirements:
+      "Story Mode only. The cheat spawns a vehicle for the current session rather than permanently unlocking it. Achievements and trophies are temporarily disabled.",
+    effects: [
+      "Spawns an armed Buzzard attack helicopter",
+      "Appears near the current character",
+      "Useful for fast travel and combat",
+      "Temporarily disables achievements and trophies",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The number is corroborated by GTA BOOM and OpenWorldDaily. Spawn it in open space to avoid collisions.",
+      sources: GTA_V_SOURCES,
+    },
+    tags: ["vehicle", "helicopter", "buzzard", "phone", "story mode"],
+  },
+  {
+    slug: "gta-v-parachute",
+    title: "Get a parachute",
+    gameSlug: "grand-theft-auto-v",
+    type: "Cheat Code",
+    platform: "Story Mode — PC, PlayStation, Xbox",
+    instructions:
+      "Open the phone, dial the number, and call. The parachute is added to the current character's inventory.",
+    code: "1-999-759-3483",
+    whatItDoes:
+      "Adds a parachute to the current character's inventory.",
+    requirements:
+      "Story Mode only. The parachute still has to be deployed before impact; the cheat does not prevent fall damage on its own. Achievements and trophies are temporarily disabled.",
+    effects: [
+      "Adds a parachute to the inventory",
+      "Useful before climbing or flying",
+      "Does not protect against falls before deployment",
+      "Temporarily disables achievements and trophies",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The number is corroborated by GTA BOOM and OpenWorldDaily. This is the standard parachute cheat, not a wingsuit unlock.",
+      sources: GTA_V_SOURCES,
+    },
+    tags: ["parachute", "travel", "phone", "story mode"],
+  },
 ];
 
 export const cheatNotes: CheatNote[] = [
@@ -341,14 +699,6 @@ export const cheatNotes: CheatNote[] = [
   {
     gameSlug: "resident-evil-4",
     note: "No official cheat codes. Assisted difficulty, aim assist, and accessibility options are supported. Paid weapon upgrade tickets are optional shortcuts sold as DLC, not cheat codes.",
-  },
-  {
-    gameSlug: "grand-theft-auto-iv",
-    note: "GTA IV has well-known phone-number cheats, but availability and achievement effects vary by edition. This hub does not list them; keep a separate save and use the in-game phone only if you accept the trade-offs.",
-  },
-  {
-    gameSlug: "grand-theft-auto-v",
-    note: "Story Mode has phone cheats, and they are not available in GTA Online. They can disable achievements while active and may affect how a save is judged. This hub does not list them; play clean if achievements matter.",
   },
   {
     gameSlug: "la-noire",
