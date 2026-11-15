@@ -339,7 +339,7 @@ export default async function GamePage({ params }: GamePageProps) {
           <SectionHeading
             eyebrow="Video resources"
             title={`${game.title} videos`}
-            description="Curated slots for walkthroughs, lore explainers, and practical tutorials. Every card is a clearly labelled demo placeholder until a real video is verified."
+            description="Curated slots for walkthroughs, lore explainers, and practical tutorials. Thumbnails use official game screenshots, and every card is a clearly labelled demo placeholder until a real video is verified."
             action={
               <ButtonLink
                 href={`/videos?game=${game.slug}`}
@@ -359,8 +359,10 @@ export default async function GamePage({ params }: GamePageProps) {
                 ))}
               </div>
               <p className="mt-4 text-xs leading-relaxed text-dim">
-                Placeholder links open a YouTube search for the topic. No
-                specific video or creator is being represented as verified.
+                Thumbnails are official game screenshots, not frames from a
+                specific video. Placeholder links open a YouTube search for the
+                topic. No specific video or creator is being represented as
+                verified.
               </p>
             </>
           ) : (

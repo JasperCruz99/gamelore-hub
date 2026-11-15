@@ -21,11 +21,11 @@ export function GameHero({ game }: GameHeroProps) {
   return (
     <section className="relative overflow-hidden border-b border-line/70">
       <Image
-        src={game.coverImage}
+        src={game.heroImage}
         alt=""
         fill
         sizes="100vw"
-        className="scale-105 object-cover object-center opacity-25 blur-[1px]"
+        className="scale-105 object-cover object-center opacity-35"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-page via-page/92 to-page/45" />
       <div className="absolute inset-0 bg-gradient-to-t from-page via-page/35 to-page/60" />
@@ -135,10 +135,18 @@ export function GameHero({ game }: GameHeroProps) {
               </div>
             </dl>
 
-            <p className="mt-4 text-[11px] text-dim">
-              Cover art is original fan-made placeholder artwork. Game metadata
-              is provided for orientation; verify current platform and edition
-              details with the publisher.
+            <p className="mt-4 text-[11px] leading-relaxed text-dim">
+              {game.imageCredit}{" "}
+              <a
+                href={game.imageSourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-fog underline decoration-line underline-offset-2 transition-colors hover:text-signal"
+              >
+                Image source
+              </a>
+              . Game metadata is provided for orientation; verify current
+              platform and edition details with the publisher.
             </p>
           </div>
         </div>

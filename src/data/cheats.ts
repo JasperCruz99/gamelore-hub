@@ -294,4 +294,52 @@ export const cheatNotes: CheatNote[] = [
     gameSlug: "baldurs-gate-3",
     note: "No official cheat codes. Difficulty settings, party respecs, and save management are the legitimate ways to adjust the experience.",
   },
+  {
+    gameSlug: "starfield",
+    note: "Starfield's PC version includes a developer console, but it is not a curated cheat system. This hub does not list commands because they can affect achievements and saves. Use difficulty settings and ship upgrades instead.",
+  },
+  {
+    gameSlug: "hogwarts-legacy",
+    note: "No official cheat codes or built-in console. Difficulty settings and accessibility options are the supported ways to adjust the experience; unofficial mods are outside this hub's scope.",
+  },
+  {
+    gameSlug: "god-of-war",
+    note: "No official cheat codes. Difficulty settings, accessibility options, and New Game+ are the supported ways to adjust the experience.",
+  },
+  {
+    gameSlug: "sekiro-shadows-die-twice",
+    note: "No official cheat codes or difficulty menu. Prosthetics, stealth, and practice are the intended ways to approach hard fights; external trainers and save editors are outside this hub's scope.",
+  },
+  {
+    gameSlug: "the-elder-scrolls-v-skyrim",
+    note: "Skyrim's PC console is built in and widely documented, but it is not an official cheat menu. This hub does not list commands because they can break quests and saves; use mods or difficulty settings deliberately.",
+  },
+  {
+    gameSlug: "stardew-valley",
+    note: "No official cheat codes. The game includes options and mods can change it, but this hub only lists in-game guidance and does not cover external tools.",
+  },
+  {
+    gameSlug: "hades",
+    note: "No cheat codes. God Mode is a supported accessibility option in the settings: it starts with a 20% damage reduction and increases after each failed run. It does not disable story progress.",
+  },
+  {
+    gameSlug: "hollow-knight",
+    note: "No built-in cheat menu or official console. Debug tools and mods require unofficial setup, can break saves, and are outside this hub's scope.",
+  },
+  {
+    gameSlug: "disco-elysium",
+    note: "No official cheat console in the retail game. Save before risky red checks if you care about the outcome, but remember that failure is part of the story. External save editors and mods are not covered here.",
+  },
+  {
+    gameSlug: "fallout-new-vegas",
+    note: "The PC version has a developer console, but it is not a curated cheat menu. Commands can alter quest states, factions, and saves, and may affect achievements. This hub does not list commands; keep a separate save and use in-game systems instead.",
+  },
+  {
+    gameSlug: "nier-automata",
+    note: "No official cheat console. Difficulty settings and auto chips are the supported ways to adjust combat. A late optional choice can delete save data, so back up your save before making it.",
+  },
+  {
+    gameSlug: "resident-evil-4",
+    note: "No official cheat codes. Assisted difficulty, aim assist, and accessibility options are supported. Paid weapon upgrade tickets are optional shortcuts sold as DLC, not cheat codes.",
+  },
 ];

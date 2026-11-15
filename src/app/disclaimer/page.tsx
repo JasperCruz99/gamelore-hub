@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/disclaimer" },
 };
 
-const lastUpdated = "2026-11-14";
+const lastUpdated = "2026-11-15";
 
 export default function DisclaimerPage() {
   return (
@@ -39,9 +39,12 @@ export default function DisclaimerPage() {
           <h2>Trademarks and artwork</h2>
           <p>
             Game titles, logos, character names, and related trademarks belong to
-            their respective owners. The cover images in this demo are original,
-            abstract placeholder artwork created for this project. They are not
-            official key art and do not reproduce publisher assets.
+            their respective owners. Cover art and screenshots on this site are
+            official publisher promotional media, sourced from public store
+            listings and official game websites. They are used for
+            identification, commentary, and editorial context only. Copyright
+            remains with the respective publishers and no endorsement is
+            implied.
           </p>
 
           <h2>Content accuracy</h2>

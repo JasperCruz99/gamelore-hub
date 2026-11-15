@@ -12,9 +12,36 @@ export const games: Game[] = [
     releaseYear: 2020,
     platforms: ["PC", "PS5", "Xbox Series X|S", "PS4", "Xbox One"],
     modes: ["Single-player"],
-    coverImage: "/images/games/cyberpunk-2077.svg",
-    coverAlt:
-      "Original abstract cover art for Cyberpunk 2077 with a neon skyline and cyan glow",
+    coverImage: "/images/games/cyberpunk-2077/cover.jpg",
+    coverAlt: "Official cover art for Cyberpunk 2077",
+    heroImage: "/images/games/cyberpunk-2077/hero.jpg",
+    heroAlt:
+      "Johnny Silverhand stands in front of Night City traffic and neon signs",
+    screenshots: [
+      {
+        src: "/images/games/cyberpunk-2077/screenshot-01.jpg",
+        alt: "Two characters sit in a car in Night City at night in Cyberpunk 2077",
+      },
+      {
+        src: "/images/games/cyberpunk-2077/screenshot-02.jpg",
+        alt: "V fires a pistol during a close-range firefight in a neon-lit corridor in Cyberpunk 2077",
+      },
+      {
+        src: "/images/games/cyberpunk-2077/screenshot-03.jpg",
+        alt: "A neon statue in Night City in Cyberpunk 2077",
+      },
+      {
+        src: "/images/games/cyberpunk-2077/screenshot-04.jpg",
+        alt: "A custom sports car parked in a Night City garage in Cyberpunk 2077",
+      },
+      {
+        src: "/images/games/cyberpunk-2077/screenshot-05.jpg",
+        alt: "Johnny Silverhand aims a pistol in Night City in Cyberpunk 2077",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © CD Projekt Red. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
     accent: "#38D9F5",
     description:
       "A first-person open-world RPG set in Night City, where builds, dialogue choices, and district-level stories shape the kind of mercenary you become.",
@@ -35,7 +62,7 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 96,
-    relatedGames: ["the-witcher-3", "baldurs-gate-3", "red-dead-redemption-2"],
+    relatedGames: ["the-witcher-3", "nier-automata", "starfield"],
   },
   {
     slug: "elden-ring",
@@ -48,9 +75,36 @@ export const games: Game[] = [
     releaseYear: 2022,
     platforms: ["PC", "PS5", "Xbox Series X|S", "PS4", "Xbox One"],
     modes: ["Single-player", "Online co-op and PvP"],
-    coverImage: "/images/games/elden-ring.svg",
-    coverAlt:
-      "Original abstract cover art for Elden Ring with a golden ring fragment over a misty forest",
+    coverImage: "/images/games/elden-ring/cover.jpg",
+    coverAlt: "Official cover art for Elden Ring",
+    heroImage: "/images/games/elden-ring/hero.jpg",
+    heroAlt:
+      "The Erdtree shines above the ruins of the Lands Between in Elden Ring",
+    screenshots: [
+      {
+        src: "/images/games/elden-ring/screenshot-01.jpg",
+        alt: "The Tree Sentinel rides across the golden fields of Limgrave in Elden Ring",
+      },
+      {
+        src: "/images/games/elden-ring/screenshot-02.jpg",
+        alt: "A Tarnished rides Torrent through the Lands Between in Elden Ring",
+      },
+      {
+        src: "/images/games/elden-ring/screenshot-03.jpg",
+        alt: "A heavily armored boss swings a massive weapon during an Elden Ring fight",
+      },
+      {
+        src: "/images/games/elden-ring/screenshot-04.jpg",
+        alt: "Stormveil Castle rises through mist in Elden Ring",
+      },
+      {
+        src: "/images/games/elden-ring/screenshot-05.jpg",
+        alt: "The Erdtree glows over the Lands Between in Elden Ring",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © FromSoftware / Bandai Namco Entertainment. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/1245620/ELDEN_RING/",
     accent: "#F4B942",
     description:
       "FromSoftware's open-world action RPG combines deliberate combat, cryptic worldbuilding, and enormous freedom to explore the Lands Between in almost any direction.",
@@ -71,7 +125,11 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 99,
-    relatedGames: ["the-witcher-3", "baldurs-gate-3", "cyberpunk-2077"],
+    relatedGames: [
+      "sekiro-shadows-die-twice",
+      "hollow-knight",
+      "baldurs-gate-3",
+    ],
   },
   {
     slug: "the-witcher-3",
@@ -91,9 +149,37 @@ export const games: Game[] = [
       "Nintendo Switch",
     ],
     modes: ["Single-player"],
-    coverImage: "/images/games/the-witcher-3.svg",
-    coverAlt:
-      "Original abstract cover art for The Witcher 3 with silver sword slashes and a dark forest",
+    coverImage: "/images/games/the-witcher-3/cover.jpg",
+    coverAlt: "Official cover art for The Witcher 3: Wild Hunt",
+    heroImage: "/images/games/the-witcher-3/hero.jpg",
+    heroAlt:
+      "Geralt looks out over a snowy valley with a griffin in flight in The Witcher 3",
+    screenshots: [
+      {
+        src: "/images/games/the-witcher-3/screenshot-01.jpg",
+        alt: "Geralt walks through a crowded city street in The Witcher 3",
+      },
+      {
+        src: "/images/games/the-witcher-3/screenshot-02.jpg",
+        alt: "Geralt of Rivia in his witcher armor in The Witcher 3",
+      },
+      {
+        src: "/images/games/the-witcher-3/screenshot-03.jpg",
+        alt: "Geralt fights a monster wreathed in red energy in The Witcher 3",
+      },
+      {
+        src: "/images/games/the-witcher-3/screenshot-04.jpg",
+        alt: "Ciri uses her Elder Blood powers in The Witcher 3",
+      },
+      {
+        src: "/images/games/the-witcher-3/screenshot-05.jpg",
+        alt: "Geralt sails a small boat toward a distant tower in The Witcher 3",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © CD Projekt Red. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/",
     accent: "#43D17D",
     description:
       "A story-rich fantasy RPG following Geralt of Rivia across war-torn kingdoms, monster-infested wilds, and morally complicated questlines.",
@@ -114,7 +200,7 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 97,
-    relatedGames: ["elden-ring", "baldurs-gate-3", "cyberpunk-2077"],
+    relatedGames: ["elden-ring", "hogwarts-legacy", "cyberpunk-2077"],
   },
   {
     slug: "baldurs-gate-3",
@@ -127,9 +213,37 @@ export const games: Game[] = [
     releaseYear: 2023,
     platforms: ["PC", "macOS", "PS5", "Xbox Series X|S"],
     modes: ["Single-player", "Online co-op"],
-    coverImage: "/images/games/baldurs-gate-3.svg",
-    coverAlt:
-      "Original abstract cover art for Baldur's Gate 3 with violet arcane circles and a polyhedral die",
+    coverImage: "/images/games/baldurs-gate-3/cover.jpg",
+    coverAlt: "Official cover art for Baldur's Gate 3",
+    heroImage: "/images/games/baldurs-gate-3/hero.jpg",
+    heroAlt:
+      "The party looks out over a mountain valley in Baldur's Gate 3",
+    screenshots: [
+      {
+        src: "/images/games/baldurs-gate-3/screenshot-01.jpg",
+        alt: "The party enters the Lower City in Baldur's Gate 3",
+      },
+      {
+        src: "/images/games/baldurs-gate-3/screenshot-02.jpg",
+        alt: "The party fights a minotaur in the Underdark in Baldur's Gate 3",
+      },
+      {
+        src: "/images/games/baldurs-gate-3/screenshot-03.jpg",
+        alt: "A domed temple rises above the city in Baldur's Gate 3",
+      },
+      {
+        src: "/images/games/baldurs-gate-3/screenshot-04.jpg",
+        alt: "A wizard casts a spell in a dark chamber in Baldur's Gate 3",
+      },
+      {
+        src: "/images/games/baldurs-gate-3/screenshot-05.jpg",
+        alt: "Shadowheart holds a glowing artifact in Baldur's Gate 3",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Larian Studios. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/",
     accent: "#9B7BFF",
     description:
       "A turn-based Dungeons & Dragons-inspired RPG with deep companion relationships, tactical combat, and unusual freedom in how quests can be solved.",
@@ -150,7 +264,7 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 98,
-    relatedGames: ["the-witcher-3", "elden-ring", "red-dead-redemption-2"],
+    relatedGames: ["the-witcher-3", "disco-elysium", "the-elder-scrolls-v-skyrim"],
   },
   {
     slug: "minecraft",
@@ -169,9 +283,36 @@ export const games: Game[] = [
       "Mobile",
     ],
     modes: ["Single-player", "Multiplayer"],
-    coverImage: "/images/games/minecraft.svg",
+    coverImage: "/images/games/minecraft/cover.jpg",
     coverAlt:
-      "Original abstract cover art for Minecraft with blocky green terrain and a square sun",
+      "Official Minecraft key art with Steve, Alex, and other characters",
+    heroImage: "/images/games/minecraft/hero.jpg",
+    heroAlt: "Players cross a lake in boats in Minecraft",
+    screenshots: [
+      {
+        src: "/images/games/minecraft/screenshot-01.jpg",
+        alt: "Players cross a lake in boats in Minecraft",
+      },
+      {
+        src: "/images/games/minecraft/screenshot-02.jpg",
+        alt: "A tuff and copper build in Minecraft",
+      },
+      {
+        src: "/images/games/minecraft/screenshot-03.jpg",
+        alt: "A player faces a bogged in a mangrove swamp in Minecraft",
+      },
+      {
+        src: "/images/games/minecraft/screenshot-04.jpg",
+        alt: "A crafter and copper blocks in a Minecraft trial chamber",
+      },
+      {
+        src: "/images/games/minecraft/screenshot-05.jpg",
+        alt: "A player uses a mace in a Minecraft trial chamber",
+      },
+    ],
+    imageCredit:
+      "Official Minecraft key art and screenshots © Mojang Studios / Microsoft. Used for identification and commentary.",
+    imageSourceUrl: "https://www.minecraft.net/en-us/article/key-art-update",
     accent: "#6FD08C",
     description:
       "A block-building survival sandbox where the same world can be a quiet creative canvas, a hard survival run, or a shared server project.",
@@ -193,7 +334,11 @@ export const games: Game[] = [
     ],
     featured: false,
     popularity: 100,
-    relatedGames: ["elden-ring", "red-dead-redemption-2", "baldurs-gate-3"],
+    relatedGames: [
+      "hollow-knight",
+      "stardew-valley",
+      "the-elder-scrolls-v-skyrim",
+    ],
   },
   {
     slug: "red-dead-redemption-2",
@@ -206,9 +351,37 @@ export const games: Game[] = [
     releaseYear: 2018,
     platforms: ["PC", "PS4", "Xbox One"],
     modes: ["Single-player", "Red Dead Online"],
-    coverImage: "/images/games/red-dead-redemption-2.svg",
-    coverAlt:
-      "Original abstract cover art for Red Dead Redemption 2 with a red sun and a lone rider silhouette",
+    coverImage: "/images/games/red-dead-redemption-2/cover.jpg",
+    coverAlt: "Official cover art for Red Dead Redemption 2",
+    heroImage: "/images/games/red-dead-redemption-2/hero.jpg",
+    heroAlt:
+      "Arthur Morgan rides with the gang across a sunlit field in Red Dead Redemption 2",
+    screenshots: [
+      {
+        src: "/images/games/red-dead-redemption-2/screenshot-01.jpg",
+        alt: "Arthur Morgan rides with the gang at sunset in Red Dead Redemption 2",
+      },
+      {
+        src: "/images/games/red-dead-redemption-2/screenshot-02.jpg",
+        alt: "Arthur and another rider approach a snowy camp in Red Dead Redemption 2",
+      },
+      {
+        src: "/images/games/red-dead-redemption-2/screenshot-03.jpg",
+        alt: "The gang rows a boat through a misty swamp at night in Red Dead Redemption 2",
+      },
+      {
+        src: "/images/games/red-dead-redemption-2/screenshot-04.jpg",
+        alt: "Arthur Morgan draws a revolver during a close-range gunfight in Red Dead Redemption 2",
+      },
+      {
+        src: "/images/games/red-dead-redemption-2/screenshot-05.jpg",
+        alt: "A portrait of Arthur Morgan in Red Dead Redemption 2",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Rockstar Games. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/",
     accent: "#E06C4F",
     description:
       "Rockstar's detailed open-world western follows Arthur Morgan and the Van der Linde gang as their outlaw life becomes impossible to sustain.",
@@ -229,6 +402,862 @@ export const games: Game[] = [
     ],
     featured: false,
     popularity: 94,
-    relatedGames: ["the-witcher-3", "cyberpunk-2077", "minecraft"],
+    relatedGames: ["resident-evil-4", "god-of-war", "the-witcher-3"],
+  },
+  {
+    slug: "starfield",
+    title: "Starfield",
+    tagline: "A galaxy of factions, frontiers, and very human problems.",
+    genres: ["Open-world RPG", "Sci-fi", "Space"],
+    developer: "Bethesda Game Studios",
+    publisher: "Bethesda Softworks",
+    releaseDate: "2023-09-06",
+    releaseYear: 2023,
+    platforms: ["PC", "Xbox Series X|S"],
+    modes: ["Single-player"],
+    coverImage: "/images/games/starfield/cover.jpg",
+    coverAlt: "Official cover art for Starfield",
+    heroImage: "/images/games/starfield/hero.jpg",
+    heroAlt:
+      "A starship rests on a rocky world beneath a ringed planet in Starfield",
+    screenshots: [
+      {
+        src: "/images/games/starfield/screenshot-01.jpg",
+        alt: "A pilot sits inside a spacecraft cockpit above a planet in Starfield",
+      },
+      {
+        src: "/images/games/starfield/screenshot-02.jpg",
+        alt: "A starship accelerates into a bright gravity jump in Starfield",
+      },
+      {
+        src: "/images/games/starfield/screenshot-03.jpg",
+        alt: "An astronaut stands on a rocky moon beneath a ringed planet in Starfield",
+      },
+      {
+        src: "/images/games/starfield/screenshot-04.jpg",
+        alt: "A futuristic city skyline rises beyond a landscaped park in Starfield",
+      },
+      {
+        src: "/images/games/starfield/screenshot-05.jpg",
+        alt: "A starship exchanges fire near a planet in Starfield",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Bethesda Game Studios / Bethesda Softworks. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/1716740/Starfield/",
+    accent: "#5B9BD5",
+    description:
+      "Bethesda's space RPG follows Constellation across the Settled Systems, mixing faction politics, ship building, surveying, and planetary exploration.",
+    overview: [
+      "Starfield is set in the Settled Systems, a cluster of colonized star systems where old political tensions, corporate interests, and independent settlers all compete for a future. Players create a character, join Constellation, and travel between handcrafted cities and procedurally generated worlds.",
+      "Compared with Bethesda's fantasy games, Starfield leans harder into systems: ships, cargo, surveying, outposts, and crew. The opening hours are easiest if you follow the main thread long enough to unlock those tools, then decide which parts of the sandbox you actually want to live in.",
+    ],
+    funFact:
+      "Starfield's ship builder treats a ship as a set of functional modules rather than a single vehicle. Reactors, grav drives, fuel tanks, cargo holds, and weapons all affect what the ship can do, so two ships of the same shape can behave very differently.",
+    tags: [
+      "space",
+      "sci-fi",
+      "bethesda",
+      "exploration",
+      "factions",
+      "ships",
+      "outposts",
+    ],
+    featured: true,
+    popularity: 87,
+    relatedGames: [
+      "the-elder-scrolls-v-skyrim",
+      "fallout-new-vegas",
+      "cyberpunk-2077",
+    ],
+  },
+  {
+    slug: "hogwarts-legacy",
+    title: "Hogwarts Legacy",
+    tagline:
+      "A wizarding open world built around curiosity, classrooms, and forbidden corridors.",
+    genres: ["Open-world RPG", "Fantasy", "Action-adventure"],
+    developer: "Avalanche Software",
+    publisher: "Warner Bros. Games",
+    releaseDate: "2023-02-10",
+    releaseYear: 2023,
+    platforms: [
+      "PC",
+      "PS5",
+      "Xbox Series X|S",
+      "PS4",
+      "Xbox One",
+      "Nintendo Switch",
+    ],
+    modes: ["Single-player"],
+    coverImage: "/images/games/hogwarts-legacy/cover.jpg",
+    coverAlt: "Official cover art for Hogwarts Legacy",
+    heroImage: "/images/games/hogwarts-legacy/hero.jpg",
+    heroAlt:
+      "A student and a hippogriff look toward Hogwarts castle across the lake in Hogwarts Legacy",
+    screenshots: [
+      {
+        src: "/images/games/hogwarts-legacy/screenshot-01.jpg",
+        alt: "Students gather on the Grand Staircase inside Hogwarts in Hogwarts Legacy",
+      },
+      {
+        src: "/images/games/hogwarts-legacy/screenshot-02.jpg",
+        alt: "The player rides a hippogriff above the lake near Hogwarts in Hogwarts Legacy",
+      },
+      {
+        src: "/images/games/hogwarts-legacy/screenshot-03.jpg",
+        alt: "A professor and student practice magic in the Hogwarts library in Hogwarts Legacy",
+      },
+      {
+        src: "/images/games/hogwarts-legacy/screenshot-04.jpg",
+        alt: "A wizard faces a giant spider in the Forbidden Forest in Hogwarts Legacy",
+      },
+      {
+        src: "/images/games/hogwarts-legacy/screenshot-05.jpg",
+        alt: "A wizard casts a spell at a troll in ancient ruins in Hogwarts Legacy",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Avalanche Software / Warner Bros. Games. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/990080/Hogwarts_Legacy/",
+    accent: "#C9A24B",
+    description:
+      "An open-world action RPG set in the wizarding world of the late 1800s, with spell combat, school life, and a mystery beneath the Scottish Highlands.",
+    overview: [
+      "Hogwarts Legacy is an open-world action RPG set in the wizarding world of the late 1800s. Players begin as a new fifth-year student at Hogwarts, learn spells in classes, and gradually uncover a mystery that reaches beyond the castle grounds.",
+      "Combat is built around combining spells rather than relying on a single favorite. Exploration rewards attention: optional classrooms, caves, and hamlets hide gear, puzzles, and small stories. The game's tone is generally lighter than the source films, but its world is designed for players who want to live inside the school as much as fight outside it.",
+    ],
+    funFact:
+      "Hogwarts Legacy is set roughly a century before the Harry Potter books, which lets the game use familiar locations and families without putting the player in the middle of a story already told.",
+    tags: [
+      "hogwarts",
+      "wizarding world",
+      "magic",
+      "open world",
+      "spells",
+      "school",
+      "exploration",
+    ],
+    featured: true,
+    popularity: 91,
+    relatedGames: [
+      "the-witcher-3",
+      "baldurs-gate-3",
+      "god-of-war",
+    ],
+  },
+  {
+    slug: "god-of-war",
+    title: "God of War",
+    tagline: "A father, a son, and a pantheon that will not let them pass.",
+    genres: ["Action-adventure", "Hack and slash", "Mythology"],
+    developer: "Santa Monica Studio",
+    publisher: "PlayStation Publishing LLC",
+    releaseDate: "2018-04-20",
+    releaseYear: 2018,
+    platforms: ["PC", "PS5", "PS4"],
+    modes: ["Single-player"],
+    coverImage: "/images/games/god-of-war/cover.jpg",
+    coverAlt: "Official cover art for God of War",
+    heroImage: "/images/games/god-of-war/hero.jpg",
+    heroAlt:
+      "Kratos and Atreus stand with the Leviathan Axe in a misty Norse landscape in God of War",
+    screenshots: [
+      {
+        src: "/images/games/god-of-war/screenshot-01.jpg",
+        alt: "Kratos stands in a misty forest with the Leviathan Axe in God of War",
+      },
+      {
+        src: "/images/games/god-of-war/screenshot-02.jpg",
+        alt: "Kratos faces the giant World Serpent in God of War",
+      },
+      {
+        src: "/images/games/god-of-war/screenshot-03.jpg",
+        alt: "Kratos battles a massive enemy in a ruined temple in God of War",
+      },
+      {
+        src: "/images/games/god-of-war/screenshot-04.jpg",
+        alt: "Kratos and Atreus track a deer through a forest in God of War",
+      },
+      {
+        src: "/images/games/god-of-war/screenshot-05.jpg",
+        alt: "Kratos and Atreus approach an ancient stone gate in God of War",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Santa Monica Studio / PlayStation Publishing LLC. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/1593500/God_of_War/",
+    accent: "#C95748",
+    description:
+      "A cinematic action-adventure that follows Kratos and Atreus through the Norse realms, mixing weighty combat, exploration, and a deeply personal story.",
+    overview: [
+      "God of War follows Kratos and his son Atreus through the Norse realms. The game pairs close, weighty combat with a quieter story about inheritance, grief, and the difficulty of being a parent.",
+      "Exploration is structured around a central lake that opens into optional islands, realms, and combat challenges. The camera rarely cuts away, which keeps conversations and fights in the same continuous space. Upgrades are split between Kratos's weapons and armor and Atreus's abilities, so both characters remain part of the build.",
+    ],
+    funFact:
+      "The game is famous for presenting most of its journey as one continuous camera shot. The effect is especially noticeable in transitions between exploration, conversation, and combat.",
+    tags: [
+      "norse",
+      "kratos",
+      "atreus",
+      "action",
+      "mythology",
+      "father son",
+      "playstation",
+    ],
+    featured: true,
+    popularity: 93,
+    relatedGames: [
+      "elden-ring",
+      "sekiro-shadows-die-twice",
+      "nier-automata",
+    ],
+  },
+  {
+    slug: "sekiro-shadows-die-twice",
+    title: "Sekiro: Shadows Die Twice",
+    tagline:
+      "Steel, posture, and a war-torn Japan that punishes hesitation.",
+    genres: ["Action-adventure", "Soulslike", "Stealth"],
+    developer: "FromSoftware",
+    publisher: "Activision",
+    releaseDate: "2019-03-22",
+    releaseYear: 2019,
+    platforms: ["PC", "PS4", "Xbox One"],
+    modes: ["Single-player"],
+    coverImage: "/images/games/sekiro-shadows-die-twice/cover.jpg",
+    coverAlt: "Official cover art for Sekiro: Shadows Die Twice",
+    heroImage: "/images/games/sekiro-shadows-die-twice/hero.jpg",
+    heroAlt:
+      "Sekiro stands with his sword before a burning temple in Sekiro: Shadows Die Twice",
+    screenshots: [
+      {
+        src: "/images/games/sekiro-shadows-die-twice/screenshot-01.jpg",
+        alt: "Sekiro grapples through the air above a burning temple in Sekiro: Shadows Die Twice",
+      },
+      {
+        src: "/images/games/sekiro-shadows-die-twice/screenshot-02.jpg",
+        alt: "Sekiro faces a spear-wielding samurai in the snow in Sekiro: Shadows Die Twice",
+      },
+      {
+        src: "/images/games/sekiro-shadows-die-twice/screenshot-03.jpg",
+        alt: "Sekiro clashes blades with an enemy in a storm of red leaves in Sekiro: Shadows Die Twice",
+      },
+      {
+        src: "/images/games/sekiro-shadows-die-twice/screenshot-04.jpg",
+        alt: "Sekiro stands on a temple rooftop above autumn trees in Sekiro: Shadows Die Twice",
+      },
+      {
+        src: "/images/games/sekiro-shadows-die-twice/screenshot-05.jpg",
+        alt: "Sekiro holds a glowing red item in a dark room in Sekiro: Shadows Die Twice",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © FromSoftware / Activision. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice/",
+    accent: "#A94436",
+    description:
+      "FromSoftware's focused action game about posture, deflection, and a shinobi caught between loyalty and revenge in Sengoku-era Japan.",
+    overview: [
+      "Sekiro: Shadows Die Twice is a focused action game set in a fictionalized Sengoku-era Japan. Players control a shinobi known as Wolf, fighting through fortified castles, mountain temples, and sunken valleys while protecting a young lord.",
+      "Combat is built around posture and deflection rather than stamina bars and dodge rolls. Enemies recover posture when they are healthy, so the most reliable path is often to attack, deflect the response, and keep the pressure on. Stealth, prosthetics, and shinobi tools provide alternatives, but the sword remains the core of every encounter.",
+    ],
+    funFact:
+      "Sekiro's posture system means a fight can end without draining the last sliver of health. A well-timed deflection can break an enemy's guard and open the way to a deathblow.",
+    tags: [
+      "fromsoftware",
+      "shinobi",
+      "sengoku",
+      "posture",
+      "deflection",
+      "boss fights",
+      "stealth",
+    ],
+    featured: false,
+    popularity: 90,
+    relatedGames: [
+      "elden-ring",
+      "god-of-war",
+      "hollow-knight",
+    ],
+  },
+  {
+    slug: "the-elder-scrolls-v-skyrim",
+    title: "The Elder Scrolls V: Skyrim",
+    tagline: "A province of dragons, factions, and a thousand unfinished quests.",
+    genres: ["Open-world RPG", "Fantasy", "First-person"],
+    developer: "Bethesda Game Studios",
+    publisher: "Bethesda Softworks",
+    releaseDate: "2011-11-11",
+    releaseYear: 2011,
+    platforms: [
+      "PC",
+      "PS5",
+      "Xbox Series X|S",
+      "PS4",
+      "Xbox One",
+      "Nintendo Switch",
+    ],
+    modes: ["Single-player"],
+    coverImage: "/images/games/the-elder-scrolls-v-skyrim/cover.jpg",
+    coverAlt: "Official cover art for The Elder Scrolls V: Skyrim",
+    heroImage: "/images/games/the-elder-scrolls-v-skyrim/hero.jpg",
+    heroAlt:
+      "An armored warrior stands beside a dragon priest mask in The Elder Scrolls V: Skyrim",
+    screenshots: [
+      {
+        src: "/images/games/the-elder-scrolls-v-skyrim/screenshot-01.jpg",
+        alt: "Snow-covered ruins rise in the Skyrim wilderness",
+      },
+      {
+        src: "/images/games/the-elder-scrolls-v-skyrim/screenshot-02.jpg",
+        alt: "The tundra stretches toward distant ruins at sunset in Skyrim",
+      },
+      {
+        src: "/images/games/the-elder-scrolls-v-skyrim/screenshot-03.jpg",
+        alt: "A birch forest turns gold in The Elder Scrolls V: Skyrim",
+      },
+      {
+        src: "/images/games/the-elder-scrolls-v-skyrim/screenshot-04.jpg",
+        alt: "A warrior channels green magic during a dragon fight in Skyrim",
+      },
+      {
+        src: "/images/games/the-elder-scrolls-v-skyrim/screenshot-05.jpg",
+        alt: "A walled city rises above the tundra in Skyrim",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots for The Elder Scrolls V: Skyrim Special Edition © Bethesda Game Studios / Bethesda Softworks. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/",
+    accent: "#6F8F83",
+    description:
+      "Bethesda's enduring fantasy RPG about dragons, civil war, and the freedom to ignore the main quest for a hundred hours.",
+    overview: [
+      "Skyrim is an open-world fantasy RPG set in a cold northern province on the brink of civil war. Players create a character, escape a dragon attack, and become the Dragonborn, a figure with the power to absorb dragon souls and learn shouts.",
+      "The main quest is only one thread. Guilds, daedric shrines, faction politics, and random caves all compete for attention. The game's lasting appeal comes from how many systems can be ignored or combined: smithing, enchanting, alchemy, stealth, magic, and the mod scene that grew around the PC release.",
+    ],
+    funFact:
+      "Skyrim's Radiant quest system can generate repeatable tasks from templates, which is why some side quests feel endlessly available and slightly different from one character to the next.",
+    tags: [
+      "skyrim",
+      "elder scrolls",
+      "dragonborn",
+      "mods",
+      "open world",
+      "bethesda",
+      "fantasy",
+    ],
+    featured: true,
+    popularity: 95,
+    relatedGames: [
+      "fallout-new-vegas",
+      "baldurs-gate-3",
+      "starfield",
+    ],
+  },
+  {
+    slug: "stardew-valley",
+    title: "Stardew Valley",
+    tagline: "A farm, a town, and the quiet discipline of a better season.",
+    genres: ["Farming sim", "Life sim", "RPG"],
+    developer: "ConcernedApe",
+    publisher: "ConcernedApe",
+    releaseDate: "2016-02-26",
+    releaseYear: 2016,
+    platforms: [
+      "PC",
+      "macOS",
+      "Linux",
+      "PS4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Mobile",
+    ],
+    modes: ["Single-player", "Online co-op"],
+    coverImage: "/images/games/stardew-valley/cover.jpg",
+    coverAlt: "Official cover art for Stardew Valley",
+    heroImage: "/images/games/stardew-valley/hero.jpg",
+    heroAlt: "Pixel-art farm, forest, and beach scenes from Stardew Valley",
+    screenshots: [
+      {
+        src: "/images/games/stardew-valley/screenshot-01.jpg",
+        alt: "A farm with crops, animals, and a farmhouse in Stardew Valley",
+      },
+      {
+        src: "/images/games/stardew-valley/screenshot-02.jpg",
+        alt: "The player explores a dark mine with ladders in Stardew Valley",
+      },
+      {
+        src: "/images/games/stardew-valley/screenshot-03.jpg",
+        alt: "Villagers gather in the Calico Desert in Stardew Valley",
+      },
+      {
+        src: "/images/games/stardew-valley/screenshot-04.jpg",
+        alt: "A storm lights up a forest farm at night in Stardew Valley",
+      },
+      {
+        src: "/images/games/stardew-valley/screenshot-05.jpg",
+        alt: "The Governor speaks at a beachside gathering in Stardew Valley",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © ConcernedApe. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/413150/Stardew_Valley/",
+    accent: "#D9A441",
+    description:
+      "A farming and life sim about rebuilding an inherited farm, befriending a town, and choosing how much of each day to give away.",
+    overview: [
+      "Stardew Valley is a farming and life sim about inheriting a neglected farm in a small town. Days are built around energy, weather, seasons, and the choice of what to do before the light runs out.",
+      "The game is not just about crops. Fishing, mining, foraging, cooking, relationships, the Community Center, and optional combat all feed into a year that can be as relaxed or as optimized as the player wants. Multiplayer lets up to four players share a farm, though the pacing changes when several people divide the chores.",
+    ],
+    funFact:
+      "ConcernedApe designed, programmed, wrote, and composed most of Stardew Valley himself before release. The game's single-creator history is part of why its small-town routines feel so consistent.",
+    tags: [
+      "farming",
+      "cozy",
+      "pixel art",
+      "relationships",
+      "fishing",
+      "community center",
+      "indie",
+    ],
+    featured: false,
+    popularity: 92,
+    relatedGames: ["hades", "minecraft", "hollow-knight"],
+  },
+  {
+    slug: "hades",
+    title: "Hades",
+    tagline:
+      "A family argument with swords, gods, and an extremely long staircase.",
+    genres: ["Roguelike", "Action RPG", "Dungeon crawler"],
+    developer: "Supergiant Games",
+    publisher: "Supergiant Games",
+    releaseDate: "2020-09-17",
+    releaseYear: 2020,
+    platforms: [
+      "PC",
+      "macOS",
+      "Nintendo Switch",
+      "PS5",
+      "PS4",
+      "Xbox Series X|S",
+      "Xbox One",
+    ],
+    modes: ["Single-player"],
+    coverImage: "/images/games/hades/cover.jpg",
+    coverAlt: "Official cover art for Hades",
+    heroImage: "/images/games/hades/hero.jpg",
+    heroAlt:
+      "Zagreus holds a glowing sword before the fiery landscape of the underworld in Hades",
+    screenshots: [
+      {
+        src: "/images/games/hades/screenshot-01.jpg",
+        alt: "Zagreus fights enemies in a green-lit chamber of the underworld in Hades",
+      },
+      {
+        src: "/images/games/hades/screenshot-02.jpg",
+        alt: "Zagreus speaks with Hades in the House of Hades in Hades",
+      },
+      {
+        src: "/images/games/hades/screenshot-03.jpg",
+        alt: "Zagreus battles through a fiery arena beneath a storm of embers in Hades",
+      },
+      {
+        src: "/images/games/hades/screenshot-04.jpg",
+        alt: "Zagreus crosses a green-lit chamber filled with glowing hazards in Hades",
+      },
+      {
+        src: "/images/games/hades/screenshot-05.jpg",
+        alt: "Zagreus approaches a red-lit doorway flanked by statues in Hades",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Supergiant Games. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/1145360/Hades/",
+    accent: "#E0623F",
+    description:
+      "A fast, narrative-driven roguelike about escaping the underworld, where every failed run makes Zagreus stronger and the House of Hades more complicated.",
+    overview: [
+      "Hades is a rogue-like dungeon crawler about Zagreus, the son of Hades, trying to fight his way out of the underworld. Each escape attempt is assembled from Olympian boons, a chosen weapon, and the upgrades Zagreus has earned across previous deaths.",
+      "The story does not wait for a successful run. Characters in the House of Hades react to what happened, relationships develop between attempts, and new dialogue keeps the repeated structure from feeling static. The result is a game where failure is both a combat lesson and a narrative engine.",
+    ],
+    funFact:
+      "Supergiant built the story around repetition: characters comment on how Zagreus died and what he accomplished, and the dialogue system is designed to stay coherent across dozens of runs.",
+    tags: [
+      "greek mythology",
+      "roguelike",
+      "zagreus",
+      "supergiant games",
+      "boons",
+      "underworld",
+      "replayable",
+    ],
+    featured: true,
+    popularity: 93,
+    relatedGames: ["hollow-knight", "elden-ring", "stardew-valley"],
+  },
+  {
+    slug: "hollow-knight",
+    title: "Hollow Knight",
+    tagline:
+      "A small knight, a fallen kingdom, and a map that keeps getting deeper.",
+    genres: ["Metroidvania", "Action-adventure", "Indie"],
+    developer: "Team Cherry",
+    publisher: "Team Cherry",
+    releaseDate: "2017-02-24",
+    releaseYear: 2017,
+    platforms: [
+      "PC",
+      "macOS",
+      "Linux",
+      "Nintendo Switch",
+      "PS4",
+      "Xbox One",
+    ],
+    modes: ["Single-player"],
+    coverImage: "/images/games/hollow-knight/cover.jpg",
+    coverAlt: "Official cover art for Hollow Knight",
+    heroImage: "/images/games/hollow-knight/hero.jpg",
+    heroAlt:
+      "The Knight stands with a nail against a pale light in a dark cavern in Hollow Knight",
+    screenshots: [
+      {
+        src: "/images/games/hollow-knight/screenshot-01.jpg",
+        alt: "The Knight faces a large armored bug in a glowing cavern in Hollow Knight",
+      },
+      {
+        src: "/images/games/hollow-knight/screenshot-02.jpg",
+        alt: "The Knight stands on a stone bridge above a turquoise lake in Hollow Knight",
+      },
+      {
+        src: "/images/games/hollow-knight/screenshot-03.jpg",
+        alt: "The Knight approaches a tall red-lit shrine in a mist-filled cavern in Hollow Knight",
+      },
+      {
+        src: "/images/games/hollow-knight/screenshot-04.jpg",
+        alt: "The Knight stands before a brilliant crystal formation in Hollow Knight",
+      },
+      {
+        src: "/images/games/hollow-knight/screenshot-05.jpg",
+        alt: "The in-game map shows the Forgotten Crossroads and City of Tears in Hollow Knight",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Team Cherry. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/367520/Hollow_Knight/",
+    accent: "#8EC9D8",
+    description:
+      "A hand-drawn metroidvania about a small knight descending through the ruined kingdom of Hallownest, where exploration, precise combat, and silence do most of the storytelling.",
+    overview: [
+      "Hollow Knight casts the player as a silent knight entering Hallownest, a subterranean kingdom whose tunnels, cities, and shrines are now overrun by hostile creatures. Progress depends on learning the map, finding movement abilities, and deciding when a fight is worth the risk.",
+      "Combat is deliberate and readable: a short-range nail, spells, and charms that change how the knight approaches encounters. The game rarely explains its history directly. Item descriptions, architecture, and the few characters who still speak are the main sources of lore.",
+    ],
+    funFact:
+      "The Knight never speaks. Almost everything about Hallownest is communicated through environmental details, item descriptions, and NPC dialogue, which is why the game's story supports so many interpretations.",
+    tags: [
+      "metroidvania",
+      "hallownest",
+      "indie",
+      "exploration",
+      "charms",
+      "team cherry",
+      "hand drawn",
+    ],
+    featured: true,
+    popularity: 95,
+    relatedGames: ["hades", "elden-ring", "stardew-valley"],
+  },
+  {
+    slug: "disco-elysium",
+    title: "Disco Elysium",
+    tagline:
+      "A murder investigation conducted by the worst possible person for the job.",
+    genres: ["CRPG", "Detective", "Narrative"],
+    developer: "ZA/UM",
+    publisher: "ZA/UM",
+    releaseDate: "2019-10-15",
+    releaseYear: 2019,
+    platforms: [
+      "PC",
+      "macOS",
+      "PS5",
+      "PS4",
+      "Xbox Series X|S",
+      "Xbox One",
+      "Nintendo Switch",
+    ],
+    modes: ["Single-player"],
+    coverImage: "/images/games/disco-elysium/cover.jpg",
+    coverAlt: "Official cover art for Disco Elysium - The Final Cut",
+    heroImage: "/images/games/disco-elysium/hero.jpg",
+    heroAlt:
+      "An expressionist painting of Revachol's harbor and distant skyline in Disco Elysium",
+    screenshots: [
+      {
+        src: "/images/games/disco-elysium/screenshot-01.jpg",
+        alt: "Harry and Kim investigate a snow-covered courtyard in Disco Elysium",
+      },
+      {
+        src: "/images/games/disco-elysium/screenshot-02.jpg",
+        alt: "The character sheet shows Intellect, Psyche, Physique, and Motorics skills in Disco Elysium",
+      },
+      {
+        src: "/images/games/disco-elysium/screenshot-03.jpg",
+        alt: "The inventory screen shows Harry's clothes and a Samaran conical hat in Disco Elysium",
+      },
+      {
+        src: "/images/games/disco-elysium/screenshot-04.jpg",
+        alt: "The Thought Cabinet screen shows the HoboCop thought in Disco Elysium",
+      },
+      {
+        src: "/images/games/disco-elysium/screenshot-05.jpg",
+        alt: "A skill check succeeds during a conversation in Disco Elysium",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © ZA/UM. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/632470/Disco_Elysium_The_Final_Cut/",
+    accent: "#D98A5C",
+    description:
+      "A detective RPG with no combat and an argumentative narrator, where skills, politics, and failure shape an investigation in the ruined city of Revachol.",
+    overview: [
+      "Disco Elysium begins with a detective waking up with no memory of who he is or why he is in the district of Martinaise. The investigation is the spine of the game, but the real work is deciding what kind of person the detective is willing to become.",
+      "Disco Elysium replaces a conventional combat system with skill checks, dialogue, and internal voices. Intellect, Psyche, Physique, and Motorics shape what the detective notices and how he responds. Failure is not a dead end; it often opens a stranger and more revealing path.",
+    ],
+    funFact:
+      "Disco Elysium grew out of a tabletop campaign and a novel set in the same world. That history shows in the game's dense political vocabulary and its willingness to let conversations wander far from the case.",
+    tags: [
+      "revachol",
+      "detective",
+      "crpg",
+      "skills",
+      "politics",
+      "za/um",
+      "no combat",
+    ],
+    featured: true,
+    popularity: 90,
+    relatedGames: [
+      "baldurs-gate-3",
+      "fallout-new-vegas",
+      "cyberpunk-2077",
+    ],
+  },
+  {
+    slug: "fallout-new-vegas",
+    title: "Fallout: New Vegas",
+    tagline:
+      "A courier, a chip, and a desert full of people with plans for the future.",
+    genres: ["Open-world RPG", "Post-apocalyptic", "First-person"],
+    developer: "Obsidian Entertainment",
+    publisher: "Bethesda Softworks",
+    releaseDate: "2010-10-19",
+    releaseYear: 2010,
+    platforms: ["PC", "PS3", "Xbox 360"],
+    modes: ["Single-player"],
+    coverImage: "/images/games/fallout-new-vegas/cover.jpg",
+    coverAlt: "Official cover art for Fallout: New Vegas",
+    heroImage: "/images/games/fallout-new-vegas/hero.jpg",
+    heroAlt:
+      "A courier walks toward the lights of New Vegas across the Mojave Wasteland in Fallout: New Vegas",
+    screenshots: [
+      {
+        src: "/images/games/fallout-new-vegas/screenshot-01.jpg",
+        alt: "A heavily armored raider aims a weapon in the Mojave Wasteland in Fallout: New Vegas",
+      },
+      {
+        src: "/images/games/fallout-new-vegas/screenshot-02.jpg",
+        alt: "The player and a companion fight through a fiery ambush in Fallout: New Vegas",
+      },
+      {
+        src: "/images/games/fallout-new-vegas/screenshot-03.jpg",
+        alt: "A weathered desert town street stretches under a cloudy sky in Fallout: New Vegas",
+      },
+      {
+        src: "/images/games/fallout-new-vegas/screenshot-04.jpg",
+        alt: "An NCR trooper fires at floating robots in the Mojave Wasteland in Fallout: New Vegas",
+      },
+      {
+        src: "/images/games/fallout-new-vegas/screenshot-05.jpg",
+        alt: "The companion command wheel appears during exploration in Fallout: New Vegas",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Obsidian Entertainment / Bethesda Softworks. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/22380/Fallout_New_Vegas/",
+    accent: "#C98B3E",
+    description:
+      "Obsidian's post-apocalyptic RPG sets a courier loose in the Mojave, where faction loyalty, old-world technology, and personal grudges decide the future of New Vegas.",
+    overview: [
+      "Fallout: New Vegas begins with a courier being shot and left for dead. The search for answers leads into a power struggle over the Mojave: the New California Republic, Caesar's Legion, the mysterious Mr. House, and the people who want no ruler at all.",
+      "Its reputation system and skill checks make the world feel political in a way few open-world games manage. Speech, medicine, repair, and even clothing can change how a conversation unfolds. The main story is substantial, but the side quests are where the game's arguments about power and survival become concrete.",
+    ],
+    funFact:
+      "New Vegas was built on Fallout 3's engine under a short production schedule, yet its faction reputation system and ammo-crafting options gave the game a distinctly different identity from its predecessor.",
+    tags: [
+      "mojave",
+      "ncr",
+      "caesar's legion",
+      "mr house",
+      "obsidian",
+      "post apocalyptic",
+      "factions",
+    ],
+    featured: true,
+    popularity: 96,
+    relatedGames: [
+      "starfield",
+      "the-elder-scrolls-v-skyrim",
+      "disco-elysium",
+    ],
+  },
+  {
+    slug: "nier-automata",
+    title: "NieR:Automata",
+    tagline:
+      "Androids, machines, and the stories they tell themselves about being alive.",
+    genres: ["Action RPG", "Sci-fi", "Hack and slash"],
+    developer: "PlatinumGames",
+    publisher: "Square Enix",
+    releaseDate: "2017-03-17",
+    releaseYear: 2017,
+    platforms: ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+    modes: ["Single-player"],
+    coverImage: "/images/games/nier-automata/cover.jpg",
+    coverAlt: "Official cover art for NieR:Automata",
+    heroImage: "/images/games/nier-automata/hero.jpg",
+    heroAlt:
+      "2B, 9S, and A2 stand among machine lifeforms in an overgrown ruined city in NieR:Automata",
+    screenshots: [
+      {
+        src: "/images/games/nier-automata/screenshot-01.jpg",
+        alt: "2B and 9S fight a machine in an overgrown city in NieR:Automata",
+      },
+      {
+        src: "/images/games/nier-automata/screenshot-02.jpg",
+        alt: "2B stands with her sword in a ruined, overgrown city in NieR:Automata",
+      },
+      {
+        src: "/images/games/nier-automata/screenshot-03.jpg",
+        alt: "2B faces a towering multi-legged machine in NieR:Automata",
+      },
+      {
+        src: "/images/games/nier-automata/screenshot-04.jpg",
+        alt: "2B speaks with a small machine in a dark industrial area in NieR:Automata",
+      },
+      {
+        src: "/images/games/nier-automata/screenshot-05.jpg",
+        alt: "2B and 9S look out over an overgrown city from a cliff in NieR:Automata",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © PlatinumGames / Square Enix. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/524220/NieRAutomata/",
+    accent: "#A9B8B3",
+    description:
+      "A stylish action RPG about androids, machines, and the stories people build to survive a ruined world.",
+    overview: [
+      "NieR:Automata follows 2B, 9S, and A2 through a war between androids and machine lifeforms. The combat is fast and expressive, built around weapon sets, dodging, and plug-in chips that let players tune everything from attack power to automatic assistance.",
+      "The story is structured around multiple routes. Finishing one route does not mean the game is over, and the later perspectives change how earlier events read. The game uses its interface, camera, and even its credits to make those themes part of the experience rather than just the dialogue.",
+    ],
+    funFact:
+      "The game's multiple routes are not bonus content tacked onto one ending. They are the main narrative structure, and later routes deliberately revisit familiar places with a different point of view.",
+    tags: [
+      "androids",
+      "machines",
+      "multiple endings",
+      "platinumgames",
+      "yoko taro",
+      "sci-fi",
+      "action rpg",
+    ],
+    featured: false,
+    popularity: 92,
+    relatedGames: ["cyberpunk-2077", "god-of-war", "elden-ring"],
+  },
+  {
+    slug: "resident-evil-4",
+    title: "Resident Evil 4",
+    tagline:
+      "A rescue mission that turns into a fight for every bullet and every inch of ground.",
+    genres: ["Survival horror", "Third-person shooter", "Action"],
+    developer: "CAPCOM",
+    publisher: "CAPCOM",
+    releaseDate: "2023-03-24",
+    releaseYear: 2023,
+    platforms: [
+      "PC",
+      "macOS",
+      "PS5",
+      "Xbox Series X|S",
+      "PS4",
+      "iOS",
+    ],
+    modes: ["Single-player", "PS VR2"],
+    coverImage: "/images/games/resident-evil-4/cover.jpg",
+    coverAlt: "Official cover art for Resident Evil 4",
+    heroImage: "/images/games/resident-evil-4/hero.jpg",
+    heroAlt:
+      "Leon Kennedy stands in a dark, misty forest in Resident Evil 4",
+    screenshots: [
+      {
+        src: "/images/games/resident-evil-4/screenshot-01.jpg",
+        alt: "Leon stands in a foggy forest beside a wooden grave marker in Resident Evil 4",
+      },
+      {
+        src: "/images/games/resident-evil-4/screenshot-02.jpg",
+        alt: "Leon approaches a weathered house in the rain in Resident Evil 4",
+      },
+      {
+        src: "/images/games/resident-evil-4/screenshot-03.jpg",
+        alt: "Leon confronts a bloodied villager in a dark room in Resident Evil 4",
+      },
+      {
+        src: "/images/games/resident-evil-4/screenshot-04.jpg",
+        alt: "A burning village tower rises beyond a gate in Resident Evil 4",
+      },
+      {
+        src: "/images/games/resident-evil-4/screenshot-05.jpg",
+        alt: "Leon looks through a rain-streaked window in Resident Evil 4",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © CAPCOM. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/2050650/Resident_Evil_4/",
+    accent: "#B4473D",
+    description:
+      "A remake of the survival-horror landmark that tightens the original's mix of resource pressure, precise shooting, and panicked close-quarters escapes.",
+    overview: [
+      "Resident Evil 4 follows Leon S. Kennedy to a rural European village on a rescue mission. The village is hostile from the first minute, and the game's tension comes from managing space, ammo, healing items, and the knife while enemies keep closing in.",
+      "The 2023 remake keeps the original's over-the-shoulder framing but reworks movement, crafting, knife durability, and side requests. Combat rewards staggering enemies with precise shots and following up with melee, while the attaché case turns inventory space into a small puzzle of its own.",
+    ],
+    funFact:
+      "The original Resident Evil 4 helped popularize the over-the-shoulder third-person camera in action games. The remake keeps that tight framing while giving Leon more freedom to move and parry.",
+    tags: [
+      "survival horror",
+      "leon kennedy",
+      "plagas",
+      "capcom",
+      "remake",
+      "third person",
+      "resource management",
+    ],
+    featured: false,
+    popularity: 94,
+    relatedGames: [
+      "red-dead-redemption-2",
+      "god-of-war",
+      "fallout-new-vegas",
+    ],
   },
 ];

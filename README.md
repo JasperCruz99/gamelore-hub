@@ -85,7 +85,9 @@ videos all connect through `gameSlug`.
 ### Adding a game
 
 1. Add the game to `src/data/games.ts`.
-2. Add original cover artwork to `public/images/games/`.
+2. Add a portrait cover, a landscape hero, and screenshots to
+   `public/images/games/<slug>/`. Record the image credit and source URL in the
+   game entry.
 3. Add guides in `src/data/guides.ts` (use the game slug).
 4. Add lore in `src/data/lore.ts`.
 5. Add verified cheats in `src/data/cheats.ts` only when the command can be
@@ -111,8 +113,9 @@ generated from these files.
   not invented video IDs or misattributed creator links.
 - The newsletter form is a front-end demo. It does not send or store an email
   address.
-- Cover artwork is original abstract placeholder art created for this project,
-  not official key art.
+- Cover artwork and screenshots are official publisher media, credited in each
+  game entry and used for identification and commentary. They are not
+  relicensed by this project.
 
 ## Placeholder policies
 
@@ -120,9 +123,11 @@ generated from these files.
 
 The initial video cards intentionally do not use invented YouTube URLs. Each
 card opens a YouTube search for its topic and displays a `Demo placeholder`
-badge. To replace one, verify the video and creator, then update
-`src/data/videos.ts` with the direct URL, real title, creator name, and set
-`placeholder: false`. The card UI supports that change without a redesign.
+badge. Card art is an official in-game screenshot used to identify the game, not
+a frame or thumbnail from a specific video. To replace one, verify the video and
+creator, then update `src/data/videos.ts` with the direct URL, real title,
+creator name, and set `placeholder: false`. The card UI supports that change
+without a redesign.
 
 ### Newsletter
 
@@ -132,9 +137,24 @@ privacy/unsubscribe flow) before enabling real subscriptions.
 
 ### Artwork
 
-All game covers in `public/images/games/` are original abstract SVG placeholders
-created for this demo. They do not reproduce publisher key art. Replace them
-with properly licensed artwork if the site is published.
+Game covers, hero images, and card thumbnails are official promotional media
+stored locally in `public/images/games/<slug>/`. Each game entry records a
+credit and source URL, shown on the game hub. Copyright remains with the
+publishers. The site uses these images for identification and editorial
+commentary and is not affiliated with or endorsed by any publisher.
+
+Sources:
+
+- Unless noted below, game covers, hero images, and screenshots are official
+  Steam store artwork and screenshots. This includes Cyberpunk 2077, Elden
+  Ring, The Witcher 3, Baldur's Gate 3, Red Dead Redemption 2, Starfield,
+  Hogwarts Legacy, God of War, Sekiro, Skyrim, Stardew Valley, Hades, Hollow
+  Knight, Disco Elysium, Fallout: New Vegas, NieR:Automata, and Resident Evil 4.
+- Minecraft: official Minecraft key art and 1.21 screenshots from
+  `minecraft.net`.
+
+If this site moves from a demo to a commercial publication, review each
+publisher's media usage terms or replace the images with licensed assets.
 
 ## Routes
 

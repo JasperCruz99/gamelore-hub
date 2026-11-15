@@ -41,7 +41,7 @@ export default function VideosPage() {
         <Callout
           type="note"
           title="What these video cards are"
-          body="Each card is a curated topic slot that opens YouTube search results. It is not a specific video recommendation, and the creator field is a placeholder until a real channel and video are verified. This avoids fake video IDs and misattribution."
+          body="Each card is a curated topic slot that opens YouTube search results. It is not a specific video recommendation, and the creator field is a placeholder until a real channel and video are verified. Thumbnail art uses official in-game screenshots to identify the game, not a frame or thumbnail from a specific video. This avoids fake video IDs and misattribution."
           className="my-0"
         />
 

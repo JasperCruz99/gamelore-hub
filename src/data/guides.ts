@@ -952,4 +952,819 @@ export const guides: Guide[] = [
     tags: ["horses", "hunting", "camp", "honor", "tips"],
     featured: false,
   },
+  {
+    slug: "starfield-first-ten-hours",
+    title: "Starfield for New Players: The First Ten Hours",
+    gameSlug: "starfield",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "A spoiler-light route through the opening hours: pick a background, follow the main thread, and build a ship-and-cargo routine before chasing every marker.",
+    intro:
+      "Starfield opens with a character creator, a ship, and a galaxy full of optional systems. The first ten hours are less about seeing everything and more about learning which parts of the sandbox you actually enjoy. This guide keeps story spoilers light and focuses on durable habits.",
+    updatedAt: "2026-11-15",
+    author: EDITOR,
+    sections: [
+      {
+        id: "choose-a-background",
+        heading: "Choose a background, not a destiny",
+        paragraphs: [
+          "Your background gives you three starting skills and some dialogue flavor, but it does not lock you into a class. You can learn almost any skill later, and your weapon choices matter more than the label on your character sheet.",
+          "Pick a combat family you want to learn first and put early skill points into it. A focused start makes the opening fights less frustrating and gives you a clear reason to experiment later.",
+        ],
+        bullets: [
+          "Combat skills such as Ballistics, Lasers, Pistol Certification, and Rifle Certification.",
+          "Ship skills such as Piloting and Targeting Systems.",
+          "Utility skills such as Security, Persuasion, and Surveying.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Traits are optional",
+          body: "Traits add role-play constraints and bonuses, but none are required. Choose ones you will enjoy living with rather than treating the list as a difficulty setting.",
+        },
+      },
+      {
+        id: "follow-the-main-thread",
+        heading: "Follow the main thread until the galaxy opens",
+        paragraphs: [
+          "Starfield's main quest introduces Constellation, the ship interface, and several companions. It also unlocks tools that make the rest of the game easier to read. Rushing away from it too early can leave you with a ship and a map but very little context.",
+          "This is not a demand to finish the story first. Follow the thread until the game stops explaining new systems, then start taking detours. The galaxy is more interesting when you know what your ship can actually do.",
+        ],
+      },
+      {
+        id: "build-a-light-routine",
+        heading: "Build a light routine before an empire",
+        paragraphs: [
+          "Early Starfield is about keeping your ship and inventory usable. Sell surplus gear, keep a small stock of medical items, and avoid filling every cargo slot with resources you are not using. A lighter ship is easier to manage and cheaper to upgrade.",
+          "Outposts and large-scale resource chains can wait. They are a meaningful part of the game, but they demand skill points and attention that are better spent learning combat, piloting, and exploration first.",
+        ],
+        bullets: [
+          "Keep one home base for storage instead of scattering items across the map.",
+          "Survey a planet when you are already there rather than making a special trip.",
+          "Upgrade ship shields and weapons before cosmetic changes.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Watch your cargo",
+          body: "Cargo capacity is easy to fill and slow to manage. If you are constantly overencumbered, sell or store resources before starting a mission.",
+        },
+      },
+      {
+        id: "choose-a-session-goal",
+        heading: "Decide what kind of session you are playing",
+        paragraphs: [
+          "Starfield can be a story game, a surveying game, a ship-building game, or a loot game. None of those is wrong, but trying to do all of them in one session often ends with a lot of flying and very little progress.",
+          "Before you open the map, choose one goal: a mission, a planet survey, a ship upgrade, or a faction thread. Let the other icons wait. The Settled Systems are large enough that there will always be another detour.",
+        ],
+      },
+    ],
+    tags: ["beginner", "first hours", "backgrounds", "ships", "cargo", "exploration"],
+    featured: false,
+  },
+  {
+    slug: "hogwarts-legacy-first-term",
+    title: "Hogwarts Legacy: A Spoiler-Light First Term",
+    gameSlug: "hogwarts-legacy",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "A practical start for new students: learn utility spells, keep gear manageable, and use the Room of Requirement without turning the game into a checklist.",
+    intro:
+      "Hogwarts Legacy gives players a castle, a Highlands, and a long list of optional distractions. The opening term is best spent learning how its systems connect: spells, gear traits, potions, and the Room of Requirement.",
+    updatedAt: "2026-11-14",
+    author: EDITOR,
+    sections: [
+      {
+        id: "learn-spells-for-problems",
+        heading: "Learn spells for problems, not only damage",
+        paragraphs: [
+          "Hogwarts Legacy's combat is built around combining control, damage, and utility. A damage spell alone is useful, but a levitation spell followed by a basic cast or a heavier attack often does more work.",
+          "Utility spells also matter outside combat. They open doors, reveal hidden objects, and solve puzzles in the castle and the Highlands. Learn them when they appear instead of treating them as optional collectibles.",
+        ],
+        bullets: [
+          "Control spells can hold enemies in place while you reposition.",
+          "Damage spells are more effective when they follow a setup.",
+          "Utility spells unlock exploration routes and hidden rooms.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Practice in a safe space",
+          body: "Use the training dummy in the Room of Requirement to test spell combinations without spending potions or healing items.",
+        },
+      },
+      {
+        id: "keep-gear-purposeful",
+        heading: "Keep gear light and purposeful",
+        paragraphs: [
+          "Gear in Hogwarts Legacy is a stream of small upgrades rather than a single legendary set. Check the numbers, equip the best pieces you have, and sell or discard the rest. Carrying everything makes the menu harder to use without making you stronger.",
+          "Traits and upgrades matter more as the game goes on. Visit the loom when you have a piece you expect to keep, and change your appearance freely; the transmog system lets you keep the look you want without sacrificing stats.",
+        ],
+      },
+      {
+        id: "room-of-requirement-base",
+        heading: "Use the Room of Requirement as a base",
+        paragraphs: [
+          "The Room of Requirement becomes a useful base for potions, plants, and gear upgrades. It is easy to ignore while you are exploring, but a small stock of potions and combat plants can change a difficult fight.",
+          "Invest in the stations you actually use. A fully built room is satisfying, but a modest setup that keeps you supplied is more useful in the first ten hours than a decorative space you never visit.",
+        ],
+      },
+      {
+        id: "explore-the-highlands",
+        heading: "Explore the Highlands between story beats",
+        paragraphs: [
+          "The castle is the heart of the game, but the Highlands hold hamlets, caves, Merlin trials, and optional questlines. Treat them as palate cleansers between main assignments rather than a checklist to clear in one pass.",
+          "Classes and assignments unlock spells and upgrades, so it is worth returning to school regularly. If you feel underpowered, check whether a class or assignment is waiting rather than grinding random camps.",
+        ],
+      },
+    ],
+    tags: ["beginner", "spells", "gear", "room of requirement", "exploration", "hogwarts"],
+    featured: true,
+  },
+  {
+    slug: "god-of-war-first-hours",
+    title: "God of War: A Spoiler-Light Guide to the First Hours",
+    gameSlug: "god-of-war",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Learn the combat rhythm, keep Atreus involved, and explore the Lake of Nine without losing the thread of the story.",
+    intro:
+      "God of War asks players to balance a close, deliberate combat system with a wide exploration loop. The first hours are a tutorial in both, and the game is more enjoyable when you treat them as connected rather than separate.",
+    updatedAt: "2026-11-13",
+    author: EDITOR,
+    sections: [
+      {
+        id: "learn-the-shield",
+        heading: "Learn the shield before the axe",
+        paragraphs: [
+          "Kratos can block, parry, dodge, and throw the Leviathan Axe, and the game expects you to use all of those options. Holding block is safer than ignoring defense, but a well-timed parry creates space and opens enemies to follow-up attacks.",
+          "Watch the attack indicators and learn which moves cannot be blocked. When an enemy flashes the warning color, dodge instead of committing to a shield stance. The goal is not to avoid every hit; it is to stay in the fight without panicking.",
+        ],
+        bullets: [
+          "Block ordinary attacks and parry when the timing is clear.",
+          "Dodge attacks that cannot be blocked.",
+          "Recall the axe when an enemy is out of reach or you need a ranged option.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Use the full moveset",
+          body: "Light attacks, heavy attacks, and the axe throw all have different recovery times. Experiment in the first arena instead of saving new moves for a boss.",
+        },
+      },
+      {
+        id: "use-atreus",
+        heading: "Use Atreus constantly",
+        paragraphs: [
+          "Atreus is not a passive companion. His arrows can stun enemies, interrupt attacks, and apply elemental effects as his skills develop. Keeping him active gives you breathing room and adds damage without forcing you to close distance.",
+          "Upgrade Atreus alongside Kratos. It is tempting to spend every resource on weapons and armor, but a useful companion makes more difference than a small stat increase.",
+        ],
+      },
+      {
+        id: "spend-xp-deliberately",
+        heading: "Spend XP on tools you use",
+        paragraphs: [
+          "Skills and runic attacks are expensive. Pick a few that match your habits, practice them, and upgrade them before adding more options. A small toolkit you understand is stronger than a menu full of moves you never remember.",
+          "Armor is a trade-off between stats and appearance, but it also carries enchantment slots and set bonuses. Do not sell or ignore gear just because it looks plain; check what it does.",
+        ],
+      },
+      {
+        id: "explore-lake-of-nine",
+        heading: "Explore the Lake of Nine in loops",
+        paragraphs: [
+          "The Lake of Nine opens into optional islands, shores, and realms. It is designed to be revisited as your abilities improve, so do not treat every locked path as a failure. Mark it, finish a nearby objective, and come back later.",
+          "Side content in God of War is not filler. Optional areas often contain upgrades, lore, and combat challenges that make the main path more manageable. Explore until you feel the pace dip, then return to the story.",
+        ],
+      },
+    ],
+    tags: ["beginner", "combat", "parry", "atreus", "exploration", "norse"],
+    featured: true,
+  },
+  {
+    slug: "sekiro-posture-and-deflection",
+    title: "Sekiro: Posture, Deflection, and the First Real Wall",
+    gameSlug: "sekiro-shadows-die-twice",
+    category: "Tips & Tricks",
+    level: "Intermediate",
+    excerpt:
+      "A practical explanation of the posture system, why aggression works, and how to practice deflection without turning every fight into a panic roll.",
+    intro:
+      "Sekiro is not a game about draining health bars slowly. It is a game about breaking posture, and posture is built through confident, rhythmic pressure. The first wall is usually not a stat check; it is a habit check.",
+    updatedAt: "2026-11-12",
+    author: EDITOR,
+    sections: [
+      {
+        id: "health-and-posture",
+        heading: "Health makes posture recovery slower",
+        paragraphs: [
+          "Sekiro's posture meter is the real health bar in most fights. A healthy enemy recovers posture quickly; a damaged enemy recovers slowly. Chip away at health when you can, then press the advantage before the meter resets.",
+          "Stealth is part of that plan. Removing a sentry or a minion before a duel lets you focus on the real threat instead of fighting with your back to the room.",
+        ],
+      },
+      {
+        id: "deflect-the-rhythm",
+        heading: "Deflect the rhythm, don't chase the animation",
+        paragraphs: [
+          "A deflection happens when you tap guard as an attack lands. Holding guard reduces damage, but it does not build enemy posture the way a perfect deflect does. The visual spark and sound are your confirmation that the timing worked.",
+          "Learn the rhythm of a combo rather than reacting to every limb. Many enemies use delayed attacks specifically to catch players who dodge or guard too early.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Use the training partner",
+          body: "The training partner at the Dilapidated Temple lets you practice deflection and counters without risking a real fight. Spend a few minutes there before pushing into a new area.",
+        },
+      },
+      {
+        id: "attack-until-deflected",
+        heading: "Attack until you are deflected",
+        paragraphs: [
+          "The safest offense is a conversation. Attack until the enemy deflects you, then switch to defense. When you deflect them back, resume attacking. This loop keeps pressure on their posture while giving you a readable cue to stop mashing.",
+          "If you keep attacking after an enemy deflects, you will usually eat a counter. The sound and spark of their deflect are more important than your damage numbers.",
+        ],
+      },
+      {
+        id: "stealth-and-tools",
+        heading: "Use stealth and tools to set the terms",
+        paragraphs: [
+          "Sekiro's prosthetics are answers to specific problems, not a replacement for fundamentals. Firecrackers can interrupt animals, shuriken can punish distant enemies, and the axe can break certain shields. Switch tools when a fight asks a different question.",
+          "Do not save every item for a boss. Consumables and spirit emblems are there to be used. A fight you win with a tool is still a fight you learned.",
+        ],
+      },
+    ],
+    tags: ["posture", "deflection", "combat", "stealth", "prosthetics", "tips"],
+    featured: false,
+  },
+  {
+    slug: "skyrim-clean-start-2026",
+    title: "Skyrim in 2026: A Clean Start Without the Overwhelm",
+    gameSlug: "the-elder-scrolls-v-skyrim",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "A durable starting plan for a fifteen-year-old RPG: choose a build, follow the early main quest, and resist the urge to join every faction at once.",
+    intro:
+      "Skyrim can still overwhelm new players because almost every direction leads to a quest, a dungeon, or a faction. The solution is not to see everything. It is to decide what kind of character you are playing and let the rest of the province wait.",
+    updatedAt: "2026-11-11",
+    author: EDITOR,
+    sections: [
+      {
+        id: "choose-a-build-direction",
+        heading: "Choose a build direction early",
+        paragraphs: [
+          "Skyrim does not force a class, but it does limit how quickly you can do everything. A character who splits points across every skill will feel weaker than one who invests in a coherent set.",
+          "Pick a primary offense and a primary defense, then add utility as you go. Race and standing stone can support that plan, but they are less important than the perks you choose.",
+        ],
+        bullets: [
+          "Warrior: one-handed or two-handed, heavy armor, smithing.",
+          "Mage: destruction or conjuration, restoration, alteration.",
+          "Thief: archery, sneak, light armor, alchemy.",
+        ],
+        callout: {
+          type: "note",
+          title: "Do not fear commitment",
+          body: "Skyrim is flexible, but perk points are limited. A focused start is easier to correct than a build with no plan.",
+        },
+      },
+      {
+        id: "let-the-main-quest-teach-you",
+        heading: "Let the main quest teach you the map",
+        paragraphs: [
+          "The early main quest moves you between Whiterun, the surrounding holds, and the first dragon encounters. It is a useful orientation course, not a commitment to finish the story immediately.",
+          "Once you have shouts, a home base, and a sense of the map, branch out. The province is more manageable when you know which roads connect which holds.",
+        ],
+      },
+      {
+        id: "join-one-faction",
+        heading: "Join one faction, not all of them",
+        paragraphs: [
+          "Skyrim's major guilds each have their own questline and tone. Trying to join all of them at once can leave you with a quest log full of conflicting loyalties and no clear sense of your character.",
+          "Pick the faction that fits your build and role-play, finish a meaningful chunk of it, then decide whether another belongs to this character. The others will still be there in another playthrough.",
+        ],
+      },
+      {
+        id: "mod-lightly",
+        heading: "Mod lightly at first",
+        paragraphs: [
+          "Skyrim's mod scene is one of its greatest strengths, but a first playthrough does not need a hundred plugins. Start with stability fixes, a UI mod, and perhaps one visual change you actually notice.",
+          "Read requirements, check load order, and keep a clean save before adding anything large. Some mod setups affect achievements, and a broken save is more frustrating than a plain-looking game.",
+        ],
+      },
+    ],
+    tags: ["beginner", "builds", "factions", "mods", "skyrim", "2026"],
+    featured: false,
+  },
+  {
+    slug: "stardew-valley-first-season",
+    title: "Stardew Valley: A Calm and Practical First Season",
+    gameSlug: "stardew-valley",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "A first-spring plan that avoids min-maxing: plant a manageable mix, save for tools, and leave room for the town to surprise you.",
+    intro:
+      "Stardew Valley can be played as a spreadsheet or as a quiet routine. A first farm works best somewhere in between: enough planning to avoid wasted days, enough slack to follow whatever the town puts in front of you.",
+    updatedAt: "2026-11-10",
+    author: EDITOR,
+    sections: [
+      {
+        id: "plant-a-varied-crop-mix",
+        heading: "Plant a small, varied crop mix",
+        paragraphs: [
+          "Your first spring is a test of energy and cash flow. A small plot you can water every day is better than a huge field that leaves you exhausted before noon. Start with a few parsnips, then add faster-selling crops as you learn the rhythm.",
+          "Keep some gold for tool upgrades, seeds for the next harvest, and a buffer for festivals. Selling every crop immediately can leave you unable to reinvest when a better opportunity appears.",
+        ],
+        bullets: [
+          "Water crops first thing in the morning.",
+          "Leave time and energy for foraging, fishing, or the mine.",
+          "Save one of each crop for the Community Center.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Check the calendar",
+          body: "Festivals and birthdays are easy to miss. Check the calendar near your house or in town so you do not spend a day wondering why the shops are closed.",
+        },
+      },
+      {
+        id: "rainy-days",
+        heading: "Use rainy days for the mine and fishing",
+        paragraphs: [
+          "Rain waters your crops for you, which frees up energy and time. Those are good days for the mine, fishing, or gathering materials for upgrades.",
+          "The mine is dangerous but useful. Bring food, clear one elevator level at a time, and leave before your health gets low. Ore and gems feed tools, crafting, and later goals.",
+        ],
+      },
+      {
+        id: "save-one-of-everything",
+        heading: "Save one of everything",
+        paragraphs: [
+          "The Community Center asks for items across seasons, qualities, and categories. A simple chest system makes it much easier to complete bundles without scrambling at the end of a season.",
+          "Keep one of each crop, forage item, fish, and mineral you are not using. You do not need to hoard everything, but a small reserve prevents a common first-year mistake.",
+        ],
+      },
+      {
+        id: "build-relationships",
+        heading: "Build relationships with intent",
+        paragraphs: [
+          "Talking to villagers and giving gifts raises friendship over time. You do not need to optimize every conversation, but a weekly routine helps you see heart events and learn what each character cares about.",
+          "Birthdays make gifts more valuable, and loved gifts are worth more than a random item from your bag. Keep a few universal favorites on hand, and let the rest develop naturally.",
+        ],
+      },
+    ],
+    tags: ["beginner", "first spring", "crops", "community center", "fishing", "relationships"],
+    featured: false,
+  },
+  {
+    slug: "hades-first-clears",
+    title: "Hades for New Players: Building Momentum Between Runs",
+    gameSlug: "hades",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "A spoiler-light plan for the first clears: spend meta-currency with purpose, treat boons as a build, and stop treating every death as a setback.",
+    intro:
+      "Hades is built around repeated escape attempts, but a run is never wasted. The game gives you permanent upgrades, new conversation, and a better understanding of each chamber even when Zagreus dies. The opening hours are easiest when you learn which progress carries forward and which choices only matter for the current run.",
+    updatedAt: "2026-11-15",
+    author: EDITOR,
+    sections: [
+      {
+        id: "make-every-death-count",
+        heading: "Make every death count",
+        paragraphs: [
+          "Darkness, Keys, Nectar, and other rare rewards persist after a run ends. Before you start another escape, visit the Mirror of Night and spend Darkness on upgrades that support the way you actually play. More health, extra dashes, and death defiance are rarely exciting, but they buy the time needed to learn a fight.",
+          "Keys unlock new weapons and Mirror talents. Nectar builds relationships and eventually gives you keepsakes, which are one of the most reliable ways to steer a run toward the gods or bonuses you want. Talk to everyone in the House between attempts; the story only moves when you do.",
+        ],
+        bullets: [
+          "Spend Darkness before starting a new run instead of hoarding it.",
+          "Unlock every weapon before chasing expensive weapon aspects.",
+          "Give Nectar deliberately to characters whose keepsakes fit your plan.",
+          "Check the Fated List and the House contractor for long-term goals.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Death is the tutorial",
+          body: "Early deaths teach enemy patterns, boss timing, and boon combinations. You are not losing progress when you lose a run; you are collecting information for the next one.",
+        },
+      },
+      {
+        id: "build-around-slots",
+        heading: "Build around slots, not a single favorite boon",
+        paragraphs: [
+          "Most gods offer boons for your attack, special, cast, dash, and call. A strong run usually has a clear primary damage source and a few supporting effects rather than one rare boon carrying everything. Read what each slot does before accepting a choice, especially when a boon changes your attack in a way you do not enjoy.",
+          "Rarity and level matter, but fit matters more. A common boon that supports your weapon's rhythm can outperform a heroic boon that pulls you into a playstyle you are not equipped to use. Use keepsakes to target a god you need, then switch keepsakes once the core of the build is in place.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not chase every god",
+          body: "Splitting your build across too many effects can leave you with several weak options. Decide what your main attack and special are doing, then take boons that make those actions better.",
+        },
+      },
+      {
+        id: "choose-doors-like-a-route",
+        heading: "Choose doors like a route",
+        paragraphs: [
+          "Each chamber reward is a choice about the next few minutes. Darkness and Gems help long-term progression, but a Daedalus Hammer can transform your weapon and a Pom of Power can make your most important boon stronger. Health, money, and Charon shop visits are all part of the same decision.",
+          "If a run is going badly, prioritize survivability and information. If it is going well, take the risk that makes the build stronger. The best door is not always the rarest reward; it is the one that answers the problem in front of you.",
+        ],
+        bullets: [
+          "Take a Daedalus Hammer when your weapon still has room to improve.",
+          "Use Poms on your main damage boon, not a utility effect.",
+          "Visit Charon when you need health, boons, or a run-saving item.",
+          "Treat Chaos gates as optional risks, not mandatory detours.",
+        ],
+      },
+      {
+        id: "learn-the-fight-rhythm",
+        heading: "Learn the rhythm, then use the settings",
+        paragraphs: [
+          "Hades rewards movement more than standing still. Dash through attacks instead of away from them, use your cast to control space, and deal with the enemy that is actually threatening you rather than the one closest to the cursor. Boss fights become readable when you stop trying to win the damage race.",
+          "If the action is still overwhelming, God Mode is a built-in accessibility option. It reduces incoming damage and becomes more forgiving after each failed run. Using it does not invalidate the story or the achievement of learning the game.",
+        ],
+        callout: {
+          type: "note",
+          title: "God Mode is not a cheat",
+          body: "It is a supported difficulty option in the settings. Turn it on if you want to experience the story and systems without fighting the same wall for hours.",
+        },
+      },
+    ],
+    tags: ["beginner", "roguelike", "boons", "mirror of night", "god mode", "runs"],
+    featured: true,
+  },
+  {
+    slug: "hollow-knight-first-descent",
+    title: "Hollow Knight Beginner's Guide: The First Descent",
+    gameSlug: "hollow-knight",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "How to start Hallownest without getting lost: buy the map, spend your geo, learn the nail, and treat backtracking as part of the journey.",
+    intro:
+      "Hollow Knight does not hold your hand. It drops you into a ruined kingdom with a short sword, a vague sense of direction, and enemies that hit harder than they first appear. The opening hours are manageable if you build a few habits: map first, upgrades second, and curiosity with a return plan.",
+    updatedAt: "2026-11-15",
+    author: EDITOR,
+    sections: [
+      {
+        id: "map-before-adventure",
+        heading: "Buy the map, then learn the map",
+        paragraphs: [
+          "Your first major purchase should make exploration legible. Find Iselda in Dirtmouth after meeting Cornifer, buy the map for the area you are exploring, and pick up the quill so you can update it yourself. Map pins are optional, but they make benches, stag stations, and unfinished routes easier to remember.",
+          "A bench is more than a save point. Sitting restores health and respawns enemies, which means it is also a decision about when to reset a dangerous room. Use benches as anchors and explore outward from them rather than pushing deeper with no plan to return.",
+        ],
+        bullets: [
+          "Buy area maps and the quill early.",
+          "Sit on benches to save, heal, and reset a room.",
+          "Use the Stag Stations to shorten long return trips.",
+          "Mark a suspicious route and come back when you have the right ability.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Backtracking is progress",
+          body: "A dead end often means you are missing a movement ability, a key, or a different entrance. Leave a mental note and keep exploring; Hallownest is designed to loop back on itself.",
+        },
+      },
+      {
+        id: "spend-geo-before-you-lose-it",
+        heading: "Spend geo before you lose it",
+        paragraphs: [
+          "Geo is easy to hoard and easy to lose. When you die, your shade carries your dropped geo, and you have to defeat it to recover the money. That is a fair system, but it punishes carrying a huge pile into an unknown area.",
+          "Spend geo on nail upgrades, charm notches, maps, and useful charms before a risky expedition. A stronger nail shortens every fight, and extra charm notches make your build more flexible. Do not save for a distant luxury while your basic tools remain weak.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not fight your shade while panicked",
+          body: "The shade uses your own abilities and can catch you off guard. Clear nearby enemies first, approach with full health, and remember that the geo is not worth dying twice for.",
+        },
+      },
+      {
+        id: "combat-is-space-and-timing",
+        heading: "Combat is space and timing",
+        paragraphs: [
+          "The nail has a short reach, so the safest attack is often a quick hit followed by a step back. Learn to pogo off enemies and hazards by striking downward, and use spells when a fight needs burst damage or range. Focusing soul to heal takes time; create space before you commit to it.",
+          "Charms let you bend the rules, but they cannot replace fundamentals. A charm that increases nail range or spell damage is only useful if you are already comfortable with the underlying action. Swap charms for the problem in front of you instead of building one universal loadout.",
+        ],
+        bullets: [
+          "Strike and reposition instead of trading hits.",
+          "Use downward slashes to cross gaps and bounce off enemies.",
+          "Spend soul on spells when healing would be too slow.",
+          "Change charms for bosses, exploration, and platforming.",
+        ],
+      },
+      {
+        id: "choose-a-first-route",
+        heading: "Choose a first route without rushing",
+        paragraphs: [
+          "The Forgotten Crossroads are a good place to learn the game's vocabulary before pushing into Greenpath. Follow the obvious paths, talk to the characters you meet, and pick up the movement ability the area is quietly teaching you to use.",
+          "When a region starts feeling too dangerous, leave. Hollow Knight does not scale enemies to your level, so the correct answer to a wall is often a different route, a new upgrade, or a return trip with more health. The map is large enough that pride is a bad navigation strategy.",
+        ],
+        callout: {
+          type: "note",
+          title: "The story is in the silence",
+          body: "Most of Hallownest's history is told through environments, item descriptions, and the few NPCs who speak. Slow down in new rooms; the details are the lore.",
+        },
+      },
+    ],
+    tags: ["beginner", "hallownest", "maps", "geo", "nail", "charms", "metroidvania"],
+    featured: true,
+  },
+  {
+    slug: "disco-elysium-first-case",
+    title: "Disco Elysium: Starting the Case Without Breaking It",
+    gameSlug: "disco-elysium",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "A spoiler-light introduction to skills, checks, thoughts, and survival: build a detective with a point of view, and let failure do some of the writing.",
+    intro:
+      "Disco Elysium can look like a conventional detective RPG until the first skill starts arguing with you. There is no combat, no party management, and no obvious correct build. The opening hours are about learning how the detective's mind works and accepting that a failed check is often more interesting than a successful one.",
+    updatedAt: "2026-11-15",
+    author: EDITOR,
+    sections: [
+      {
+        id: "pick-a-signature-skill",
+        heading: "Pick a signature skill, not a perfect build",
+        paragraphs: [
+          "Intellect, Psyche, Physique, and Motorics each contain six skills. Your signature skill starts higher and shapes how often that voice speaks. A detective with high Inland Empire will experience Martinaise differently from one with high Logic or Authority, even when they investigate the same case.",
+          "Do not spread points evenly just to pass every check. A focused build creates a character with blind spots, and those blind spots are part of the role-play. You can raise skills later, wear clothing that changes them, and use thoughts to reshape your strengths.",
+        ],
+        bullets: [
+          "Choose a signature skill that matches the detective you want to play.",
+          "Invest in two or three related skills rather than all 24.",
+          "Use clothing as a temporary skill tool, not just fashion.",
+          "Read what each skill voice says about the world and about you.",
+        ],
+        callout: {
+          type: "tip",
+          title: "A failed check is content",
+          body: "Disco Elysium often gives you something more revealing when you fail. Do not reload every white check; let the detective be bad at something and see where it leads.",
+        },
+      },
+      {
+        id: "checks-are-branches",
+        heading: "Treat checks as story branches",
+        paragraphs: [
+          "White checks can often be retried after you improve the relevant skill or learn something new. Red checks are one-time opportunities. Before a risky red check, make a manual save if you care about the outcome, but resist the urge to save-scum every conversation.",
+          "The game's writing is built to absorb failure. A missed clue can close one route and open another, and a humiliating answer can reveal more about the detective than a clean success. Think of checks as branches in a conversation, not as locks on the real content.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Health and morale are real",
+          body: "The detective can be taken out by physical damage or morale loss during dialogue. Carry healing items, keep an eye on both meters, and do not start a dangerous conversation with an empty tank.",
+        },
+      },
+      {
+        id: "keep-the-case-moving",
+        heading: "Keep the case moving without rushing it",
+        paragraphs: [
+          "Talk to everyone, read the tasks in your journal, and revisit people after major discoveries. Disco Elysium rewards attention to ordinary details: a pair of boots, a ledger, a song lyric, or the way someone avoids a question. The case advances through accumulation, not through a single action sequence.",
+          "Time passes as you talk and explore. Some events are tied to the day, so it is worth checking in with key characters and locations rather than wandering without purpose. You do not need to see everything in one playthrough; the game is designed to support different detectives and different omissions.",
+        ],
+        bullets: [
+          "Read the journal and keep track of active tasks.",
+          "Revisit NPCs after discoveries or time changes.",
+          "Internalize thoughts that fit your character, not just useful bonuses.",
+          "Leave some side content for a second playthrough.",
+        ],
+      },
+      {
+        id: "let-the-detective-be-a-person",
+        heading: "Let the detective be a person",
+        paragraphs: [
+          "The game's political and personal identities are not a menu of correct answers. Your detective can be a believer, a cynic, a disaster, or something harder to name. The story works best when you commit to a point of view and let the consequences accumulate.",
+          "You will not pass every check or solve every problem. That is not a failure of the build; it is the premise. Disco Elysium is less interested in whether you are a good detective than in what kind of person you become while trying to be one.",
+        ],
+        callout: {
+          type: "note",
+          title: "No combat, still dangerous",
+          body: "The absence of a battle system does not make the game safe. Words, memories, and bad decisions can hurt the detective just as effectively.",
+        },
+      },
+    ],
+    tags: ["beginner", "skills", "checks", "thought cabinet", "revachol", "role play"],
+    featured: true,
+  },
+  {
+    slug: "fallout-new-vegas-goodsprings-start",
+    title: "Fallout: New Vegas: Leaving Goodsprings Without Missing the Point",
+    gameSlug: "fallout-new-vegas",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "A practical start for a fifteen-year-old RPG: build a courier with opinions, take the road seriously, and understand reputation before choosing a faction.",
+    intro:
+      "Fallout: New Vegas opens with a gunshot, a tutorial, and a desert full of directions. The game is old enough that some of its rough edges are part of the experience, but its core ideas still hold up: your skills decide what you can say and do, and every major faction has a version of the future it wants you to accept.",
+    updatedAt: "2026-11-15",
+    author: EDITOR,
+    sections: [
+      {
+        id: "build-for-your-answers",
+        heading: "Build for the way you solve problems",
+        paragraphs: [
+          "New Vegas uses SPECIAL attributes, tagged skills, and skill points to define a courier. Combat is only one path. Speech, Barter, Lockpick, Science, Repair, and Medicine all open dialogue options, alternate routes, and better rewards. A character who can talk their way out of a fight is not missing the game.",
+          "Pick a primary combat skill and one or two utility skills that match your curiosity. Do not ignore Speech entirely unless you are deliberately playing a silent problem-solver. The game frequently asks who your courier is, and the answer is often a skill check.",
+        ],
+        bullets: [
+          "Choose a primary weapon skill: Guns, Energy Weapons, Melee, or Unarmed.",
+          "Add Speech or Barter if you want more diplomatic routes.",
+          "Lockpick and Science open doors, terminals, and optional caches.",
+          "Repair and Medicine reduce the cost of keeping yourself alive.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Specialize, then branch",
+          body: "A courier who is decent at everything will struggle with the game's harder checks. Build a clear strength first, then add utility as the Mojave demands it.",
+        },
+      },
+      {
+        id: "take-the-road-seriously",
+        heading: "Take the road out of Goodsprings seriously",
+        paragraphs: [
+          "The route south through Primm, the Mojave Outpost, Nipton, and Novac is a guided introduction to the game's factions and dangers. You can try to head straight for the Strip, but the wasteland is not scaled to your level and the trip will test whether you understand its economies of ammo and health.",
+          "Use the early towns to learn how weapon condition, ammo types, and companion commands work. Talk to people before accepting a job for a faction, and pay attention to reputation messages. New Vegas tracks how groups feel about you, not just whether you are generally good or evil.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Reputation is not a morality meter",
+          body: "Helping one group can make another group suspicious. That is not a bug. Decide which loyalties your courier can live with, and keep a save before a major faction decision.",
+        },
+      },
+      {
+        id: "maintain-your-gear",
+        heading: "Maintain your gear like it matters",
+        paragraphs: [
+          "Weapons degrade with use, and a damaged weapon is less accurate and less effective. Repair kits, duplicate weapons, and merchants keep your main tools working. Ammo types add another layer: armor-piercing rounds, hollow points, and specialty ammunition all change how a fight plays out.",
+          "Carry food, water, and healing items even if you are not playing Hardcore mode. The desert is long, and a courier who runs out of supplies between settlements has to make choices that a prepared courier avoids.",
+        ],
+        bullets: [
+          "Repair your main weapon before a long expedition.",
+          "Carry a backup that uses different ammo.",
+          "Use specialty ammunition for armored or dangerous enemies.",
+          "Sell excess gear instead of carrying everything you find.",
+        ],
+      },
+      {
+        id: "choose-a-future-deliberately",
+        heading: "Choose a future deliberately",
+        paragraphs: [
+          "The NCR, Caesar's Legion, Mr. House, and an independent Vegas all offer different answers to the same question: who gets to decide what happens next? Each path has costs, and the game is strongest when you understand those costs before committing.",
+          "You do not need to pick a side immediately. Do quests, listen to arguments, and notice how each faction treats the people who live in the Mojave. When the story forces a choice, make it as the courier you have been playing, not as a completionist trying to keep every door open.",
+        ],
+        callout: {
+          type: "note",
+          title: "Old game, new warnings",
+          body: "New Vegas is a large, old RPG with known stability quirks. Save often, keep backup saves, and treat community patches as optional tools rather than required downloads.",
+        },
+      },
+    ],
+    tags: ["beginner", "goodsprings", "reputation", "factions", "speech", "mojave"],
+    featured: true,
+  },
+  {
+    slug: "nier-automata-route-a-start",
+    title: "NieR:Automata: A Spoiler-Light Start Through Route A",
+    gameSlug: "nier-automata",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "How to start the war without rushing the story: learn the combat loop, use chips with intent, and understand why the first credits are only a curtain.",
+    intro:
+      "NieR:Automata begins as a stylish action game about androids fighting machines, then keeps changing the shape of the story. The opening hours are easier if you learn the combat vocabulary, treat saves as precious, and accept that the first ending is not the whole game.",
+    updatedAt: "2026-11-15",
+    author: EDITOR,
+    sections: [
+      {
+        id: "learn-the-combat-loop",
+        heading: "Learn the combat loop before optimizing it",
+        paragraphs: [
+          "Combat uses light attacks, heavy attacks, a pod, and a dodge with a generous window. The most important habit is to keep moving and cancel attacks into a dodge when an enemy winds up. Weapon sets can be swapped on the fly, and different weapon types change reach, speed, and combo routes.",
+          "You do not need a perfect combo to finish Route A. Learn a few reliable strings, use the pod for chip damage and crowd control, and practice dodging through attacks rather than running away from them.",
+        ],
+        bullets: [
+          "Equip two weapons and switch sets when a fight changes shape.",
+          "Use the pod's ranged attack while closing distance.",
+          "Dodge through attacks and punish the recovery.",
+          "Lock on when a fight becomes visually crowded.",
+        ],
+      },
+      {
+        id: "chips-are-the-build",
+        heading: "Chips are the build",
+        paragraphs: [
+          "Plug-in chips determine much of your combat power and survivability. Damage, defense, movement, healing, and even automatic assistance all compete for limited capacity. Fuse duplicates to make stronger chips, and sell or ignore chips that do not fit your approach.",
+          "Auto chips are a supported accessibility feature, not a lesser way to play. If you want to focus on exploration and story, they can handle parts of combat while you learn the rest. Higher difficulties remove some assistance, so check the difficulty description before committing.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Keep a balanced chip set",
+          body: "Offense is satisfying, but a little defense and healing often makes the difference between a clean fight and a long walk back from the last save.",
+        },
+      },
+      {
+        id: "the-first-credits-are-not-the-end",
+        heading: "The first credits are not the end",
+        paragraphs: [
+          "NieR:Automata is structured around multiple routes and perspectives. Finishing the first route unlocks another, and the later route changes how you understand earlier events. Do not stop at the first set of credits or assume you have seen the whole story.",
+          "The game will eventually offer chapter select and other tools for revisiting content. That makes it easier to complete side material later, but it does not make the first playthrough disposable. Pay attention the first time; the game is designed to be reread.",
+        ],
+        callout: {
+          type: "note",
+          title: "Spoiler-light on purpose",
+          body: "This guide avoids naming major reveals or ending outcomes. The route structure itself is part of the game's design, not a secret to hide from new players.",
+        },
+      },
+      {
+        id: "protect-your-save",
+        heading: "Protect your save and your time",
+        paragraphs: [
+          "Save manually when you can, keep more than one slot, and do not treat autosaves as a safety net. The game has a late, optional choice that can erase save data; if that possibility matters to you, back up your save before making it.",
+          "Side quests are not filler. They are where the game's machines, androids, and ordinary people get to complicate the war. Take detours, read the requests, and let the world slow down between story missions.",
+        ],
+        bullets: [
+          "Save manually before entering a new area or major encounter.",
+          "Keep a backup save before the final stretch.",
+          "Do side quests when they appear; some are time-sensitive.",
+          "Use chapter select later to revisit missed content, not to erase your first experience.",
+        ],
+        callout: {
+          type: "warning",
+          title: "The save warning is real",
+          body: "Do not make a permanent choice with your only save file. Back up your data before the game asks you to make an irreversible decision.",
+        },
+      },
+    ],
+    tags: ["beginner", "route a", "combat", "chips", "multiple endings", "save data"],
+    featured: true,
+  },
+  {
+    slug: "resident-evil-4-remake-first-hours",
+    title: "Resident Evil 4 Remake: The First Hours, Combat, and Inventory",
+    gameSlug: "resident-evil-4",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "A practical opening for the village: aim to stagger, treat the attaché case as a budget, and stop treating the knife like a permanent tool.",
+    intro:
+      "Resident Evil 4 is a survival-horror game dressed as an action game. Leon can shoot, parry, and kick his way out of trouble, but every one of those actions spends a resource. The first hours are about learning which resource to spend and when to run.",
+    updatedAt: "2026-11-15",
+    author: EDITOR,
+    sections: [
+      {
+        id: "aim-to-stagger",
+        heading: "Aim to stagger, not just to kill",
+        paragraphs: [
+          "A headshot or a shot to the knee can make an enemy stumble, opening a prompt for a melee follow-up. That melee hit saves ammunition, creates space, and can knock down nearby enemies. Aim deliberately instead of emptying a magazine into the nearest body.",
+          "The knife is part of the combat loop, not just a stealth tool. It can parry certain attacks, finish downed enemies, and break free from grabs, but it has limited durability. Use it to prevent damage and save bullets; do not spend it on every corpse.",
+        ],
+        bullets: [
+          "Aim for heads and knees to create melee openings.",
+          "Use the knife to parry, escape grabs, and finish stunned enemies.",
+          "Back away from groups instead of backing into a corner.",
+          "Save heavy ammunition for enemies that resist small arms.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Running is a valid tactic",
+          body: "You are not required to kill every villager. If a fight is draining your resources, break line of sight and move toward the objective.",
+        },
+      },
+      {
+        id: "treat-the-case-as-a-budget",
+        heading: "Treat the attaché case as a budget",
+        paragraphs: [
+          "Inventory space is limited, and crafting materials compete with healing items, ammo, and treasure. Keep a small buffer of each resource rather than hoarding a single type. Gunpowder and resources can be crafted into the ammunition you actually use.",
+          "The merchant is part of the inventory plan. Upgrading a weapon you use is usually better than buying another weapon you will not fire. The case's size and organization matter too; keep frequently used items in predictable slots so you are not shuffling during a fight.",
+        ],
+        bullets: [
+          "Craft ammo for your main weapon rather than every weapon.",
+          "Carry at least one healing item before a new area.",
+          "Sell treasure when you need space or upgrade money.",
+          "Upgrade the weapons you actually use.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not over-craft",
+          body: "Crafting converts one resource into another. If you turn every material into handgun ammo, you may have nothing left for the fight that needs something heavier.",
+        },
+      },
+      {
+        id: "knife-and-space-are-resources",
+        heading: "Knife and space are resources",
+        paragraphs: [
+          "The knife's durability changes how you approach stealth, parries, and finishing blows. Repair it when the merchant allows, and do not assume you can parry every attack forever. When the knife is low, prioritize distance and bullets.",
+          "Space is the resource players forget. A doorway can funnel enemies, a table can buy a second, and a stairwell can turn a crowd into a line. Look for exits before you look for cover, and keep a route behind you.",
+        ],
+      },
+      {
+        id: "explore-with-a-reason",
+        heading: "Explore with a reason",
+        paragraphs: [
+          "The village hides treasures, requests, and upgrades, but wandering without a plan can bleed your supplies. Check the map for side paths, complete merchant requests when they are nearby, and return to locked routes later when you have the right item.",
+          "If the game is too tense, Assisted difficulty is a legitimate choice. It offers more generous aim assistance and resource behavior without removing the game's structure. The best difficulty is the one that keeps you playing.",
+        ],
+        callout: {
+          type: "note",
+          title: "Save rooms are breathing room",
+          body: "Use save rooms to reorganize the case, check your weapons, and decide what you are actually prepared to carry into the next area.",
+        },
+      },
+    ],
+    tags: ["beginner", "village", "combat", "inventory", "knife", "resource management"],
+    featured: true,
+  },
 ];

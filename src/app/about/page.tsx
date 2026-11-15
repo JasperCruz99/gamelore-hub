@@ -4,6 +4,7 @@ import { BookOpen, EyeOff, ShieldCheck, Sparkles } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { PageHeader } from "@/components/ui/page-header";
+import { games } from "@/data/games";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -87,8 +88,8 @@ export default function AboutPage() {
               The site is built with typed data files for games, guides, lore,
               cheats, and videos. Adding a game means adding its data and
               artwork, not redesigning the site. The current demo library
-              includes six games and a deliberately small set of complete
-              entries.
+              includes {games.length} games and a deliberately selected set of
+              complete entries.
             </p>
           </div>
 

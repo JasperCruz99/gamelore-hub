@@ -2,7 +2,7 @@ import Image from "next/image";
 import { ExternalLink, Play } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
-import { getGame } from "@/lib/content";
+import { getGame, getVideoThumbnail } from "@/lib/content";
 import { cn } from "@/lib/utils";
 import type { Video } from "@/types";
 
@@ -18,6 +18,7 @@ export function VideoCard({
   imageSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
 }: VideoCardProps) {
   const game = getGame(video.gameSlug);
+  const thumbnail = getVideoThumbnail(video);
 
   return (
     <a
@@ -33,15 +34,11 @@ export function VideoCard({
       <article className="flex h-full flex-col">
         <div className="relative aspect-video overflow-hidden border-b border-line/70 bg-surface">
           <Image
-            src={game?.coverImage ?? "/images/hero-atmosphere.svg"}
-            alt={
-              game
-                ? `Original placeholder thumbnail using cover art for ${game.title}`
-                : "Original placeholder thumbnail"
-            }
+            src={thumbnail.src}
+            alt={thumbnail.alt}
             fill
             sizes={imageSizes}
-            className="object-cover object-top opacity-80 transition-transform duration-500 ease-out group-hover:scale-[1.045]"
+            className="object-cover object-center transition-transform duration-500 ease-out group-hover:scale-[1.045]"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-card/95 via-card/25 to-page/10" />
           <div className="absolute inset-x-3 top-3 flex flex-wrap gap-1.5">

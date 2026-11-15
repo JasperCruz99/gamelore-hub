@@ -3,7 +3,7 @@ import { guides } from "@/data/guides";
 import { games } from "@/data/games";
 import { loreEntries } from "@/data/lore";
 import { videos } from "@/data/videos";
-import type { Game, Guide, LoreEntry, Cheat, Video } from "@/types";
+import type { Game, GameImage, Guide, LoreEntry, Cheat, Video } from "@/types";
 
 export function getGame(slug: string): Game | undefined {
   return games.find((game) => game.slug === slug);
@@ -11,6 +11,60 @@ export function getGame(slug: string): Game | undefined {
 
 export function getGames(): Game[] {
   return games;
+}
+
+export function getGameScreenshot(game: Game, index = 0): GameImage {
+  if (game.screenshots.length === 0) {
+    return { src: game.heroImage, alt: game.heroAlt };
+  }
+
+  const safeIndex =
+    ((index % game.screenshots.length) + game.screenshots.length) %
+    game.screenshots.length;
+
+  return game.screenshots[safeIndex];
+}
+
+export function getGuideThumbnail(guide: Guide): GameImage {
+  const game = getGame(guide.gameSlug);
+
+  if (!game) {
+    return {
+      src: "/images/hero-atmosphere.svg",
+      alt: "Abstract GameLore Hub artwork for a guide",
+    };
+  }
+
+  const gameGuides = getGuidesByGame(game.slug);
+  const index = gameGuides.findIndex((entry) => entry.slug === guide.slug);
+
+  return getGameScreenshot(game, Math.max(index, 0));
+}
+
+export function getVideoThumbnail(video: Video): GameImage {
+  const game = getGame(video.gameSlug);
+
+  if (!game) {
+    return {
+      src: "/images/hero-atmosphere.svg",
+      alt: "Abstract GameLore Hub artwork for a video topic",
+    };
+  }
+
+  if (video.thumbnailImage) {
+    const screenshot = game.screenshots.find(
+      (image) => image.src === video.thumbnailImage,
+    );
+
+    if (screenshot) {
+      return screenshot;
+    }
+  }
+
+  const gameVideos = getVideosByGame(game.slug);
+  const index = gameVideos.findIndex((entry) => entry.slug === video.slug);
+
+  return getGameScreenshot(game, Math.max(index, 0) + 3);
 }
 
 export function getGuide(slug: string): Guide | undefined {

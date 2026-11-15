@@ -25,7 +25,7 @@ export default function GamesPage() {
       >
         <div className="flex flex-wrap gap-2">
           <Badge variant="signal">{pluralize(games.length, "game hub")}</Badge>
-          <Badge variant="outline">Original placeholder cover art</Badge>
+          <Badge variant="outline">Official publisher artwork</Badge>
           <Badge variant="outline">Local demo data</Badge>
         </div>
       </PageHeader>

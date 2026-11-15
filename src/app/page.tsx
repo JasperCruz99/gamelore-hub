@@ -56,22 +56,25 @@ export const metadata: Metadata = {
 const homeGameOrder = [
   "elden-ring",
   "baldurs-gate-3",
+  "hollow-knight",
   "cyberpunk-2077",
+  "hades",
   "the-witcher-3",
+  "fallout-new-vegas",
   "red-dead-redemption-2",
-  "minecraft",
+  "resident-evil-4",
 ];
 
 const spotlightLoreSlugs = [
-  "cyberpunk-night-city-corporate-ladder",
-  "elden-ring-landscape-as-story",
-  "witcher-schools-of-the-witchers",
+  "hades-house-of-hades-workplace",
+  "disco-elysium-revachol-protagonist",
+  "fallout-new-vegas-four-futures",
 ];
 
 const spotlightVideoSlugs = [
-  "cyberpunk-lore-deep-dive",
-  "elden-ring-limgrave-route",
-  "witcher-white-orchard-route",
+  "hades-run-building-video",
+  "hollow-knight-first-route-video",
+  "nier-automata-routes-video",
 ];
 
 export default function HomePage() {
@@ -239,7 +242,7 @@ export default function HomePage() {
         <SectionHeading
           eyebrow="Video resources"
           title="Watch, then go play"
-          description="A curated video section that starts as clearly labelled search placeholders — no invented video IDs, no fake creator attributions."
+          description="A curated video section that uses official game screenshots as topic art. Every card is a clearly labelled search placeholder — no invented video IDs, no fake creator attributions."
           action={
             <ButtonLink href="/videos" variant="outline" size="sm">
               All videos
@@ -253,8 +256,10 @@ export default function HomePage() {
           ))}
         </div>
         <p className="mt-4 text-xs leading-relaxed text-dim">
-          Placeholder policy: each card opens a YouTube search for that topic.
-          A real video ID and creator credit will replace it once verified.
+          Placeholder policy: thumbnails are official game screenshots used to
+          identify the title, not frames from a specific video. Each card opens
+          a YouTube search for that topic; a real video ID and creator credit
+          will replace it once verified.
         </p>
       </section>
 

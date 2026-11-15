@@ -1,3 +1,8 @@
+export type GameImage = {
+  src: string;
+  alt: string;
+};
+
 export type Game = {
   slug: string;
   title: string;
@@ -11,6 +16,11 @@ export type Game = {
   modes: string[];
   coverImage: string;
   coverAlt: string;
+  heroImage: string;
+  heroAlt: string;
+  screenshots: GameImage[];
+  imageCredit: string;
+  imageSourceUrl: string;
   accent: string;
   description: string;
   overview: string[];
@@ -141,6 +151,7 @@ export type Video = {
   title: string;
   creator: string;
   gameSlug: string;
+  thumbnailImage?: string;
   type: VideoContentType;
   description: string;
   url: string;

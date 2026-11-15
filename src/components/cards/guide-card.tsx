@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, CalendarDays, Clock } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
-import { getGame } from "@/lib/content";
+import { getGame, getGuideThumbnail } from "@/lib/content";
 import { siteConfig } from "@/lib/site";
 import { cn, formatDate, getReadingTime } from "@/lib/utils";
 import type { Guide } from "@/types";
@@ -20,6 +20,7 @@ export function GuideCard({
   imageSizes = "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
 }: GuideCardProps) {
   const game = getGame(guide.gameSlug);
+  const thumbnail = getGuideThumbnail(guide);
   const readingTime = getReadingTime(guide);
 
   return (
@@ -34,15 +35,11 @@ export function GuideCard({
       <article className="flex h-full flex-col">
         <div className="relative aspect-[16/9] overflow-hidden border-b border-line/70">
           <Image
-            src={game?.coverImage ?? "/images/hero-atmosphere.svg"}
-            alt={
-              game
-                ? `Original cover art for ${game.title}, used as the thumbnail for this guide`
-                : "Original placeholder artwork for a guide"
-            }
+            src={thumbnail.src}
+            alt={thumbnail.alt}
             fill
             sizes={imageSizes}
-            className="object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.045]"
+            className="object-cover object-center transition-transform duration-500 ease-out group-hover:scale-[1.045]"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-card/90 via-card/10 to-transparent" />
           <div className="absolute inset-x-3 top-3 flex flex-wrap gap-1.5">
