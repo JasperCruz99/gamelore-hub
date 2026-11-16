@@ -76,6 +76,17 @@ const FALLOUT_4_SOURCES = [
   },
 ];
 
+const PORTAL_SOURCES = [
+  {
+    label: "Portal Wiki — List of useful console commands",
+    url: "https://theportalwiki.com/wiki/List_of_useful_console_commands",
+  },
+  {
+    label: "SteamSolo — Portal console commands",
+    url: "https://steamsolo.com/guide/portal-console-commands-portal/",
+  },
+];
+
 export const cheats: Cheat[] = [
   {
     slug: "minecraft-creative-mode",
@@ -918,6 +929,90 @@ export const cheats: Cheat[] = [
       sources: FALLOUT_4_SOURCES,
     },
     tags: ["map", "fast travel", "tmm", "console command", "pc"],
+  },
+  {
+    slug: "portal-enable-cheats",
+    title: "Enable cheat commands",
+    gameSlug: "portal",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Open Options > Keyboard > Advanced, enable the developer console, then press the backtick key (`) and enter sv_cheats 1.",
+    code: "sv_cheats 1",
+    whatItDoes:
+      "Unlocks the console commands that Portal marks as cheats. Enter sv_cheats 0 to turn them off again.",
+    requirements:
+      "PC version. The developer console must be enabled in the keyboard options. Enabling cheats disables achievements and challenge-mode records while active.",
+    effects: [
+      "Allows cheat-protected console commands",
+      "Works in the classic PC release of Portal",
+      "Disables achievements and challenge records",
+      "Must be re-enabled after restarting the game",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The Portal Wiki documents sv_cheats as the prerequisite for cheat commands and notes that it disables achievements and challenge-mode records.",
+      sources: PORTAL_SOURCES,
+    },
+    tags: ["sv_cheats", "console command", "pc", "developer console"],
+  },
+  {
+    slug: "portal-god-mode",
+    title: "Toggle god mode",
+    gameSlug: "portal",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Open the console, enter sv_cheats 1, then enter god. Enter god again to turn it off.",
+    code: "god",
+    whatItDoes:
+      "Toggles invincibility for the player, preventing damage from turrets, falls, and other hazards while active.",
+    requirements:
+      "PC version. sv_cheats 1 must be enabled first, and achievements are disabled while cheats are active.",
+    effects: [
+      "Prevents damage while active",
+      "Toggles off when entered again",
+      "Requires sv_cheats 1",
+      "Disables achievements for the session",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "god is a standard Source-engine console command documented for Portal by the Portal Wiki and community command lists.",
+      sources: PORTAL_SOURCES,
+    },
+    tags: ["god mode", "invincibility", "console command", "pc", "source engine"],
+  },
+  {
+    slug: "portal-noclip",
+    title: "Toggle noclip",
+    gameSlug: "portal",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Open the console, enter sv_cheats 1, then enter noclip. Enter noclip again to return to normal movement.",
+    code: "noclip",
+    whatItDoes:
+      "Toggles collision-free flight, allowing the player to pass through walls and reach areas outside the intended route.",
+    requirements:
+      "PC version. sv_cheats 1 must be enabled first. Leaving the playable area can break scripted events or soft-lock a chamber.",
+    effects: [
+      "Fly through walls and objects",
+      "Toggles off when entered again",
+      "Can bypass puzzle triggers and scripted events",
+      "Disables achievements for the session",
+    ],
+    achievementWarning: true,
+    saveWarning: true,
+    verification: {
+      status: "documented",
+      note: "noclip is a standard Source-engine console command documented for Portal by the Portal Wiki and community command lists.",
+      sources: PORTAL_SOURCES,
+    },
+    tags: ["noclip", "flight", "console command", "pc", "source engine"],
   },
 ];
 

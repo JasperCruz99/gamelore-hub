@@ -2731,4 +2731,75 @@ export const guides: Guide[] = [
     tags: ["beginner", "commonwealth", "settlements", "perks", "exploration", "bethesda"],
     featured: false,
   },
+  {
+    slug: "portal-first-test-chambers",
+    title: "Portal: How to Read a Test Chamber",
+    gameSlug: "portal",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Learn the two-surface rule, use falling momentum instead of fighting it, and treat every test chamber as a small system with one missing idea.",
+    intro:
+      "Portal is short, but it is not simple. The early chambers teach a handful of rules that remain useful for the rest of the game. If a puzzle feels impossible, the answer is usually a surface you have not checked, a fall you have not used, or a cube you have not carried far enough. This guide stays spoiler-light and focuses on how to think rather than what to do in each room.",
+    updatedAt: "2026-11-16",
+    author: EDITOR,
+    sections: [
+      {
+        id: "the-two-surface-rule",
+        heading: "Start with surfaces and line of sight",
+        paragraphs: [
+          "A portal only sticks to a valid surface, and in Portal that usually means a white wall panel. Before moving anything, scan the room for white surfaces and ask where a portal on each one would take you. A surface can be useful even if it is high up or behind a glass window.",
+          "You also need line of sight to place a portal. If a surface is valid but you cannot see it from where you are standing, move until you can. Many early puzzles are less about aiming and more about finding the one angle where two useful surfaces are visible at the same time.",
+        ],
+        bullets: [
+          "Look for white panels before touching buttons or cubes.",
+          "Check ceilings and high walls, not just floor-level surfaces.",
+          "Place one portal, then move to see where the other one should go.",
+          "If a surface rejects a portal, assume the puzzle expects a different route.",
+        ],
+      },
+      {
+        id: "use-momentum",
+        heading: "Use falling momentum instead of fighting it",
+        paragraphs: [
+          "Portals preserve momentum. If you fall into one portal, you leave the other with the same speed. The game later turns this into the fling: place one portal on the floor and another on a distant wall, then fall through the floor portal to launch yourself across the room.",
+          "You do not need to calculate the physics. Build the fall first, then adjust the exit portal. If you are not moving fast enough, look for a higher drop or a longer run-up. If you overshoot, move the exit portal rather than trying to steer in mid-air.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Set the exit before the fall",
+          body: "Place the exit portal where you want to land before committing to the drop. Changing it after you are already falling is much harder than planning the route first.",
+        },
+      },
+      {
+        id: "read-the-room",
+        heading: "Read the room before you move",
+        paragraphs: [
+          "Portal's chambers are full of signage, observation windows, cameras, and buttons that tell you what the room expects. The signs are not just decoration; they often show the intended sequence or warn you about a hazard. The same is true of the cube dispensers and the buttons they activate.",
+          "GLaDOS is also part of the puzzle language. Her commentary tells you when you have done something unexpected, and the environment changes when a test is complete. Pay attention to doors, lights, and moving panels rather than sprinting toward the next corridor.",
+        ],
+        bullets: [
+          "Check the signs for arrows, hazard symbols, and chamber numbers.",
+          "Use the portal gun's view to inspect surfaces you cannot reach yet.",
+          "Listen for turret sounds before stepping into a new room.",
+          "If a door is closed, look for the button or cube that controls it.",
+        ],
+      },
+      {
+        id: "experiment-in-small-steps",
+        heading: "Experiment in small steps",
+        paragraphs: [
+          "Portal rewards quick, cheap experiments. Try one portal placement, see what changes, and reset if the idea fails. You do not need to solve the entire chamber in your head before touching anything. The game is designed to let you test a hypothesis in seconds.",
+          "If you are stuck, step back and describe the room out loud: what is the exit, what is blocking it, and what tools are available? That simple inventory often reveals the missing surface or the object you forgot you could pick up.",
+        ],
+        callout: {
+          type: "note",
+          title: "Stuck is usually a missing observation",
+          body: "Most Portal puzzles do not require precise execution. They require noticing one valid surface, one cube, or one fall that you have been ignoring.",
+        },
+      },
+    ],
+    tags: ["beginner", "puzzle", "portals", "momentum", "aperture science"],
+    featured: false,
+  },
 ];

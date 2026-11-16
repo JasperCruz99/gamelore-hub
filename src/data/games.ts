@@ -2150,4 +2150,75 @@ export const games: Game[] = [
       "starfield",
     ],
   },
+  {
+    slug: "portal",
+    title: "Portal",
+    tagline:
+      "A quiet puzzle game about physics, corporate testing, and one very passive-aggressive AI.",
+    genres: ["Puzzle", "First-person", "Sci-fi"],
+    developer: "Valve",
+    publisher: "Valve",
+    releaseDate: "2007-10-10",
+    releaseYear: 2007,
+    platforms: [
+      "PC",
+      "macOS",
+      "Linux",
+      "PlayStation 3",
+      "Xbox 360",
+      "Nintendo Switch",
+    ],
+    modes: ["Single-player"],
+    coverImage: "/images/games/portal/cover.jpg",
+    coverAlt: "Official cover art for Portal",
+    heroImage: "/images/games/portal/hero.jpg",
+    heroAlt:
+      "Aperture Science test-chamber pictograms cover a blue wall in Portal",
+    screenshots: [
+      {
+        src: "/images/games/portal/screenshot-01.jpg",
+        alt: "The portal gun rests beside an orange portal and a weighted storage cube in a test chamber in Portal",
+      },
+      {
+        src: "/images/games/portal/screenshot-02.jpg",
+        alt: "A blue portal opens on a wall beside a button and door in a white test chamber in Portal",
+      },
+      {
+        src: "/images/games/portal/screenshot-03.jpg",
+        alt: "Two portals frame a button pedestal inside a concrete test chamber in Portal",
+      },
+      {
+        src: "/images/games/portal/screenshot-04.jpg",
+        alt: "A blue portal glows against an Aperture Science wall panel in Portal",
+      },
+      {
+        src: "/images/games/portal/screenshot-05.jpg",
+        alt: "A weighted cube and button sit in a test chamber with an orange portal in Portal",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Valve. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/400/Portal/",
+    accent: "#7FD4F0",
+    description:
+      "Valve's first-person puzzle game turns a handful of portal rules into a compact, darkly funny tour through the Aperture Science Enrichment Center.",
+    overview: [
+      "Portal begins with a simple premise: fire one portal onto a wall, fire another somewhere else, and step through. The game builds an entire puzzle language from that idea, then adds momentum, cubes, buttons, turrets, and surfaces that refuse to hold a portal.",
+      "The result is a short, tightly designed campaign where the room itself is the puzzle. Combat is minimal, the tone is dry and unsettling, and the challenge comes from reading the space, testing an idea, and noticing which rule you have misunderstood.",
+    ],
+    funFact:
+      "Portal grew out of a student game called Narbacular Drop. Valve hired the team behind it, and the core portal mechanic survived the move into the Source engine.",
+    tags: [
+      "puzzle",
+      "aperture science",
+      "glaDOS",
+      "source engine",
+      "first person",
+      "physics",
+      "valve",
+    ],
+    featured: true,
+    popularity: 92,
+    relatedGames: ["portal-2", "half-life-2", "bioshock-remastered"],
+  },
 ];

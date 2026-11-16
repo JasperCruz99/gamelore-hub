@@ -485,6 +485,19 @@ export const videos: Video[] = [
     placeholder: true,
     tags: ["beginner", "commonwealth", "settlements", "perks", "tutorial"],
   },
+  {
+    slug: "portal-first-chambers-video",
+    title: "Portal: Learning the test-chamber language",
+    creator: PLACEHOLDER_CREATOR,
+    gameSlug: "portal",
+    thumbnailImage: "/images/games/portal/screenshot-03.jpg",
+    type: "Tutorial",
+    description:
+      "A demo entry for beginner videos covering portal surfaces, momentum, cubes, buttons, and how to get unstuck without a full walkthrough.",
+    url: youtubeSearchUrl("Portal beginner guide test chambers puzzles explained"),
+    placeholder: true,
+    tags: ["beginner", "puzzle", "portals", "momentum", "tutorial"],
+  },
 ];
 
 export const featuredChannels: FeaturedChannel[] = [

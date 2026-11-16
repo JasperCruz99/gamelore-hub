@@ -698,4 +698,21 @@ export const loreEntries: LoreEntry[] = [
     sourceNote:
       "An editorial reading of the game's environments and in-game details. Contains mild spoilers for locations and factions, not major story outcomes.",
   },
+  {
+    slug: "portal-aperture-testing-model",
+    title: "Aperture Science Made Testing the Product",
+    gameSlug: "portal",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "The Enrichment Center is not just a lab. Its chambers, signage, and observation rooms present testing as a corporate service with a cheerful public face.",
+    paragraphs: [
+      "Aperture Science's test chambers are designed to be watched. Observation windows, cameras, numbered signs, and clean white panels turn each room into a controlled demonstration. The player is not simply solving puzzles; they are moving through a facility built to record and evaluate the process.",
+      "The corporate language is part of the horror. Aperture presents dangerous experiments as a benefit, a career opportunity, or a normal part of doing business. The bright signage and polite announcements do not soften the danger; they make the facility feel more indifferent to the people inside it.",
+      "That contrast is the heart of Portal's worldbuilding. The technology is extraordinary, but the institution around it is mundane in the worst way: paperwork, testing schedules, and a product that keeps demanding another volunteer. The chambers are funny because they are recognizable workplaces, and unsettling because they are clearly not safe.",
+    ],
+    tags: ["aperture science", "enrichment center", "corporate satire", "test chambers", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of the game's environments, signage, and incidental dialogue. Contains mild spoilers for the facility's tone and structure.",
+  },
 ];
