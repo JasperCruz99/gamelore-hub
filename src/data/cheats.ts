@@ -65,6 +65,17 @@ const SUBNAUTICA_SOURCES = [
   },
 ];
 
+const FALLOUT_4_SOURCES = [
+  {
+    label: "Fallout Wiki — Fallout 4 console commands",
+    url: "https://fallout.wiki/wiki/Console_Commands_(Fallout_4)",
+  },
+  {
+    label: "Gaming Route — Fallout 4 console commands",
+    url: "https://gamingroute.com/fallout-4-console-commands/",
+  },
+];
+
 export const cheats: Cheat[] = [
   {
     slug: "minecraft-creative-mode",
@@ -822,6 +833,91 @@ export const cheats: Cheat[] = [
       sources: SUBNAUTICA_SOURCES,
     },
     tags: ["items", "resources", "console command", "survival", "pc"],
+  },
+  {
+    slug: "fallout-4-god-mode",
+    title: "Toggle god mode",
+    gameSlug: "fallout-4",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Load a save, press the tilde key (~) to open the console, type tgm, and press Enter. Enter tgm again to turn it off.",
+    code: "tgm",
+    whatItDoes:
+      "Toggles god mode, which prevents damage and radiation, grants unlimited ammo and action points, removes carry-weight limits, and supplies unlimited workshop resources.",
+    requirements:
+      "PC version only. The console is disabled in Survival mode. The key may differ on non-US keyboard layouts.",
+    effects: [
+      "No damage or radiation while active",
+      "Unlimited ammo, action points, and carry weight",
+      "Unlimited workshop resources",
+      "Stimpaks and RadAway do not work while god mode is active",
+      "Fusion cores still drain",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The Fallout Wiki documents tgm as the console command for god mode and notes that console commands do not disable Fallout 4 achievements. Some community guides disagree, so keep a clean save if achievements matter.",
+      sources: FALLOUT_4_SOURCES,
+    },
+    tags: ["god mode", "tgm", "console command", "pc", "survival"],
+  },
+  {
+    slug: "fallout-4-add-caps",
+    title: "Add bottle caps",
+    gameSlug: "fallout-4",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Open the console with the tilde key, enter the command, and press Enter. Change the final number to add a different amount.",
+    code: "player.additem f 1000",
+    whatItDoes:
+      "Adds 1,000 bottle caps directly to the player's inventory. The item ID f is the base-game caps form ID.",
+    requirements:
+      "PC version only, and the console is disabled in Survival mode. Save before using item commands so you can undo an accidental amount.",
+    effects: [
+      "Adds the requested number of caps",
+      "Can be repeated with a different amount",
+      "Changing f to another item ID adds a different item",
+      "Does not complete quests or bypass vendor prices",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The caps form ID and player.additem syntax are documented by the Fallout Wiki and current console-command references.",
+      sources: FALLOUT_4_SOURCES,
+    },
+    tags: ["caps", "money", "items", "console command", "pc"],
+  },
+  {
+    slug: "fallout-4-all-map-markers",
+    title: "Reveal all map markers",
+    gameSlug: "fallout-4",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Open the console with the tilde key, type tmm 1, and press Enter. Use tmm 0 if you want to remove the markers again.",
+    code: "tmm 1",
+    whatItDoes:
+      "Adds every map marker to the Pip-Boy map and enables fast travel to those locations. tmm 0 removes the markers.",
+    requirements:
+      "PC version only. The console is disabled in Survival mode. This permanently changes the current save unless you reload an earlier one.",
+    effects: [
+      "Reveals all map markers",
+      "Enables fast travel to revealed locations",
+      "Can skip intended exploration and discovery",
+      "tmm 0 removes the markers again",
+    ],
+    achievementWarning: false,
+    saveWarning: true,
+    verification: {
+      status: "documented",
+      note: "The Fallout Wiki lists tmm 1 as the map-marker command and warns that console changes can be difficult to undo.",
+      sources: FALLOUT_4_SOURCES,
+    },
+    tags: ["map", "fast travel", "tmm", "console command", "pc"],
   },
 ];
 

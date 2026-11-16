@@ -472,6 +472,19 @@ export const videos: Video[] = [
     placeholder: true,
     tags: ["beginner", "survival", "oxygen", "base building", "tutorial"],
   },
+  {
+    slug: "fallout-4-beginner-video",
+    title: "Fallout 4: A spoiler-light start in the Commonwealth",
+    creator: PLACEHOLDER_CREATOR,
+    gameSlug: "fallout-4",
+    thumbnailImage: "/images/games/fallout-4/screenshot-02.jpg",
+    type: "Tutorial",
+    description:
+      "A demo entry for beginner videos covering SPECIAL stats, early perks, settlements, exploration loops, and the first main-quest trail.",
+    url: youtubeSearchUrl("Fallout 4 beginner guide first hours spoiler free"),
+    placeholder: true,
+    tags: ["beginner", "commonwealth", "settlements", "perks", "tutorial"],
+  },
 ];
 
 export const featuredChannels: FeaturedChannel[] = [

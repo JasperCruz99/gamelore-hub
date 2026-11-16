@@ -2082,4 +2082,72 @@ export const games: Game[] = [
     popularity: 91,
     relatedGames: ["starfield", "minecraft", "bioshock-remastered"],
   },
+  {
+    slug: "fallout-4",
+    title: "Fallout 4",
+    tagline:
+      "A ruined Commonwealth, a customizable survivor, and a hundred reasons to check one more building.",
+    genres: ["Open-world RPG", "Post-apocalyptic", "First-person"],
+    developer: "Bethesda Game Studios",
+    publisher: "Bethesda Softworks",
+    releaseDate: "2015-11-10",
+    releaseYear: 2015,
+    platforms: ["PC", "PS5", "Xbox Series X|S", "PS4", "Xbox One"],
+    modes: ["Single-player"],
+    coverImage: "/images/games/fallout-4/cover.jpg",
+    coverAlt: "Official cover art for Fallout 4",
+    heroImage: "/images/games/fallout-4/hero.jpg",
+    heroAlt:
+      "The Sole Survivor and Dogmeat look toward the ruined Boston skyline from a wasteland road in Fallout 4",
+    screenshots: [
+      {
+        src: "/images/games/fallout-4/screenshot-01.jpg",
+        alt: "The Sole Survivor and Dogmeat stand on a ruined road outside Boston in Fallout 4",
+      },
+      {
+        src: "/images/games/fallout-4/screenshot-02.jpg",
+        alt: "A lone figure walks through a neon-lit market street at night in Fallout 4",
+      },
+      {
+        src: "/images/games/fallout-4/screenshot-03.jpg",
+        alt: "The circular metal door of Vault 111 in Fallout 4",
+      },
+      {
+        src: "/images/games/fallout-4/screenshot-04.jpg",
+        alt: "Sunlight breaks through a collapsed highway overpass onto overgrown ruins in Fallout 4",
+      },
+      {
+        src: "/images/games/fallout-4/screenshot-05.jpg",
+        alt: "A power-armored figure stands in a dusty wasteland under a hazy sky in Fallout 4",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Bethesda Softworks. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/377160/Fallout_4/",
+    accent: "#B7D34B",
+    description:
+      "Bethesda's post-apocalyptic RPG turns the ruins of Boston into a dense open world of settlements, factions, crafting, and running firefights.",
+    overview: [
+      "Fallout 4 begins before the bombs fall and then wakes the player in a ruined Commonwealth. The game pairs first-person exploration with a flexible SPECIAL and perk system, so a character can lean into rifles, stealth, melee, energy weapons, or settlement construction without being locked into a class.",
+      "The Commonwealth is built around overlapping loops: clear a location, haul useful junk home, improve a weapon or settlement, and follow a signal toward the next story beat. The main quest gives direction, but the best early progress often comes from exploring locally and building a reliable set of tools before chasing the next objective.",
+    ],
+    funFact:
+      "Fallout 4's Commonwealth is a compressed version of Boston and its surroundings. Landmarks such as the Old State House, the Zakim Bridge, and Fenway Park are recognizable even after the wasteland has moved in.",
+    tags: [
+      "post-apocalyptic",
+      "commonwealth",
+      "boston",
+      "open world",
+      "settlements",
+      "vats",
+      "bethesda",
+    ],
+    featured: true,
+    popularity: 94,
+    relatedGames: [
+      "the-elder-scrolls-v-skyrim",
+      "fallout-new-vegas",
+      "starfield",
+    ],
+  },
 ];

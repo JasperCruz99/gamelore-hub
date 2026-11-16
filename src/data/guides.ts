@@ -2655,4 +2655,80 @@ export const guides: Guide[] = [
     tags: ["beginner", "survival", "oxygen", "base building", "exploration", "ocean"],
     featured: false,
   },
+  {
+    slug: "fallout-4-first-hours",
+    title: "Fallout 4: A Spoiler-Light Start in the Commonwealth",
+    gameSlug: "fallout-4",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Choose a role for your survivor, follow the early trail without clearing every map icon, and make settlements work for you instead of the other way around.",
+    intro:
+      "Fallout 4 gives you a gun, a dog, and an entire ruined region to wander into. The opening hours are less about doing everything and more about establishing a character who can handle the fights you actually enjoy. This guide stays away from major story turns and focuses on durable early-game habits.",
+    updatedAt: "2026-11-16",
+    author: EDITOR,
+    sections: [
+      {
+        id: "choose-a-role",
+        heading: "Choose a role, not a perfect build",
+        paragraphs: [
+          "Your SPECIAL stats and perks matter, but you do not need a spreadsheet before leaving the vault. Pick one primary weapon family and one secondary answer, then spend early perks on the things that support that plan. A rifle character who can pick locks and craft better gear is more useful than a character who spreads points across every stat.",
+          "Perks unlock through stat thresholds, so decide which attributes you want to raise first. If you want more carrying capacity, better crafting, or stronger stealth, invest with that long-term goal in mind rather than chasing every tempting perk at once.",
+        ],
+        bullets: [
+          "Pick a default weapon range: close, mid, or long.",
+          "Keep one fallback weapon for enemies your main tool handles poorly.",
+          "Raise the SPECIAL stat that unlocks the perks you actually want.",
+          "Do not ignore Armorer, Gun Nut, or the crafting perks if you plan to use modified gear.",
+        ],
+        callout: {
+          type: "tip",
+          title: "A focused character is easier to equip",
+          body: "Ammo, mods, and perk investment all compete for attention. Choosing a main weapon family early makes it much easier to know which loot is worth carrying home.",
+        },
+      },
+      {
+        id: "follow-the-early-trail",
+        heading: "Follow the early trail without clearing the map",
+        paragraphs: [
+          "The opening main quest is a useful tutorial for the game's tone, combat pacing, and settlement systems. Follow it until the wider Commonwealth opens up, then start taking local detours. You do not need to clear every building you pass, and you do not need to finish every side quest before the next story beat.",
+          "Treat map icons as possibilities rather than obligations. A short detour that gives you a better weapon, a new companion, or a useful settlement is usually worth more than a long march to an icon that turns out to be another empty basement.",
+        ],
+        callout: {
+          type: "note",
+          title: "Let the story teach you the systems",
+          body: "The early quests introduce crafting, companions, and settlement basics at a manageable pace. Rushing past them can leave you with a lot of systems and very little context.",
+        },
+      },
+      {
+        id: "make-settlements-work",
+        heading: "Make settlements support your adventures",
+        paragraphs: [
+          "Settlements can become a second job if you let them. Early on, you only need one reliable base with water, food, beds, defense, and a workshop. That gives you a place to store junk, craft, and recover without turning every settlement into a construction project.",
+          "Useful junk is the real currency of the settlement system. Mark components you need for weapon mods or building materials, and drop off heavier loot before a long trip. A settlement does not need to be beautiful to be useful.",
+        ],
+        bullets: [
+          "Build one base before trying to develop every location.",
+          "Keep water, food, beds, and defense above the settlement's needs.",
+          "Store junk at a workshop so it is available for crafting.",
+          "Use local leaders and supply lines only when they solve a real problem.",
+        ],
+      },
+      {
+        id: "explore-in-loops",
+        heading: "Explore in short loops and protect your save",
+        paragraphs: [
+          "The Commonwealth is most manageable in short loops: leave base with a clear goal, clear one location, and return before your inventory is full. This keeps you close to safety and makes it easier to remember where useful resources are.",
+          "Save before entering a new dungeon or starting a risky fight. Fallout 4 is generous with loot and dangerous with unexpected explosions, so a recent save is often more valuable than another piece of armor. Rotate a few save slots rather than relying on one.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not carry every piece of junk",
+          body: "Loot is heavy. Check what a weapon or armor piece scraps into before hauling it across the map, and leave the low-value clutter behind.",
+        },
+      },
+    ],
+    tags: ["beginner", "commonwealth", "settlements", "perks", "exploration", "bethesda"],
+    featured: false,
+  },
 ];

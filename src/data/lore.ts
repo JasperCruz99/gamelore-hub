@@ -681,4 +681,21 @@ export const loreEntries: LoreEntry[] = [
     sourceNote:
       "An editorial reading of the planet's environmental storytelling. Contains mild spoilers for early discoveries and avoids late-game revelations.",
   },
+  {
+    slug: "fallout-4-commonwealth-as-memory",
+    title: "The Commonwealth Is Built on What Boston Used to Be",
+    gameSlug: "fallout-4",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "Fallout 4's wasteland is not a generic ruin. Its roads, subways, factories, and landmarks are a layered record of the city that existed before the bombs.",
+    paragraphs: [
+      "The Commonwealth works because it keeps the shape of Boston. Highways still cut through neighborhoods, subway tunnels still connect stations, and recognizable landmarks sit inside the wreckage. The wasteland is not a random collection of debris; it is a city that has been forced to keep living in its own infrastructure.",
+      "That layering shows up in the way factions and settlers reuse what is already there. A factory becomes a raider base, a subway station becomes a route, and a landmark becomes a settlement or a stronghold. The game rarely builds a new world from scratch. It shows people making a home inside the remains of an older one.",
+      "The effect is strongest when the player slows down and reads the environment instead of following the quest marker. Pre-war advertisements, improvised defenses, and old civic buildings tell a story about what the city valued before and what it values now. The Commonwealth is less a stage for the plot than a record of everything the plot has interrupted.",
+    ],
+    tags: ["commonwealth", "boston", "environmental storytelling", "worldbuilding", "ruins"],
+    sourceNote:
+      "An editorial reading of the game's environments and in-game details. Contains mild spoilers for locations and factions, not major story outcomes.",
+  },
 ];
