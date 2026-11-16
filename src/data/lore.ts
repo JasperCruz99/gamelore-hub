@@ -715,4 +715,21 @@ export const loreEntries: LoreEntry[] = [
     sourceNote:
       "An editorial reading of the game's environments, signage, and incidental dialogue. Contains mild spoilers for the facility's tone and structure.",
   },
+  {
+    slug: "left-4-dead-2-green-flu",
+    title: "The Green Flu Is a Background Character",
+    gameSlug: "left-4-dead-2",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "Left 4 Dead 2 rarely explains the infection directly. The outbreak is told through panic, quarantine signs, abandoned towns, and the survivors' refusal to stop moving.",
+    paragraphs: [
+      "The Green Flu is not a character with a plan. It is a condition that has already won before the campaign begins. The game shows the outbreak through empty streets, military checkpoints, evacuation notices, and the ordinary debris of people who thought they had more time. The survivors talk about the world they lost, but they rarely stop to explain it.",
+      "That restraint makes the settings feel lived in. A motel, a mall, a swamp shack, or a festival ground becomes a record of how people tried to cope. Safe-room graffiti adds another layer: previous survivors leave warnings, jokes, and desperate messages that the current team will never fully answer.",
+      "The result is a world where the infection is less a mystery to solve than a pressure system. It explains why the survivors keep moving, why safe rooms matter, and why the group's small rituals of sharing supplies and calling out threats feel like a form of resistance.",
+    ],
+    tags: ["green flu", "outbreak", "safe rooms", "survivors", "environmental storytelling"],
+    sourceNote:
+      "An editorial reading of the game's environments, safe-room details, and survivor dialogue. Contains mild spoilers for campaign locations.",
+  },
 ];

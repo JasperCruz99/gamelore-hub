@@ -2221,4 +2221,68 @@ export const games: Game[] = [
     popularity: 92,
     relatedGames: ["portal-2", "half-life-2", "bioshock-remastered"],
   },
+  {
+    slug: "left-4-dead-2",
+    title: "Left 4 Dead 2",
+    tagline:
+      "Four survivors, a director that wants them dead, and a safe room that is never quite close enough.",
+    genres: ["Co-op shooter", "Zombie survival", "First-person"],
+    developer: "Valve",
+    publisher: "Valve",
+    releaseDate: "2009-11-16",
+    releaseYear: 2009,
+    platforms: ["PC", "macOS", "Linux", "Xbox 360"],
+    modes: ["Single-player", "Online co-op", "Versus"],
+    coverImage: "/images/games/left-4-dead-2/cover.jpg",
+    coverAlt: "Official cover art for Left 4 Dead 2",
+    heroImage: "/images/games/left-4-dead-2/hero.jpg",
+    heroAlt:
+      "Nick fires a shotgun at a clown Infected while the Survivors fight a horde at a dark carnival in Left 4 Dead 2",
+    screenshots: [
+      {
+        src: "/images/games/left-4-dead-2/screenshot-01.jpg",
+        alt: "The Survivors fight a horde near a carnival tent in Left 4 Dead 2",
+      },
+      {
+        src: "/images/games/left-4-dead-2/screenshot-02.jpg",
+        alt: "A clown Infected crawls through burning wreckage at an amusement park in Left 4 Dead 2",
+      },
+      {
+        src: "/images/games/left-4-dead-2/screenshot-03.jpg",
+        alt: "Coach pushes through tall swamp grass with a rifle in Left 4 Dead 2",
+      },
+      {
+        src: "/images/games/left-4-dead-2/screenshot-04.jpg",
+        alt: "The Survivors move through a dark, foggy street with flashlights in Left 4 Dead 2",
+      },
+      {
+        src: "/images/games/left-4-dead-2/screenshot-05.jpg",
+        alt: "The Survivors defend a burning plantation house from a horde at dusk in Left 4 Dead 2",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Valve. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/550/Left_4_Dead_2/",
+    accent: "#A7C94B",
+    description:
+      "Valve's co-op zombie shooter turns four survivors and a dynamic AI Director into a tense, replayable road trip through the American South.",
+    overview: [
+      "Left 4 Dead 2 is built around four survivors moving from safe room to safe room while the AI Director manages tension, item placement, weather, and horde timing. The campaign is short enough to replay, and the Director makes each run feel slightly different.",
+      "Co-op is the point. Special Infected split the team's attention, common Infected punish stragglers, and friendly fire turns a panic spray into a rescue mission. The game is at its best when the team shares information, covers angles, and moves together instead of treating it as a solo shooter with bots.",
+    ],
+    funFact:
+      "The AI Director is designed to pace the experience like a horror film. It can change the weather, move supplies, and send a horde when the team has been comfortable for too long.",
+    tags: [
+      "co-op",
+      "zombies",
+      "ai director",
+      "survival",
+      "source engine",
+      "valve",
+      "multiplayer",
+    ],
+    featured: true,
+    popularity: 90,
+    relatedGames: ["portal-2", "half-life-2", "bioshock-remastered"],
+  },
 ];

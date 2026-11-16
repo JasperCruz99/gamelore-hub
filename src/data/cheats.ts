@@ -87,6 +87,17 @@ const PORTAL_SOURCES = [
   },
 ];
 
+const LEFT_4_DEAD_2_SOURCES = [
+  {
+    label: "Left 4 Dead Wiki — Console commands",
+    url: "https://left4deadwiki.com/wiki/Console_commands",
+  },
+  {
+    label: "Steam Community — Left 4 Dead 2 console commands",
+    url: "https://steamcommunity.com/sharedfiles/filedetails/?id=199316232",
+  },
+];
+
 export const cheats: Cheat[] = [
   {
     slug: "minecraft-creative-mode",
@@ -1013,6 +1024,90 @@ export const cheats: Cheat[] = [
       sources: PORTAL_SOURCES,
     },
     tags: ["noclip", "flight", "console command", "pc", "source engine"],
+  },
+  {
+    slug: "left-4-dead-2-enable-cheats",
+    title: "Enable cheat commands",
+    gameSlug: "left-4-dead-2",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Enable the developer console in Options > Keyboard/Mouse, then open it with the tilde key (~) and enter sv_cheats 1. Start a local map with the map command if cheats do not take effect.",
+    code: "sv_cheats 1",
+    whatItDoes:
+      "Unlocks cheat-protected console commands on the current local server. Enter sv_cheats 0 to turn them off again.",
+    requirements:
+      "PC version. Cheats work in local games, not on official or unmodded multiplayer servers. Enabling them disables achievements until the game is restarted.",
+    effects: [
+      "Allows cheat commands on the current local server",
+      "Works best in a map started through the console",
+      "Disables achievements until the game restarts",
+      "Does not work on secured online servers",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The Left 4 Dead Wiki and Steam Community guide document sv_cheats as the cheat prerequisite and note that achievements are disabled.",
+      sources: LEFT_4_DEAD_2_SOURCES,
+    },
+    tags: ["sv_cheats", "console command", "pc", "developer console"],
+  },
+  {
+    slug: "left-4-dead-2-god-mode",
+    title: "Toggle team god mode",
+    gameSlug: "left-4-dead-2",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Open the console, enter sv_cheats 1, then enter god 1. Enter god 0 to turn it off.",
+    code: "god 1",
+    whatItDoes:
+      "Makes the player's team invincible, preventing damage from common Infected, special Infected, and environmental hazards.",
+    requirements:
+      "PC version and a local game with sv_cheats 1 enabled. Achievements are disabled while cheats are active.",
+    effects: [
+      "The team takes no damage",
+      "Survivors are not slowed by special Infected attacks",
+      "Requires sv_cheats 1",
+      "Enter god 0 to restore normal damage",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The god command and its team-wide effect are documented by the Left 4 Dead Wiki and Steam Community command references.",
+      sources: LEFT_4_DEAD_2_SOURCES,
+    },
+    tags: ["god mode", "invincibility", "co-op", "console command", "pc"],
+  },
+  {
+    slug: "left-4-dead-2-give-ak47",
+    title: "Spawn an AK-47",
+    gameSlug: "left-4-dead-2",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Open the console, enter sv_cheats 1, then enter give rifle_ak47. The weapon is added to your inventory.",
+    code: "give rifle_ak47",
+    whatItDoes:
+      "Spawns an AK-47 and places it in the player's inventory, replacing the current primary weapon if one is equipped.",
+    requirements:
+      "PC version and a local game with sv_cheats 1 enabled. The command may not work on secured online servers.",
+    effects: [
+      "Adds an AK-47 to the player's inventory",
+      "Requires sv_cheats 1",
+      "Can be repeated for other weapon entity names",
+      "Disables achievements until the game restarts",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The weapon entity name and give syntax are widely documented for Left 4 Dead 2 console use. Weapon availability can vary by campaign and server settings.",
+      sources: LEFT_4_DEAD_2_SOURCES,
+    },
+    tags: ["ak-47", "weapons", "give", "console command", "pc"],
   },
 ];
 

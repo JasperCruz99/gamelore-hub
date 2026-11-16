@@ -498,6 +498,19 @@ export const videos: Video[] = [
     placeholder: true,
     tags: ["beginner", "puzzle", "portals", "momentum", "tutorial"],
   },
+  {
+    slug: "left-4-dead-2-coop-video",
+    title: "Left 4 Dead 2: Co-op habits that keep the team alive",
+    creator: PLACEHOLDER_CREATOR,
+    gameSlug: "left-4-dead-2",
+    thumbnailImage: "/images/games/left-4-dead-2/screenshot-01.jpg",
+    type: "Tutorial",
+    description:
+      "A demo entry for co-op tutorials covering spacing, special Infected audio, horde positioning, safe-room resets, and friendly fire.",
+    url: youtubeSearchUrl("Left 4 Dead 2 co-op beginner tips team survival"),
+    placeholder: true,
+    tags: ["beginner", "co-op", "survival", "special infected", "tutorial"],
+  },
 ];
 
 export const featuredChannels: FeaturedChannel[] = [

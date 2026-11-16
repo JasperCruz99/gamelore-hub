@@ -2802,4 +2802,75 @@ export const guides: Guide[] = [
     tags: ["beginner", "puzzle", "portals", "momentum", "aperture science"],
     featured: false,
   },
+  {
+    slug: "left-4-dead-2-coop-basics",
+    title: "Left 4 Dead 2: Co-op Habits That Keep the Team Alive",
+    gameSlug: "left-4-dead-2",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Stay close, listen for special Infected, fight from cover, and treat every safe room as a chance to reset instead of a finish line.",
+    intro:
+      "Left 4 Dead 2 is a cooperative game first and a shooter second. The Director will punish a team that splits up, ignores audio cues, or panics in open ground. These habits are simple, but they are the difference between a clean campaign run and a rescue closet full of regrets.",
+    updatedAt: "2026-11-16",
+    author: EDITOR,
+    sections: [
+      {
+        id: "stay-together",
+        heading: "Stay together and share the pace",
+        paragraphs: [
+          "The team should move as a group, but that does not mean standing shoulder to shoulder. Keep enough distance to avoid one grenade or Spitter acid hitting everyone, and close enough to help when a Smoker or Jockey grabs someone. If one player keeps sprinting ahead, the team is already split.",
+          "Check the scoreboard and voice chat, but also watch the actual bodies. A player who is lagging behind may be carrying a medkit, healing, or watching a flank. The team should slow down for that player instead of leaving them to the horde.",
+        ],
+        bullets: [
+          "Move at the pace of the slowest healthy player.",
+          "Do not enter a new area while someone is still healing.",
+          "Call out when you are reloading, healing, or out of throwables.",
+          "Use the safe room as a regroup point, not a race finish.",
+        ],
+      },
+      {
+        id: "listen-for-specials",
+        heading: "Listen before you look",
+        paragraphs: [
+          "Special Infected have distinct audio cues: the Smoker's cough, the Hunter's scream, the Charger's roar, the Jockey's laugh, the Spitter's wet rattle. Learning those sounds gives the team a head start before the threat is visible.",
+          "When you hear a special, stop spraying and identify the direction. A team that turns toward the sound can often kill a Smoker before it grabs anyone. A team that keeps shooting at common Infected usually finds out about the special when someone is already being dragged.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Call the threat, not the panic",
+          body: "Short callouts work best: 'Smoker left,' 'Hunter roof,' 'Charger behind.' The team needs the location and the threat, not a full paragraph.",
+        },
+      },
+      {
+        id: "fight-from-cover",
+        heading: "Fight from cover, not from the open",
+        paragraphs: [
+          "Common Infected are dangerous in numbers because they surround. Put a wall, a doorway, or a counter at your back so you only need to watch one or two directions. Fighting in the middle of an open street lets the horde attack from every angle at once.",
+          "When a horde starts, look for a corner or a choke point before you start firing. A doorway can turn a chaotic swarm into a manageable line. Just remember that a doorway also traps the team if a Spitter or Boomer lands in the middle of it.",
+        ],
+        bullets: [
+          "Use doorways and corners to limit attack angles.",
+          "Do not stand in the open during a horde.",
+          "Leave room to back up when a special Infected arrives.",
+          "Watch the floor for Spitter acid before committing to a corner.",
+        ],
+      },
+      {
+        id: "reset-in-safe-rooms",
+        heading: "Reset supplies and positions in safe rooms",
+        paragraphs: [
+          "Safe rooms are more than checkpoints. They are the best place to heal, share supplies, and decide who carries what before the next chapter. If one player has two medkits and another has none, fix that before the door opens.",
+          "Do not waste the calm. Reload, heal, pick up throwables, and check the team's health. The next stretch may start with a horde, and a team that enters it with full health and a plan is much harder for the Director to break.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not heal through friendly fire",
+          body: "If a teammate is shooting through you, move out of the line of fire before healing. A medkit does not help if you are standing in the middle of a panic spray.",
+        },
+      },
+    ],
+    tags: ["beginner", "co-op", "survival", "special infected", "safe room"],
+    featured: false,
+  },
 ];
