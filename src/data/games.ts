@@ -126,9 +126,9 @@ export const games: Game[] = [
     featured: true,
     popularity: 99,
     relatedGames: [
+      "dark-souls-iii",
       "sekiro-shadows-die-twice",
       "hollow-knight",
-      "baldurs-gate-3",
     ],
   },
   {
@@ -200,7 +200,7 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 97,
-    relatedGames: ["elden-ring", "hogwarts-legacy", "cyberpunk-2077"],
+    relatedGames: ["monster-hunter-world", "elden-ring", "cyberpunk-2077"],
   },
   {
     slug: "baldurs-gate-3",
@@ -335,9 +335,9 @@ export const games: Game[] = [
     featured: false,
     popularity: 100,
     relatedGames: [
+      "subnautica",
       "hollow-knight",
       "stardew-valley",
-      "the-elder-scrolls-v-skyrim",
     ],
   },
   {
@@ -466,9 +466,9 @@ export const games: Game[] = [
     featured: true,
     popularity: 87,
     relatedGames: [
+      "mass-effect-legendary-edition",
       "the-elder-scrolls-v-skyrim",
       "fallout-new-vegas",
-      "cyberpunk-2077",
     ],
   },
   {
@@ -678,9 +678,9 @@ export const games: Game[] = [
     featured: false,
     popularity: 90,
     relatedGames: [
+      "dark-souls-iii",
       "elden-ring",
       "god-of-war",
-      "hollow-knight",
     ],
   },
   {
@@ -1110,8 +1110,8 @@ export const games: Game[] = [
     featured: true,
     popularity: 96,
     relatedGames: [
+      "mass-effect-legendary-edition",
       "starfield",
-      "the-elder-scrolls-v-skyrim",
       "disco-elysium",
     ],
   },
@@ -1178,7 +1178,7 @@ export const games: Game[] = [
     ],
     featured: false,
     popularity: 92,
-    relatedGames: ["bioshock-remastered", "portal-2", "cyberpunk-2077"],
+    relatedGames: ["persona-5-royal", "bioshock-remastered", "cyberpunk-2077"],
   },
   {
     slug: "resident-evil-4",
@@ -1541,7 +1541,7 @@ export const games: Game[] = [
     featured: false,
     popularity: 91,
     relatedGames: [
-      "grand-theft-auto-v",
+      "persona-5-royal",
       "disco-elysium",
       "cyberpunk-2077",
     ],
@@ -1680,6 +1680,406 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 96,
-    relatedGames: ["bioshock-remastered", "nier-automata", "hollow-knight"],
+    relatedGames: ["half-life-2", "bioshock-remastered", "nier-automata"],
+  },
+  {
+    slug: "dark-souls-iii",
+    title: "Dark Souls III",
+    tagline:
+      "The fire is fading, and every road leads through something that wants you dead.",
+    genres: ["Action RPG", "Dark fantasy", "Soulslike"],
+    developer: "FromSoftware",
+    publisher: "Bandai Namco Entertainment",
+    releaseDate: "2016-04-11",
+    releaseYear: 2016,
+    platforms: ["PC", "PS4", "Xbox One"],
+    modes: ["Single-player", "Online co-op and PvP"],
+    coverImage: "/images/games/dark-souls-iii/cover.jpg",
+    coverAlt: "Official cover art for Dark Souls III",
+    heroImage: "/images/games/dark-souls-iii/hero.jpg",
+    heroAlt:
+      "The Ashen One stands in gold-lit armor before a ruined kingdom in Dark Souls III",
+    screenshots: [
+      {
+        src: "/images/games/dark-souls-iii/screenshot-01.jpg",
+        alt: "A dragon breathes fire at a knight in a ruined courtyard in Dark Souls III",
+      },
+      {
+        src: "/images/games/dark-souls-iii/screenshot-02.jpg",
+        alt: "A knight fights armored enemies with glowing weapons in a burning arena in Dark Souls III",
+      },
+      {
+        src: "/images/games/dark-souls-iii/screenshot-03.jpg",
+        alt: "A heavily armored knight faces a towering enemy inside a stone hall in Dark Souls III",
+      },
+      {
+        src: "/images/games/dark-souls-iii/screenshot-04.jpg",
+        alt: "A knight casts blue magic at a skeletal enemy in a crypt in Dark Souls III",
+      },
+      {
+        src: "/images/games/dark-souls-iii/screenshot-05.jpg",
+        alt: "A knight raises a shield against a red-caped enemy in a cathedral in Dark Souls III",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots from FromSoftware / Bandai Namco Entertainment. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/374320/DARK_SOULS_III/",
+    accent: "#D7A94B",
+    description:
+      "FromSoftware's dark fantasy action RPG is built around stamina, timing, and learning the shape of each encounter. Every shortcut and bonfire matters.",
+    overview: [
+      "Dark Souls III returns to the series' core loop: explore a hostile region, learn enemy patterns, spend hard-won souls on levels or upgrades, and push toward the next bonfire. The kingdom of Lothric is full of routes that fold back on themselves, so a locked door or a distant bridge often becomes a shortcut later.",
+      "Combat rewards patience more than speed. Stamina limits how long you can attack, block, or roll, and most enemies punish careless swings. Weapon arts, infusions, and spell builds add variety, but the fundamental lesson is the same: observe first, commit second, and treat every death as information.",
+    ],
+    funFact:
+      "Dark Souls III's world is designed around visible landmarks. Castles, bridges, and towers you can see from a distance often become locations you can reach later, which makes the kingdom feel like one continuous structure rather than a series of disconnected levels.",
+    tags: [
+      "soulslike",
+      "lothric",
+      "ashen one",
+      "bonfires",
+      "dark fantasy",
+      "fromsoftware",
+      "boss fights",
+    ],
+    featured: true,
+    popularity: 95,
+    relatedGames: ["elden-ring", "sekiro-shadows-die-twice", "monster-hunter-world"],
+  },
+  {
+    slug: "mass-effect-legendary-edition",
+    title: "Mass Effect Legendary Edition",
+    tagline:
+      "A galaxy-sized choice machine, rebuilt with all three Commander Shepard stories in one package.",
+    genres: ["Action RPG", "Sci-fi", "Third-person shooter", "Choices matter"],
+    developer: "BioWare",
+    publisher: "Electronic Arts",
+    releaseDate: "2021-05-14",
+    releaseYear: 2021,
+    platforms: ["PC", "PS4", "Xbox One"],
+    modes: ["Single-player"],
+    coverImage: "/images/games/mass-effect-legendary-edition/cover.jpg",
+    coverAlt: "Official cover art for Mass Effect Legendary Edition",
+    heroImage: "/images/games/mass-effect-legendary-edition/hero.jpg",
+    heroAlt:
+      "A Reaper looms over a pink-lit city in Mass Effect Legendary Edition",
+    screenshots: [
+      {
+        src: "/images/games/mass-effect-legendary-edition/screenshot-01.jpg",
+        alt: "A turian squadmate in blue armor stands aboard a spacecraft in Mass Effect Legendary Edition",
+      },
+      {
+        src: "/images/games/mass-effect-legendary-edition/screenshot-02.jpg",
+        alt: "A squad overlooks a bright alien horizon from a ridge in Mass Effect Legendary Edition",
+      },
+      {
+        src: "/images/games/mass-effect-legendary-edition/screenshot-03.jpg",
+        alt: "A man in a suit stands before a holographic galaxy map in Mass Effect Legendary Edition",
+      },
+      {
+        src: "/images/games/mass-effect-legendary-edition/screenshot-04.jpg",
+        alt: "An armored vehicle crosses a dark industrial battlefield under fire in Mass Effect Legendary Edition",
+      },
+      {
+        src: "/images/games/mass-effect-legendary-edition/screenshot-05.jpg",
+        alt: "Commander Shepard in N7 armor stands inside a spacecraft in Mass Effect Legendary Edition",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots from BioWare / Electronic Arts. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/1328670/Mass_Effect_Legendary_Edition/",
+    accent: "#D94B4B",
+    description:
+      "The remastered trilogy bundles Commander Shepard's three-game arc, carrying choices, companions, and consequences across a galaxy under threat.",
+    overview: [
+      "Mass Effect Legendary Edition collects Mass Effect, Mass Effect 2, and Mass Effect 3 with updated visuals, controls, and quality-of-life changes. The through-line is Commander Shepard's mission to stop the Reapers, but the more memorable story is built from crew relationships, faction politics, and decisions that return several games later.",
+      "Combat shifts across the trilogy: the first game leans on RPG systems and cover shooting, while the sequels streamline action and expand squad powers. The Legendary Edition brings the three games closer together, but each still has its own rhythm. New players should expect a long campaign and treat the save file as a continuity document.",
+    ],
+    funFact:
+      "Choices from the first game can carry through the entire trilogy, including who survives, who trusts Shepard, and which version of the story reaches the final battle. The Legendary Edition keeps that continuity intact across all three remastered games.",
+    tags: [
+      "commander shepard",
+      "normandy",
+      "reapers",
+      "galaxy",
+      "choices",
+      "bioware",
+      "sci-fi",
+    ],
+    featured: true,
+    popularity: 94,
+    relatedGames: ["starfield", "cyberpunk-2077", "fallout-new-vegas"],
+  },
+  {
+    slug: "persona-5-royal",
+    title: "Persona 5 Royal",
+    tagline:
+      "A year in Tokyo, a secret double life, and a velvet-lined rebellion against rotten adults.",
+    genres: ["JRPG", "Turn-based RPG", "Social simulation"],
+    developer: "ATLUS",
+    publisher: "SEGA",
+    releaseDate: "2022-10-20",
+    releaseYear: 2022,
+    platforms: [
+      "PC",
+      "PS5",
+      "Xbox Series X|S",
+      "Nintendo Switch",
+      "PS4",
+    ],
+    modes: ["Single-player"],
+    coverImage: "/images/games/persona-5-royal/cover.jpg",
+    coverAlt: "Official cover art for Persona 5 Royal",
+    heroImage: "/images/games/persona-5-royal/hero.jpg",
+    heroAlt:
+      "The Phantom Thieves gather beneath red and black spotlights in Persona 5 Royal",
+    screenshots: [
+      {
+        src: "/images/games/persona-5-royal/screenshot-01.jpg",
+        alt: "Students sit in a classroom during a lesson in Persona 5 Royal",
+      },
+      {
+        src: "/images/games/persona-5-royal/screenshot-02.jpg",
+        alt: "The protagonist talks with friends in a Tokyo cafe in Persona 5 Royal",
+      },
+      {
+        src: "/images/games/persona-5-royal/screenshot-03.jpg",
+        alt: "The Phantom Thieves confront a costumed Palace ruler on a stage in Persona 5 Royal",
+      },
+      {
+        src: "/images/games/persona-5-royal/screenshot-04.jpg",
+        alt: "A stylized all-out attack illustration fills the screen in Persona 5 Royal",
+      },
+      {
+        src: "/images/games/persona-5-royal/screenshot-05.jpg",
+        alt: "The protagonist and a companion walk through a neon-lit Tokyo street in Persona 5 Royal",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots from ATLUS / SEGA. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/1687950/Persona_5_Royal/",
+    accent: "#E23A4E",
+    description:
+      "ATLUS's turn-based RPG splits the year between school life, Tokyo hangouts, and heists inside the distorted minds of corrupt adults.",
+    overview: [
+      "Persona 5 Royal follows a transferred student who discovers a hidden world inside human cognition. By day, the calendar is filled with classes, part-time jobs, and relationships. By night, the Phantom Thieves enter Palaces, fight Shadows, and steal the distorted desires of their targets.",
+      "The game is as much about time management as combat. Confidants unlock abilities, story scenes, and fusion options, while dungeon progress competes for the same days. Royal adds a new semester, new characters, and extra combat tools, making an already long RPG even more expansive.",
+    ],
+    funFact:
+      "Royal is not just a cosmetic re-release. It adds new confidants, a new story semester, Showtime attacks, and changes to boss encounters, so guides written for the original Persona 5 do not always map cleanly onto it.",
+    tags: [
+      "phantom thieves",
+      "tokyo",
+      "palaces",
+      "confidants",
+      "jrpg",
+      "turn based",
+      "social sim",
+    ],
+    featured: true,
+    popularity: 93,
+    relatedGames: ["nier-automata", "yakuza-0", "hades"],
+  },
+  {
+    slug: "monster-hunter-world",
+    title: "Monster Hunter: World",
+    tagline:
+      "Pick a weapon, track a monster, and turn a hunt into a plan.",
+    genres: ["Action RPG", "Hunting", "Co-op"],
+    developer: "Capcom",
+    publisher: "Capcom",
+    releaseDate: "2018-08-08",
+    releaseYear: 2018,
+    platforms: ["PC", "PS4", "Xbox One"],
+    modes: ["Single-player", "Online co-op"],
+    coverImage: "/images/games/monster-hunter-world/cover.jpg",
+    coverAlt: "Official cover art for Monster Hunter: World",
+    heroImage: "/images/games/monster-hunter-world/hero.jpg",
+    heroAlt:
+      "Hunters and a Palico stand before a towering monster on a coastal cliff in Monster Hunter: World",
+    screenshots: [
+      {
+        src: "/images/games/monster-hunter-world/screenshot-01.jpg",
+        alt: "A large monster approaches through a forest in Monster Hunter: World",
+      },
+      {
+        src: "/images/games/monster-hunter-world/screenshot-02.jpg",
+        alt: "A hunter rides a wingdrake above a jungle river in Monster Hunter: World",
+      },
+      {
+        src: "/images/games/monster-hunter-world/screenshot-03.jpg",
+        alt: "A hunter fights a monster in a shallow water arena in Monster Hunter: World",
+      },
+      {
+        src: "/images/games/monster-hunter-world/screenshot-04.jpg",
+        alt: "A hunter explores a glowing crystal cave in Monster Hunter: World",
+      },
+      {
+        src: "/images/games/monster-hunter-world/screenshot-05.jpg",
+        alt: "A hunter faces a massive monster in a desert canyon in Monster Hunter: World",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots from Capcom. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/582010/Monster_Hunter_World/",
+    accent: "#C9A15C",
+    description:
+      "Capcom's hunting RPG turns preparation into gameplay: study a monster, choose the right weapon, and work with a team to bring it down.",
+    overview: [
+      "Monster Hunter: World sends players to the New World as part of the Fifth Fleet. The hub is Astera, but most of the game happens in large ecological zones where monsters move, feed, fight each other, and react to the environment. Hunts are not just boss fights; they are expeditions with tracking, resource gathering, and terrain to use.",
+      "Each of the 14 weapon types has a distinct move set and resource loop, so finding a main weapon is a major decision. Crafting gear from monster parts closes the loop between hunting and progression. The Iceborne expansion adds Master Rank and more systems, but the base game already teaches the core habits: prepare, observe, commit, and learn the matchup.",
+    ],
+    funFact:
+      "Monster Hunter: World's monsters are not scripted to wait in an arena. They roam the map, sleep, eat, and fight each other, which means a hunt can change direction because another creature wandered into the fight.",
+    tags: [
+      "monster hunter",
+      "hunting",
+      "co-op",
+      "great sword",
+      "palico",
+      "crafting",
+      "iceborne",
+    ],
+    featured: true,
+    popularity: 92,
+    relatedGames: ["dark-souls-iii", "elden-ring", "the-witcher-3"],
+  },
+  {
+    slug: "half-life-2",
+    title: "Half-Life 2",
+    tagline:
+      "A quiet physicist, a stolen city, and a crowbar that became a legend.",
+    genres: ["First-person shooter", "Sci-fi", "Story-driven"],
+    developer: "Valve",
+    publisher: "Valve",
+    releaseDate: "2004-11-16",
+    releaseYear: 2004,
+    platforms: ["PC", "macOS", "Linux"],
+    modes: ["Single-player"],
+    coverImage: "/images/games/half-life-2/cover.jpg",
+    coverAlt: "Official cover art for Half-Life 2",
+    heroImage: "/images/games/half-life-2/hero.jpg",
+    heroAlt:
+      "Gordon Freeman stands in a bright, foggy industrial space in Half-Life 2",
+    screenshots: [
+      {
+        src: "/images/games/half-life-2/screenshot-01.jpg",
+        alt: "The Citadel rises above the rooftops of City 17 in Half-Life 2",
+      },
+      {
+        src: "/images/games/half-life-2/screenshot-02.jpg",
+        alt: "Alyx, Eli, and a scientist speak in a resistance lab in Half-Life 2",
+      },
+      {
+        src: "/images/games/half-life-2/screenshot-03.jpg",
+        alt: "A first-person weapon aims across the water toward a coastal bridge at sunset in Half-Life 2",
+      },
+      {
+        src: "/images/games/half-life-2/screenshot-04.jpg",
+        alt: "Alyx stands beside a car under a glowing portal in Half-Life 2",
+      },
+      {
+        src: "/images/games/half-life-2/screenshot-05.jpg",
+        alt: "A Strider towers over Alyx in a ruined street in Half-Life 2",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots from Valve. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/220/HalfLife_2/",
+    accent: "#F29B38",
+    description:
+      "Valve's landmark FPS turns a train-station arrival into a road movie through an occupied city, with physics, silence, and a crowbar doing the storytelling.",
+    overview: [
+      "Half-Life 2 begins with Gordon Freeman arriving in City 17 after the events of Black Mesa. The Combine have turned the city into a controlled zone, and the resistance is fragmented. The campaign moves from cramped streets and apartments to highways, coastal installations, and the towering Citadel.",
+      "The game's design is famous for its continuity: the camera rarely cuts away, characters speak while you move, and physics props are part of both puzzles and combat. The gravity gun becomes the signature tool because it turns the environment into a weapon. Even now, the pacing feels unusually confident about letting silence and space do the work.",
+    ],
+    funFact:
+      "Half-Life 2's gravity gun was built around the Source engine's physics system rather than added as a conventional weapon. Picking up and launching ordinary objects became one of the game's defining mechanics.",
+    tags: [
+      "gordon freeman",
+      "city 17",
+      "combine",
+      "gravity gun",
+      "valve",
+      "fps",
+      "source engine",
+    ],
+    featured: true,
+    popularity: 97,
+    relatedGames: ["portal-2", "bioshock-remastered", "cyberpunk-2077"],
+  },
+  {
+    slug: "subnautica",
+    title: "Subnautica",
+    tagline:
+      "A survival game where the ocean is beautiful, alien, and very interested in your submarine.",
+    genres: ["Survival", "Open-world", "Underwater", "Crafting"],
+    developer: "Unknown Worlds Entertainment",
+    publisher: "Unknown Worlds Entertainment",
+    releaseDate: "2018-01-23",
+    releaseYear: 2018,
+    platforms: [
+      "PC",
+      "macOS",
+      "PS5",
+      "Xbox Series X|S",
+      "PS4",
+      "Xbox One",
+      "Nintendo Switch",
+    ],
+    modes: ["Single-player"],
+    coverImage: "/images/games/subnautica/cover.jpg",
+    coverAlt: "Official cover art for Subnautica",
+    heroImage: "/images/games/subnautica/hero.jpg",
+    heroAlt:
+      "A diver swims beside a small submarine above a coral reef in Subnautica",
+    screenshots: [
+      {
+        src: "/images/games/subnautica/screenshot-01.jpg",
+        alt: "A diver approaches a lifepod above a colorful coral reef in Subnautica",
+      },
+      {
+        src: "/images/games/subnautica/screenshot-02.jpg",
+        alt: "A submersible passes a glowing lava vent in an underwater cave in Subnautica",
+      },
+      {
+        src: "/images/games/subnautica/screenshot-03.jpg",
+        alt: "An underwater habitat with glowing windows sits on the seafloor in Subnautica",
+      },
+      {
+        src: "/images/games/subnautica/screenshot-04.jpg",
+        alt: "A massive leviathan looms in dark water in Subnautica",
+      },
+      {
+        src: "/images/games/subnautica/screenshot-05.jpg",
+        alt: "A diver explores a kelp forest with a seaglide in Subnautica",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots from Unknown Worlds Entertainment. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/264710/Subnautica/",
+    accent: "#2FB7C8",
+    description:
+      "Unknown Worlds' underwater survival game strands you on an alien ocean planet with scavenged tools, limited oxygen, and creatures that are much larger than you.",
+    overview: [
+      "Subnautica begins with a crash. The player escapes a damaged ship in a lifepod and surfaces on planet 4546B, an ocean world with coral reefs, kelp forests, caves, and much deeper biomes. Survival depends on oxygen, food, water, and the nerve to leave the safe shallows.",
+      "Progress comes from scanning fragments, crafting tools, and building habitats and vehicles that extend your range. There is no conventional gun-based combat loop. Avoidance, distraction, and knowing when to retreat are the real defensive skills. The story emerges through radio messages, abandoned bases, and alien structures rather than a mission marker.",
+    ],
+    funFact:
+      "Subnautica deliberately gives the player very few weapons. The scanner, habitat builder, Seaglide, and vehicles are the main tools, which pushes exploration and evasion ahead of combat.",
+    tags: [
+      "survival",
+      "ocean",
+      "4546b",
+      "leviathan",
+      "crafting",
+      "exploration",
+      "unknown worlds",
+    ],
+    featured: true,
+    popularity: 91,
+    relatedGames: ["starfield", "minecraft", "bioshock-remastered"],
   },
 ];

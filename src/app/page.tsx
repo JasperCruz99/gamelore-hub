@@ -56,25 +56,28 @@ export const metadata: Metadata = {
 const homeGameOrder = [
   "grand-theft-auto-v",
   "elden-ring",
-  "grand-theft-auto-iv",
+  "dark-souls-iii",
   "baldurs-gate-3",
+  "mass-effect-legendary-edition",
+  "persona-5-royal",
+  "grand-theft-auto-iv",
   "la-noire",
-  "hollow-knight",
+  "half-life-2",
   "bioshock-remastered",
   "cyberpunk-2077",
   "portal-2",
 ];
 
 const spotlightLoreSlugs = [
-  "grand-theft-auto-v-los-santos-satire",
-  "la-noire-postwar-los-angeles",
-  "bioshock-rapture-objectivism",
+  "dark-souls-iii-cycle-of-fire",
+  "mass-effect-reaper-cycle",
+  "subnautica-4546b-memory",
 ];
 
 const spotlightVideoSlugs = [
-  "grand-theft-auto-iv-liberty-city-video",
-  "grand-theft-auto-v-heists-video",
-  "yakuza-0-combat-video",
+  "dark-souls-iii-beginner-video",
+  "persona-5-royal-first-palace-video",
+  "half-life-2-city-17-video",
 ];
 
 export default function HomePage() {

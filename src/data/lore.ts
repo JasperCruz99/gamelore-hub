@@ -579,4 +579,106 @@ export const loreEntries: LoreEntry[] = [
     sourceNote:
       "An editorial reading of Aperture Science and its setting. Contains mild spoilers for environmental storytelling and early game context.",
   },
+  {
+    slug: "dark-souls-iii-cycle-of-fire",
+    title: "The Cycle of Fire and the Weight of Ashes",
+    gameSlug: "dark-souls-iii",
+    type: "Timeline",
+    spoiler: "mild",
+    excerpt:
+      "Dark Souls III begins after the flame has already been linked many times. The world is not waiting for a hero so much as repeating an old solution.",
+    paragraphs: [
+      "The fire at the center of Dark Souls III is not a simple source of warmth. It is an order that has been prolonged past its natural life, linked again and again by powerful souls. Each linking buys the world more time, but it also traps the cycle in a pattern of decline.",
+      "The Lords of Cinder are the clearest expression of that pattern. They are former bearers of the flame who have been called back to their thrones, and their refusal to return says as much about the cost of the cycle as any speech could. The Ashen One is an unkindled figure, a would-be lord who failed to link the fire and is now useful precisely because of that failure.",
+      "Lothric's landscape reflects the repetition. Castles lean into one another, lands collapse together, and old landmarks appear where they should not. The world feels less like a continuous history and more like a stack of exhausted attempts. The player's journey is another attempt, and the game is honest about how much that attempt costs.",
+    ],
+    tags: ["cycle of fire", "lords of cinder", "ashen one", "lothric", "timeline", "lore"],
+    sourceNote:
+      "An editorial reading of the game's background lore, based on item descriptions and dialogue. Contains mild lore spoilers but avoids specific endings.",
+  },
+  {
+    slug: "mass-effect-reaper-cycle",
+    title: "The Reapers and the Logic of the Cycle",
+    gameSlug: "mass-effect-legendary-edition",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "The Reapers are frightening because they do not behave like invaders. They behave like a recurring system with a schedule.",
+    paragraphs: [
+      "The Reapers are introduced as ancient machines, but their real power is structural. They arrive after civilizations have built convenient systems, harvested knowledge, and left ruins that the next cycle mistakes for predecessors. Their technology becomes a trap because it is designed to be found.",
+      "The Citadel, mass relays, and the broader galactic order are part of that architecture. The trilogy spends a lot of time letting the player feel at home in a galaxy that turns out to have been arranged for someone else's purposes. The horror is not just the scale of the Reapers; it is the realization that the map itself may be a tool.",
+      "The cycle also explains why the trilogy's politics matter. Species compete for influence, but they are also inheriting a set of assumptions about progress, defense, and centralization. The Reapers are not outside the story. They are the dark shape behind the institutions the characters spend three games arguing over.",
+    ],
+    tags: ["reapers", "cycle", "citadel", "mass relays", "galaxy", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of the trilogy's worldbuilding. Contains broad premise spoilers but does not describe the endings.",
+  },
+  {
+    slug: "persona-5-palaces-as-distortion",
+    title: "Palaces Are Not Dungeons. They Are Distorted Minds.",
+    gameSlug: "persona-5-royal",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "A Palace is a person's view of the world made physical, which is why its rooms say more about the ruler than any exposition could.",
+    paragraphs: [
+      "Persona 5 Royal's Palaces are built from cognition. A ruler's distorted desires shape the architecture, the enemies, and the rules of the space. A museum, a castle, or a ship is not just a themed level; it is an argument about how that person sees themselves and everyone around them.",
+      "The Phantom Thieves enter these spaces to steal a Treasure, the physical manifestation of the ruler's distorted desire. The heist structure matters because the game is less interested in killing villains than in making them confront a version of themselves they have refused to see. The Palace is the confrontation.",
+      "This is why the game's best environmental details are often petty. Portraits, signs, seating arrangements, and the way NPCs are dressed all reflect the ruler's self-image. The player is not exploring a neutral location. They are walking through someone else's justification.",
+    ],
+    tags: ["palaces", "cognition", "phantom thieves", "treasure", "worldbuilding", "tokyo"],
+    sourceNote:
+      "An editorial reading of the game's cognitive world. Contains mild early-game spoilers and avoids major story outcomes.",
+  },
+  {
+    slug: "monster-hunter-world-new-world-ecosystem",
+    title: "The New World Is an Ecosystem, Not a Stage",
+    gameSlug: "monster-hunter-world",
+    type: "Worldbuilding",
+    spoiler: "none",
+    excerpt:
+      "Monster Hunter: World treats its maps as living systems where monsters eat, sleep, fight, and move without waiting for the player.",
+    paragraphs: [
+      "The New World is presented as a research frontier, and the game's maps are designed to support that idea. Monsters have territories, feeding grounds, and routines. They leave tracks, retreat when exhausted, and interact with other species. A hunt is an intrusion into a system that was already running.",
+      "The Research Commission's presence gives the player a reason to observe rather than simply exterminate. Quests are framed as studies as well as jobs. The game still centers on hunting, but the ecological framing changes how the world feels: the monsters are not loot dispensers, and the maps are not arenas that reset when you leave.",
+      "The Elder Crossing adds a larger mystery to the ecosystem. Elder Dragons migrate for reasons the Commission is still trying to understand, and that uncertainty is part of the setting's appeal. The New World is not explained in a single cutscene. It is inferred from behavior, ecology, and the assumptions the researchers bring with them.",
+    ],
+    tags: ["new world", "ecosystem", "research commission", "elder crossing", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of the game's ecological framing. Avoids late-game story details and Iceborne-specific revelations.",
+  },
+  {
+    slug: "half-life-2-city-17-occupation",
+    title: "City 17 and the Architecture of Occupation",
+    gameSlug: "half-life-2",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "The Combine do not just occupy City 17. They redesign it into a place where resistance is exhausting and surveillance feels normal.",
+    paragraphs: [
+      "City 17 is a former European city under military administration. The Combine have added checkpoints, propaganda screens, armored vehicles, and the Citadel, but they have not erased the old city. That layering is the point. Apartments, plazas, and train stations are still recognizable, which makes the occupation feel like something imposed on ordinary life rather than a separate sci-fi world.",
+      "The Combine's control is bureaucratic as much as violent. Citizens are processed, relocated, and monitored. The suppression field is explained as a way to prevent reproduction, turning the city into a population that cannot imagine a future. The architecture supports that logic: narrow corridors, guarded transitions, and spaces designed to make people move in predictable lines.",
+      "The resistance survives in the gaps between those systems. Rooftops, canals, basements, and service tunnels become routes because the official city is built for compliance. Half-Life 2's level design turns navigation into a political act. Every shortcut is a small argument that the Combine do not control the whole map.",
+    ],
+    tags: ["city 17", "combine", "occupation", "architecture", "resistance", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of City 17's design and in-game context. Contains mild setting spoilers but avoids major plot events.",
+  },
+  {
+    slug: "subnautica-4546b-memory",
+    title: "4546B Is a Planet With a Memory",
+    gameSlug: "subnautica",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "Subnautica's ocean is not empty wilderness. Its wrecks, ruins, and signals are evidence of people who arrived before you and did not leave cleanly.",
+    paragraphs: [
+      "Planet 4546B is introduced as an alien ocean, but the player quickly finds traces of prior visitors. Wrecks, abandoned habitats, and distress signals turn the map into an archaeological site. The survival loop and the mystery loop are the same loop: to go deeper, you need better equipment, and to understand the equipment, you need to explore the places where it failed.",
+      "The planet's biology is also part of its memory. Creatures react to light, sound, and movement. Biomes have distinct ecologies rather than random spawn tables. Learning the behavior of a leviathan or the layout of a cave system is a form of reading the environment, not just preparing for a fight.",
+      "The story avoids turning the ocean into a simple monster gallery. The largest creatures are dangerous, but they are not villains. The planet is indifferent, and the human traces are the source of the moral questions. Subnautica's setting works because the player is a guest in a system that was already complete before the crash.",
+    ],
+    tags: ["4546b", "ocean", "wrecks", "ecology", "exploration", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of the planet's environmental storytelling. Contains mild spoilers for early discoveries and avoids late-game revelations.",
+  },
 ];

@@ -2223,4 +2223,436 @@ export const guides: Guide[] = [
     tags: ["beginner", "portals", "puzzles", "co-op", "aperture science", "valve"],
     featured: true,
   },
+  {
+    slug: "dark-souls-iii-first-hours",
+    title: "Dark Souls III for New Players: The First Hours in Lothric",
+    gameSlug: "dark-souls-iii",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "A spoiler-light start for new Ashen Ones: choose a comfortable weapon, spend souls with purpose, and learn when a fight is telling you to explore elsewhere.",
+    intro:
+      "Dark Souls III can feel hostile before it feels fair. The opening hours are not about mastering every enemy; they are about building a character you understand and learning how the game communicates danger. This guide stays close to the early game and avoids story spoilers.",
+    updatedAt: "2026-11-16",
+    author: EDITOR,
+    sections: [
+      {
+        id: "start-with-a-comfortable-kit",
+        heading: "Start with a kit that fits your instincts",
+        paragraphs: [
+          "Your starting class is a set of beginning stats and gear, not a permanent job. Pick the one whose weapon and armor feel natural. A shield with decent stability makes early encounters easier to read, while a faster weapon gives you more chances to recover from a mistimed swing.",
+          "Do not worry about the perfect build yet. The important early decision is whether you prefer blocking, rolling, or keeping distance. Once you know that, you can spend levels in the stats that support the weapon you actually enjoy using.",
+        ],
+        bullets: [
+          "Test the weapon speed before committing to a long upgrade path.",
+          "Keep your equipment load below the point where your roll becomes heavy.",
+          "Buy a few basic consumables instead of hoarding every soul.",
+          "Read item descriptions; they often explain a weapon's scaling or a nearby danger.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Stamina is a defensive stat",
+          body: "A larger stamina bar gives you another roll or swing in reserve. Early on, that extra margin is often more valuable than a small damage increase.",
+        },
+      },
+      {
+        id: "upgrade-the-boring-things",
+        heading: "Upgrade the boring things first",
+        paragraphs: [
+          "Vigor and endurance make every encounter more forgiving. A larger health pool lets you survive a mistake, and more stamina lets you disengage. Weapon upgrades matter too, but a +2 weapon with a comfortable health bar is usually better than a fragile character with a slightly stronger blade.",
+          "Look for Estus Shards and Undead Bone Shards as you explore. More healing charges and stronger flasks improve every route. If you feel stuck, check whether you missed a shard before assuming you need to grind levels.",
+        ],
+        bullets: [
+          "Raise Vigor when ordinary enemies can kill you in two hits.",
+          "Raise Endurance if you frequently run out of stamina while blocking or rolling.",
+          "Upgrade one main weapon rather than spreading materials across several.",
+          "Save rare upgrade materials for a weapon you have tested in real fights.",
+        ],
+      },
+      {
+        id: "death-is-a-route",
+        heading: "Treat death as a route, not a verdict",
+        paragraphs: [
+          "Lothric is built from shortcuts. A door you open or a lift you activate can turn a long dangerous walk into a short safe one. When a route keeps killing you, look for a side path before throwing yourself at the same fight again.",
+          "Bosses are pattern tests. Spend a few attempts learning the timing of one attack instead of trying to win immediately. If the damage feels impossible, leave, explore another area, and return with more health, a better weapon, or a summon sign.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not ignore the ember",
+          body: "Embering increases your maximum health but also opens you to online invasions. If you want a quieter first run, play unembered while you learn an area and ember before a boss you want help with.",
+        },
+      },
+      {
+        id: "know-when-to-leave",
+        heading: "Know when to leave a fight",
+        paragraphs: [
+          "Dark Souls III rarely requires you to beat one specific enemy before you can progress. If a detour keeps appearing, take it. Optional areas often provide upgrade materials, Estus Shards, and useful rings that make the main path more manageable.",
+          "This is not a difficulty skip; it is how the world is designed. The game expects you to assemble a route, a build, and a set of tools. Patience with exploration is part of the combat loop.",
+        ],
+        bullets: [
+          "Leave a boss after a few attempts if you are not learning anything new.",
+          "Explore side paths for shards and upgrade materials.",
+          "Check your weapon's condition and upgrade level before a long attempt.",
+          "Use summons if you want help; they are part of the intended online system.",
+        ],
+      },
+    ],
+    tags: ["beginner", "first hours", "lothric", "builds", "bosses", "soulslike"],
+    featured: true,
+  },
+  {
+    slug: "mass-effect-legendary-edition-new-player",
+    title: "Mass Effect Legendary Edition: A New Player's Roadmap",
+    gameSlug: "mass-effect-legendary-edition",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "How to approach a three-game continuity, build a Shepard you can sustain, and keep the Normandy's crew and choices from slipping past you.",
+    intro:
+      "The Legendary Edition is a trilogy, not a single campaign. That is exciting, but it also means a new player needs a plan for continuity. This guide focuses on durable habits: how to build Shepard, how to use the Normandy, and how to live with choices that carry forward.",
+    updatedAt: "2026-11-15",
+    author: EDITOR,
+    sections: [
+      {
+        id: "play-in-order",
+        heading: "Play in order and keep one continuity",
+        paragraphs: [
+          "Start with the first Mass Effect and import your save into each sequel. The trilogy is designed around continuity: characters remember earlier conversations, and decisions can return much later. Jumping between games or starting a sequel without an import changes the context.",
+          "Each game has a different combat rhythm and interface, so expect an adjustment period when moving between them. The first entry is the most RPG-heavy; the sequels are more direct. That shift is part of the trilogy's history, not a sign that you are playing them wrong.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Name your saves clearly",
+          body: "Use a consistent save naming habit and keep a manual save before major missions. The trilogy rewards continuity, and a clear save history makes it easier to revisit a choice without replaying an entire game.",
+        },
+      },
+      {
+        id: "build-a-sustainable-shepard",
+        heading: "Build a Shepard you can sustain",
+        paragraphs: [
+          "Choose a class based on the combat loop you enjoy. Soldiers lean on weapons and durability, while classes with biotics or tech powers add crowd control and utility. You do not need to optimize for the hardest difficulty on a first run; you need a character whose tools you will actually use.",
+          "Squad composition matters as much as Shepard's class. Bring one companion who can strip shields and another who can handle armor, or build around crowd control if you prefer to control the pace of a fight. Read power descriptions and test them in low-stakes encounters.",
+        ],
+        bullets: [
+          "Pick a class whose signature power you will use every fight.",
+          "Keep one squadmate for defense and one for a damage type you lack.",
+          "Upgrade a small set of powers rather than spreading points thin.",
+          "Use cover deliberately; standing in the open is still a bad plan.",
+        ],
+      },
+      {
+        id: "use-the-normandy",
+        heading: "Treat the Normandy as a checklist",
+        paragraphs: [
+          "After major missions, walk the ship and talk to your crew. Conversations unlock context, side missions, and relationships that the main plot does not always surface. The Normandy is also where upgrades and loadout changes happen, so make a pass before leaving for a new cluster.",
+          "Read the codex when a term is unclear, but do not feel obligated to memorize it. The game is good at surfacing the information you need in dialogue. The codex is there for the parts you want to understand more deeply.",
+        ],
+        callout: {
+          type: "note",
+          title: "Choices are not a checklist",
+          body: "You do not need to make the same decisions as a guide. The trilogy is built to absorb different Shepards. Make choices you can explain, and let the consequences become part of your version of the story.",
+        },
+      },
+      {
+        id: "expect-a-long-arc",
+        heading: "Expect a long arc, not a single story",
+        paragraphs: [
+          "The trilogy's emotional weight comes from accumulation. Crew relationships, faction outcomes, and small conversations matter because they return across three games. Rushing toward the finale can make the payoffs feel abrupt.",
+          "Take breaks between games if you need them. Each entry has its own beginning, middle, and ending, and the Legendary Edition is generous enough to let you treat them as separate chapters of one long mission.",
+        ],
+        bullets: [
+          "Finish side conversations before advancing the main plot.",
+          "Keep a save before missions that clearly signal a major decision.",
+          "Rotate squadmates to hear different perspectives.",
+          "Do not treat the first game as a tutorial for the second; it is its own story.",
+        ],
+      },
+    ],
+    tags: ["beginner", "trilogy", "commander shepard", "choices", "squad", "normandy"],
+    featured: false,
+  },
+  {
+    slug: "persona-5-royal-first-palace",
+    title: "Persona 5 Royal: A Spoiler-Light Guide to Your First Palace",
+    gameSlug: "persona-5-royal",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "A practical start for your first Palace: protect your calendar, learn the weakness loop, and build confidants without trying to optimize every day.",
+    intro:
+      "Persona 5 Royal gives you a calendar, a dungeon, and a social life, then asks you to balance all three. The first Palace is a tutorial in disguise, but it is also where new players form habits that last the whole year. This guide avoids story spoilers and focuses on the systems.",
+    updatedAt: "2026-11-14",
+    author: EDITOR,
+    sections: [
+      {
+        id: "protect-the-calendar",
+        heading: "Protect the calendar",
+        paragraphs: [
+          "Palace deadlines are real. Do not wait until the last day to finish a dungeon, because the game will not always give you a clean reset. Enter early, map the route, and leave yourself time for equipment, healing, and story scenes.",
+          "Days are a resource, but they are not a score. You do not need to maximize every afternoon. A steady routine is better than burning out on a perfect schedule. If a deadline is approaching, prioritize the Palace over optional hangouts.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not save only inside the Palace",
+          body: "Keep a save from before a Palace deadline and another from a safe room. If you find yourself underprepared, a clean save gives you room to retreat and return with better items.",
+        },
+      },
+      {
+        id: "learn-the-weakness-loop",
+        heading: "Learn the weakness loop",
+        paragraphs: [
+          "Combat is built around hitting weaknesses, knocking enemies down, and passing turns to allies. The first Palace teaches you to experiment with elemental attacks rather than repeating the same action. If an enemy resists one element, try another or use status effects.",
+          "Do not hoard every consumable. SP-restoring items and elemental attack items are tools for finishing a Palace route, not trophies. Use them when they save a trip or prevent a wipe. You can always earn more later.",
+        ],
+        bullets: [
+          "Target weaknesses before using raw damage.",
+          "Use baton passes to chain turns when an enemy is down.",
+          "Keep a few SP recovery items for long Palace runs.",
+          "Switch Personas when a fight calls for a different element.",
+        ],
+      },
+      {
+        id: "build-confidants-deliberately",
+        heading: "Build confidants deliberately",
+        paragraphs: [
+          "Confidants unlock abilities that make both combat and daily life smoother. Prioritize the people whose abilities match how you want to play, and carry a matching Persona when you spend time with them. You do not need to max everyone in one run.",
+          "Royal adds new confidants and a new semester, so leaving room in your schedule matters more than chasing every available scene. Treat relationships as long-term investments rather than a checklist to clear before the next deadline.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Carry the right Persona",
+          body: "When you hang out with a confidant, carrying a Persona of the matching arcana can increase the relationship progress. This is one of the easiest efficiency gains in the game.",
+        },
+      },
+      {
+        id: "fuse-and-experiment",
+        heading: "Fuse, do not hoard",
+        paragraphs: [
+          "Personas are meant to be fused. A full roster of low-level favorites is less useful than a smaller set that covers different elements and support roles. Use the Velvet Room regularly, and do not be afraid to sacrifice a Persona you are not using.",
+          "Royal adds extra tools that make fusion and combat more flexible. Read the descriptions as they unlock, but do not let the systems overwhelm the first Palace. The core loop is still simple: find a weakness, exploit it, and keep your SP above zero.",
+        ],
+        bullets: [
+          "Fuse duplicates and unused Personas instead of hoarding them.",
+          "Keep at least one Persona with healing or support skills.",
+          "Check fusion results before committing to an expensive combination.",
+          "Do not spend all your money on cosmetic gear early; save for useful equipment.",
+        ],
+      },
+    ],
+    tags: ["beginner", "first palace", "combat", "confidants", "calendar", "jrpg"],
+    featured: true,
+  },
+  {
+    slug: "monster-hunter-world-first-hunts",
+    title: "Monster Hunter: World — How to Prepare for Your First Hunts",
+    gameSlug: "monster-hunter-world",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Choose a weapon by feel, pack a real item loadout, and learn the monster's tells before worrying about the perfect build.",
+    intro:
+      "Monster Hunter: World is less about rushing a monster and more about turning a hunt into a plan. The first few hours are a tutorial in preparation, weapon feel, and reading the environment. This guide covers the habits that make every later hunt easier.",
+    updatedAt: "2026-11-13",
+    author: EDITOR,
+    sections: [
+      {
+        id: "pick-a-weapon-by-feel",
+        heading: "Pick a weapon by feel, not by tier list",
+        paragraphs: [
+          "All 14 weapon types are viable, but they ask for different rhythms. A great sword is about commitment and timing; a dual blades user wants openings and stamina management; a bow user is managing distance and coatings. Spend time in the training area and take a few low-risk hunts before deciding.",
+          "It is normal to switch weapons early. The goal is to find a move set that makes sense to you, not to pick the strongest option before you understand the game. Once you choose, upgrade one or two weapons rather than spreading materials across everything.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Learn one combo and one recovery",
+          body: "You do not need to memorize every move. Start with a reliable damage combo and a safe way to disengage. Those two habits carry you through most early hunts.",
+        },
+      },
+      {
+        id: "pack-for-the-hunt",
+        heading: "Pack for the hunt",
+        paragraphs: [
+          "Before leaving Astera, check your item pouch. Bring healing, stamina recovery, traps, and the consumables that support your weapon. A hunt that fails because you ran out of items is usually a preparation problem, not a skill problem.",
+          "Eat a meal before a quest for useful buffs, and check your armor skills. Early armor is less about raw defense than the skills attached to it. Health Boost, divine protection, and stamina-related skills can make learning a new monster much less punishing.",
+        ],
+        bullets: [
+          "Bring more healing than you think you need.",
+          "Carry traps and tranq bombs if you want to capture monsters.",
+          "Check your armor skills before a new hunt.",
+          "Use the item box to restock between quests.",
+        ],
+      },
+      {
+        id: "read-the-monster",
+        heading: "Read the monster before you attack it",
+        paragraphs: [
+          "Every monster has tells: a wind-up, a turn, a roar, a tail sweep. Spend the first minute watching rather than trading hits. Learn which side is safe, when the monster is exhausted, and where your weapon can reach a weak point.",
+          "The environment is part of the fight. Ledges, slopes, environmental traps, and other monsters can change the pace. A turf war is not a cutscene; it is an opportunity. Use the terrain and let the ecosystem do some of the work.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not chase the monster blindly",
+          body: "If a monster runs, sharpen, heal, and check your item pouch before following. Arriving at the next area with low health or a dull blade is how a good hunt turns into a cart.",
+        },
+      },
+      {
+        id: "learn-multiplayer-etiquette",
+        heading: "Learn multiplayer etiquette",
+        paragraphs: [
+          "Online hunts are cooperative, but they still require timing. Do not wake a sleeping monster with a weak hit if someone is setting up a big attack. Share buffs, avoid crowding the same weak point, and use the chat or stickers to coordinate.",
+          "SOS flares are a normal part of the game. Joining a hunt means accepting someone else's pace. If you are learning a monster, say so or start with solo hunts until you know the tells. A calm team is usually faster than a chaotic one.",
+        ],
+        bullets: [
+          "Let the team set up before waking a sleeping monster.",
+          "Bring items that help the group, not just yourself.",
+          "Do not carve while a teammate is still fighting.",
+          "Use the training area to learn a new weapon before joining a hunt.",
+        ],
+      },
+    ],
+    tags: ["beginner", "hunting", "weapons", "preparation", "co-op", "monster hunter"],
+    featured: false,
+  },
+  {
+    slug: "half-life-2-new-player",
+    title: "Half-Life 2: A New Player's Guide to City 17",
+    gameSlug: "half-life-2",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "How to read the environment, use physics as a weapon, and appreciate a campaign that rarely takes the camera away from you.",
+    intro:
+      "Half-Life 2 is old enough that its conventions have been copied many times, but it still has a specific rhythm. The game wants you to look around, listen, and use the space. This guide is spoiler-light and focuses on habits that make the campaign smoother.",
+    updatedAt: "2026-11-12",
+    author: EDITOR,
+    sections: [
+      {
+        id: "use-the-environment",
+        heading: "Use the environment",
+        paragraphs: [
+          "Half-Life 2's physics are not decoration. Crates, barrels, radiators, and debris can be picked up and thrown. Explosive barrels are weapons. A stack of objects can become cover or a step. When a room looks like a straightforward firefight, check whether the props offer a better answer.",
+          "The gravity gun is the signature tool for a reason. It lets you solve puzzles and fight without spending ammunition. Practice picking up and launching objects early, when the stakes are low, so the tool feels natural later.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Look for the alternate route",
+          body: "If a fight feels too direct, scan the edges of the room. Vents, ledges, and movable props often provide a way around the obvious path.",
+        },
+      },
+      {
+        id: "manage-the-vehicle-sections",
+        heading: "Manage the vehicle sections",
+        paragraphs: [
+          "The airboat and buggy chapters are longer than they first appear. Stop when you see a supply crate or a safe building, and do not treat the vehicle as invulnerable. A few seconds spent topping up health and ammunition can save a long replay.",
+          "Vehicle sections are also exploration sections. Pull over when a side path looks interesting; the game often hides supplies, resistance hideouts, or environmental storytelling just off the main route.",
+        ],
+        bullets: [
+          "Save before long vehicle stretches if you are playing on a harder difficulty.",
+          "Check buildings and side paths for supplies.",
+          "Use the vehicle's weapons deliberately; ammunition is finite.",
+          "Do not ignore on-foot sections between driving segments.",
+        ],
+      },
+      {
+        id: "listen-to-the-silence",
+        heading: "Listen to the silence",
+        paragraphs: [
+          "Half-Life 2 tells much of its story through NPC dialogue, radio chatter, and the environment. Characters talk while you move, and the game rarely stops to deliver a traditional cutscene. If you rush through a room, you can miss context that makes the next area click.",
+          "The sound design is also a gameplay tool. Combine radios, distant gunfire, and creature noises tell you what is ahead. Headphones help, especially in the quieter resistance sections and the darker chapters.",
+        ],
+        callout: {
+          type: "note",
+          title: "No need to cheat the first run",
+          body: "The campaign is generous with saves and checkpoints. If you want to use the developer console later, treat it as a second-playthrough tool rather than a requirement for finishing the game.",
+        },
+      },
+      {
+        id: "take-the-pacing-seriously",
+        heading: "Let the pacing breathe",
+        paragraphs: [
+          "Half-Life 2 alternates between claustrophobic corridors, wide outdoor spaces, and puzzle-driven detours. That variety is the point. If a chapter feels slow, it is often setting up the next change in rhythm.",
+          "Play in longer sessions if you can. The campaign's sense of continuity comes from moving through spaces without constant interruptions. A rushed hour-by-hour approach can make the transitions feel more abrupt than they are.",
+        ],
+        bullets: [
+          "Explore rooms before triggering the obvious fight.",
+          "Use quick saves before platforming or physics puzzles.",
+          "Keep an eye on your health and suit charge between encounters.",
+          "Play with sound on; audio cues are part of the navigation.",
+        ],
+      },
+    ],
+    tags: ["beginner", "city 17", "physics", "gravity gun", "fps", "valve"],
+    featured: true,
+  },
+  {
+    slug: "subnautica-first-days",
+    title: "Subnautica: Surviving Your First Days on 4546B",
+    gameSlug: "subnautica",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Stabilize oxygen and supplies, scan before you build, and resist the urge to swim straight into the dark.",
+    intro:
+      "Subnautica opens with a crash and a very large ocean. The first days are about turning panic into a routine: secure water, food, and oxygen, then expand your range one safe step at a time. This guide is spoiler-light and focuses on early survival habits.",
+    updatedAt: "2026-11-11",
+    author: EDITOR,
+    sections: [
+      {
+        id: "stabilize-the-basics",
+        heading: "Stabilize oxygen, food, and water",
+        paragraphs: [
+          "Your first priority is a repeatable supply of breathable air, food, and water. The safe shallows around the lifepod contain materials for basic tools, and the fabricator turns those materials into equipment. Do not swim into deeper biomes until you can reliably return with oxygen to spare.",
+          "Catch fish, collect salt, and learn which local plants and materials are useful. A small routine is better than a risky expedition. If you hear your oxygen warning, turn back immediately; the surface is always the fallback.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Build the Seaglide early",
+          body: "The Seaglide improves travel speed and gives you a light source. It changes how far you can safely explore and makes returning to the lifepod much less stressful.",
+        },
+      },
+      {
+        id: "scan-before-you-build",
+        heading: "Scan fragments before you build",
+        paragraphs: [
+          "Blueprints come from scanning fragments and damaged technology. When you find a wreck or a debris field, scan what you can before leaving. A single fragment can unlock a tool or habitat piece that makes the next trip safer.",
+          "Your first base does not need to be impressive. A small habitat with power, storage, and a fabricator is enough. Build near a reliable resource area, and expand only when you have a clear reason. Mobility matters more than a perfect layout in the early game.",
+        ],
+        bullets: [
+          "Scan every new fragment you can reach safely.",
+          "Build storage before your inventory becomes a mess.",
+          "Use solar power in shallow water and check power output before expanding.",
+          "Mark useful resource spots with beacons.",
+        ],
+      },
+      {
+        id: "respect-the-deep",
+        heading: "Respect the deep",
+        paragraphs: [
+          "Subnautica's danger is often audible before it is visible. If a new biome feels wrong, leave. You do not need to fight every creature, and most early threats are better avoided than confronted. The game gives you tools for distraction and escape; use them.",
+          "Depth is a progression gate. Your oxygen supply, vehicle depth rating, and equipment all need to match the environment. If you are constantly turning back, you are not failing; you are learning where the current boundary is.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not chase a leviathan",
+          body: "If something enormous appears, move away calmly and put terrain between you and it. Trying to get a closer look is how a routine supply run becomes a rescue mission.",
+        },
+      },
+      {
+        id: "follow-the-signals",
+        heading: "Follow the signals at your pace",
+        paragraphs: [
+          "Radio messages and distress signals provide direction, but Subnautica rarely imposes a timer. Explore, build, and upgrade until you feel ready. The story is designed to be discovered between survival trips, not rushed through in one sitting.",
+          "Keep notes or use beacons for anything you want to revisit. The ocean is dense, and a landmark that feels obvious now can be hard to find again after a long expedition. A little navigation discipline makes the whole game calmer.",
+        ],
+        bullets: [
+          "Listen to radio messages when they arrive.",
+          "Use beacons for wrecks, bases, and resource clusters.",
+          "Return to base before your inventory is completely full.",
+          "Upgrade oxygen and depth capacity before pushing into a new biome.",
+        ],
+      },
+    ],
+    tags: ["beginner", "survival", "oxygen", "base building", "exploration", "ocean"],
+    featured: false,
+  },
 ];

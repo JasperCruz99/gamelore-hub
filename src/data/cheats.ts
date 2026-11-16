@@ -43,6 +43,28 @@ const GTA_V_SOURCES = [
   },
 ];
 
+const HALF_LIFE_2_SOURCES = [
+  {
+    label: "Steam Community — Half-Life 2 cheats and console commands",
+    url: "https://steamcommunity.com/sharedfiles/filedetails/?id=3087273607",
+  },
+  {
+    label: "CheatArcade — Half-Life 2 console commands",
+    url: "https://cheatarcade.com/half-life-2-console-commands",
+  },
+];
+
+const SUBNAUTICA_SOURCES = [
+  {
+    label: "Subnautica Wiki — Console Commands",
+    url: "https://wiki.subnautica.com/sn/Console_Commands",
+  },
+  {
+    label: "Gaming Route — Subnautica console commands",
+    url: "https://gamingroute.com/subnautica-console-commands/",
+  },
+];
+
 export const cheats: Cheat[] = [
   {
     slug: "minecraft-creative-mode",
@@ -633,6 +655,174 @@ export const cheats: Cheat[] = [
     },
     tags: ["parachute", "travel", "phone", "story mode"],
   },
+  {
+    slug: "half-life-2-all-weapons",
+    title: "Get every campaign weapon",
+    gameSlug: "half-life-2",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Enable the developer console in Options > Keyboard > Advanced, press the console key, enter sv_cheats 1, then enter impulse 101.",
+    code: "sv_cheats 1\nimpulse 101",
+    whatItDoes:
+      "Gives Gordon the standard campaign weapons with ammunition.",
+    requirements:
+      "Single-player only. Cheat-protected commands require sv_cheats 1. Achievements are disabled for the session while cheats are on; set sv_cheats 0 and restart the game to restore them.",
+    effects: [
+      "Adds the campaign weapon set",
+      "Refills ammunition for those weapons",
+      "Requires sv_cheats 1 first",
+      "Disables achievements for the current session",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The built-in Source console and impulse 101 are documented by the Steam Community guide and current command references. Achievements return after restarting without cheats.",
+      sources: HALF_LIFE_2_SOURCES,
+    },
+    tags: ["weapons", "ammo", "console command", "source engine", "pc"],
+  },
+  {
+    slug: "half-life-2-god-mode",
+    title: "Toggle god mode",
+    gameSlug: "half-life-2",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Open the developer console, enable cheats with sv_cheats 1, then enter god. Enter it again to toggle the effect off.",
+    code: "sv_cheats 1\ngod",
+    whatItDoes:
+      "Prevents Gordon from taking damage until the command is toggled off.",
+    requirements:
+      "Single-player only. sv_cheats 1 disables achievements for the session. Toggle god off before loading a save you want to keep clean.",
+    effects: [
+      "Blocks all damage while active",
+      "Can be toggled off by entering god again",
+      "Requires sv_cheats 1",
+      "Disables achievements for the current session",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "God mode is a built-in Source command. The current Steam Community guide and command references agree on the syntax.",
+      sources: HALF_LIFE_2_SOURCES,
+    },
+    tags: ["god mode", "invincibility", "console command", "source engine", "pc"],
+  },
+  {
+    slug: "half-life-2-noclip",
+    title: "Toggle noclip",
+    gameSlug: "half-life-2",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Enable cheats with sv_cheats 1, then enter noclip. Enter it again to return to normal movement.",
+    code: "sv_cheats 1\nnoclip",
+    whatItDoes:
+      "Lets Gordon fly through walls and level geometry for exploration or troubleshooting.",
+    requirements:
+      "Single-player only. Save before using it; leaving the playable area can strand you or trigger unfinished map space. Achievements are disabled for the session while cheats are active.",
+    effects: [
+      "Enables free flight through geometry",
+      "Toggles off when entered again",
+      "Useful for exploring or recovering a stuck save",
+      "Disables achievements for the current session",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "Noclip is a built-in Source command documented by the Steam Community guide and command references. Keep a save before flying outside the map.",
+      sources: HALF_LIFE_2_SOURCES,
+    },
+    tags: ["noclip", "exploration", "console command", "source engine", "pc"],
+  },
+  {
+    slug: "subnautica-no-damage",
+    title: "Toggle no damage",
+    gameSlug: "subnautica",
+    type: "Console Command",
+    platform: "PC and Mac",
+    instructions:
+      "Open the console with Shift + Enter or Shift + `, then enter nodamage. Enter it again to toggle the effect off.",
+    code: "nodamage",
+    whatItDoes:
+      "Prevents the player from taking damage, the closest built-in equivalent to god mode.",
+    requirements:
+      "Single-player only. Using console commands disables achievements for that save file. Use a separate save if you want to earn achievements later.",
+    effects: [
+      "Blocks creature and environmental damage",
+      "Can be toggled off by entering the command again",
+      "Does not remove hunger, thirst, or oxygen limits",
+      "Disables achievements for the save",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The command is documented by the Subnautica Wiki and current console-command references. Achievement behavior is save-specific; use a separate save.",
+      sources: SUBNAUTICA_SOURCES,
+    },
+    tags: ["no damage", "god mode", "console command", "survival", "pc"],
+  },
+  {
+    slug: "subnautica-free-crafting",
+    title: "Toggle free crafting and building",
+    gameSlug: "subnautica",
+    type: "Console Command",
+    platform: "PC and Mac",
+    instructions:
+      "Open the console and enter nocost. Enter it again to return to normal resource costs.",
+    code: "nocost",
+    whatItDoes:
+      "Lets the Fabricator, Habitat Builder, Mobile Vehicle Bay, Vehicle Upgrade Console, and Modification Station work without required materials.",
+    requirements:
+      "Single-player only. Using the console disables achievements for that save. Existing materials may still be consumed if you have them, and deconstructing does not refund materials in this mode.",
+    effects: [
+      "Crafts and builds without required materials",
+      "Affects fabricators, builders, and vehicle stations",
+      "Toggles off when entered again",
+      "Disables achievements for the save",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The command and its limits are documented by the Subnautica Wiki and current console-command references.",
+      sources: SUBNAUTICA_SOURCES,
+    },
+    tags: ["free crafting", "building", "nocost", "console command", "pc"],
+  },
+  {
+    slug: "subnautica-spawn-item",
+    title: "Add an item to your inventory",
+    gameSlug: "subnautica",
+    type: "Console Command",
+    platform: "PC and Mac",
+    instructions:
+      "Open the console and enter item, followed by the item ID and amount. Replace the example values with the resource you need.",
+    code: "item titanium 10",
+    whatItDoes:
+      "Adds the specified quantity of an item directly to the player's inventory.",
+    requirements:
+      "Single-player only. Item IDs use one word for multiword names, such as copperwire. Using the console disables achievements for that save.",
+    effects: [
+      "Adds the requested item and quantity",
+      "Uses item IDs rather than display names",
+      "Defaults to one item if no amount is entered",
+      "Disables achievements for the save",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The item syntax is documented by the Subnautica Wiki and current console-command references. Item IDs can vary with game version and mods.",
+      sources: SUBNAUTICA_SOURCES,
+    },
+    tags: ["items", "resources", "console command", "survival", "pc"],
+  },
 ];
 
 export const cheatNotes: CheatNote[] = [
@@ -715,5 +905,21 @@ export const cheatNotes: CheatNote[] = [
   {
     gameSlug: "portal-2",
     note: "No official cheat menu. The PC developer console is intended for testing and is not part of the normal puzzle experience. This hub does not list commands; use the in-game commentary and challenge modes instead.",
+  },
+  {
+    gameSlug: "dark-souls-iii",
+    note: "No official cheat codes. The intended ways to adjust difficulty are levels, weapon upgrades, Estus upgrades, and summoning. Third-party trainers and save editors can break saves or affect online play, so this hub does not cover them.",
+  },
+  {
+    gameSlug: "mass-effect-legendary-edition",
+    note: "No official cheat codes. Difficulty settings, New Game+, and imported saves are the supported ways to replay the trilogy. PC console tools require unofficial modifications and are outside this hub's scope.",
+  },
+  {
+    gameSlug: "persona-5-royal",
+    note: "No official cheat codes. Safety difficulty, New Game+, and the game's own fusion and equipment systems are the supported ways to adjust the experience. Trainers and save editors are not covered here.",
+  },
+  {
+    gameSlug: "monster-hunter-world",
+    note: "No official cheat menu. Equipment, decorations, and practice are the intended progression systems. Mods and trainers can affect saves or multiplayer sessions, so this hub does not cover them.",
   },
 ];
