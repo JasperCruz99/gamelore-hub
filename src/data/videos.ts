@@ -511,6 +511,19 @@ export const videos: Video[] = [
     placeholder: true,
     tags: ["beginner", "co-op", "survival", "special infected", "tutorial"],
   },
+  {
+    slug: "oblivion-first-hours-video",
+    title: "Oblivion: A clean start in Cyrodiil",
+    creator: PLACEHOLDER_CREATOR,
+    gameSlug: "the-elder-scrolls-iv-oblivion",
+    thumbnailImage: "/images/games/the-elder-scrolls-iv-oblivion/screenshot-01.jpg",
+    type: "Tutorial",
+    description:
+      "A demo entry for beginner videos covering classes, combat skills, leveling, guilds, and the first main-quest route.",
+    url: youtubeSearchUrl("Oblivion beginner guide first hours classes leveling"),
+    placeholder: true,
+    tags: ["beginner", "cyrodiil", "classes", "leveling", "tutorial"],
+  },
 ];
 
 export const featuredChannels: FeaturedChannel[] = [

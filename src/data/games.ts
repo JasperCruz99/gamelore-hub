@@ -2285,4 +2285,73 @@ export const games: Game[] = [
     popularity: 90,
     relatedGames: ["portal-2", "half-life-2", "bioshock-remastered"],
   },
+  {
+    slug: "the-elder-scrolls-iv-oblivion",
+    title: "The Elder Scrolls IV: Oblivion",
+    tagline:
+      "A sunlit empire, a crumbling oblivion gate, and a province full of people with somewhere to be.",
+    genres: ["Open-world RPG", "Fantasy", "First-person"],
+    developer: "Bethesda Game Studios",
+    publisher: "Bethesda Softworks",
+    releaseDate: "2006-03-20",
+    releaseYear: 2006,
+    platforms: ["PC", "Xbox 360", "PlayStation 3", "Xbox One", "Xbox Series X|S"],
+    modes: ["Single-player"],
+    coverImage: "/images/games/the-elder-scrolls-iv-oblivion/cover.jpg",
+    coverAlt: "Official cover art for The Elder Scrolls IV: Oblivion",
+    heroImage: "/images/games/the-elder-scrolls-iv-oblivion/hero.jpg",
+    heroAlt:
+      "Stone buildings and a cathedral tower rise over a Cyrodiil city street in Oblivion",
+    screenshots: [
+      {
+        src: "/images/games/the-elder-scrolls-iv-oblivion/screenshot-01.jpg",
+        alt: "A stone gate and tower rise above a Cyrodiil road in Oblivion",
+      },
+      {
+        src: "/images/games/the-elder-scrolls-iv-oblivion/screenshot-02.jpg",
+        alt: "An armored knight stands in a ruined Ayleid hall in Oblivion",
+      },
+      {
+        src: "/images/games/the-elder-scrolls-iv-oblivion/screenshot-03.jpg",
+        alt: "A timber-framed chapel and stone buildings stand under a blue sky in Oblivion",
+      },
+      {
+        src: "/images/games/the-elder-scrolls-iv-oblivion/screenshot-04.jpg",
+        alt: "A troll charges through a torchlit stone dungeon in Oblivion",
+      },
+      {
+        src: "/images/games/the-elder-scrolls-iv-oblivion/screenshot-05.jpg",
+        alt: "A white stone cathedral and city buildings line a street in Oblivion",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Bethesda Softworks. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/22330/The_Elder_Scrolls_IV_Oblivion_Game_of_the_Year_Edition/",
+    accent: "#C7A65A",
+    description:
+      "Bethesda's fourth Elder Scrolls game opens the gates of Oblivion across Cyrodiil, pairing a huge province with guild questlines, radiant AI, and first-person fantasy combat.",
+    overview: [
+      "Oblivion drops the player into the heart of the Cyrodiil empire, where the emperor is dead, the gates of Oblivion are opening, and every city has its own guilds, politics, and problems. The main quest provides the central crisis, but the game is just as interested in the Fighter's Guild, the Mages Guild, the Thieves Guild, and the Dark Brotherhood.",
+      "The Steam release is the Game of the Year Edition, which includes the Knights of the Nine and Shivering Isles expansions. Its character system rewards specialization but remains flexible, and the difficulty slider lets players adjust the experience without rebuilding a character.",
+    ],
+    funFact:
+      "Oblivion's opening prison sequence was designed to let players define their character through a questionnaire and a short tutorial. The game then uses a level-scaling system to keep much of the world relevant as the player grows.",
+    tags: [
+      "open world",
+      "cyrodiil",
+      "radiant ai",
+      "bethesda",
+      "fantasy",
+      "oblivion gates",
+      "guilds",
+    ],
+    featured: true,
+    popularity: 89,
+    relatedGames: [
+      "the-elder-scrolls-v-skyrim",
+      "fallout-4",
+      "the-witcher-3",
+    ],
+  },
 ];

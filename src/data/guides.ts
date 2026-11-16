@@ -2873,4 +2873,75 @@ export const guides: Guide[] = [
     tags: ["beginner", "co-op", "survival", "special infected", "safe room"],
     featured: false,
   },
+  {
+    slug: "oblivion-first-hours",
+    title: "Oblivion: A Clean Start in Cyrodiil",
+    gameSlug: "the-elder-scrolls-iv-oblivion",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Build around one weapon and one magic school, follow the main quest until the province opens, and stop treating every bandit cave as mandatory.",
+    intro:
+      "Oblivion is an enormous game with a small, clear opening: escape the prison, deliver the amulet, and step into a province full of guilds and side quests. The first hours are easiest when you decide what your character actually does in a fight and resist the urge to clear every map marker before you have a reliable build.",
+    updatedAt: "2026-11-16",
+    author: EDITOR,
+    sections: [
+      {
+        id: "pick-a-fighting-identity",
+        heading: "Pick a weapon and a magic school",
+        paragraphs: [
+          "Oblivion's class system is flexible, but combat still rewards focus. Choose one primary weapon family, such as blades, blunt weapons, or bows, and one magic school that supports it. Destruction is direct damage, Restoration keeps you alive, Illusion controls fights, and Alteration adds utility. You do not need every school.",
+          "Your major skills determine how quickly you level, but they do not lock you out of anything. If you want a simple start, pick a class that matches the weapon you enjoy and spend your first levels improving the skills you actually use.",
+        ],
+        bullets: [
+          "Choose one primary weapon and practice with it.",
+          "Pick one defensive or utility magic school to support it.",
+          "Keep a backup ranged option for enemies you cannot reach.",
+          "Do not spread your major skills across every playstyle at once.",
+        ],
+      },
+      {
+        id: "follow-the-main-quest",
+        heading: "Follow the main quest until the province opens",
+        paragraphs: [
+          "The main quest introduces the Oblivion crisis, the importance of the Amulet of Kings, and the role of the Blades. It also gives you a reason to travel between cities and see how the province is organized. Follow it until you have a clear sense of the world, then start branching into guilds and local quests.",
+          "You can ignore the main quest for long stretches, but leaving it completely can make the world feel like a collection of unrelated caves. The main story provides context for the gates and the political situation; the side quests provide the texture.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Use the difficulty slider",
+          body: "Oblivion's difficulty slider changes enemy damage and health without rebuilding your character. If the game feels too punishing or too easy, adjust it instead of restarting.",
+        },
+      },
+      {
+        id: "leveling-without-stress",
+        heading: "Level without turning it into a spreadsheet",
+        paragraphs: [
+          "Oblivion's leveling system rewards efficient skill increases, but you do not need to optimize every level to finish the game. The difficulty slider and gear upgrades give you room to play naturally. If you want a smoother curve, focus on the skills that keep your character effective rather than chasing a perfect attribute spread.",
+          "Enemies scale with your level, so a character who levels without improving combat skills can feel weaker over time. Make sure your weapon skill, armor skill, and one source of healing keep pace with your character level.",
+        ],
+        bullets: [
+          "Raise the combat skill that matches your main weapon.",
+          "Keep one healing method current, whether that is Restoration or potions.",
+          "Upgrade armor and weapons when you find better gear.",
+          "Use the difficulty slider if the scaling feels wrong.",
+        ],
+      },
+      {
+        id: "explore-with-purpose",
+        heading: "Explore with a purpose",
+        paragraphs: [
+          "Oblivion's map is full of ruins, caves, and shrines, and not every one is worth clearing. Pick a destination, do the quest or dungeon attached to it, and return to town before your inventory is full. This keeps you from burning out on low-value loot runs.",
+          "Join a guild early if you want a steady source of quests and training. The Fighter's Guild and Mages Guild are the most straightforward starting points, while the Thieves Guild and Dark Brotherhood are better once you understand the game's stealth and crime systems.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Watch your stolen goods",
+          body: "Guards and merchants treat stolen items differently. Keep stolen loot separate from your normal inventory until you know where you can sell it.",
+        },
+      },
+    ],
+    tags: ["beginner", "cyrodiil", "classes", "leveling", "guilds", "bethesda"],
+    featured: false,
+  },
 ];

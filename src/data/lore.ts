@@ -732,4 +732,21 @@ export const loreEntries: LoreEntry[] = [
     sourceNote:
       "An editorial reading of the game's environments, safe-room details, and survivor dialogue. Contains mild spoilers for campaign locations.",
   },
+  {
+    slug: "oblivion-cyrodiil-as-empire",
+    title: "Cyrodiil Is an Empire Trying to Look Permanent",
+    gameSlug: "the-elder-scrolls-iv-oblivion",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "Oblivion's heartland is full of white stone, imperial roads, and old ruins. The contrast between the empire's confidence and the wilderness around it is the setting's real argument.",
+    paragraphs: [
+      "Cyrodiil is designed as the center of an empire. Roads connect the cities, the Imperial City sits at the middle of the map, and the architecture borrows from Roman imagery to suggest order and permanence. The province wants to look like the place where civilization has already won.",
+      "The wilderness tells a different story. Ayleid ruins, abandoned forts, and caves sit close to the roads, and the countryside is full of creatures that do not care about imperial authority. The empire is present, but it is not in control of everything it claims.",
+      "That tension gives Oblivion its identity. The main quest opens literal gates to another realm, but the world already feels porous before the crisis begins. Cyrodiil is less a safe heartland than a place where the empire's confidence is constantly being tested by the land underneath it.",
+    ],
+    tags: ["cyrodiil", "empire", "imperial city", "ayleid ruins", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of the game's architecture, map design, and environmental details. Contains mild spoilers for locations, not major story outcomes.",
+  },
 ];

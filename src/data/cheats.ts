@@ -98,6 +98,17 @@ const LEFT_4_DEAD_2_SOURCES = [
   },
 ];
 
+const OBLIVION_SOURCES = [
+  {
+    label: "UESP — Oblivion:Console",
+    url: "https://en.uesp.net/wiki/Oblivion:Console",
+  },
+  {
+    label: "UESP — Oblivion:Console Command Tutorial",
+    url: "https://en.uesp.net/wiki/Oblivion:Console_Command_Tutorial",
+  },
+];
+
 export const cheats: Cheat[] = [
   {
     slug: "minecraft-creative-mode",
@@ -1108,6 +1119,90 @@ export const cheats: Cheat[] = [
       sources: LEFT_4_DEAD_2_SOURCES,
     },
     tags: ["ak-47", "weapons", "give", "console command", "pc"],
+  },
+  {
+    slug: "oblivion-god-mode",
+    title: "Toggle god mode",
+    gameSlug: "the-elder-scrolls-iv-oblivion",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Load a save, press the tilde key (~) to open the console, type tgm, and press Enter. Enter tgm again to turn it off.",
+    code: "tgm",
+    whatItDoes:
+      "Toggles god mode, making the player invincible and removing most resource limits, including spell cost, encumbrance, ammo, and equipment degradation.",
+    requirements:
+      "PC version. Create a separate save before experimenting. The console is a developer tool, not an official difficulty option.",
+    effects: [
+      "Immunity to almost all damage",
+      "Health, Magicka, and Fatigue do not decrease",
+      "Spells can be cast regardless of cost or skill",
+      "Encumbrance is ignored and equipment does not degrade",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "UESP documents tgm as Oblivion's god-mode toggle and lists its effects. The classic PC release does not use Steam achievements, but console changes can still affect a save.",
+      sources: OBLIVION_SOURCES,
+    },
+    tags: ["god mode", "tgm", "console command", "pc", "bethesda"],
+  },
+  {
+    slug: "oblivion-add-gold",
+    title: "Add gold",
+    gameSlug: "the-elder-scrolls-iv-oblivion",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Open the console with the tilde key, enter the command, and press Enter. Change the final number to add a different amount.",
+    code: "player.additem f 1000",
+    whatItDoes:
+      "Adds 1,000 gold directly to the player's inventory. The item ID f is the base-game gold form ID.",
+    requirements:
+      "PC version. Save before using item commands so you can undo an accidental amount.",
+    effects: [
+      "Adds the requested amount of gold",
+      "Uses the same additem syntax as other items",
+      "Changing f to another item ID adds a different item",
+      "Does not complete quests or change merchant prices",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "UESP documents player.additem F as the console command for adding gold in Oblivion.",
+      sources: OBLIVION_SOURCES,
+    },
+    tags: ["gold", "money", "items", "console command", "pc"],
+  },
+  {
+    slug: "oblivion-all-map-markers",
+    title: "Reveal all map markers",
+    gameSlug: "the-elder-scrolls-iv-oblivion",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Open the console with the tilde key, type tmm 1, and press Enter. Use tmm 0 to hide all markers again.",
+    code: "tmm 1",
+    whatItDoes:
+      "Shows all map markers on the world map, including locations the player has not discovered. tmm 0 hides every marker again.",
+    requirements:
+      "PC version. This permanently changes the current save unless you reload an earlier one.",
+    effects: [
+      "Reveals all map markers",
+      "Can skip intended exploration and discovery",
+      "tmm 0 hides all markers, including city markers",
+      "Changes persist in the current save",
+    ],
+    achievementWarning: false,
+    saveWarning: true,
+    verification: {
+      status: "documented",
+      note: "UESP documents tmm 1 as the command to show all map markers and warns that tmm 0 hides every marker.",
+      sources: OBLIVION_SOURCES,
+    },
+    tags: ["map", "markers", "tmm", "console command", "pc"],
   },
 ];
 
