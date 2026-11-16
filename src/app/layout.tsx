@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 
+import { BackToTop } from "@/components/layout/back-to-top";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
 import { siteConfig } from "@/lib/site";
@@ -81,6 +82,7 @@ export default function RootLayout({
           {children}
         </main>
         <SiteFooter />
+        <BackToTop />
       </body>
     </html>
   );
