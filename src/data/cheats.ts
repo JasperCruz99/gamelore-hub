@@ -120,6 +120,17 @@ const SIMS_4_SOURCES = [
   },
 ];
 
+const AGE_OF_EMPIRES_2_SOURCES = [
+  {
+    label: "Age of Empires Support — AoE II: Definitive Edition cheat codes",
+    url: "https://support.ageofempires.com/hc/en-us/articles/24726304415892-Cheat-codes-for-Age-of-Empires-II-Definitive-Edition",
+  },
+  {
+    label: "GameFAQs — Age of Empires II: Definitive Edition cheats",
+    url: "https://gamefaqs.gamespot.com/pc/260708-age-of-empires-ii-definitive-edition/cheats",
+  },
+];
+
 export const cheats: Cheat[] = [
   {
     slug: "minecraft-creative-mode",
@@ -1326,6 +1337,118 @@ export const cheats: Cheat[] = [
       sources: SIMS_4_SOURCES,
     },
     tags: ["build mode", "moveobjects", "decorating", "cheat code", "pc"],
+  },
+  {
+    slug: "age-of-empires-2-de-robin-hood",
+    title: "Add 10,000 gold",
+    gameSlug: "age-of-empires-ii-definitive-edition",
+    type: "Cheat Code",
+    platform: "PC",
+    instructions:
+      "Enable Allow Cheats before starting the match. Press Enter, type robin hood, and press Enter again.",
+    code: "robin hood",
+    whatItDoes:
+      "Adds 10,000 gold to the player's resources in the current match.",
+    requirements:
+      "Cheats must be allowed in the match setup. Using cheats disables achievements for that match.",
+    effects: [
+      "Adds 10,000 gold",
+      "Works in single-player and cheat-enabled multiplayer",
+      "Does not affect other resources",
+      "Disables achievements",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The official Age of Empires support page lists robin hood as the 10,000-gold cheat for Definitive Edition.",
+      sources: AGE_OF_EMPIRES_2_SOURCES,
+    },
+    tags: ["gold", "resources", "robin hood", "cheat code", "pc"],
+  },
+  {
+    slug: "age-of-empires-2-de-cheese-steak-jimmys",
+    title: "Add 10,000 food",
+    gameSlug: "age-of-empires-ii-definitive-edition",
+    type: "Cheat Code",
+    platform: "PC",
+    instructions:
+      "Enable Allow Cheats before starting the match. Press Enter, type cheese steak jimmy's, and press Enter again.",
+    code: "cheese steak jimmy's",
+    whatItDoes:
+      "Adds 10,000 food to the player's resources in the current match.",
+    requirements:
+      "Cheats must be allowed in the match setup. Include the apostrophe in jimmy's.",
+    effects: [
+      "Adds 10,000 food",
+      "Works in single-player and cheat-enabled multiplayer",
+      "Does not affect other resources",
+      "Disables achievements",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The official Age of Empires support page lists cheese steak jimmy's as the 10,000-food cheat for Definitive Edition.",
+      sources: AGE_OF_EMPIRES_2_SOURCES,
+    },
+    tags: ["food", "resources", "cheese steak jimmy's", "cheat code", "pc"],
+  },
+  {
+    slug: "age-of-empires-2-de-cobra-car",
+    title: "Spawn the Cobra Car",
+    gameSlug: "age-of-empires-ii-definitive-edition",
+    type: "Cheat Code",
+    platform: "PC",
+    instructions:
+      "Enable Allow Cheats before starting the match. Press Enter, type how do you turn this on, and press Enter again.",
+    code: "how do you turn this on",
+    whatItDoes:
+      "Spawns the Cobra Car, a fast, heavily armed cheat unit with a machine gun and explosive rounds.",
+    requirements:
+      "Cheats must be allowed in the match setup. The Cobra Car can damage friendly units with its attacks.",
+    effects: [
+      "Spawns the Cobra Car cheat unit",
+      "High damage and long range",
+      "Can cause friendly-fire casualties",
+      "Disables achievements",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The official Age of Empires support page and GameFAQs both list how do you turn this on as the Cobra Car cheat.",
+      sources: AGE_OF_EMPIRES_2_SOURCES,
+    },
+    tags: ["cobra car", "unit", "cheat code", "pc", "hidden unit"],
+  },
+  {
+    slug: "age-of-empires-2-de-all-resources",
+    title: "Add 100,000 of every resource",
+    gameSlug: "age-of-empires-ii-definitive-edition",
+    type: "Cheat Code",
+    platform: "PC",
+    instructions:
+      "Enable Allow Cheats before starting the match. Press Enter, type ninjalui, and press Enter again.",
+    code: "ninjalui",
+    whatItDoes:
+      "Adds 100,000 food, wood, gold, and stone to the player's resources in the current match.",
+    requirements:
+      "Cheats must be allowed in the match setup. Using cheats disables achievements for that match.",
+    effects: [
+      "Adds 100,000 of each resource",
+      "Covers food, wood, gold, and stone",
+      "Works in single-player and cheat-enabled multiplayer",
+      "Disables achievements",
+    ],
+    achievementWarning: true,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The official Age of Empires support page lists ninjalui as a 100,000-of-every-resource cheat.",
+      sources: AGE_OF_EMPIRES_2_SOURCES,
+    },
+    tags: ["resources", "ninjalui", "cheat code", "pc", "economy"],
   },
 ];
 

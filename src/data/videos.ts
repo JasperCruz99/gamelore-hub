@@ -537,6 +537,20 @@ export const videos: Video[] = [
     placeholder: true,
     tags: ["beginner", "households", "building", "routines", "tutorial"],
   },
+  {
+    slug: "age-of-empires-2-de-first-economy-video",
+    title: "Age of Empires II: The first economy you actually need",
+    creator: PLACEHOLDER_CREATOR,
+    gameSlug: "age-of-empires-ii-definitive-edition",
+    thumbnailImage:
+      "/images/games/age-of-empires-ii-definitive-edition/screenshot-02.jpg",
+    type: "Tutorial",
+    description:
+      "A demo entry for beginner videos covering villager production, resource spending, scouting, walls, and one clean opening build order.",
+    url: youtubeSearchUrl("Age of Empires 2 Definitive Edition beginner economy build order guide"),
+    placeholder: true,
+    tags: ["beginner", "economy", "build order", "villagers", "tutorial"],
+  },
 ];
 
 export const featuredChannels: FeaturedChannel[] = [

@@ -2418,4 +2418,71 @@ export const games: Game[] = [
     popularity: 88,
     relatedGames: ["stardew-valley", "minecraft", "baldurs-gate-3"],
   },
+  {
+    slug: "age-of-empires-ii-definitive-edition",
+    title: "Age of Empires II: Definitive Edition",
+    tagline:
+      "A legendary real-time strategy game rebuilt with more campaigns, sharper visuals, and the same urgent need for more villagers.",
+    genres: ["Real-time strategy", "Historical", "Base building"],
+    developer: "Forgotten Empires",
+    publisher: "Xbox Game Studios",
+    releaseDate: "2019-11-14",
+    releaseYear: 2019,
+    platforms: ["PC", "Xbox Series X|S", "Xbox One"],
+    modes: ["Single-player", "Online multiplayer", "Co-op"],
+    coverImage:
+      "/images/games/age-of-empires-ii-definitive-edition/cover.jpg",
+    coverAlt: "Official cover art for Age of Empires II: Definitive Edition",
+    heroImage:
+      "/images/games/age-of-empires-ii-definitive-edition/hero.jpg",
+    heroAlt:
+      "Historical rulers and warriors from different civilizations appear across a stone banner in Age of Empires II: Definitive Edition",
+    screenshots: [
+      {
+        src: "/images/games/age-of-empires-ii-definitive-edition/screenshot-01.jpg",
+        alt: "A stone castle and town sit beside a river on a forested map in Age of Empires II: Definitive Edition",
+      },
+      {
+        src: "/images/games/age-of-empires-ii-definitive-edition/screenshot-02.jpg",
+        alt: "Farmers work wheat fields around windmills and houses in Age of Empires II: Definitive Edition",
+      },
+      {
+        src: "/images/games/age-of-empires-ii-definitive-edition/screenshot-03.jpg",
+        alt: "A Japanese castle complex overlooks a river valley in Age of Empires II: Definitive Edition",
+      },
+      {
+        src: "/images/games/age-of-empires-ii-definitive-edition/screenshot-04.jpg",
+        alt: "A fleet of warships and fishing boats gathers around a coastal fortress in Age of Empires II: Definitive Edition",
+      },
+      {
+        src: "/images/games/age-of-empires-ii-definitive-edition/screenshot-05.jpg",
+        alt: "An army attacks a walled city with a large domed keep in Age of Empires II: Definitive Edition",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Xbox Game Studios. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition/",
+    accent: "#D2A24C",
+    description:
+      "The definitive edition of the classic historical RTS adds new civilizations, campaigns, quality-of-life tools, and modern multiplayer to the original village-to-empire formula.",
+    overview: [
+      "Age of Empires II: Definitive Edition rebuilds the 1999 strategy classic with modern visuals, new campaigns, additional civilizations, and quality-of-life improvements. The core loop is unchanged: gather resources, build a town, advance through the ages, and convert that economy into an army before the opponent does.",
+      "Matches are won and lost in the first few minutes. A steady stream of villagers, clean resource spending, and a plan for the map matter more than a perfect army composition. The game also includes a large campaign library and co-op scenarios for players who prefer a structured historical tour.",
+    ],
+    funFact:
+      "Definitive Edition keeps the original game's fast technical pace while adding modern conveniences such as improved pathfinding, build queues, and a much larger campaign library. The basic villager-production habit is still the foundation of every strategy.",
+    tags: [
+      "real-time strategy",
+      "historical",
+      "build orders",
+      "economy",
+      "multiplayer",
+      "campaigns",
+      "xbox game studios",
+    ],
+    featured: true,
+    popularity: 87,
+    relatedGames: ["baldurs-gate-3", "starfield", "minecraft"],
+  },
 ];

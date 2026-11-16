@@ -766,4 +766,21 @@ export const loreEntries: LoreEntry[] = [
     sourceNote:
       "An editorial reading of the base-game neighborhoods, premade households, and expansion settings. Contains mild spoilers for household relationships and local story hooks.",
   },
+  {
+    slug: "age-of-empires-2-campaign-history",
+    title: "Age of Empires II Turns History Into a Campaign Map",
+    gameSlug: "age-of-empires-ii-definitive-edition",
+    type: "Timeline",
+    spoiler: "none",
+    excerpt:
+      "The campaigns retell famous historical conflicts through scenario design, voiced narration, and objectives that turn broad events into small, playable decisions.",
+    paragraphs: [
+      "Age of Empires II's campaigns are not history lectures. They are scenarios built around a historical figure or conflict, with objectives that translate political and military pressure into resource problems, defensive stands, or timed offensives. The result is a version of history that is selective, dramatic, and designed to be played.",
+      "The game uses narration, map design, and unit composition to establish a period. A campaign about a besieged city gives you walls and limited reinforcements; a campaign about expansion gives you a base and a wide map. The history is in the constraints as much as the text.",
+      "Definitive Edition adds new campaigns and updates the presentation, but the core approach remains the same. Players learn the shape of a conflict by managing its economy and army, not by reading a timeline. That is why the campaigns work as both strategy scenarios and historical storytelling.",
+    ],
+    tags: ["campaigns", "history", "scenario design", "narration", "real-time strategy"],
+    sourceNote:
+      "An editorial reading of the campaign structure and scenario design. It discusses the games' approach to history rather than treating the campaigns as a complete historical record.",
+  },
 ];

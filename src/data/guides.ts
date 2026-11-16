@@ -3015,4 +3015,75 @@ export const guides: Guide[] = [
     tags: ["beginner", "households", "building", "routines", "aspirations", "sandbox"],
     featured: false,
   },
+  {
+    slug: "age-of-empires-2-de-first-economy",
+    title: "Age of Empires II: The First Economy You Actually Need",
+    gameSlug: "age-of-empires-ii-definitive-edition",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Keep the Town Center working, spend resources before they pile up, and learn one clean opening instead of trying to memorize every civilization.",
+    intro:
+      "Age of Empires II looks like a game about armies, but the first ten minutes are an economy test. New players usually lose because the Town Center stops producing villagers, resources sit unspent, or the first military plan arrives too late. This guide focuses on the habits that survive every civilization and every map.",
+    updatedAt: "2026-11-16",
+    author: EDITOR,
+    sections: [
+      {
+        id: "keep-the-town-center-busy",
+        heading: "Keep the Town Center producing villagers",
+        paragraphs: [
+          "Villagers are the engine of everything else. Every idle Town Center is lost gathering time, and those losses compound over a match. Queue villagers continuously in the early game, then use the queue as a buffer while you manage scouting and build orders.",
+          "You do not need to keep production running forever at maximum speed. The goal is to avoid long gaps. If you are about to fight or move your attention to a new base, queue a few villagers first so the economy keeps improving while you are busy.",
+        ],
+        bullets: [
+          "Queue villagers before you scout or micro an army.",
+          "Do not let the Town Center sit idle for long stretches.",
+          "Balance food and wood so villagers do not stall production.",
+          "Build houses before you need them.",
+        ],
+      },
+      {
+        id: "spend-resources",
+        heading: "Spend resources before they pile up",
+        paragraphs: [
+          "A bank of unspent resources is not savings; it is production you have not started. Spend food on villagers and age advancement, wood on houses and farms, and gold on the units or technology your plan needs. If a resource is piling up, ask what you are waiting for.",
+          "New players often save for a perfect army while the opponent spends on a smaller army, map control, and upgrades. A smaller force with a stronger economy behind it is usually in a better position than a large force that arrives too late.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Build production before the army",
+          body: "A barracks or stable with no units is not a plan. Add production buildings when you can keep them working, not just because they look reassuring.",
+        },
+      },
+      {
+        id: "scout-and-wall",
+        heading: "Scout with a purpose",
+        paragraphs: [
+          "Your scout is not just a tourist. Use it to find nearby resources, identify the opponent's opening, and spot whether an attack is coming. A quick look at the opponent's base can tell you whether they are massing archers, cavalry, or infantry before those units arrive at your door.",
+          "Walls are a tool, not a guarantee. A small wall around vulnerable villagers can buy time, but a wall that traps your army or ignores a gap is worse than no wall. Build with a plan for where your army will fight.",
+        ],
+        bullets: [
+          "Find your starting resources before exploring far.",
+          "Check the opponent's base early.",
+          "Wall vulnerable villagers, not every open space.",
+          "Leave a gate or opening for your own army.",
+        ],
+      },
+      {
+        id: "learn-one-opening",
+        heading: "Learn one opening, then adapt",
+        paragraphs: [
+          "Build orders are useful because they remove early uncertainty. Pick one straightforward opening that matches a civilization you enjoy, practice it against the AI, and learn why each step matters. Once you can execute it without thinking, you can start adapting to the map and the opponent.",
+          "Do not try to memorize every civilization at once. Pick a civ with a clear bonus, learn its power spike, and build a small set of responses. Game knowledge grows faster when you can compare new information to a plan you already understand.",
+        ],
+        callout: {
+          type: "note",
+          title: "The AI is a practice partner",
+          body: "Use skirmish games to rehearse villager production, scouting, and one opening. Increase the difficulty when the basics feel automatic, not before.",
+        },
+      },
+    ],
+    tags: ["beginner", "economy", "build order", "villagers", "scouting", "rts"],
+    featured: false,
+  },
 ];
