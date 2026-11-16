@@ -152,7 +152,9 @@ Sources:
   Knight, Disco Elysium, Fallout: New Vegas, NieR:Automata, Resident Evil 4,
   Grand Theft Auto IV, Grand Theft Auto V, L.A. Noire, Yakuza 0, BioShock
   Remastered, Portal 2, Dark Souls III, Mass Effect Legendary Edition,
-  Persona 5 Royal, Monster Hunter: World, Half-Life 2, and Subnautica.
+  Persona 5 Royal, Monster Hunter: World, Half-Life 2, Subnautica, Fallout 4,
+  Portal, Left 4 Dead 2, The Elder Scrolls IV: Oblivion, The Sims 4, and
+  Age of Empires II: Definitive Edition.
 - Minecraft: official Minecraft key art and 1.21 screenshots from
   `minecraft.net`.
 

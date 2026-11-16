@@ -56,28 +56,28 @@ export const metadata: Metadata = {
 const homeGameOrder = [
   "grand-theft-auto-v",
   "elden-ring",
-  "dark-souls-iii",
+  "fallout-4",
   "baldurs-gate-3",
-  "mass-effect-legendary-edition",
-  "persona-5-royal",
-  "grand-theft-auto-iv",
-  "la-noire",
-  "half-life-2",
-  "bioshock-remastered",
+  "portal",
+  "left-4-dead-2",
+  "the-sims-4",
+  "age-of-empires-ii-definitive-edition",
+  "the-elder-scrolls-iv-oblivion",
   "cyberpunk-2077",
-  "portal-2",
+  "red-dead-redemption-2",
+  "dark-souls-iii",
 ];
 
 const spotlightLoreSlugs = [
-  "dark-souls-iii-cycle-of-fire",
-  "mass-effect-reaper-cycle",
-  "subnautica-4546b-memory",
+  "fallout-4-commonwealth-as-memory",
+  "portal-aperture-testing-model",
+  "oblivion-cyrodiil-as-empire",
 ];
 
 const spotlightVideoSlugs = [
-  "dark-souls-iii-beginner-video",
-  "persona-5-royal-first-palace-video",
-  "half-life-2-city-17-video",
+  "fallout-4-beginner-video",
+  "portal-first-chambers-video",
+  "the-sims-4-first-household-video",
 ];
 
 export default function HomePage() {

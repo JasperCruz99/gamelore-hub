@@ -753,9 +753,9 @@ export const games: Game[] = [
     featured: true,
     popularity: 95,
     relatedGames: [
+      "the-elder-scrolls-iv-oblivion",
+      "fallout-4",
       "fallout-new-vegas",
-      "baldurs-gate-3",
-      "starfield",
     ],
   },
   {
@@ -827,7 +827,7 @@ export const games: Game[] = [
     ],
     featured: false,
     popularity: 92,
-    relatedGames: ["hades", "minecraft", "hollow-knight"],
+    relatedGames: ["the-sims-4", "minecraft", "hollow-knight"],
   },
   {
     slug: "hades",
@@ -1110,9 +1110,9 @@ export const games: Game[] = [
     featured: true,
     popularity: 96,
     relatedGames: [
+      "fallout-4",
       "mass-effect-legendary-edition",
       "starfield",
-      "disco-elysium",
     ],
   },
   {
@@ -1680,7 +1680,7 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 96,
-    relatedGames: ["half-life-2", "bioshock-remastered", "nier-automata"],
+    relatedGames: ["portal", "half-life-2", "bioshock-remastered"],
   },
   {
     slug: "dark-souls-iii",
@@ -2008,7 +2008,7 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 97,
-    relatedGames: ["portal-2", "bioshock-remastered", "cyberpunk-2077"],
+    relatedGames: ["portal", "left-4-dead-2", "portal-2"],
   },
   {
     slug: "subnautica",
