@@ -749,4 +749,21 @@ export const loreEntries: LoreEntry[] = [
     sourceNote:
       "An editorial reading of the game's architecture, map design, and environmental details. Contains mild spoilers for locations, not major story outcomes.",
   },
+  {
+    slug: "the-sims-4-premade-neighborhood-stories",
+    title: "The Sims 4's Neighborhoods Arrive With Histories",
+    gameSlug: "the-sims-4",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "The premade households are not just filler. Their jobs, relationships, houses, and routines make each neighborhood feel like it was already running before your Sims moved in.",
+    paragraphs: [
+      "The Sims 4 starts each save with a set of premade households, and those households carry stories the game rarely explains directly. A family may have a strained relationship, a career that does not match its aspirations, or a house that looks like it was decorated by someone with very specific priorities. The details are there for players who look.",
+      "Those details make the neighborhoods feel inhabited. A new save is not an empty stage; it is a place where other people already have routines, friendships, and problems. Moving a new household into that arrangement creates friction, and the friction is often more interesting than a perfectly planned story.",
+      "The game's expansion neighborhoods add their own local identities, from rural ranches to occult towns and dense city districts. The premade residents are part of that identity. They give each map a starting tone and a set of relationships that players can preserve, ignore, or completely rewrite.",
+    ],
+    tags: ["premade households", "neighborhoods", "storytelling", "relationships", "sandbox"],
+    sourceNote:
+      "An editorial reading of the base-game neighborhoods, premade households, and expansion settings. Contains mild spoilers for household relationships and local story hooks.",
+  },
 ];

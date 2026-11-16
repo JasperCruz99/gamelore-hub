@@ -2944,4 +2944,75 @@ export const guides: Guide[] = [
     tags: ["beginner", "cyrodiil", "classes", "leveling", "guilds", "bethesda"],
     featured: false,
   },
+  {
+    slug: "the-sims-4-first-household",
+    title: "The Sims 4: Building a First Household That Works",
+    gameSlug: "the-sims-4",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Start with a small house, a sustainable routine, and a clear story goal instead of trying to build a perfect family and a perfect home at the same time.",
+    intro:
+      "The Sims 4 can feel overwhelming because it gives you a household, a house, a career, a social life, and a build catalog all at once. The first household is easier if you treat it as a small project: choose a few goals, build only what you need, and let the routines create the story.",
+    updatedAt: "2026-11-16",
+    author: EDITOR,
+    sections: [
+      {
+        id: "give-the-household-a-goal",
+        heading: "Give the household a clear goal",
+        paragraphs: [
+          "A household without a goal becomes a cycle of eating, sleeping, and repairing the sink. Pick one or two aspirations or story goals before you start: a Sim who wants to finish a career, a couple trying to build a family, a student who wants to master a skill, or a builder who wants to renovate the neighborhood one house at a time.",
+          "Traits and aspirations shape which interactions feel natural, but they are not a straitjacket. Use them as prompts for the story rather than rules. If a Sim's traits suggest a messy life, let the house get messy and see what happens.",
+        ],
+        bullets: [
+          "Choose one main aspiration for each Sim.",
+          "Pick a household story you can describe in one sentence.",
+          "Leave room for at least one Sim to have a different goal.",
+          "Do not try to complete every aspiration at once.",
+        ],
+      },
+      {
+        id: "build-small-first",
+        heading: "Build small first",
+        paragraphs: [
+          "A small, efficient house is easier to afford, easier to navigate, and easier to change later. Start with the essentials: a bed, a bathroom, a kitchen, a table, and a place to sit. Add skill objects and decoration only when you have a reason for them.",
+          "Build mode rewards planning, but it also rewards iteration. If a room feels wrong, change it. The house is part of the story, not a final exam. A floor plan that supports the household's routine is more useful than a perfect exterior.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Use the room tool",
+          body: "Draw rooms as complete shapes instead of placing individual walls. It is faster, easier to resize, and keeps flooring and wall treatments consistent.",
+        },
+      },
+      {
+        id: "routines-over-micro",
+        heading: "Manage needs with routines",
+        paragraphs: [
+          "Constant micromanagement makes the game feel like a chore. Build a simple daily rhythm instead: wake up, eat, handle the most urgent need, work or skill-build, and leave room for one social activity. A routine gives Sims enough autonomy to surprise you.",
+          "Queue actions instead of hovering over every decision. If a Sim is hungry, send them to the kitchen and let them finish. If a need is not critical, let the Sim handle it while you focus on the household's larger goal.",
+        ],
+        bullets: [
+          "Keep a prepared meal or quick food option available.",
+          "Upgrade beds and bathrooms before buying decorative objects.",
+          "Queue several actions so the household keeps moving.",
+          "Pause when you need to make a real decision, not for every step.",
+        ],
+      },
+      {
+        id: "leave-room-for-stories",
+        heading: "Leave room for stories",
+        paragraphs: [
+          "The best Sims stories usually come from interruptions. A promotion, a breakup, a surprise guest, or a badly timed fire can send a household in a new direction. Do not over-plan the next ten Sim days; give the game room to introduce a problem.",
+          "If you want a calmer run, use the game's options and cheats deliberately rather than constantly. A stable household with a few clear goals is still a story. It just has fewer emergency repairs.",
+        ],
+        callout: {
+          type: "note",
+          title: "A perfect house is not the goal",
+          body: "The Sims 4 is a sandbox. A house with mismatched furniture and a chaotic family can be more memorable than a flawless build with no story inside it.",
+        },
+      },
+    ],
+    tags: ["beginner", "households", "building", "routines", "aspirations", "sandbox"],
+    featured: false,
+  },
 ];

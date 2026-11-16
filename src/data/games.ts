@@ -2354,4 +2354,68 @@ export const games: Game[] = [
       "the-witcher-3",
     ],
   },
+  {
+    slug: "the-sims-4",
+    title: "The Sims 4",
+    tagline:
+      "A life simulator about building a home, a routine, and a story that keeps getting interrupted by the neighbors.",
+    genres: ["Life simulation", "Sandbox", "Social simulation"],
+    developer: "Maxis",
+    publisher: "Electronic Arts",
+    releaseDate: "2014-09-02",
+    releaseYear: 2014,
+    platforms: ["PC", "macOS", "PS4", "Xbox One"],
+    modes: ["Single-player"],
+    coverImage: "/images/games/the-sims-4/cover.jpg",
+    coverAlt: "Official cover art for The Sims 4",
+    heroImage: "/images/games/the-sims-4/hero.jpg",
+    heroAlt:
+      "A Sim rides a white horse through a desert ranch while another rider waits near a wooden sign in The Sims 4",
+    screenshots: [
+      {
+        src: "/images/games/the-sims-4/screenshot-01.jpg",
+        alt: "A family gathers in a colorful living room in The Sims 4",
+      },
+      {
+        src: "/images/games/the-sims-4/screenshot-02.jpg",
+        alt: "A modern house is shown in cutaway view with its furnished rooms in The Sims 4",
+      },
+      {
+        src: "/images/games/the-sims-4/screenshot-03.jpg",
+        alt: "A grid of Create-a-Sim characters with different outfits and styles in The Sims 4",
+      },
+      {
+        src: "/images/games/the-sims-4/screenshot-04.jpg",
+        alt: "A large suburban house with a pool and garden in The Sims 4",
+      },
+      {
+        src: "/images/games/the-sims-4/screenshot-05.jpg",
+        alt: "Two Sims talk beside a picnic table while social interaction options appear in The Sims 4",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Electronic Arts. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/1222670/The_Sims_4/",
+    accent: "#5FC9B5",
+    description:
+      "Maxis' life simulator gives players a household, a neighborhood, and a set of tools for building homes, relationships, careers, and the routines in between.",
+    overview: [
+      "The Sims 4 has no final boss and no single correct route. You create a household, move it into a neighborhood, and decide what daily life looks like. The game supports family stories, career-focused runs, building projects, relationship experiments, and deliberately chaotic sandbox play.",
+      "Its two biggest creative tools are Create-a-Sim and Build/Buy mode. Create-a-Sim shapes appearance, traits, aspirations, and outfits; Build/Buy shapes the house and the objects that support a Sim's needs and hobbies. The base game is free to play on Steam, while most expansion content is sold separately.",
+    ],
+    funFact:
+      "The Sims 4 base game became free to play in 2022. The expansions, game packs, and stuff packs are still separate purchases, which is why two players can own the same base game and have very different libraries.",
+    tags: [
+      "life simulation",
+      "building",
+      "create-a-sim",
+      "sandbox",
+      "households",
+      "maxis",
+      "ea",
+    ],
+    featured: true,
+    popularity: 88,
+    relatedGames: ["stardew-valley", "minecraft", "baldurs-gate-3"],
+  },
 ];

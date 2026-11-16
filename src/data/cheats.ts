@@ -109,6 +109,17 @@ const OBLIVION_SOURCES = [
   },
 ];
 
+const SIMS_4_SOURCES = [
+  {
+    label: "EA — The Sims 4 cheats FAQ",
+    url: "https://www.ea.com/games/the-sims/the-sims-4/faq/cheats",
+  },
+  {
+    label: "The Sims Wiki — The Sims 4 cheats",
+    url: "https://www.thesimswiki.com/wiki/The_Sims_4/cheats",
+  },
+];
+
 export const cheats: Cheat[] = [
   {
     slug: "minecraft-creative-mode",
@@ -1203,6 +1214,118 @@ export const cheats: Cheat[] = [
       sources: OBLIVION_SOURCES,
     },
     tags: ["map", "markers", "tmm", "console command", "pc"],
+  },
+  {
+    slug: "the-sims-4-motherlode",
+    title: "Add 50,000 Simoleons",
+    gameSlug: "the-sims-4",
+    type: "Cheat Code",
+    platform: "PC, Mac, PS4, Xbox One",
+    instructions:
+      "Enter Live mode, open the cheat console with Ctrl+Shift+C, type motherlode, and press Enter.",
+    code: "motherlode",
+    whatItDoes:
+      "Adds 50,000 Simoleons to the current household's funds. kaching and rosebud add 1,000 instead.",
+    requirements:
+      "The household must be loaded in Live mode. The cheat console is opened with Ctrl+Shift+C on PC and Mac, or the four shoulder buttons on consoles.",
+    effects: [
+      "Adds 50,000 Simoleons to household funds",
+      "Can be repeated",
+      "Does not require testingcheats",
+      "Smaller money cheats: kaching or rosebud add 1,000",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "Electronic Arts documents motherlode as the 50,000 Simoleon money cheat. EA notes that some console cheats can disable achievements or trophies for the current save.",
+      sources: SIMS_4_SOURCES,
+    },
+    tags: ["money", "simoleons", "motherlode", "cheat code", "pc"],
+  },
+  {
+    slug: "the-sims-4-testing-cheats",
+    title: "Enable testing cheats",
+    gameSlug: "the-sims-4",
+    type: "Cheat Code",
+    platform: "PC, Mac, PS4, Xbox One",
+    instructions:
+      "Open the cheat console with Ctrl+Shift+C, type testingcheats true, and press Enter. Use testingcheats false to disable it.",
+    code: "testingcheats true",
+    whatItDoes:
+      "Enables advanced testing cheats, including shift-click interactions on Sims, objects, and the mailbox for needs, relationships, and object states.",
+    requirements:
+      "The household must be loaded. On consoles, cheats that require testingcheats true can disable achievements or trophies for that save.",
+    effects: [
+      "Enables shift-click cheat interactions",
+      "Allows need and relationship adjustments",
+      "Unlocks additional object-state options",
+      "Use testingcheats false to disable",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "EA documents testingcheats true as the switch for advanced cheats. EA warns that testingcheats-based console cheats can disable achievements or trophies for the current save.",
+      sources: SIMS_4_SOURCES,
+    },
+    tags: ["testingcheats", "needs", "relationships", "cheat code", "pc"],
+  },
+  {
+    slug: "the-sims-4-cas-fulleditmode",
+    title: "Edit a Sim in Create-a-Sim",
+    gameSlug: "the-sims-4",
+    type: "Cheat Code",
+    platform: "PC, Mac, PS4, Xbox One",
+    instructions:
+      "Enable testingcheats true, then enter cas.fulleditmode. Shift-click a Sim and choose Edit in Create-a-Sim, or use a mirror or dresser.",
+    code: "cas.fulleditmode",
+    whatItDoes:
+      "Unlocks full Create-a-Sim editing for existing Sims, including appearance, traits, and other options normally locked after creation.",
+    requirements:
+      "testingcheats true must be enabled first. The household must be loaded, and the Sim must be available to edit.",
+    effects: [
+      "Unlocks full Create-a-Sim editing",
+      "Works on existing household Sims",
+      "Requires testingcheats true",
+      "Can change traits and appearance",
+    ],
+    achievementWarning: false,
+    saveWarning: true,
+    verification: {
+      status: "documented",
+      note: "EA lists cas.fulleditmode as the Create-a-Sim editing cheat and documents the testingcheats requirement.",
+      sources: SIMS_4_SOURCES,
+    },
+    tags: ["create-a-sim", "cas", "editing", "cheat code", "pc"],
+  },
+  {
+    slug: "the-sims-4-moveobjects",
+    title: "Move objects freely",
+    gameSlug: "the-sims-4",
+    type: "Cheat Code",
+    platform: "PC, Mac, PS4, Xbox One",
+    instructions:
+      "Open the cheat console in Build/Buy mode, type bb.moveobjects, and press Enter. Use bb.moveobjects off to disable it.",
+    code: "bb.moveobjects",
+    whatItDoes:
+      "Toggles free object placement, allowing furniture and decorations to overlap or sit outside normal placement rules.",
+    requirements:
+      "The cheat must be entered in Build/Buy mode. It does not require testingcheats.",
+    effects: [
+      "Allows objects to overlap",
+      "Removes some placement restrictions",
+      "Can place objects outside normal grid rules",
+      "Use bb.moveobjects off to disable",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "EA documents bb.moveobjects as a Build mode cheat. It does not require testingcheats and is widely used for decorative builds.",
+      sources: SIMS_4_SOURCES,
+    },
+    tags: ["build mode", "moveobjects", "decorating", "cheat code", "pc"],
   },
 ];
 

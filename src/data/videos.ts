@@ -524,6 +524,19 @@ export const videos: Video[] = [
     placeholder: true,
     tags: ["beginner", "cyrodiil", "classes", "leveling", "tutorial"],
   },
+  {
+    slug: "the-sims-4-first-household-video",
+    title: "The Sims 4: Building a first household that works",
+    creator: PLACEHOLDER_CREATOR,
+    gameSlug: "the-sims-4",
+    thumbnailImage: "/images/games/the-sims-4/screenshot-02.jpg",
+    type: "Tutorial",
+    description:
+      "A demo entry for beginner videos covering household goals, small builds, needs, routines, and letting a story develop without micromanaging.",
+    url: youtubeSearchUrl("The Sims 4 beginner guide first household build routine"),
+    placeholder: true,
+    tags: ["beginner", "households", "building", "routines", "tutorial"],
+  },
 ];
 
 export const featuredChannels: FeaturedChannel[] = [
