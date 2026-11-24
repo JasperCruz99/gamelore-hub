@@ -3314,4 +3314,80 @@ export const guides: Guide[] = [
     tags: ["beginner", "platforming", "dash", "climb", "assist mode", "strawberries"],
     featured: true,
   },
+  {
+    slug: "factorio-first-factory",
+    title: "Factorio: The First Factory You Actually Need",
+    gameSlug: "factorio",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Automate the boring steps first, leave room to expand, and stop hand-feeding furnaces before the factory has a chance to grow.",
+    intro:
+      "Factorio's opening hour is a negotiation between ambition and inventory space. The game gives you a crashed ship, a few resources, and a very large map. The fastest way to learn is to build a small factory that works, then improve the parts that slow you down instead of designing a perfect megabase before you have automated your first plates.",
+    updatedAt: "2026-11-23",
+    author: EDITOR,
+    sections: [
+      {
+        id: "automate-the-first-steps",
+        heading: "Automate the first steps",
+        paragraphs: [
+          "Your first goal is not a rocket. It is a reliable supply of iron plates, copper plates, and coal. Place miners on the ore patches, feed furnaces with belts and inserters, and route the output into chests or directly into the next machine. Hand-feeding furnaces teaches the system, but leaving them hand-fed teaches nothing.",
+          "Once plates are moving, automate the ingredients you use constantly: belts, inserters, gears, and copper wire. A small assembler making belts saves more time than a large assembler making a weapon you rarely use.",
+        ],
+        bullets: [
+          "Put miners directly on ore and belt the output to furnaces.",
+          "Use inserters to move fuel and ore automatically.",
+          "Automate belts, inserters, and gears before niche items.",
+          "Store a buffer of plates so construction does not stall.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Build for the next size up",
+          body: "Leave space between production lines. A factory that can grow by adding another furnace or assembler is more useful than a compact design that must be torn down every hour.",
+        },
+      },
+      {
+        id: "belts-and-ratios",
+        heading: "Learn a few ratios, not all of them",
+        paragraphs: [
+          "Factorio is full of ratios: furnaces per belt, assemblers per science pack, boilers per steam engine. You do not need to memorize the entire spreadsheet. Start with one rule: if a machine is waiting for input, add upstream production; if it is backing up with output, either use the item or stop building more of it.",
+          "Belts have two lanes, and inserters can take from either side. A lane that looks full may still be starving one side of a machine. Watch the actual flow and adjust the layout rather than assuming a ratio is correct because it worked in a video.",
+        ],
+        callout: {
+          type: "note",
+          title: "Bottlenecks move",
+          body: "The first bottleneck is usually mining, then smelting, then power, then logistics. Expect the problem to change as the factory grows. That is the game.",
+        },
+      },
+      {
+        id: "power-and-defense",
+        heading: "Keep power and defense ahead of demand",
+        paragraphs: [
+          "Steam power is enough for the opening base, but it needs fuel and water. If the factory starts slowing down, check the power graph before assuming a belt is broken. Add boilers and engines when demand approaches capacity, not after a blackout stops the fuel supply.",
+          "Biters are attracted by pollution. A few turrets around the mining outposts and a wall at the most exposed side are usually enough early on. Do not build a fortress around every inch of the base; spend that iron on production and keep the defended area manageable.",
+        ],
+        bullets: [
+          "Check the power graph when machines slow down.",
+          "Keep coal supplied to boilers automatically.",
+          "Defend the pollution-facing side of the base first.",
+          "Repair turrets and walls before expanding further.",
+        ],
+      },
+      {
+        id: "dont-overbuild",
+        heading: "Do not overbuild before you understand the problem",
+        paragraphs: [
+          "A common first-factory mistake is building a huge production block for an item you do not need yet. Build a small version, watch where it backs up, and expand the part that matters. The factory should teach you what it needs next.",
+          "Save before a large redesign and keep a manual backup of important saves. Factorio is stable, but a bad belt layout can take longer to fix than to rebuild. Iteration is faster when you are not afraid to demolish a line.",
+        ],
+        callout: {
+          type: "warning",
+          title: "The factory can wait",
+          body: "If you are tired, stop. Factorio is very good at making one more belt feel urgent. A clear head is a better optimization tool than another hour of tired rebuilding.",
+        },
+      },
+    ],
+    tags: ["beginner", "automation", "belts", "power", "ratios", "factory"],
+    featured: true,
+  },
 ];

@@ -2693,4 +2693,72 @@ export const games: Game[] = [
     popularity: 92,
     relatedGames: ["hollow-knight", "hades", "portal"],
   },
+  {
+    slug: "factorio",
+    title: "Factorio",
+    tagline:
+      "A factory must grow, and the factory will consume your evening.",
+    genres: ["Automation", "Strategy", "Simulation"],
+    developer: "Wube Software",
+    publisher: "Wube Software",
+    releaseDate: "2020-08-14",
+    releaseYear: 2020,
+    platforms: ["PC", "macOS", "Linux", "Nintendo Switch"],
+    modes: ["Single-player", "Online co-op", "LAN co-op"],
+    coverImage: "/images/games/factorio/cover.jpg",
+    coverAlt: "Official cover art for Factorio",
+    heroImage: "/images/games/factorio/hero.jpg",
+    heroAlt:
+      "A dense Factorio factory floor filled with belts, pipes, and assembly machines",
+    screenshots: [
+      {
+        src: "/images/games/factorio/screenshot-01.jpg",
+        alt: "The crashed engineer surveys a burning wreck in Factorio",
+      },
+      {
+        src: "/images/games/factorio/screenshot-02.jpg",
+        alt: "A factory with belts, furnaces, and assembly machines in Factorio",
+      },
+      {
+        src: "/images/games/factorio/screenshot-03.jpg",
+        alt: "Dense circuit production lines fill a Factorio factory",
+      },
+      {
+        src: "/images/games/factorio/screenshot-04.jpg",
+        alt: "A sprawling factory complex covers a desert landscape in Factorio",
+      },
+      {
+        src: "/images/games/factorio/screenshot-05.jpg",
+        alt: "A rail network and factory base stretch across the map in Factorio",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Wube Software. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/427520/Factorio/",
+    accent: "#E8A33A",
+    description:
+      "A factory-building simulation about mining, logistics, automation, and the dangerous realization that one more belt will solve everything.",
+    overview: [
+      "Factorio begins with a crashed engineer, a patch of ore, and a simple goal: build a rocket. That goal expands into a chain of mining, smelting, crafting, power, and logistics problems. Every solution creates a new demand, and every new demand is an excuse to build another production line.",
+      "The game is as much about layout as it is about resources. Belts, inserters, pipes, trains, and robots all move materials through a system that the player designs. The factory can be small and hand-fed or enormous and self-regulating. The pressure comes from biters, pollution, and the growing cost of expanding.",
+    ],
+    funFact:
+      "Factorio spent several years in early access before version 1.0 launched in August 2020. The long public iteration is part of why its systems fit together so tightly.",
+    tags: [
+      "automation",
+      "factory",
+      "logistics",
+      "trains",
+      "efficiency",
+      "wube",
+      "sandbox",
+    ],
+    featured: true,
+    popularity: 91,
+    relatedGames: [
+      "minecraft",
+      "age-of-empires-ii-definitive-edition",
+      "stardew-valley",
+    ],
+  },
 ];

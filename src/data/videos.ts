@@ -590,6 +590,19 @@ export const videos: Video[] = [
     placeholder: true,
     tags: ["beginner", "platforming", "dash", "assist mode", "tutorial"],
   },
+  {
+    slug: "factorio-first-factory-video",
+    title: "Factorio: The first automated line, explained",
+    creator: PLACEHOLDER_CREATOR,
+    gameSlug: "factorio",
+    thumbnailImage: "/images/games/factorio/screenshot-02.jpg",
+    type: "Tutorial",
+    description:
+      "A demo entry for beginner videos covering miner-to-furnace setups, belt lanes, inserters, power checks, and when to rebuild.",
+    url: youtubeSearchUrl("Factorio beginner guide first factory automation belts power"),
+    placeholder: true,
+    tags: ["beginner", "automation", "belts", "power", "tutorial"],
+  },
 ];
 
 export const featuredChannels: FeaturedChannel[] = [

@@ -834,5 +834,22 @@ export const loreEntries: LoreEntry[] = [
     sourceNote:
       "An editorial reading of the game's story, level structure, and dialogue. Contains mild spoilers for the game's themes and early chapters.",
   },
+  {
+    slug: "factorio-factory-as-protagonist",
+    title: "In Factorio, the Factory Is the Main Character",
+    gameSlug: "factorio",
+    type: "Worldbuilding",
+    spoiler: "none",
+    excerpt:
+      "There are almost no characters and very little dialogue. The factory's layout, growth, and failures carry the story instead.",
+    paragraphs: [
+      "Factorio begins with a crash and a mission, but it quickly stops behaving like a character drama. The engineer is a pair of hands and an inventory. The planet is a set of resources and hazards. What changes over time is the factory: its shape, its dependencies, and the problems it creates for itself.",
+      "That makes the factory the real protagonist. A tangle of belts is a history of decisions. A dead-end line is a mistake the player has not fixed yet. A train network is an argument about scale. The game's narrative is written in throughput and empty chests rather than dialogue.",
+      "The absence of people is not an absence of meaning. Factorio is about systems that outgrow their designers, and about the strange satisfaction of making a machine run without you. The factory becomes a character because it is the thing that keeps changing after the player stops talking.",
+    ],
+    tags: ["factory", "systems", "automation", "environmental storytelling", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of the game's structure, systems, and environmental design. It does not treat the game's premise as a complete narrative.",
+  },
 ];
 

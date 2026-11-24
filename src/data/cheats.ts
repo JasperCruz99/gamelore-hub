@@ -153,6 +153,17 @@ const TERRARIA_SOURCES = [
   },
 ];
 
+const FACTORIO_SOURCES = [
+  {
+    label: "Factorio Wiki — Console",
+    url: "https://wiki.factorio.com/Console",
+  },
+  {
+    label: "Factorio Wiki — Achievements",
+    url: "https://wiki.factorio.com/Achievements",
+  },
+];
+
 export const cheats: Cheat[] = [
   {
     slug: "minecraft-creative-mode",
@@ -1639,6 +1650,118 @@ export const cheats: Cheat[] = [
       sources: TERRARIA_SOURCES,
     },
     tags: ["world seed", "zenith", "get fixed boi", "challenge", "secret"],
+  },
+  {
+    slug: "factorio-cheat-mode",
+    title: "Enable free crafting",
+    gameSlug: "factorio",
+    type: "Console Command",
+    platform: "PC, macOS, Linux",
+    instructions:
+      "Open the console with the grave key (`), enter the command, and press Enter. Replace true with false to turn cheat mode off.",
+    code: "/c game.player.cheat_mode=true",
+    whatItDoes:
+      "Enables cheat mode, allowing the player to craft items without consuming ingredients.",
+    requirements:
+      "Single-player or an admin in multiplayer. Script commands permanently disable achievements for the save, and the game warns before the first cheat command is run.",
+    effects: [
+      "Crafting no longer requires ingredients",
+      "Can be disabled with game.player.cheat_mode=false",
+      "Permanently disables achievements for the save",
+      "Applies only to the current save",
+    ],
+    achievementWarning: true,
+    saveWarning: true,
+    verification: {
+      status: "documented",
+      note: "The Factorio Wiki documents game.player.cheat_mode and the Achievements page explains that script commands permanently disable achievements for the save.",
+      sources: FACTORIO_SOURCES,
+    },
+    tags: ["cheat mode", "crafting", "console command", "pc", "achievements"],
+  },
+  {
+    slug: "factorio-cheat-all",
+    title: "Research everything and enable cheat mode",
+    gameSlug: "factorio",
+    type: "Console Command",
+    platform: "PC, macOS, Linux",
+    instructions:
+      "Open the console with the grave key, enter the command, and press Enter. Use /cheat off to disable cheat mode without undoing the research.",
+    code: "/cheat all",
+    whatItDoes:
+      "Researches all technologies, enables cheat mode for free crafting, and grants some additional items.",
+    requirements:
+      "Admin permissions on multiplayer servers. Script and cheat commands permanently disable achievements for the save.",
+    effects: [
+      "Researches all technologies",
+      "Enables free crafting",
+      "Gives the player additional items",
+      "Permanently disables achievements for the save",
+    ],
+    achievementWarning: true,
+    saveWarning: true,
+    verification: {
+      status: "documented",
+      note: "The Factorio Wiki lists /cheat all as a combined research and cheat-mode command and documents the achievement penalty.",
+      sources: FACTORIO_SOURCES,
+    },
+    tags: ["research", "technologies", "cheat mode", "console command", "pc"],
+  },
+  {
+    slug: "factorio-add-items",
+    title: "Add items to your inventory",
+    gameSlug: "factorio",
+    type: "Console Command",
+    platform: "PC, macOS, Linux",
+    instructions:
+      "Open the console, enter the command with the item's internal name and desired count, and press Enter. Replace iron-plate with another item name as needed.",
+    code: "/c game.player.insert{name=\"iron-plate\", count=100}",
+    whatItDoes:
+      "Adds 100 iron plates directly to the player's inventory. Change the name and count to add a different item or quantity.",
+    requirements:
+      "Admin permissions on multiplayer servers. Item names must match the internal names used by the game. Script commands permanently disable achievements for the save.",
+    effects: [
+      "Adds the requested item and quantity",
+      "Uses internal item names rather than display names",
+      "Does not require a chest or logistics network",
+      "Permanently disables achievements for the save",
+    ],
+    achievementWarning: true,
+    saveWarning: true,
+    verification: {
+      status: "documented",
+      note: "The Factorio Wiki documents the player.insert example and internal item names. Script commands disable achievements for the save.",
+      sources: FACTORIO_SOURCES,
+    },
+    tags: ["items", "inventory", "insert", "console command", "pc"],
+  },
+  {
+    slug: "factorio-god-mode",
+    title: "Enable free-camera god mode",
+    gameSlug: "factorio",
+    type: "Console Command",
+    platform: "PC, macOS, Linux",
+    instructions:
+      "Save first, open the console, and enter the command to destroy the player character. Use game.player.create_character() to spawn a new character at the world spawn point.",
+    code: "/c game.player.character.destroy()",
+    whatItDoes:
+      "Removes the player character, leaving the controls attached to a free camera that can fly over obstacles and take no damage.",
+    requirements:
+      "Admin permissions on multiplayer servers. This changes the current save and permanently disables achievements. Spawning a new character returns control to a normal body.",
+    effects: [
+      "Player becomes a free-flying camera",
+      "The character takes no damage while it does not exist",
+      "game.player.create_character() restores a character",
+      "Permanently disables achievements for the save",
+    ],
+    achievementWarning: true,
+    saveWarning: true,
+    verification: {
+      status: "documented",
+      note: "The Factorio Wiki documents character.destroy() as the god-mode/free-camera command and create_character() as the undo step.",
+      sources: FACTORIO_SOURCES,
+    },
+    tags: ["god mode", "free camera", "character", "console command", "pc"],
   },
 ];
 
