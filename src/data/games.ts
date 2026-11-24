@@ -200,7 +200,11 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 97,
-    relatedGames: ["monster-hunter-world", "elden-ring", "cyberpunk-2077"],
+    relatedGames: [
+      "kingdom-come-deliverance",
+      "monster-hunter-world",
+      "elden-ring",
+    ],
   },
   {
     slug: "baldurs-gate-3",
@@ -264,7 +268,7 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 98,
-    relatedGames: ["the-witcher-3", "disco-elysium", "the-elder-scrolls-v-skyrim"],
+    relatedGames: ["slay-the-spire", "the-witcher-3", "disco-elysium"],
   },
   {
     slug: "minecraft",
@@ -334,11 +338,7 @@ export const games: Game[] = [
     ],
     featured: false,
     popularity: 100,
-    relatedGames: [
-      "subnautica",
-      "hollow-knight",
-      "stardew-valley",
-    ],
+    relatedGames: ["terraria", "factorio", "stardew-valley"],
   },
   {
     slug: "red-dead-redemption-2",
@@ -402,7 +402,11 @@ export const games: Game[] = [
     ],
     featured: false,
     popularity: 94,
-    relatedGames: ["grand-theft-auto-v", "resident-evil-4", "god-of-war"],
+    relatedGames: [
+      "kingdom-come-deliverance",
+      "grand-theft-auto-v",
+      "resident-evil-4",
+    ],
   },
   {
     slug: "starfield",
@@ -827,7 +831,7 @@ export const games: Game[] = [
     ],
     featured: false,
     popularity: 92,
-    relatedGames: ["the-sims-4", "minecraft", "hollow-knight"],
+    relatedGames: ["terraria", "the-sims-4", "minecraft"],
   },
   {
     slug: "hades",
@@ -899,7 +903,7 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 93,
-    relatedGames: ["hollow-knight", "elden-ring", "stardew-valley"],
+    relatedGames: ["slay-the-spire", "hollow-knight", "elden-ring"],
   },
   {
     slug: "hollow-knight",
@@ -971,7 +975,7 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 95,
-    relatedGames: ["portal-2", "hades", "stardew-valley"],
+    relatedGames: ["celeste", "portal-2", "hades"],
   },
   {
     slug: "disco-elysium",
@@ -2008,7 +2012,7 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 97,
-    relatedGames: ["portal", "left-4-dead-2", "portal-2"],
+    relatedGames: ["doom-eternal", "portal", "left-4-dead-2"],
   },
   {
     slug: "subnautica",
@@ -2283,7 +2287,7 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 90,
-    relatedGames: ["portal-2", "half-life-2", "bioshock-remastered"],
+    relatedGames: ["doom-eternal", "portal-2", "half-life-2"],
   },
   {
     slug: "the-elder-scrolls-iv-oblivion",
@@ -2349,9 +2353,9 @@ export const games: Game[] = [
     featured: true,
     popularity: 89,
     relatedGames: [
+      "kingdom-come-deliverance",
       "the-elder-scrolls-v-skyrim",
       "fallout-4",
-      "the-witcher-3",
     ],
   },
   {
@@ -2483,7 +2487,7 @@ export const games: Game[] = [
     ],
     featured: true,
     popularity: 87,
-    relatedGames: ["baldurs-gate-3", "starfield", "minecraft"],
+    relatedGames: ["factorio", "baldurs-gate-3", "starfield"],
   },
   {
     slug: "doom-eternal",

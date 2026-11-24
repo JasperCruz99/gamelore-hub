@@ -54,30 +54,30 @@ export const metadata: Metadata = {
 };
 
 const homeGameOrder = [
+  "doom-eternal",
+  "terraria",
+  "celeste",
+  "factorio",
+  "slay-the-spire",
+  "kingdom-come-deliverance",
   "grand-theft-auto-v",
   "elden-ring",
   "fallout-4",
   "baldurs-gate-3",
   "portal",
   "left-4-dead-2",
-  "the-sims-4",
-  "age-of-empires-ii-definitive-edition",
-  "the-elder-scrolls-iv-oblivion",
-  "cyberpunk-2077",
-  "red-dead-redemption-2",
-  "dark-souls-iii",
 ];
 
 const spotlightLoreSlugs = [
-  "fallout-4-commonwealth-as-memory",
-  "portal-aperture-testing-model",
-  "oblivion-cyrodiil-as-empire",
+  "terraria-world-as-layered-ruin",
+  "celeste-mountain-as-internal-landscape",
+  "kingdom-come-bohemia-political-map",
 ];
 
 const spotlightVideoSlugs = [
-  "fallout-4-beginner-video",
-  "portal-first-chambers-video",
-  "the-sims-4-first-household-video",
+  "doom-eternal-combat-loop-video",
+  "celeste-first-climb-video",
+  "factorio-first-factory-video",
 ];
 
 export default function HomePage() {

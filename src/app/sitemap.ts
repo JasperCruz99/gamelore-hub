@@ -6,7 +6,7 @@ import { loreEntries } from "@/data/lore";
 import { siteConfig } from "@/lib/site";
 
 const baseUrl = siteConfig.url.replace(/\/$/, "");
-const siteUpdated = new Date("2026-11-14T00:00:00Z");
+const siteUpdated = new Date("2026-11-24T00:00:00Z");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: Array<{
