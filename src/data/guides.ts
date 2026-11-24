@@ -3162,4 +3162,80 @@ export const guides: Guide[] = [
     tags: ["beginner", "combat loop", "chainsaw", "weapon swapping", "weak points", "fps"],
     featured: true,
   },
+  {
+    slug: "terraria-first-week",
+    title: "Terraria: A Reliable First Week in a New World",
+    gameSlug: "terraria",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Get a house, a bed, and a stable mining route before chasing bosses. A calm first week prevents a lot of unnecessary gravestones.",
+    intro:
+      "Terraria gives you almost no instructions and a world that can kill you in several directions. The first week is not about seeing everything; it is about turning a patch of dirt into a base and building enough equipment to survive the first real boss. This guide covers a durable early routine and avoids late-game spoilers.",
+    updatedAt: "2026-11-24",
+    author: EDITOR,
+    sections: [
+      {
+        id: "secure-a-base",
+        heading: "Secure a base before you explore far",
+        paragraphs: [
+          "Pick a spot near the spawn point and build a small house with walls, a door, a table, a chair, and a light source. Those pieces make it a valid NPC house, which is how Terraria's guide and merchant population begins. A bed sets your spawn point, so place one as soon as you can craft it.",
+          "Do not worry about style yet. The first base is a workshop, storage room, and respawn point. Keep chests near the crafting area, put a furnace and anvil nearby, and leave room for NPC rooms as more characters arrive.",
+        ],
+        bullets: [
+          "Build walls, not just a frame; NPC houses need enclosed space.",
+          "Craft a bed and set your spawn before exploring underground.",
+          "Keep a chest for ores, one for building materials, and one for gear.",
+          "Place torches around the base to reduce enemy spawns nearby.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Let the Guide help",
+          body: "The Guide can show you crafting recipes when you talk to him and place an item in the crafting slot. Use him to learn what a new material can become before you sell it.",
+        },
+      },
+      {
+        id: "build-a-mining-route",
+        heading: "Build a safe mining route",
+        paragraphs: [
+          "Early ore is underground, but a vertical shaft without a way back is a trap. Dig a sloped or stepped tunnel, place torches as you go, and keep a stack of blocks for bridging. A simple horizontal route from your base gives you a reliable place to farm stone, ore, and chests without getting lost.",
+          "Listen for the sound of caves and water, and watch for pressure plates and traps in older underground structures. If a tunnel opens into a dark cavern, place a torch before stepping through. Light does not make you safe, but it makes danger visible.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not dig straight down",
+          body: "A straight shaft is fast until you fall into lava or a cave full of enemies. Use steps, platforms, or a sloped route so you can climb back out.",
+        },
+      },
+      {
+        id: "upgrade-the-basics",
+        heading: "Upgrade tools, armor, and healing",
+        paragraphs: [
+          "Copper and iron are the first meaningful upgrade tier. Replace your starting tools with metal versions, craft a set of armor, and make a few healing potions from mushrooms and gel. A reinforced weapon and a stack of potions matter more than a house full of decorative furniture.",
+          "Chests in the surface and underground layers often contain accessories that change movement or defense. Keep what fits your playstyle and store the rest. You do not need to carry every item you find; inventory space is a resource.",
+        ],
+        bullets: [
+          "Upgrade your pickaxe and weapon before expanding the base.",
+          "Craft armor for the damage tier you are facing.",
+          "Carry healing potions and a stack of torches underground.",
+          "Save accessories that improve movement or defense.",
+        ],
+      },
+      {
+        id: "prepare-for-the-first-boss",
+        heading: "Prepare for the first boss instead of stumbling into it",
+        paragraphs: [
+          "Terraria's first bosses are triggered by items or events, not by a single story mission. Build an arena before you summon one: a flat area with platforms, campfires, and enough space to move. A prepared arena turns a chaotic fight into a readable one.",
+          "Read the summoning item's description and ask the Guide what it does. If a boss appears at night and you are not ready, retreat to your base and wait for morning. The world will still be there, and so will the boss.",
+        ],
+        callout: {
+          type: "note",
+          title: "Progression is a ladder",
+          body: "Each boss unlocks a new material or event. If a fight feels impossible, explore another biome or upgrade your gear before trying again. Terraria is designed for detours.",
+        },
+      },
+    ],
+    tags: ["beginner", "first week", "base building", "mining", "bosses", "survival"],
+    featured: true,
+  },
 ];

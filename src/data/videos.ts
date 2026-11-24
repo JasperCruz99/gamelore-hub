@@ -564,6 +564,19 @@ export const videos: Video[] = [
     placeholder: true,
     tags: ["beginner", "combat", "chainsaw", "weapon swapping", "tutorial"],
   },
+  {
+    slug: "terraria-first-week-video",
+    title: "Terraria: A calm, reliable first week",
+    creator: PLACEHOLDER_CREATOR,
+    gameSlug: "terraria",
+    thumbnailImage: "/images/games/terraria/screenshot-01.jpg",
+    type: "Tutorial",
+    description:
+      "A demo entry for beginner videos covering shelter, NPC housing, early ore, storage habits, and preparing an arena before the first boss.",
+    url: youtubeSearchUrl("Terraria beginner guide first week base mining boss preparation"),
+    placeholder: true,
+    tags: ["beginner", "first week", "base building", "mining", "tutorial"],
+  },
 ];
 
 export const featuredChannels: FeaturedChannel[] = [

@@ -142,6 +142,17 @@ const DOOM_ETERNAL_SOURCES = [
   },
 ];
 
+const TERRARIA_SOURCES = [
+  {
+    label: "Official Terraria Wiki — Special world seeds",
+    url: "https://terraria.wiki.gg/wiki/Special_world_seeds",
+  },
+  {
+    label: "Official Terraria Wiki — Secret world seeds",
+    url: "https://terraria.wiki.gg/wiki/Secret_world_seeds",
+  },
+];
+
 export const cheats: Cheat[] = [
   {
     slug: "minecraft-creative-mode",
@@ -1544,6 +1555,90 @@ export const cheats: Cheat[] = [
       sources: DOOM_ETERNAL_SOURCES,
     },
     tags: ["idkfa", "weapons", "equipment", "unlockable", "arc complex"],
+  },
+  {
+    slug: "terraria-drunk-world",
+    title: "Create a Drunk world",
+    gameSlug: "terraria",
+    type: "In-Game Secret",
+    platform: "PC, Console, Mobile",
+    instructions:
+      "Create a new world, enter 5162020 in the world seed field, and generate the world. Capitalization and spacing are ignored.",
+    code: "5162020",
+    whatItDoes:
+      "Generates a special world with both Corruption and Crimson, altered world generation, and other unusual biome and loot behavior.",
+    requirements:
+      "The seed is entered during world creation. It changes the generated world permanently; existing worlds are not affected.",
+    effects: [
+      "Both evil biomes can appear in the same world",
+      "World generation is deliberately chaotic",
+      "Some loot and enemy behavior differ from a normal world",
+      "The seed changes the world, not the player's inventory",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The official Terraria Wiki lists 5162020 as the Drunk special world seed and documents its combined evil biome generation.",
+      sources: TERRARIA_SOURCES,
+    },
+    tags: ["world seed", "drunk", "corruption", "crimson", "secret"],
+  },
+  {
+    slug: "terraria-for-the-worthy",
+    title: "Create a For the Worthy world",
+    gameSlug: "terraria",
+    type: "In-Game Secret",
+    platform: "PC, Console, Mobile",
+    instructions:
+      "Create a new world, enter for the worthy in the world seed field, and generate the world.",
+    code: "for the worthy",
+    whatItDoes:
+      "Generates a much harder world with increased enemy stats, altered boss behavior, and other punishing changes.",
+    requirements:
+      "The seed is entered during world creation. It is intended for experienced players; a Classic world effectively behaves like Expert.",
+    effects: [
+      "World difficulty increases by one stage",
+      "Enemies gain health, damage, and knockback resistance",
+      "Bosses and world generation follow special rules",
+      "Boss drops and higher-difficulty loot can appear",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The official Terraria Wiki lists for the worthy as a special world seed with documented difficulty changes.",
+      sources: TERRARIA_SOURCES,
+    },
+    tags: ["world seed", "for the worthy", "difficulty", "challenge", "secret"],
+  },
+  {
+    slug: "terraria-zenith-world",
+    title: "Create a Zenith (Get fixed boi) world",
+    gameSlug: "terraria",
+    type: "In-Game Secret",
+    platform: "PC, Console, Mobile",
+    instructions:
+      "Create a new world, enter get fixed boi in the world seed field, and generate the world.",
+    code: "get fixed boi",
+    whatItDoes:
+      "Combines features from the other special world seeds into an intentionally extreme world sometimes called Get fixed boi.",
+    requirements:
+      "The seed is entered during world creation. It is a challenge world intended for players who have already finished Terraria.",
+    effects: [
+      "Combines many special seed rules",
+      "Includes For the Worthy difficulty changes",
+      "Alters world generation, enemies, and loot",
+      "Intended for experienced players",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The official Terraria Wiki documents get fixed boi as the Zenith seed and describes it as a combination of the other special seeds.",
+      sources: TERRARIA_SOURCES,
+    },
+    tags: ["world seed", "zenith", "get fixed boi", "challenge", "secret"],
   },
 ];
 

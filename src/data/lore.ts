@@ -800,5 +800,22 @@ export const loreEntries: LoreEntry[] = [
     sourceNote:
       "An editorial reading of the campaign's framing, codex entries, and environmental storytelling. Contains mild spoilers for the game's tone and setting, not major story outcomes.",
   },
+  {
+    slug: "terraria-world-as-layered-ruin",
+    title: "Terraria's World Is a Layer Cake of Old Disasters",
+    gameSlug: "terraria",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "The surface is only the top layer. Terraria's underground preserves the remains of older civilizations, failed experiments, and biomes that were already hostile before the player arrived.",
+    paragraphs: [
+      "Terraria's world generation reads like a stack of historical layers. The surface has forests, deserts, and oceans; below it are caves, abandoned houses, and chests left by people who are no longer around. The deeper you go, the less the world looks like a place built for the current inhabitants.",
+      "That layering gives exploration a archaeological feel. A cabin in the snow, a ruined dungeon, or a chest buried under stone implies a previous attempt at settling the world. The game rarely explains those people directly, but their furniture, traps, and architecture remain.",
+      "The result is a sandbox where the player is not the first person to have a plan for the world. The world is already full of old plans, some of them dangerous. Building a base is less an act of discovery than an act of moving into a house that has had several previous owners.",
+    ],
+    tags: ["world generation", "ruins", "underground", "environmental storytelling", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of world generation, underground structures, and environmental details. Contains mild spoilers for biome and structure types.",
+  },
 ];
 

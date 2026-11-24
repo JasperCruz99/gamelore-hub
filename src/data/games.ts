@@ -2550,4 +2550,76 @@ export const games: Game[] = [
     popularity: 90,
     relatedGames: ["half-life-2", "left-4-dead-2", "hades"],
   },
+  {
+    slug: "terraria",
+    title: "Terraria",
+    tagline:
+      "A world made of dirt, secrets, and one more boss before bed.",
+    genres: ["Sandbox", "Survival", "Action-adventure"],
+    developer: "Re-Logic",
+    publisher: "Re-Logic",
+    releaseDate: "2011-05-16",
+    releaseYear: 2011,
+    platforms: [
+      "PC",
+      "macOS",
+      "Linux",
+      "PS4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Mobile",
+    ],
+    modes: ["Single-player", "Online co-op", "PvP"],
+    coverImage: "/images/games/terraria/cover.jpg",
+    coverAlt: "Official cover art for Terraria",
+    heroImage: "/images/games/terraria/hero.jpg",
+    heroAlt:
+      "A colorful Terraria landscape with giant trees, rolling hills, and waterfalls",
+    screenshots: [
+      {
+        src: "/images/games/terraria/screenshot-01.jpg",
+        alt: "A player explores a coastal surface biome in Terraria",
+      },
+      {
+        src: "/images/games/terraria/screenshot-02.jpg",
+        alt: "A player stands near a lit house at night in Terraria",
+      },
+      {
+        src: "/images/games/terraria/screenshot-03.jpg",
+        alt: "A player fishes from a sky island above the clouds in Terraria",
+      },
+      {
+        src: "/images/games/terraria/screenshot-04.jpg",
+        alt: "A player fires a magic weapon in a jungle biome in Terraria",
+      },
+      {
+        src: "/images/games/terraria/screenshot-05.jpg",
+        alt: "A player fights enemies under a red sky at night in Terraria",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Re-Logic. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/105600/Terraria/",
+    accent: "#6CC24A",
+    description:
+      "A 2D sandbox about digging, building, fighting bosses, and turning a patch of wilderness into a base that can survive the next night.",
+    overview: [
+      "Terraria begins with a guide, a copper pickaxe, and a very large world. Players dig through layered biomes, gather materials, build houses for NPCs, and fight bosses that unlock new tiers of equipment. The surface is only the first floor of a world that keeps going down.",
+      "The game is often described as a 2D Minecraft, but its progression is closer to an action RPG. Bosses gate new materials, NPCs arrive when their housing is ready, and events can interrupt an ordinary evening. A player can spend hours building a base and then discover that the basement is full of something ancient.",
+    ],
+    funFact:
+      "Each world is generated with a specific evil biome: Corruption or Crimson. The choice changes enemies, loot, and boss progression, which is why two Terraria worlds can feel different before the player has built anything.",
+    tags: [
+      "sandbox",
+      "survival",
+      "crafting",
+      "bosses",
+      "pixel art",
+      "re-logic",
+      "exploration",
+    ],
+    featured: true,
+    popularity: 94,
+    relatedGames: ["minecraft", "stardew-valley", "hollow-knight"],
+  },
 ];
