@@ -2485,4 +2485,69 @@ export const games: Game[] = [
     popularity: 87,
     relatedGames: ["baldurs-gate-3", "starfield", "minecraft"],
   },
+  {
+    slug: "doom-eternal",
+    title: "DOOM Eternal",
+    tagline:
+      "A velocity-driven shooter about momentum, aggression, and never standing still.",
+    genres: ["First-person shooter", "Action", "Sci-fi"],
+    developer: "id Software",
+    publisher: "Bethesda Softworks",
+    releaseDate: "2020-03-20",
+    releaseYear: 2020,
+    platforms: ["PC", "PS4", "Xbox One", "Nintendo Switch", "PS5", "Xbox Series X|S"],
+    modes: ["Single-player", "Online multiplayer (Battlemode)"],
+    coverImage: "/images/games/doom-eternal/cover.jpg",
+    coverAlt: "Official cover art for DOOM Eternal",
+    heroImage: "/images/games/doom-eternal/hero.jpg",
+    heroAlt:
+      "The Doom Slayer charges through a demon-infested hellscape in DOOM Eternal",
+    screenshots: [
+      {
+        src: "/images/games/doom-eternal/screenshot-01.jpg",
+        alt: "The Doom Slayer faces a glowing purple portal in a red-lit corridor in DOOM Eternal",
+      },
+      {
+        src: "/images/games/doom-eternal/screenshot-02.jpg",
+        alt: "The Doom Slayer battles demons across a burning ruined arena in DOOM Eternal",
+      },
+      {
+        src: "/images/games/doom-eternal/screenshot-03.jpg",
+        alt: "The Doom Slayer fires a flamethrower at a massive horned demon in DOOM Eternal",
+      },
+      {
+        src: "/images/games/doom-eternal/screenshot-04.jpg",
+        alt: "The Doom Slayer fires a plasma weapon at a demon in a dark corridor in DOOM Eternal",
+      },
+      {
+        src: "/images/games/doom-eternal/screenshot-05.jpg",
+        alt: "The Doom Slayer fires a heavy weapon at a horned demon inside a metal corridor in DOOM Eternal",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © id Software / Bethesda Softworks. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/782330/DOOM_Eternal/",
+    accent: "#E04A2A",
+    description:
+      "A fast, aggressive first-person shooter that turns every encounter into a resource loop of movement, chainsaw fuel, glory kills, and weapon swapping.",
+    overview: [
+      "DOOM Eternal picks up after the events of DOOM (2016) and sends the Doom Slayer across Earth, Hell, and other realms to stop a demonic invasion. The campaign is built around constant movement: strafe, dash, jump, and swap weapons instead of holding one safe angle.",
+      "Its combat is intentionally demanding. Enemies have weak points, the chainsaw restores ammunition, glory kills restore health, and the flame belch generates armor. The game expects you to use all of those tools together, especially on higher difficulties where standing still is usually fatal.",
+    ],
+    funFact:
+      "The chainsaw is designed as an ammunition engine rather than a last-resort weapon. Fuel recharges over time, and a chainsaw kill guarantees ammo, which is why the game keeps pushing you toward close-range aggression.",
+    tags: [
+      "fps",
+      "demons",
+      "doom slayer",
+      "fast paced",
+      "id software",
+      "hell",
+      "weapon swapping",
+    ],
+    featured: true,
+    popularity: 90,
+    relatedGames: ["half-life-2", "left-4-dead-2", "hades"],
+  },
 ];

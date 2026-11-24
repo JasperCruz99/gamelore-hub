@@ -551,6 +551,19 @@ export const videos: Video[] = [
     placeholder: true,
     tags: ["beginner", "economy", "build order", "villagers", "tutorial"],
   },
+  {
+    slug: "doom-eternal-combat-loop-video",
+    title: "DOOM Eternal: Movement, chainsaw, and the combat loop",
+    creator: PLACEHOLDER_CREATOR,
+    gameSlug: "doom-eternal",
+    thumbnailImage: "/images/games/doom-eternal/screenshot-02.jpg",
+    type: "Tutorial",
+    description:
+      "A demo entry for beginner videos covering movement, glory kills, chainsaw fuel, flame belch armor, and weapon swapping under pressure.",
+    url: youtubeSearchUrl("DOOM Eternal beginner combat loop movement weapon swapping guide"),
+    placeholder: true,
+    tags: ["beginner", "combat", "chainsaw", "weapon swapping", "tutorial"],
+  },
 ];
 
 export const featuredChannels: FeaturedChannel[] = [

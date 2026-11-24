@@ -131,6 +131,17 @@ const AGE_OF_EMPIRES_2_SOURCES = [
   },
 ];
 
+const DOOM_ETERNAL_SOURCES = [
+  {
+    label: "Doom Wiki — Doom Eternal cheat codes",
+    url: "https://doomwiki.org/wiki/Doom_Eternal_cheat_codes",
+  },
+  {
+    label: "PC Gamer — DOOM Eternal cheat codes",
+    url: "https://www.pcgamer.com/secrets-doom-eternal-cheat-codes/",
+  },
+];
+
 export const cheats: Cheat[] = [
   {
     slug: "minecraft-creative-mode",
@@ -1449,6 +1460,90 @@ export const cheats: Cheat[] = [
       sources: AGE_OF_EMPIRES_2_SOURCES,
     },
     tags: ["resources", "ninjalui", "cheat code", "pc", "economy"],
+  },
+  {
+    slug: "doom-eternal-infinite-ammo",
+    title: "Infinite Ammo",
+    gameSlug: "doom-eternal",
+    type: "Unlockable",
+    platform: "PC, PS4, Xbox One, Nintendo Switch, PS5, Xbox Series X|S",
+    instructions:
+      "Find the Infinite Ammo floppy disk in the Super Gore Nest mission. After clearing the mission, choose Mission Select from the campaign file, open the Cheat Codes menu, and activate Infinite Ammo before starting the replay.",
+    code: "Infinite Ammo",
+    whatItDoes:
+      "Removes ammunition consumption for all weapons except the Crucible and Sentinel Hammer while the cheat is active.",
+    requirements:
+      "The cheat disk must be found first, and cheats can only be used on missions that have already been completed. Slayer Gates are disabled while any cheat is active.",
+    effects: [
+      "Most weapons no longer consume ammunition",
+      "The Crucible and Sentinel Hammer still use their normal limits",
+      "Collectibles found with the cheat active still count",
+      "Slayer Gates cannot be entered while the cheat is active",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The Doom Wiki and PC Gamer document the cheat disk, its Super Gore Nest location, and the Mission Select activation flow.",
+      sources: DOOM_ETERNAL_SOURCES,
+    },
+    tags: ["infinite ammo", "unlockable", "super gore nest", "mission select"],
+  },
+  {
+    slug: "doom-eternal-iddqd",
+    title: "IDDQD — Sentinel Armor",
+    gameSlug: "doom-eternal",
+    type: "Unlockable",
+    platform: "PC, PS4, Xbox One, Nintendo Switch, PS5, Xbox Series X|S",
+    instructions:
+      "Find the IDDQD floppy disk in the Cultist Base mission. After completing the mission, open Mission Select, open the Cheat Codes menu, and enable IDDQD before launching the replay.",
+    code: "IDDQD",
+    whatItDoes:
+      "Activates Sentinel Armor for the entire mission, significantly reducing the damage the Doom Slayer takes.",
+    requirements:
+      "The Cultist Base cheat disk must be collected first, and the mission must already be completed. Slayer Gates are disabled while cheats are active.",
+    effects: [
+      "Sentinel Armor remains active for the mission",
+      "Damage taken is significantly reduced",
+      "Not a full replacement for learning enemy patterns",
+      "Slayer Gates are unavailable while active",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The Doom Wiki describes IDDQD as the Cultist Base cheat disk and notes that it applies Sentinel Armor for the mission.",
+      sources: DOOM_ETERNAL_SOURCES,
+    },
+    tags: ["iddqd", "sentinel armor", "unlockable", "cultist base", "defense"],
+  },
+  {
+    slug: "doom-eternal-idkfa",
+    title: "IDKFA — All Weapons and Equipment",
+    gameSlug: "doom-eternal",
+    type: "Unlockable",
+    platform: "PC, PS4, Xbox One, Nintendo Switch, PS5, Xbox Series X|S",
+    instructions:
+      "Find the IDKFA floppy disk in the ARC Complex mission. After clearing the mission, open Mission Select, open the Cheat Codes menu, and enable IDKFA before starting the replay.",
+    code: "IDKFA",
+    whatItDoes:
+      "Unlocks and masters all weapons and equipment for the mission.",
+    requirements:
+      "The ARC Complex cheat disk must be found, and the mission must be completed. The Ancient Gods missions do not include this cheat because their equipment is already mastered.",
+    effects: [
+      "All weapons are available",
+      "All weapon masteries are active",
+      "All equipment is unlocked",
+      "Slayer Gates are unavailable while active",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "documented",
+      note: "The Doom Wiki and PC Gamer document IDKFA as the ARC Complex cheat disk and list its all-weapons effect.",
+      sources: DOOM_ETERNAL_SOURCES,
+    },
+    tags: ["idkfa", "weapons", "equipment", "unlockable", "arc complex"],
   },
 ];
 

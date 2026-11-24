@@ -783,4 +783,22 @@ export const loreEntries: LoreEntry[] = [
     sourceNote:
       "An editorial reading of the campaign structure and scenario design. It discusses the games' approach to history rather than treating the campaigns as a complete historical record.",
   },
+  {
+    slug: "doom-eternal-slayer-as-myth",
+    title: "The Slayer Works Best When the Story Cannot Explain Him",
+    gameSlug: "doom-eternal",
+    type: "Character",
+    spoiler: "mild",
+    excerpt:
+      "DOOM Eternal keeps surrounding its protagonist with prophecy, temples, and testimony. The Slayer stays powerful because the game never lets the myth settle into a tidy explanation.",
+    paragraphs: [
+      "DOOM Eternal is full of people talking about the Doom Slayer. Priests, soldiers, and ancient records describe him as a weapon, a curse, or a figure from prophecy. The game keeps stacking those labels on top of each other, but it rarely lets the Slayer answer for himself.",
+      "That gap is the character's real design. The Slayer is defined by what he does in a room, not by a speech about why he does it. The lore around him is most effective when it feels like an argument between factions that have all built their own version of the same figure.",
+      "The result is a protagonist who works as both a power fantasy and a blank space in the story. He is less a person with a psychology than a force that other people try to explain. The game's temples and testaments are interesting because they never quite contain him.",
+    ],
+    tags: ["doom slayer", "myth", "character", "prophecy", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of the campaign's framing, codex entries, and environmental storytelling. Contains mild spoilers for the game's tone and setting, not major story outcomes.",
+  },
 ];
+

@@ -3086,4 +3086,80 @@ export const guides: Guide[] = [
     tags: ["beginner", "economy", "build order", "villagers", "scouting", "rts"],
     featured: false,
   },
+  {
+    slug: "doom-eternal-first-campaign",
+    title: "DOOM Eternal: Surviving the First Campaign Missions",
+    gameSlug: "doom-eternal",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Build the combat loop before chasing upgrades: keep moving, use the chainsaw for ammo, and treat every demon as a resource problem with teeth.",
+    intro:
+      "DOOM Eternal is faster and more demanding than it first looks. The opening missions teach a combat loop that never really stops: damage enemies to open glory kills, use the chainsaw to refill ammunition, and keep swapping weapons instead of waiting for one reload. This guide stays spoiler-light and focuses on the habits that make the campaign manageable.",
+    updatedAt: "2026-11-24",
+    author: EDITOR,
+    sections: [
+      {
+        id: "learn-the-resource-loop",
+        heading: "Learn the resource loop",
+        paragraphs: [
+          "Health, armor, and ammunition all come from aggression. Glory kills restore health, the flame belch makes enemies drop armor, and the chainsaw refills ammo. If you are low on a resource, the game is usually telling you to get closer and use the tool that produces it rather than retreating to a corner.",
+          "The chainsaw has fuel that recharges over time. You do not need to save every charge for a large demon; using one pip on a minor enemy is a normal way to keep your guns loaded. The flame belch and grenade are similarly practical tools, not emergency buttons.",
+        ],
+        bullets: [
+          "Use the chainsaw regularly instead of treating it as a finisher.",
+          "Flame belch groups of enemies before a fight to generate armor.",
+          "Glory kill when health is low, but do not ignore nearby threats.",
+          "Keep moving while you wait for a cooldown to return.",
+        ],
+        callout: {
+          type: "tip",
+          title: "The floor is not a home",
+          body: "Standing still to line up a perfect shot is how a clean fight becomes a death. Fire while strafing, swap weapons, and use the dash to leave a bad angle.",
+        },
+      },
+      {
+        id: "swap-weapons",
+        heading: "Swap weapons instead of reloading in place",
+        paragraphs: [
+          "DOOM Eternal rewards switching between weapons because each one has a role and a reload. The super shotgun handles close pressure, the rocket launcher punishes groups, and the plasma rifle is useful against shields and exposed weak points. A quick swap can keep damage flowing while another gun reloads.",
+          "You do not need to memorize a complicated combo before the first mission. Learn one reliable opener for each weapon and practice moving between two of them. The combat system becomes much more readable once you stop treating each gun as a separate loadout.",
+        ],
+        callout: {
+          type: "note",
+          title: "Difficulty is a real choice",
+          body: "The campaign is demanding on every setting. If you are learning the loop, a lower difficulty is a legitimate way to practice without turning every arena into a wall.",
+        },
+      },
+      {
+        id: "target-weak-points",
+        heading: "Target weak points and dangerous enemies first",
+        paragraphs: [
+          "Many demons have a weak point or a weapon that can be destroyed. A well-placed shot can remove a cannon, a turret, or a ranged attack before it becomes a problem. Prioritize the enemies that control space, such as flying demons and heavies, rather than emptying magazines into the closest imp.",
+          "The codex and the weapon mod descriptions explain what each tool is good at. Read them when a new enemy type appears, and use the right mod for the problem. A crowd-control mod can be more valuable than raw damage when the arena is already crowded.",
+        ],
+        bullets: [
+          "Remove ranged weapons and turrets when you can.",
+          "Use the appropriate mod for groups, shields, or exposed weak points.",
+          "Clear flying enemies before they force you out of position.",
+          "Do not spend all your heavy ammo on a single minor demon.",
+        ],
+      },
+      {
+        id: "upgrade-with-purpose",
+        heading: "Upgrade with a purpose",
+        paragraphs: [
+          "Weapon mods, suit upgrades, and runes all compete for attention. Pick a small set that supports your combat loop: mobility, armor generation, ammo efficiency, or crowd control. A focused upgrade path is easier to use than a scattered collection of small bonuses.",
+          "Explore missions for secrets, but do not let collection turn the campaign into a checklist. The combat arenas are the main event. If you are stuck, practice the resource loop and improve one weapon rather than restarting the mission for a different route.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Slayer Gates are optional pressure",
+          body: "Slayer Gates are difficult optional encounters. They are worth trying, but you can leave and return later. Do not let an optional challenge convince you that the main campaign is impossible.",
+        },
+      },
+    ],
+    tags: ["beginner", "combat loop", "chainsaw", "weapon swapping", "weak points", "fps"],
+    featured: true,
+  },
 ];
