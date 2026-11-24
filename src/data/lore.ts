@@ -817,5 +817,22 @@ export const loreEntries: LoreEntry[] = [
     sourceNote:
       "An editorial reading of world generation, underground structures, and environmental details. Contains mild spoilers for biome and structure types.",
   },
+  {
+    slug: "celeste-mountain-as-internal-landscape",
+    title: "Celeste Mountain Is a Place and a Feeling at the Same Time",
+    gameSlug: "celeste",
+    type: "Story",
+    spoiler: "mild",
+    excerpt:
+      "The mountain is a real climb, a mental trial, and a mirror. Celeste keeps those readings in play instead of choosing one explanation.",
+    paragraphs: [
+      "Celeste presents the mountain as a physical place with wind, snow, old hotels, and dangerous ruins. It also presents it as a reflection of Madeline's anxiety and self-doubt. The game does not treat those two readings as a contradiction. The mountain is both a route and a state of mind.",
+      "The level design supports that duality. Rooms get more hostile as the story presses on, but the hazards are not random cruelty. They are the game's way of turning internal pressure into a problem the player can see, practice, and eventually pass.",
+      "That is why the story's smaller conversations matter as much as the platforming. The climb is not just a metaphor for recovery; it is a routine of attempts, setbacks, and help from other people. Celeste lets the mountain be literal enough to climb and emotional enough to recognize.",
+    ],
+    tags: ["mountain", "anxiety", "story", "metaphor", "level design"],
+    sourceNote:
+      "An editorial reading of the game's story, level structure, and dialogue. Contains mild spoilers for the game's themes and early chapters.",
+  },
 ];
 

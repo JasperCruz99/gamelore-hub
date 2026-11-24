@@ -1739,4 +1739,8 @@ export const cheatNotes: CheatNote[] = [
     gameSlug: "monster-hunter-world",
     note: "No official cheat menu. Equipment, decorations, and practice are the intended progression systems. Mods and trainers can affect saves or multiplayer sessions, so this hub does not cover them.",
   },
+  {
+    gameSlug: "celeste",
+    note: "No official cheat codes. Assist Mode is a built-in accessibility menu that can slow the game, add dashes, or make Madeline invincible without blocking the story. Debug Mode requires file modification and is outside this hub's scope.",
+  },
 ];

@@ -3238,4 +3238,80 @@ export const guides: Guide[] = [
     tags: ["beginner", "first week", "base building", "mining", "bosses", "survival"],
     featured: true,
   },
+  {
+    slug: "celeste-first-climb",
+    title: "Celeste: Learning the Climb Without Punishing Yourself",
+    gameSlug: "celeste",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Treat each screen as a small problem, build a reliable dash-and-climb rhythm, and use Assist Mode if the difficulty stops being interesting.",
+    intro:
+      "Celeste is a precise platformer, but precision is not the same thing as speed. The game teaches one movement idea at a time, then asks you to combine it with everything you already know. The first chapters are easiest when you slow down, read the room, and stop measuring every death as a failure.",
+    updatedAt: "2026-11-23",
+    author: EDITOR,
+    sections: [
+      {
+        id: "one-screen-at-a-time",
+        heading: "Solve one screen at a time",
+        paragraphs: [
+          "Each room in Celeste is a self-contained puzzle. Before you move, identify the exit, the hazards, and the one or two objects that change how you can move. You do not need to plan the whole chapter; you need a route through the screen in front of you.",
+          "When a room feels impossible, stop attempting the full route and practice the first hard transition. Break the screen into two or three smaller movements. Once the opening is reliable, the rest of the room usually becomes easier to read.",
+        ],
+        bullets: [
+          "Look for the exit before you start moving.",
+          "Identify springs, moving platforms, and dash crystals first.",
+          "Practice the first difficult jump before the full route.",
+          "Pause after a death and name what went wrong.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Death is a reset, not a score",
+          body: "Celeste respawns you almost instantly for a reason. The game expects repetition. A short attempt that teaches you one timing is progress.",
+        },
+      },
+      {
+        id: "dash-and-climb",
+        heading: "Build a reliable dash-and-climb rhythm",
+        paragraphs: [
+          "Madeline can run, jump, climb, and dash once before landing or touching a crystal. The dash is the core verb. It can be aimed in eight directions, and it refills when you land, grab a crystal, or touch certain objects.",
+          "Climbing costs stamina. You can hold a wall for a short time, but you cannot hang forever. If a route depends on a long climb, look for a ledge, a jump, or a dash that resets your position instead of trying to outlast the stamina bar.",
+        ],
+        bullets: [
+          "Aim the dash deliberately instead of mashing a direction.",
+          "Land or touch a crystal to refill the dash.",
+          "Climb in short bursts and jump before stamina runs out.",
+          "Use the grab button to slow down, not to solve every room.",
+        ],
+      },
+      {
+        id: "assist-mode-is-a-tool",
+        heading: "Use Assist Mode without apology",
+        paragraphs: [
+          "Assist Mode can slow the game, add extra dashes, or make Madeline invincible. It is available from the save-file screen and does not remove the story. If the difficulty is preventing you from enjoying the climb, turn it on and adjust it to your needs.",
+          "The option is not a lesser version of the game. Celeste's story is about persistence and self-compassion; forcing yourself through a difficulty setting that makes you miserable misses the point. You can always turn assists off later if you want a harder run.",
+        ],
+        callout: {
+          type: "note",
+          title: "Accessibility is part of the design",
+          body: "Assist Mode is a built-in feature, not a mod or a cheat. The game is designed to be finished by players with different needs and skill levels.",
+        },
+      },
+      {
+        id: "strawberries-are-optional",
+        heading: "Leave the strawberries for later",
+        paragraphs: [
+          "Strawberries are optional collectibles, and many of them require a detour that is harder than the main route. You do not need them to finish the story. If a strawberry is making you hate a room, skip it and come back after you have more practice.",
+          "The same goes for B-Sides and C-Sides. They are challenge content for players who want more. Finish the main climb first, then decide whether the harder versions are interesting. Celeste is generous about letting you choose your own difficulty.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not grind a single room forever",
+          body: "If a room has stopped being fun, take a break or move on. A fresh attempt after a pause is often better than another twenty minutes of frustration.",
+        },
+      },
+    ],
+    tags: ["beginner", "platforming", "dash", "climb", "assist mode", "strawberries"],
+    featured: true,
+  },
 ];

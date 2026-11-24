@@ -577,6 +577,19 @@ export const videos: Video[] = [
     placeholder: true,
     tags: ["beginner", "first week", "base building", "mining", "tutorial"],
   },
+  {
+    slug: "celeste-first-climb-video",
+    title: "Celeste: Reading a screen and building a clean climb",
+    creator: PLACEHOLDER_CREATOR,
+    gameSlug: "celeste",
+    thumbnailImage: "/images/games/celeste/screenshot-03.jpg",
+    type: "Tutorial",
+    description:
+      "A demo entry for beginner videos covering dash direction, wall stamina, room reading, and using Assist Mode without guilt.",
+    url: youtubeSearchUrl("Celeste beginner guide dash climb assist mode first chapters"),
+    placeholder: true,
+    tags: ["beginner", "platforming", "dash", "assist mode", "tutorial"],
+  },
 ];
 
 export const featuredChannels: FeaturedChannel[] = [

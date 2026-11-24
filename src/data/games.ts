@@ -2622,4 +2622,75 @@ export const games: Game[] = [
     popularity: 94,
     relatedGames: ["minecraft", "stardew-valley", "hollow-knight"],
   },
+  {
+    slug: "celeste",
+    title: "Celeste",
+    tagline:
+      "A mountain, a dash, and a climb that asks you to try again.",
+    genres: ["Platformer", "Precision platformer", "Story rich"],
+    developer: "Extremely OK Games",
+    publisher: "Extremely OK Games",
+    releaseDate: "2018-01-25",
+    releaseYear: 2018,
+    platforms: [
+      "PC",
+      "macOS",
+      "Linux",
+      "Nintendo Switch",
+      "PS4",
+      "Xbox One",
+    ],
+    modes: ["Single-player"],
+    coverImage: "/images/games/celeste/cover.jpg",
+    coverAlt: "Official cover art for Celeste",
+    heroImage: "/images/games/celeste/hero.jpg",
+    heroAlt:
+      "Madeline, Theo, and an older woman sit together against a mountain backdrop in Celeste",
+    screenshots: [
+      {
+        src: "/images/games/celeste/screenshot-01.jpg",
+        alt: "Madeline speaks with an old woman outside a snow-covered cabin in Celeste",
+      },
+      {
+        src: "/images/games/celeste/screenshot-02.jpg",
+        alt: "Madeline climbs through pink rain and clouds on the mountain in Celeste",
+      },
+      {
+        src: "/images/games/celeste/screenshot-03.jpg",
+        alt: "Madeline navigates a dark ice cavern filled with spikes in Celeste",
+      },
+      {
+        src: "/images/games/celeste/screenshot-04.jpg",
+        alt: "Madeline swims through a flooded blue cavern in Celeste",
+      },
+      {
+        src: "/images/games/celeste/screenshot-05.jpg",
+        alt: "Madeline enters the Celestial Resort Hotel lobby in Celeste",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Extremely OK Games. Used for identification and commentary.",
+    imageSourceUrl: "https://store.steampowered.com/app/504230/Celeste/",
+    accent: "#E56B9F",
+    description:
+      "A precise platformer about climbing a mountain, managing anxiety, and learning that a difficult screen is not a verdict on the person playing it.",
+    overview: [
+      "Celeste follows Madeline, a young woman who comes to Celeste Mountain hoping to climb it. The mountain is a platforming challenge and a psychological one. Each chapter introduces a new movement idea, then builds rooms that ask you to use it under pressure.",
+      "The game is difficult, but it is rarely cruel. Checkpoints are frequent, deaths are fast, and the story treats failure as part of the climb rather than a shameful interruption. Assist Mode adds options such as game-speed changes, extra dashes, and invincibility without removing the narrative.",
+    ],
+    funFact:
+      "Celeste's Assist Mode is a deliberate accessibility feature, not a hidden cheat menu. It can be toggled from the save-file screen and does not lock the player out of the story.",
+    tags: [
+      "platformer",
+      "precision",
+      "mental health",
+      "speedrun",
+      "indie",
+      "assist mode",
+      "mountain",
+    ],
+    featured: true,
+    popularity: 92,
+    relatedGames: ["hollow-knight", "hades", "portal"],
+  },
 ];
