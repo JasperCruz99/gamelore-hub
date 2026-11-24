@@ -2761,4 +2761,77 @@ export const games: Game[] = [
       "stardew-valley",
     ],
   },
+  {
+    slug: "slay-the-spire",
+    title: "Slay the Spire",
+    tagline:
+      "A deck, a spire, and the next run already forming in your head.",
+    genres: ["Roguelike deckbuilder", "Card game", "Strategy"],
+    developer: "Mega Crit",
+    publisher: "Mega Crit",
+    releaseDate: "2019-01-23",
+    releaseYear: 2019,
+    platforms: [
+      "PC",
+      "macOS",
+      "Linux",
+      "Nintendo Switch",
+      "PS4",
+      "Xbox One",
+      "Mobile",
+    ],
+    modes: ["Single-player"],
+    coverImage: "/images/games/slay-the-spire/cover.jpg",
+    coverAlt: "Official cover art for Slay the Spire",
+    heroImage: "/images/games/slay-the-spire/hero.jpg",
+    heroAlt:
+      "The Ironclad and the Silent stand before a glowing Spire in Slay the Spire",
+    screenshots: [
+      {
+        src: "/images/games/slay-the-spire/screenshot-01.jpg",
+        alt: "The Ironclad fights a large green enemy in Slay the Spire",
+      },
+      {
+        src: "/images/games/slay-the-spire/screenshot-02.jpg",
+        alt: "The Defect channels lightning during a card battle in Slay the Spire",
+      },
+      {
+        src: "/images/games/slay-the-spire/screenshot-03.jpg",
+        alt: "The Ironclad speaks with a giant white creature in Slay the Spire",
+      },
+      {
+        src: "/images/games/slay-the-spire/screenshot-04.jpg",
+        alt: "A card reward screen offers new choices in Slay the Spire",
+      },
+      {
+        src: "/images/games/slay-the-spire/screenshot-05.jpg",
+        alt: "The map screen shows the next path up the Spire in Slay the Spire",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Mega Crit. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/646570/Slay_the_Spire/",
+    accent: "#D9B44A",
+    description:
+      "A roguelike deckbuilder about climbing a shifting tower, building a deck from the cards you find, and learning that a good run is a conversation between luck and discipline.",
+    overview: [
+      "Slay the Spire combines card games and roguelikes. Players choose a character, climb a branching map, and build a deck from rewards, shops, and events. Combat is turn-based, and the deck is the character's real weapon.",
+      "Each run is different because the cards and relics appear in a different order. A deck that wins one run may fail the next. The game rewards players who read their options, keep the deck focused, and know when to skip a card rather than adding another mediocre idea.",
+    ],
+    funFact:
+      "Slay the Spire began as a small prototype before becoming one of the defining roguelike deckbuilders. Its design is built around run-long synergies, which is why removing a card can be as important as adding one.",
+    tags: [
+      "deckbuilder",
+      "roguelike",
+      "cards",
+      "relics",
+      "strategy",
+      "mega crit",
+      "replayable",
+    ],
+    featured: true,
+    popularity: 91,
+    relatedGames: ["hades", "baldurs-gate-3", "monster-hunter-world"],
+  },
 ];

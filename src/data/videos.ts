@@ -603,6 +603,19 @@ export const videos: Video[] = [
     placeholder: true,
     tags: ["beginner", "automation", "belts", "power", "tutorial"],
   },
+  {
+    slug: "slay-the-spire-first-runs-video",
+    title: "Slay the Spire: Building a deck without adding everything",
+    creator: PLACEHOLDER_CREATOR,
+    gameSlug: "slay-the-spire",
+    thumbnailImage: "/images/games/slay-the-spire/screenshot-04.jpg",
+    type: "Tutorial",
+    description:
+      "A demo entry for beginner videos covering deck size, card removal, enemy intents, potion timing, and choosing a safe route.",
+    url: youtubeSearchUrl("Slay the Spire beginner guide deckbuilding first runs tips"),
+    placeholder: true,
+    tags: ["beginner", "deckbuilding", "cards", "routes", "tutorial"],
+  },
 ];
 
 export const featuredChannels: FeaturedChannel[] = [

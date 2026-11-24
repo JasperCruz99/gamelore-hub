@@ -851,5 +851,22 @@ export const loreEntries: LoreEntry[] = [
     sourceNote:
       "An editorial reading of the game's structure, systems, and environmental design. It does not treat the game's premise as a complete narrative.",
   },
+  {
+    slug: "slay-the-spire-choice-architecture",
+    title: "The Spire Is a Story Told Through Bad Options",
+    gameSlug: "slay-the-spire",
+    type: "Worldbuilding",
+    spoiler: "none",
+    excerpt:
+      "Slay the Spire has little conventional plot. Its world is communicated through the shape of its choices, the cards you are offered, and the routes you decide not to take.",
+    paragraphs: [
+      "The Spire is not a place with a map and a history in the usual sense. It is a sequence of rooms, rewards, and encounters that rearranges itself between runs. The player learns the world by learning its rules: elites are dangerous, campfires are scarce, and every card reward is a chance to make the deck worse.",
+      "That design makes the Spire feel hostile in a specific way. It is not a villain with a plan; it is a system that keeps offering choices with incomplete information. The cards, relics, and events are the setting's vocabulary, and the run is the sentence the player builds with them.",
+      "The result is a world that feels larger than its screen. A shop, a campfire, and a strange event are not just mechanics; they are the game's way of suggesting a place that has been climbed before and will be climbed again. The story is in the decisions, not in a cutscene.",
+    ],
+    tags: ["spire", "choices", "cards", "roguelike", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of the game's structure, card design, and event writing. It does not present the Spire as a complete external history.",
+  },
 ];
 

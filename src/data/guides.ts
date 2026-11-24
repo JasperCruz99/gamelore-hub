@@ -3390,4 +3390,80 @@ export const guides: Guide[] = [
     tags: ["beginner", "automation", "belts", "power", "ratios", "factory"],
     featured: true,
   },
+  {
+    slug: "slay-the-spire-first-runs",
+    title: "Slay the Spire: Building a Deck That Can Actually Win",
+    gameSlug: "slay-the-spire",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Keep the deck small, pick cards for the fight in front of you, and stop treating every reward screen as a mandatory addition.",
+    intro:
+      "Slay the Spire is a card game about editing. The cards you add matter, but so do the cards you skip, the relics you build around, and the route you choose. The first runs are easier when you stop trying to collect every shiny card and start asking what your deck is trying to do.",
+    updatedAt: "2026-11-22",
+    author: EDITOR,
+    sections: [
+      {
+        id: "keep-the-deck-small",
+        heading: "Keep the deck small and focused",
+        paragraphs: [
+          "A smaller deck draws its best cards more often. Every card you add dilutes the chance of seeing the card that actually solves the fight. If a reward does not improve your current plan, skipping it is a legitimate choice, not a wasted opportunity.",
+          "Look for a small number of strong interactions rather than a pile of individually decent cards. A deck built around strength gain, poison, or block can be powerful, but it needs enough support to function consistently. Adding every theme at once usually makes all of them weaker.",
+        ],
+        bullets: [
+          "Skip card rewards that do not fit the deck.",
+          "Remove basic Strikes and Defends when you can.",
+          "Choose a main plan and let the deck support it.",
+          "Do not add a card only because it is rare.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Removing is a reward",
+          body: "A removal at a shop can be more valuable than a new card. A tighter deck draws its key cards more reliably.",
+        },
+      },
+      {
+        id: "build-for-the-act",
+        heading: "Build for the act in front of you",
+        paragraphs: [
+          "The Spire asks different questions in each act. Early fights reward cheap damage and block. Later fights punish decks that cannot scale or handle multiple enemies. Take cards that solve the next few fights, not the theoretical final boss.",
+          "Elites are dangerous but rewarding. If your deck can handle an elite, the relic can define the run. If it cannot, take the safer path and build toward a later power spike. The map is a planning tool, not a straight line.",
+        ],
+        callout: {
+          type: "note",
+          title: "The route is part of the deck",
+          body: "A campfire can upgrade a key card, a shop can remove a weak one, and an elite can add a relic. Choose the path that gives your deck what it needs.",
+        },
+      },
+      {
+        id: "read-the-enemy",
+        heading: "Read the enemy before you play",
+        paragraphs: [
+          "Enemy intents tell you what is coming. Check whether the enemy will attack, block, buff, or debuff before committing a turn. A well-timed block can save more health than a greedy attack, especially when the next turn is dangerous.",
+          "Card order matters too. Play setup cards before payoff cards, and use potions when they prevent a bad turn rather than saving them for a perfect moment. A potion that keeps a run alive is worth more than one held until the final boss.",
+        ],
+        bullets: [
+          "Check enemy intent every turn.",
+          "Use potions to prevent damage, not just to chase kills.",
+          "Play powers and setup cards before attacks when the fight allows it.",
+          "Do not forget relic effects; they often change the best line.",
+        ],
+      },
+      {
+        id: "learn-from-losses",
+        heading: "Treat a lost run as information",
+        paragraphs: [
+          "A death is not wasted time. Look at the deck, the relics, and the fight that ended the run. Did the deck lack damage, block, card draw, or scaling? Did you take a route your deck could not handle? The answer is usually a specific gap, not a vague lack of skill.",
+          "Unlocks and ascension levels add more content over time, but you do not need to chase them immediately. Learn one character, one main strategy, and a few reliable answers. The game opens up when the basics stop feeling random.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Do not force a build",
+          body: "If the cards for your favorite strategy never appear, adapt. The best deck is the one the Spire is actually offering you.",
+        },
+      },
+    ],
+    tags: ["beginner", "deckbuilding", "cards", "relics", "routes", "roguelike"],
+    featured: true,
+  },
 ];

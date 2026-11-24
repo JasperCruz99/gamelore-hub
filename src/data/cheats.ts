@@ -1866,4 +1866,8 @@ export const cheatNotes: CheatNote[] = [
     gameSlug: "celeste",
     note: "No official cheat codes. Assist Mode is a built-in accessibility menu that can slow the game, add dashes, or make Madeline invincible without blocking the story. Debug Mode requires file modification and is outside this hub's scope.",
   },
+  {
+    gameSlug: "slay-the-spire",
+    note: "No built-in cheat console. Console commands require ModTheSpire and BaseMod, which are unofficial mods, so this hub does not list them. Use custom runs and ascension levels if you want to change the experience.",
+  },
 ];
