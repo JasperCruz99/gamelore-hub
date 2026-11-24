@@ -3466,4 +3466,80 @@ export const guides: Guide[] = [
     tags: ["beginner", "deckbuilding", "cards", "relics", "routes", "roguelike"],
     featured: true,
   },
+  {
+    slug: "kingdom-come-first-hours",
+    title: "Kingdom Come: Deliverance — A Spoiler-Light Start in Bohemia",
+    gameSlug: "kingdom-come-deliverance",
+    category: "Beginner's Guide",
+    level: "Beginner",
+    excerpt:
+      "Train with real weapons, keep a save supply, and treat reputation and clothing as part of the build rather than cosmetic extras.",
+    intro:
+      "Kingdom Come: Deliverance is an RPG that asks you to live inside its rules. Henry is not a superhero, combat is deliberately awkward at the start, and the world remembers how you behave. The opening hours are easier if you accept that training, preparation, and a clean shirt matter as much as a good sword.",
+    updatedAt: "2026-11-22",
+    author: EDITOR,
+    sections: [
+      {
+        id: "train-before-you-fight",
+        heading: "Train before you pick a fight",
+        paragraphs: [
+          "Henry begins with almost no combat skill. The training ring is not a tutorial you can skip; it is where you learn the timing of strikes, blocks, and clinches without risking a real save. Spend time with the combat trainer before wandering into bandit camps.",
+          "Combat is about stance, distance, and stamina. Watch the opponent's weapon and body, not just the health bar. A wild swing that leaves you exhausted is worse than a measured attack and a step back. Run away from fights you cannot win; the game does not reward pride.",
+        ],
+        bullets: [
+          "Complete the basic combat training before exploring dangerous roads.",
+          "Keep an eye on stamina; exhaustion turns a fair fight into a quick loss.",
+          "Use the correct weapon for your skill level.",
+          "Retreat and heal instead of forcing a losing duel.",
+        ],
+        callout: {
+          type: "tip",
+          title: "Practice is progress",
+          body: "The training arena lets you repeat the basics without losing gear or time. Use it until the controls feel less like a struggle.",
+        },
+      },
+      {
+        id: "plan-your-saves",
+        heading: "Plan your saves around Saviour Schnapps",
+        paragraphs: [
+          "Manual saving is tied to Saviour Schnapps, and sleep can also save the game in some circumstances. That makes save management part of the adventure. Carry a small supply, but do not drink it constantly just to undo every conversation.",
+          "If you are about to enter a new town, a major fight, or a suspicious quest, save deliberately. If you are experimenting with theft or a risky dialogue, know what you are willing to lose. The game is more interesting when saves are a resource rather than a rewind button.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Alcohol has a cost",
+          body: "Saviour Schnapps is alcoholic. Drinking several in a row can affect Henry's state. Treat it as a tool with a side effect, not a free checkpoint.",
+        },
+      },
+      {
+        id: "reputation-and-clothing",
+        heading: "Reputation and clothing are part of the build",
+        paragraphs: [
+          "People react to Henry's appearance, reputation, and behavior. Bloody, dirty, or expensive clothing sends a different message than clean peasant clothes. Washing, repairing gear, and choosing the right outfit can change how a conversation starts.",
+          "Reputation is local. Helping one village does not automatically make another trust you. Pay attention to how guards, merchants, and ordinary people respond, and avoid treating every town as the same set of shopkeepers. The social system is part of the simulation, not a cosmetic layer.",
+        ],
+        bullets: [
+          "Keep a change of clothes for towns and formal meetings.",
+          "Wash and repair gear before important conversations.",
+          "Do not assume a good deed travels with you to the next town.",
+          "Read the dialogue and choose responses that fit Henry's situation.",
+        ],
+      },
+      {
+        id: "learn-a-trade",
+        heading: "Learn a trade and make friends",
+        paragraphs: [
+          "Henry is not a blank slate with a sword. Alchemy, lockpicking, hunting, reading, and combat all improve through use. Pick one or two skills that match your idea of the character and practice them deliberately rather than spreading every evening across the whole map.",
+          "Side quests often teach a system or introduce a person who can help later. They are also where the game's tone lives: small disputes, local politics, and ordinary people trying to survive a war. Do a few, but leave room for the main road when you are ready to move on.",
+        ],
+        callout: {
+          type: "note",
+          title: "No chosen-one shortcut",
+          body: "Henry becomes capable through training, equipment, and relationships. If a challenge feels impossible, the answer is usually preparation, not a hidden power.",
+        },
+      },
+    ],
+    tags: ["beginner", "bohemia", "combat", "saving", "reputation", "historical"],
+    featured: true,
+  },
 ];

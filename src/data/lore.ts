@@ -868,5 +868,22 @@ export const loreEntries: LoreEntry[] = [
     sourceNote:
       "An editorial reading of the game's structure, card design, and event writing. It does not present the Spire as a complete external history.",
   },
+  {
+    slug: "kingdom-come-bohemia-political-map",
+    title: "Bohemia Is a Political Map You Can Walk Across",
+    gameSlug: "kingdom-come-deliverance",
+    type: "Worldbuilding",
+    spoiler: "mild",
+    excerpt:
+      "The game's castles, villages, and roads are not generic medieval scenery. They are a physical argument about who owns the land and who has to live on it.",
+    paragraphs: [
+      "Kingdom Come: Deliverance is set in a specific historical conflict, and its map reflects that. Castles sit above villages, roads connect markets and monasteries, and the distance between a lord's hall and a peasant's field is part of the story. The landscape is not a backdrop; it is a hierarchy made visible.",
+      "That hierarchy shapes ordinary quests. A dispute over a piece of land, a missing person, or a debt is rarely just a personal problem. It is a question about obligation, class, and who has the authority to settle it. The game's politics are local before they are royal.",
+      "The result is a world that feels historically grounded even when the plot is fictional. Henry can walk from a smelly village to a noble's table and feel the difference in how he is treated. The map is doing narrative work simply by making those distances real.",
+    ],
+    tags: ["bohemia", "history", "politics", "class", "map design", "worldbuilding"],
+    sourceNote:
+      "An editorial reading of the game's historical setting, map design, and social systems. It discusses the game's interpretation of history rather than treating it as a complete historical record.",
+  },
 ];
 

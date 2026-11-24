@@ -164,6 +164,17 @@ const FACTORIO_SOURCES = [
   },
 ];
 
+const KINGDOM_COME_SOURCES = [
+  {
+    label: "Kingdom Come: Deliverance Wiki — Console commands",
+    url: "https://kingdomcomedeliverance.wiki.gg/wiki/Console_commands",
+  },
+  {
+    label: "PC Gamer — Kingdom Come: Deliverance console commands",
+    url: "https://www.pcgamer.com/kingdom-come-deliverance-console-commands/",
+  },
+];
+
 export const cheats: Cheat[] = [
   {
     slug: "minecraft-creative-mode",
@@ -1762,6 +1773,62 @@ export const cheats: Cheat[] = [
       sources: FACTORIO_SOURCES,
     },
     tags: ["god mode", "free camera", "character", "console command", "pc"],
+  },
+  {
+    slug: "kingdom-come-add-money",
+    title: "Add groschen",
+    gameSlug: "kingdom-come-deliverance",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Add -devmode to the game's Steam launch options, launch the game, press the tilde key (~) to open the console, and enter the command with the desired amount.",
+    code: "wh_cheat_money 1000",
+    whatItDoes:
+      "Adds 1,000 groschen to Henry's money. Change the number to add a different amount.",
+    requirements:
+      "PC version, with -devmode enabled in the Steam launch options. Save before using console commands. The command can be repeated.",
+    effects: [
+      "Adds the requested amount of groschen",
+      "Requires dev mode enabled",
+      "Does not disable achievements according to community references",
+      "Changes the current save",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The Kingdom Come wiki and PC Gamer both document wh_cheat_money and the -devmode requirement. Amount behavior is widely reported, but keep a save before experimenting.",
+      sources: KINGDOM_COME_SOURCES,
+    },
+    tags: ["money", "groschen", "devmode", "console command", "pc"],
+  },
+  {
+    slug: "kingdom-come-add-item",
+    title: "Add an item to your inventory",
+    gameSlug: "kingdom-come-deliverance",
+    type: "Console Command",
+    platform: "PC",
+    instructions:
+      "Enable -devmode, open the console with the tilde key, and enter the command with an item ID. Some versions may accept a quantity after the ID, but the amount parameter can be unreliable.",
+    code: "wh_cheat_addItem <itemID> <amount>",
+    whatItDoes:
+      "Adds the item matching the supplied ID to Henry's inventory. Replace the placeholders with the item ID and desired quantity.",
+    requirements:
+      "PC version, with -devmode enabled. Item IDs are version-specific, and the quantity argument does not work reliably in every build. Save before using the command.",
+    effects: [
+      "Adds the specified item",
+      "Requires a valid item ID",
+      "Quantity behavior can vary by game version",
+      "Changes the current save",
+    ],
+    achievementWarning: false,
+    saveWarning: false,
+    verification: {
+      status: "community-verified",
+      note: "The Kingdom Come wiki documents wh_cheat_addItem and notes that the quantity parameter is unreliable. PC Gamer also lists the command and its dev-mode requirement.",
+      sources: KINGDOM_COME_SOURCES,
+    },
+    tags: ["items", "inventory", "devmode", "console command", "pc"],
   },
 ];
 

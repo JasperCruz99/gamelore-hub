@@ -2834,4 +2834,73 @@ export const games: Game[] = [
     popularity: 91,
     relatedGames: ["hades", "baldurs-gate-3", "monster-hunter-world"],
   },
+  {
+    slug: "kingdom-come-deliverance",
+    title: "Kingdom Come: Deliverance",
+    tagline:
+      "A peasant, a sword, and a kingdom with no patience for either.",
+    genres: ["Open-world RPG", "Historical", "First-person"],
+    developer: "Warhorse Studios",
+    publisher: "Warhorse Studios / Deep Silver",
+    releaseDate: "2018-02-13",
+    releaseYear: 2018,
+    platforms: ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+    modes: ["Single-player"],
+    coverImage: "/images/games/kingdom-come-deliverance/cover.jpg",
+    coverAlt: "Official cover art for Kingdom Come: Deliverance",
+    heroImage: "/images/games/kingdom-come-deliverance/hero.jpg",
+    heroAlt:
+      "Henry stands with a sword in a golden-lit medieval scene in Kingdom Come: Deliverance",
+    screenshots: [
+      {
+        src: "/images/games/kingdom-come-deliverance/screenshot-01.jpg",
+        alt: "Henry stands with armored nobles in a candlelit hall in Kingdom Come: Deliverance",
+      },
+      {
+        src: "/images/games/kingdom-come-deliverance/screenshot-02.jpg",
+        alt: "Armored soldiers fight with swords outside a wooden fort in Kingdom Come: Deliverance",
+      },
+      {
+        src: "/images/games/kingdom-come-deliverance/screenshot-03.jpg",
+        alt: "A village with thatched roofs and a wooden gate in Kingdom Come: Deliverance",
+      },
+      {
+        src: "/images/games/kingdom-come-deliverance/screenshot-04.jpg",
+        alt: "A stone castle overlooks a green valley in Kingdom Come: Deliverance",
+      },
+      {
+        src: "/images/games/kingdom-come-deliverance/screenshot-05.jpg",
+        alt: "Villagers walk through a medieval town street in Kingdom Come: Deliverance",
+      },
+    ],
+    imageCredit:
+      "Official Steam store artwork and screenshots © Warhorse Studios / Deep Silver. Used for identification and commentary.",
+    imageSourceUrl:
+      "https://store.steampowered.com/app/379430/Kingdom_Come_Deliverance/",
+    accent: "#C2A15C",
+    description:
+      "A historically grounded open-world RPG about a blacksmith's son trying to survive a war, learn a trade, and become useful in a world that does not owe him a hero's welcome.",
+    overview: [
+      "Kingdom Come: Deliverance is set in early 15th-century Bohemia during a political crisis. Players control Henry, a young man whose life is destroyed by an attack on his village. He enters a world of castles, monasteries, villages, and soldiers, with no magical powers and no chosen-one destiny.",
+      "The game is committed to its simulation. Combat depends on stances, timing, and equipment. Speech, reputation, clothing, and cleanliness affect how people treat Henry. Saving is tied to Saviour Schnapps and sleep, and the world reacts to theft, violence, and social class. It is demanding, but the detail is the point.",
+    ],
+    funFact:
+      "Saviour Schnapps is both the game's manual save item and an alcoholic drink. Carrying a supply is useful, but drinking too much can affect Henry, so the save system is part of the role-playing rather than a separate menu.",
+    tags: [
+      "historical",
+      "bohemia",
+      "medieval",
+      "open world",
+      "simulation",
+      "warhorse",
+      "first person",
+    ],
+    featured: true,
+    popularity: 86,
+    relatedGames: [
+      "the-witcher-3",
+      "the-elder-scrolls-iv-oblivion",
+      "red-dead-redemption-2",
+    ],
+  },
 ];

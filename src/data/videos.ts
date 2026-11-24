@@ -616,6 +616,20 @@ export const videos: Video[] = [
     placeholder: true,
     tags: ["beginner", "deckbuilding", "cards", "routes", "tutorial"],
   },
+  {
+    slug: "kingdom-come-first-hours-video",
+    title: "Kingdom Come: Deliverance — training, saving, and surviving Bohemia",
+    creator: PLACEHOLDER_CREATOR,
+    gameSlug: "kingdom-come-deliverance",
+    thumbnailImage:
+      "/images/games/kingdom-come-deliverance/screenshot-02.jpg",
+    type: "Tutorial",
+    description:
+      "A demo entry for beginner videos covering combat training, Saviour Schnapps, reputation, equipment, and the first hours of Henry's journey.",
+    url: youtubeSearchUrl("Kingdom Come Deliverance beginner guide combat training saving reputation"),
+    placeholder: true,
+    tags: ["beginner", "combat", "saving", "reputation", "tutorial"],
+  },
 ];
 
 export const featuredChannels: FeaturedChannel[] = [
